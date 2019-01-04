@@ -24,4 +24,3 @@ really, read as much as you can!)
 * [DID Primer](https://github.com/WebOfTrustInfo/rwot7/blob/master/topics-and-advance-readings/did-primer.md) — Decentralized Identifiers ([extended version](https://github.com/WebOfTrustInfo/rwot7-fall2018/blob/master/topics-and-advance-readings/did-primer-extended.md) also available)
 * [Functional Identity Primer](https://github.com/WebOfTrustInfo/rwot7/blob/master/topics-and-advance-readings/functional-identity-primer.md) — A different way to look at identity
 * [Verifiable Credentials Primer](https://github.com/WebOfTrustInfo/rwot7/blob/master/topics-and-advance-readings/verifiable-credentials-primer.md) — the project formerly known as Verifiable Claims
-* [DIDs In DPKI](https://github.com/WebOfTrustInfo/rwot7/blob/master/topics-and-advance-readings/dids-in-dpki.md) - how DIDs fit into Decentralized Public-key Infrastructure
