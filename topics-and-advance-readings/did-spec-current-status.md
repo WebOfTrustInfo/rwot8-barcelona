@@ -13,4 +13,8 @@ specification](https://w3c-ccg.github.io/did-spec/)
 
 ## Smaller todos
 
+## Related specifications
+
+Including where we'll outsource existing DID issues to other specs
+
 ## Next steps
