@@ -2,9 +2,17 @@
 
 By Amy Guy and Dmitri Zagidulin, Digital Bazaar
 
-Work on the [Decentralized Identifier 1.0 specification](https://w3c-ccg.github.io/did-spec/) began at RWOT \#2 in May 2016, and a draft was published on 21 November 2016. Work continues under the custody of the [W3C Credentials Community Group](https://www.w3.org/community/credentials/), a group of 237 members, who contribute by taking part in [weekly teleconference calls](https://w3c-ccg.github.io/meetings/), engaging in discussions on the [mailing list](https://lists.w3.org/Archives/Public/public-credentials/), and [raising issues on the spec on GitHub](https://github.com/w3c-ccg/did-spec/issues/). This document serves as a summary of the current state of work, including a rough categorization of the current open issues. If you're new to DIDs, or want a refresher on the background and core concepts of the DID spec, you will find it useful to read the [DID Primer](did-primer.md) (or [extended DID Primer](did-primer-extended.md)) first.
+Work on the [Decentralized Identifier 1.0 specification](https://w3c-ccg.github.io/did-spec/) began at RWOT \#2 in May 2016, and a draft was published on 21 November 2016. Work continues under the custody of the [W3C Credentials Community Group](https://www.w3.org/community/credentials/), a group of 237 members, who contribute by taking part in [weekly teleconference calls](https://w3c-ccg.github.io/meetings/), engaging in discussions on the [mailing list](https://lists.w3.org/Archives/Public/public-credentials/), and [raising issues on the spec on GitHub](https://github.com/w3c-ccg/did-spec/issues/). 
 
-## Easy (hopefully) decisions
+This document serves as a summary of the current state of work, including a rough categorization of the current open issues, with the goal of identifying actions which can be taken quickly to move the spec forward, and topics which need extended discussion amongst the community. Issues (and sometimes PRs) are categorized as follows:
+
+* **clarity**: Clarification or disambiguation of concepts the community already has consensus on.
+* **discuss**: Topics which need more discussion to reach consensus about. 
+* **editorial**: Updates to informative language, without changes to meaning or conformance criteria.
+* **elsewhere**: Issues relating to other documents (specs, namespaces, etc).
+* ..
+
+If you're new to DIDs, or want a refresher on the background and core concepts of the DID spec, you will find it useful to read the [DID Primer](did-primer.md) (or [extended DID Primer](did-primer-extended.md)) first.
 
 ## Clarification needed
 
@@ -20,7 +28,6 @@ Issues are labeled '[clarity]()' and include:
 * Embedding public keys. ([#143](https://github.com/w3c-ccg/did-spec/issues/143))
 * Registries. ([#133](https://github.com/w3c-ccg/did-spec/issues/133))
 * ABNF rules. ([#136](https://github.com/w3c-ccg/did-spec/issues/136), [#135](https://github.com/w3c-ccg/did-spec/issues/135))
-* Update (or note stability of) JSON-LD context(s). ([#152](https://github.com/w3c-ccg/did-spec/issues/152))
 
 Action: The CG should agree definitive definitions or statements for each of these, and then work to integrate them into the spec text.
 
@@ -44,9 +51,11 @@ Editorial issues, such as grammatical fixes or reworking sentences without chang
 
 Action: PRs please!
 
-## Related specifications
+## External documents
 
-Including where we'll outsource existing DID issues to other specs
+Some aspects of the DID work are eventually extracted into separate specifications. There are other external documents which are connected to the spec. Issues relating to these are labeled '[elsewhere]()' and include:
+
+* Update (or note stability of) JSON-LD context(s). ([#152](https://github.com/w3c-ccg/did-spec/issues/152))
 
 ## Next steps
 
@@ -58,4 +67,4 @@ Including where we'll outsource existing DID issues to other specs
 
 * [#101](https://github.com/w3c-ccg/did-spec/issues/101) - resolved! 
 * [#142](https://github.com/w3c-ccg/did-spec/issues/142) - I think this is resolved by removal of 'ownership' language?
-* [#153](https://github.com/w3c-ccg/did-spec/issues/153)
+* [#153](https://github.com/w3c-ccg/did-spec/issues/153) - ?
