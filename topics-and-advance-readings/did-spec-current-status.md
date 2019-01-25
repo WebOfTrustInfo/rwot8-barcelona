@@ -40,13 +40,14 @@ Some topics need deeper discussion to ensure common understanding amongst the CG
 
 Issues are labeled '[discuss](https://github.com/w3c-ccg/did-spec/issues?q=is%3Aissue+is%3Aopen+label%3Adiscuss)' and include:
 
-* Do we need to explicitly name the thing that the DID identifies? (Or, consolidate casual references to the thing the DID identifies?) Eg. 'referent', 'entity', 'subject', ..  ([#154](https://github.com/w3c-ccg/did-spec/issues/154), [#148](https://github.com/w3c-ccg/did-spec/issues/148), [#145](https://github.com/w3c-ccg/did-spec/issues/145), [#130](https://github.com/w3c-ccg/did-spec/issues/130), [#139](https://github.com/w3c-ccg/did-spec/issues/139)). **Current consensus:** The thing that the DID identifies is a DID Document, no other terms are required or needed.
+* Do we need to explicitly name the thing that the DID identifies? (Or, consolidate casual references to the thing the DID identifies?) Eg. 'referent', 'entity', 'subject', ..  ([#154](https://github.com/w3c-ccg/did-spec/issues/154), [#148](https://github.com/w3c-ccg/did-spec/issues/148), [#145](https://github.com/w3c-ccg/did-spec/issues/145), [#130](https://github.com/w3c-ccg/did-spec/issues/130), [#139](https://github.com/w3c-ccg/did-spec/issues/139)). 
+  * **Current consensus:** The thing that the DID identifies is a DID Document, no other terms are required or needed.
 * DID URI structure, and Resolving DIDs into DID Documents ([#97](https://github.com/w3c-ccg/did-spec/issues/97), [#90](https://github.com/w3c-ccg/did-spec/issues/90), [#85](https://github.com/w3c-ccg/did-spec/issues/85), [#80](https://github.com/w3c-ccg/did-spec/issues/80)).
 * Key revocation ([#96](https://github.com/w3c-ccg/did-spec/issues/96)).
 * DID method discovery ([#83](https://github.com/w3c-ccg/did-spec/issues/83)).
 * DID controllers ([#153](https://github.com/w3c-ccg/did-spec/issues/153)).
 
-Action: discuss at RWOT and on CCG calls.
+Action: discuss at RWOT and on CCG calls, resolve misunderstandings, and where applicable break issues down into manageable changes that can be made to the spec.
 
 ## Smaller todos
 
@@ -72,7 +73,7 @@ Action: Open issues or PRs on external documents, update references or summaries
 
 ## Questions, implementation guidance
 
-Some issues are opened by people with questions about the spec (which don't need spec changes to answer) or requests for guidance about implementations or technical details. These are labelled '[question](https://github.com/w3c-ccg/did-spec/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion)' and include:
+Some issues are opened by people with questions about the spec (which don't need spec changes to answer) or requests for guidance about implementations or technical details. These are labeled '[question](https://github.com/w3c-ccg/did-spec/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion)' and include:
 
 * Non-blockchain DIDs? [#113](https://github.com/w3c-ccg/did-spec/issues/113)
 * DIDs for devices? [#100](https://github.com/w3c-ccg/did-spec/issues/100)
@@ -80,10 +81,9 @@ Some issues are opened by people with questions about the spec (which don't need
 
 Action: answer the commenter's question(s), check they are happy, and close the issue.
 
-## Non-Issue-Related Discussion Points
+## Other Discussion Points
+
+And if that wasn't enough, there are other topics that are of interest to the CG which haven't (yet) been raised as issues.
+
 * [Cryptographic Hyperlinks](https://tools.ietf.org/html/draft-sporny-hashlink-02)
 * (Non-normative) Discussion about Cryptonyms and "Off-ledger" DIDs
-
-## Next steps
-
-TBD
