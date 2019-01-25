@@ -6,11 +6,11 @@ Work on the [Decentralized Identifier 1.0 specification](https://w3c-ccg.github.
 
 This document serves as a summary of the current state of work. It includes a rough categorization of the current open issues, with the goal of identifying actions which can be taken quickly to move the spec forward, as well as topics which need extended discussion amongst the community. Issues (and sometimes PRs) are categorized as follows:
 
-* **clarity**: Clarification or disambiguation of concepts the community already has consensus on.
+* **clarify**: Clarification or disambiguation of concepts the community already has consensus on.
 * **discuss**: Topics which need more discussion to reach consensus about. 
 * **editorial**: Updates to informative language, without changes to meaning or conformance criteria.
 * **elsewhere**: Issues relating to other documents (specs, namespaces, etc).
-* ..
+* **question**: Questions about the spec or implementation guidance.
 
 If you're new to DIDs, or want a refresher on the background and core concepts of the DID spec, you will find it useful to read the [DID Primer](did-primer.md) (or [extended DID Primer](did-primer-extended.md)) first.
 
@@ -20,7 +20,7 @@ This document will be updated as work on the DID specification progresses, so in
 
 Some topics have consensus amongst members of the Community Group, or are intuitively understood by people who have been deeply embedded in the work for a while, but remain unclear with regards to text in the specification. For these, the spec needs new text, or reworking of existing text, to make sure concepts are communicated clearly and unambiguously to new readers.
 
-Issues are labeled '[clarity](https://github.com/w3c-ccg/did-spec/issues?q=is%3Aissue+is%3Aopen+label%3Aclarity)' and include:
+Issues are labeled '[clarify](https://github.com/w3c-ccg/did-spec/issues?q=is%3Aissue+is%3Aopen+label%3Aclarify)' and include:
 
 * The scope and purpose of the DID specification ([#158](https://github.com/w3c-ccg/did-spec/issues/158), [#157](https://github.com/w3c-ccg/did-spec/issues/157), [#121](https://github.com/w3c-ccg/did-spec/issues/121), [#138](https://github.com/w3c-ccg/did-spec/issues/138)).
 * What is a DID? ([#130](https://github.com/w3c-ccg/did-spec/issues/130), [#156](https://github.com/w3c-ccg/did-spec/issues/156), [#155](https://github.com/w3c-ccg/did-spec/issues/155), [#141](https://github.com/w3c-ccg/did-spec/issues/141), [#140](https://github.com/w3c-ccg/did-spec/issues/140), [#125](https://github.com/w3c-ccg/did-spec/issues/125), [#124](https://github.com/w3c-ccg/did-spec/issues/124), [#123](https://github.com/w3c-ccg/did-spec/issues/123), [#122](https://github.com/w3c-ccg/did-spec/issues/122), [#115](https://github.com/w3c-ccg/did-spec/issues/115)).
