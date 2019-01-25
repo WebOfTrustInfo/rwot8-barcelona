@@ -20,7 +20,7 @@ This document will be updated as work on the DID specification progresses, so in
 
 Some topics have consensus amongst members of the Community Group, or are intuitively understood by people who have been deeply embedded in the work for a while, but remain unclear with regards to text in the specification. For these, the spec needs new text, or reworking of existing text, to make sure concepts are communicated clearly and unambiguously to new readers.
 
-Issues are labeled '[clarity]()' and include:
+Issues are labeled '[clarity](https://github.com/w3c-ccg/did-spec/issues?q=is%3Aissue+is%3Aopen+label%3Aclarity)' and include:
 
 * The scope and purpose of the DID specification ([#158](https://github.com/w3c-ccg/did-spec/issues/158), [#157](https://github.com/w3c-ccg/did-spec/issues/157), [#121](https://github.com/w3c-ccg/did-spec/issues/121), [#138](https://github.com/w3c-ccg/did-spec/issues/138)).
 * What is a DID? ([#130](https://github.com/w3c-ccg/did-spec/issues/130), [#156](https://github.com/w3c-ccg/did-spec/issues/156), [#155](https://github.com/w3c-ccg/did-spec/issues/155), [#141](https://github.com/w3c-ccg/did-spec/issues/141), [#140](https://github.com/w3c-ccg/did-spec/issues/140), [#125](https://github.com/w3c-ccg/did-spec/issues/125), [#124](https://github.com/w3c-ccg/did-spec/issues/124), [#123](https://github.com/w3c-ccg/did-spec/issues/123), [#122](https://github.com/w3c-ccg/did-spec/issues/122), [#115](https://github.com/w3c-ccg/did-spec/issues/115)).
@@ -38,7 +38,7 @@ Action: The CG should agree definitive definitions or statements for each of the
 
 Some topics need deeper discussion to ensure common understanding amongst the CG and the wider community, or more technical work to make sure the are resolved properly.
 
-Issues are labeled '[discuss]()' and include:
+Issues are labeled '[discuss](https://github.com/w3c-ccg/did-spec/issues?q=is%3Aissue+is%3Aopen+label%3Adiscuss)' and include:
 
 * Do we need to explicitly name the thing that the DID identifies? (Or, consolidate casual references to the thing the DID identifies?) Eg. 'referent', 'entity', 'subject', .. ([#154](https://github.com/w3c-ccg/did-spec/issues/154), [#148](https://github.com/w3c-ccg/did-spec/issues/148), [#145](https://github.com/w3c-ccg/did-spec/issues/145), [#130](https://github.com/w3c-ccg/did-spec/issues/130), [#139](https://github.com/w3c-ccg/did-spec/issues/139)).
 * Resolving URIs in DID Documents ([#97](https://github.com/w3c-ccg/did-spec/issues/97), [#90](https://github.com/w3c-ccg/did-spec/issues/90), [#85](https://github.com/w3c-ccg/did-spec/issues/85), [#80](https://github.com/w3c-ccg/did-spec/issues/80)).
@@ -49,7 +49,7 @@ Action: ...discuss.. at RWOT?
 
 ## Smaller todos
 
-Editorial issues, such as grammatical fixes or reworking sentences without changing the meaning, and perhaps structural changes like section naming or ordering, are labeled '[editorial]()' and include:
+Editorial issues, such as grammatical fixes or reworking sentences without changing the meaning, and perhaps structural changes like section naming or ordering, are labeled '[editorial](https://github.com/w3c-ccg/did-spec/issues?q=is%3Aissue+is%3Aopen+label%3Aeditorial)' and include:
 
 * s/Description/Document: [#144](https://github.com/w3c-ccg/did-spec/issues/144)
 * Clearer language / small correction requested: [#137](https://github.com/w3c-ccg/did-spec/issues/137), [#129](https://github.com/w3c-ccg/did-spec/issues/129), [#128](https://github.com/w3c-ccg/did-spec/issues/128), [#127](https://github.com/w3c-ccg/did-spec/issues/127), [#126](https://github.com/w3c-ccg/did-spec/issues/126), [#119](https://github.com/w3c-ccg/did-spec/issues/119), [#118](https://github.com/w3c-ccg/did-spec/issues/118), [#117](https://github.com/w3c-ccg/did-spec/issues/117), [#116](https://github.com/w3c-ccg/did-spec/issues/116), [#112](https://github.com/w3c-ccg/did-spec/issues/112), [#81](https://github.com/w3c-ccg/did-spec/issues/81)
@@ -62,7 +62,7 @@ Action: PRs please!
 
 ## External documents
 
-Some aspects of the DID work are eventually extracted into separate specifications. There are other external documents which are connected to the spec. Issues relating to these are labeled '[elsewhere]()' and include:
+Some aspects of the DID work are eventually extracted into separate specifications. There are other external documents which are connected to the spec. Issues relating to these are labeled '[elsewhere](https://github.com/w3c-ccg/did-spec/issues?q=is%3Aissue+is%3Aopen+label%3Aelsewhere)' and include:
 
 * JSON-LD context(s): [#152](https://github.com/w3c-ccg/did-spec/issues/152).
 * Related to DID Resolution: [#114](https://github.com/w3c-ccg/did-spec/issues/114), [#97](https://github.com/w3c-ccg/did-spec/issues/97), [#64](https://github.com/w3c-ccg/did-spec/issues/64), [#17](https://github.com/w3c-ccg/did-spec/issues/17).
@@ -70,7 +70,7 @@ Some aspects of the DID work are eventually extracted into separate specificatio
 
 ## Questions, implementation guidance
 
-Some issues are opened by people with questions about the spec (which don't need spec changes to answer) or requests for guidance about implementations or technical details. These are labelled '[question]()' and include:
+Some issues are opened by people with questions about the spec (which don't need spec changes to answer) or requests for guidance about implementations or technical details. These are labelled '[question](https://github.com/w3c-ccg/did-spec/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion)' and include:
 
 * Non-blockchain DIDs? [#113](https://github.com/w3c-ccg/did-spec/issues/113)
 * DIDs for devices? [#100](https://github.com/w3c-ccg/did-spec/issues/100)
