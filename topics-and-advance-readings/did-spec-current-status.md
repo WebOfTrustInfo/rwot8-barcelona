@@ -82,11 +82,3 @@ Action: answer the commenter's question(s), check they are happy, and close the 
 
 ## Next steps
 
-------------------
-
-# Notes
-
-## Unsorted
-
-* [#101](https://github.com/w3c-ccg/did-spec/issues/101) - resolved! 
-* [#142](https://github.com/w3c-ccg/did-spec/issues/142) - I think this is resolved by removal of 'ownership' language?
