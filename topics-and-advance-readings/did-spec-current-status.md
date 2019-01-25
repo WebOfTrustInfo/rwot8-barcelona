@@ -24,7 +24,8 @@ Issues are labeled '[clarify](https://github.com/w3c-ccg/did-spec/issues?q=is%3A
 
 * The scope and purpose of the DID specification ([#158](https://github.com/w3c-ccg/did-spec/issues/158), [#157](https://github.com/w3c-ccg/did-spec/issues/157), [#151](https://github.com/w3c-ccg/did-spec/issues/151), [#121](https://github.com/w3c-ccg/did-spec/issues/121), [#138](https://github.com/w3c-ccg/did-spec/issues/138)).
 * What is a DID? ([#130](https://github.com/w3c-ccg/did-spec/issues/130), [#156](https://github.com/w3c-ccg/did-spec/issues/156), [#155](https://github.com/w3c-ccg/did-spec/issues/155), [#141](https://github.com/w3c-ccg/did-spec/issues/141), [#140](https://github.com/w3c-ccg/did-spec/issues/140), [#125](https://github.com/w3c-ccg/did-spec/issues/125), [#124](https://github.com/w3c-ccg/did-spec/issues/124), [#123](https://github.com/w3c-ccg/did-spec/issues/123), [#122](https://github.com/w3c-ccg/did-spec/issues/122), [#115](https://github.com/w3c-ccg/did-spec/issues/115)).
-* Use of '[distributed] ledger'. ([#150](https://github.com/w3c-ccg/did-spec/issues/150), [#149](https://github.com/w3c-ccg/did-spec/issues/149)).
+* Use of '[distributed] ledger' ([#150](https://github.com/w3c-ccg/did-spec/issues/150), [#149](https://github.com/w3c-ccg/did-spec/issues/149)).
+* Method names ([#160](https://github.com/w3c-ccg/did-spec/issues/160)).
 * Questions about keys ([#147](https://github.com/w3c-ccg/did-spec/issues/147), [#143](https://github.com/w3c-ccg/did-spec/issues/143), [#105](https://github.com/w3c-ccg/did-spec/issues/105)).
 * ABNF rules ([#136](https://github.com/w3c-ccg/did-spec/issues/136), [#135](https://github.com/w3c-ccg/did-spec/issues/135), [#131](https://github.com/w3c-ccg/did-spec/issues/131)).
 * Decentralization and practicality. ([#133](https://github.com/w3c-ccg/did-spec/issues/133), [#120](https://github.com/w3c-ccg/did-spec/issues/120)).
@@ -43,6 +44,7 @@ Issues are labeled '[discuss](https://github.com/w3c-ccg/did-spec/issues?q=is%3A
 * Resolving URIs in DID Documents ([#97](https://github.com/w3c-ccg/did-spec/issues/97), [#90](https://github.com/w3c-ccg/did-spec/issues/90), [#85](https://github.com/w3c-ccg/did-spec/issues/85), [#80](https://github.com/w3c-ccg/did-spec/issues/80)).
 * Key revocation ([#96](https://github.com/w3c-ccg/did-spec/issues/96)).
 * DID method discovery ([#83](https://github.com/w3c-ccg/did-spec/issues/83)).
+* DID controllers ([#153](https://github.com/w3c-ccg/did-spec/issues/153)).
 
 Action: ...discuss.. at RWOT?
 
@@ -88,6 +90,3 @@ Action: answer the commenter's question(s), check they are happy, and close the 
 
 * [#101](https://github.com/w3c-ccg/did-spec/issues/101) - resolved! 
 * [#142](https://github.com/w3c-ccg/did-spec/issues/142) - I think this is resolved by removal of 'ownership' language?
-* [#153](https://github.com/w3c-ccg/did-spec/issues/153) - ?
-* [#160](https://github.com/w3c-ccg/did-spec/issues/160) - elsewhere?
-
