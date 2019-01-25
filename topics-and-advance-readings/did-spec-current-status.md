@@ -22,15 +22,15 @@ Some topics have consensus amongst members of the Community Group, or are intuit
 
 Issues are labeled '[clarity]()' and include:
 
-* The scope and purpose of the DID specification. ([#158](https://github.com/w3c-ccg/did-spec/issues/158), [#157](https://github.com/w3c-ccg/did-spec/issues/157), [#121](https://github.com/w3c-ccg/did-spec/issues/121), [#138](https://github.com/w3c-ccg/did-spec/issues/138))
-* What is a DID? ([#130](https://github.com/w3c-ccg/did-spec/issues/130), [#156](https://github.com/w3c-ccg/did-spec/issues/156), [#155](https://github.com/w3c-ccg/did-spec/issues/155), [#141](https://github.com/w3c-ccg/did-spec/issues/141), [#140](https://github.com/w3c-ccg/did-spec/issues/140), [#125](https://github.com/w3c-ccg/did-spec/issues/125), [#124](https://github.com/w3c-ccg/did-spec/issues/124), [#123](https://github.com/w3c-ccg/did-spec/issues/123), [#122](https://github.com/w3c-ccg/did-spec/issues/122), [#115](https://github.com/w3c-ccg/did-spec/issues/115))
-* Which parts of the spec comprise the data model. ([#151](https://github.com/w3c-ccg/did-spec/issues/151))
-* Use of '[distributed] ledger'. ([#150](https://github.com/w3c-ccg/did-spec/issues/150), [#149](https://github.com/w3c-ccg/did-spec/issues/149))
-* Questions about keys. ([#147](https://github.com/w3c-ccg/did-spec/issues/147), [#143](https://github.com/w3c-ccg/did-spec/issues/143), [#105](https://github.com/w3c-ccg/did-spec/issues/105))
-* ABNF rules. ([#136](https://github.com/w3c-ccg/did-spec/issues/136), [#135](https://github.com/w3c-ccg/did-spec/issues/135), [#131](https://github.com/w3c-ccg/did-spec/issues/131))
-* Decentralization and practicality. ([#133](https://github.com/w3c-ccg/did-spec/issues/133), [#120](https://github.com/w3c-ccg/did-spec/issues/120))
-* Service endpoints. [#104](https://github.com/w3c-ccg/did-spec/issues/104)
-* Content types. [#84](https://github.com/w3c-ccg/did-spec/issues/84)
+* The scope and purpose of the DID specification ([#158](https://github.com/w3c-ccg/did-spec/issues/158), [#157](https://github.com/w3c-ccg/did-spec/issues/157), [#121](https://github.com/w3c-ccg/did-spec/issues/121), [#138](https://github.com/w3c-ccg/did-spec/issues/138)).
+* What is a DID? ([#130](https://github.com/w3c-ccg/did-spec/issues/130), [#156](https://github.com/w3c-ccg/did-spec/issues/156), [#155](https://github.com/w3c-ccg/did-spec/issues/155), [#141](https://github.com/w3c-ccg/did-spec/issues/141), [#140](https://github.com/w3c-ccg/did-spec/issues/140), [#125](https://github.com/w3c-ccg/did-spec/issues/125), [#124](https://github.com/w3c-ccg/did-spec/issues/124), [#123](https://github.com/w3c-ccg/did-spec/issues/123), [#122](https://github.com/w3c-ccg/did-spec/issues/122), [#115](https://github.com/w3c-ccg/did-spec/issues/115)).
+* Which parts of the spec comprise the data model ([#151](https://github.com/w3c-ccg/did-spec/issues/151))
+* Use of '[distributed] ledger'. ([#150](https://github.com/w3c-ccg/did-spec/issues/150), [#149](https://github.com/w3c-ccg/did-spec/issues/149)).
+* Questions about keys ([#147](https://github.com/w3c-ccg/did-spec/issues/147), [#143](https://github.com/w3c-ccg/did-spec/issues/143), [#105](https://github.com/w3c-ccg/did-spec/issues/105)).
+* ABNF rules ([#136](https://github.com/w3c-ccg/did-spec/issues/136), [#135](https://github.com/w3c-ccg/did-spec/issues/135), [#131](https://github.com/w3c-ccg/did-spec/issues/131)).
+* Decentralization and practicality. ([#133](https://github.com/w3c-ccg/did-spec/issues/133), [#120](https://github.com/w3c-ccg/did-spec/issues/120)).
+* Service endpoints [#104](https://github.com/w3c-ccg/did-spec/issues/104).
+* Content types [#84](https://github.com/w3c-ccg/did-spec/issues/84).
 
 Action: The CG should agree definitive definitions or statements for each of these, and then work to integrate them into the spec text.
 
@@ -54,10 +54,9 @@ Editorial issues, such as grammatical fixes or reworking sentences without chang
 * s/Description/Document: [#144](https://github.com/w3c-ccg/did-spec/issues/144)
 * Clearer language / small correction requested: [#137](https://github.com/w3c-ccg/did-spec/issues/137), [#129](https://github.com/w3c-ccg/did-spec/issues/129), [#128](https://github.com/w3c-ccg/did-spec/issues/128), [#127](https://github.com/w3c-ccg/did-spec/issues/127), [#126](https://github.com/w3c-ccg/did-spec/issues/126), [#119](https://github.com/w3c-ccg/did-spec/issues/119), [#118](https://github.com/w3c-ccg/did-spec/issues/118), [#117](https://github.com/w3c-ccg/did-spec/issues/117), [#116](https://github.com/w3c-ccg/did-spec/issues/116), [#112](https://github.com/w3c-ccg/did-spec/issues/112), [#81](https://github.com/w3c-ccg/did-spec/issues/81)
 * Additional explanation requested: [#134](https://github.com/w3c-ccg/did-spec/issues/134)
-* Fixing references: [#132](https://github.com/w3c-ccg/did-spec/issues/132)
-* Json pointer: [#86](https://github.com/w3c-ccg/did-spec/issues/86), [PR #107](https://github.com/w3c-ccg/did-spec/pull/107)
-* MIME type: [#82](https://github.com/w3c-ccg/did-spec/issues/82)
-* 
+* Fixing references: [#132](https://github.com/w3c-ccg/did-spec/issues/132).
+* Json pointer: [#86](https://github.com/w3c-ccg/did-spec/issues/86), [PR #107](https://github.com/w3c-ccg/did-spec/pull/107).
+* MIME type: [#82](https://github.com/w3c-ccg/did-spec/issues/82).
 
 Action: PRs please!
 
@@ -65,9 +64,9 @@ Action: PRs please!
 
 Some aspects of the DID work are eventually extracted into separate specifications. There are other external documents which are connected to the spec. Issues relating to these are labeled '[elsewhere]()' and include:
 
-* Update (or note stability of) JSON-LD context(s). ([#152](https://github.com/w3c-ccg/did-spec/issues/152))
-* Related to DID Resolution: [#114](https://github.com/w3c-ccg/did-spec/issues/114), [#97](https://github.com/w3c-ccg/did-spec/issues/97), [#64](https://github.com/w3c-ccg/did-spec/issues/64), [#17](https://github.com/w3c-ccg/did-spec/issues/17)
-* Signatures: [#60](https://github.com/w3c-ccg/did-spec/issues/60), [#56](https://github.com/w3c-ccg/did-spec/issues/56), [#39](https://github.com/w3c-ccg/did-spec/issues/39), [#38](https://github.com/w3c-ccg/did-spec/issues/38), [#37](https://github.com/w3c-ccg/did-spec/issues/37), [#29](https://github.com/w3c-ccg/did-spec/issues/29)
+* JSON-LD context(s): [#152](https://github.com/w3c-ccg/did-spec/issues/152).
+* Related to DID Resolution: [#114](https://github.com/w3c-ccg/did-spec/issues/114), [#97](https://github.com/w3c-ccg/did-spec/issues/97), [#64](https://github.com/w3c-ccg/did-spec/issues/64), [#17](https://github.com/w3c-ccg/did-spec/issues/17).
+* Signatures: [#60](https://github.com/w3c-ccg/did-spec/issues/60), [#56](https://github.com/w3c-ccg/did-spec/issues/56), [#39](https://github.com/w3c-ccg/did-spec/issues/39), [#38](https://github.com/w3c-ccg/did-spec/issues/38), [#37](https://github.com/w3c-ccg/did-spec/issues/37), [#29](https://github.com/w3c-ccg/did-spec/issues/29).
 
 ## Questions, implementation guidance
 
@@ -75,7 +74,7 @@ Some issues are opened by people with questions about the spec (which don't need
 
 * Non-blockchain DIDs? [#113](https://github.com/w3c-ccg/did-spec/issues/113)
 * DIDs for devices? [#100](https://github.com/w3c-ccg/did-spec/issues/100)
-* Inviting CCG participants. [#92](https://github.com/w3c-ccg/did-spec/issues/92)
+* Inviting CCG participants [#92](https://github.com/w3c-ccg/did-spec/issues/92).
 
 Action: answer the commenter's question(s), check they are happy, and close the issue.
 
