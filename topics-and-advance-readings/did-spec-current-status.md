@@ -67,13 +67,15 @@ Some aspects of the DID work are eventually extracted into separate specificatio
 * Related to DID Resolution: [#114](https://github.com/w3c-ccg/did-spec/issues/114), [#97](https://github.com/w3c-ccg/did-spec/issues/97), [#64](https://github.com/w3c-ccg/did-spec/issues/64), [#17](https://github.com/w3c-ccg/did-spec/issues/17).
 * Signatures: [#60](https://github.com/w3c-ccg/did-spec/issues/60), [#56](https://github.com/w3c-ccg/did-spec/issues/56), [#39](https://github.com/w3c-ccg/did-spec/issues/39), [#38](https://github.com/w3c-ccg/did-spec/issues/38), [#37](https://github.com/w3c-ccg/did-spec/issues/37), [#29](https://github.com/w3c-ccg/did-spec/issues/29).
 
+Action: Open issues or PRs on external documents, update references or summaries in the DID spec if applicable.
+
 ## Questions, implementation guidance
 
 Some issues are opened by people with questions about the spec (which don't need spec changes to answer) or requests for guidance about implementations or technical details. These are labelled '[question](https://github.com/w3c-ccg/did-spec/issues?q=is%3Aissue+is%3Aopen+label%3Aquestion)' and include:
 
 * Non-blockchain DIDs? [#113](https://github.com/w3c-ccg/did-spec/issues/113)
 * DIDs for devices? [#100](https://github.com/w3c-ccg/did-spec/issues/100)
-* Inviting CCG participants [#92](https://github.com/w3c-ccg/did-spec/issues/92).
+* Inviting CCG participants: [#92](https://github.com/w3c-ccg/did-spec/issues/92).
 
 Action: answer the commenter's question(s), check they are happy, and close the issue.
 
