@@ -22,9 +22,8 @@ Some topics have consensus amongst members of the Community Group, or are intuit
 
 Issues are labeled '[clarify](https://github.com/w3c-ccg/did-spec/issues?q=is%3Aissue+is%3Aopen+label%3Aclarify)' and include:
 
-* The scope and purpose of the DID specification ([#158](https://github.com/w3c-ccg/did-spec/issues/158), [#157](https://github.com/w3c-ccg/did-spec/issues/157), [#121](https://github.com/w3c-ccg/did-spec/issues/121), [#138](https://github.com/w3c-ccg/did-spec/issues/138)).
+* The scope and purpose of the DID specification ([#158](https://github.com/w3c-ccg/did-spec/issues/158), [#157](https://github.com/w3c-ccg/did-spec/issues/157), [#151](https://github.com/w3c-ccg/did-spec/issues/151), [#121](https://github.com/w3c-ccg/did-spec/issues/121), [#138](https://github.com/w3c-ccg/did-spec/issues/138)).
 * What is a DID? ([#130](https://github.com/w3c-ccg/did-spec/issues/130), [#156](https://github.com/w3c-ccg/did-spec/issues/156), [#155](https://github.com/w3c-ccg/did-spec/issues/155), [#141](https://github.com/w3c-ccg/did-spec/issues/141), [#140](https://github.com/w3c-ccg/did-spec/issues/140), [#125](https://github.com/w3c-ccg/did-spec/issues/125), [#124](https://github.com/w3c-ccg/did-spec/issues/124), [#123](https://github.com/w3c-ccg/did-spec/issues/123), [#122](https://github.com/w3c-ccg/did-spec/issues/122), [#115](https://github.com/w3c-ccg/did-spec/issues/115)).
-* Which parts of the spec comprise the data model ([#151](https://github.com/w3c-ccg/did-spec/issues/151))
 * Use of '[distributed] ledger'. ([#150](https://github.com/w3c-ccg/did-spec/issues/150), [#149](https://github.com/w3c-ccg/did-spec/issues/149)).
 * Questions about keys ([#147](https://github.com/w3c-ccg/did-spec/issues/147), [#143](https://github.com/w3c-ccg/did-spec/issues/143), [#105](https://github.com/w3c-ccg/did-spec/issues/105)).
 * ABNF rules ([#136](https://github.com/w3c-ccg/did-spec/issues/136), [#135](https://github.com/w3c-ccg/did-spec/issues/135), [#131](https://github.com/w3c-ccg/did-spec/issues/131)).
