@@ -28,15 +28,15 @@ Issues are labeled '[clarify](https://github.com/w3c-ccg/did-spec/issues?q=is%3A
 * Method names ([#160](https://github.com/w3c-ccg/did-spec/issues/160)).
 * Questions about keys ([#147](https://github.com/w3c-ccg/did-spec/issues/147), [#143](https://github.com/w3c-ccg/did-spec/issues/143), [#105](https://github.com/w3c-ccg/did-spec/issues/105)).
 * ABNF rules ([#136](https://github.com/w3c-ccg/did-spec/issues/136), [#135](https://github.com/w3c-ccg/did-spec/issues/135), [#131](https://github.com/w3c-ccg/did-spec/issues/131)).
-* Decentralization and practicality. ([#133](https://github.com/w3c-ccg/did-spec/issues/133), [#120](https://github.com/w3c-ccg/did-spec/issues/120)).
-* Service endpoints [#104](https://github.com/w3c-ccg/did-spec/issues/104).
-* Content types [#84](https://github.com/w3c-ccg/did-spec/issues/84).
+* Decentralization and practicality ([#133](https://github.com/w3c-ccg/did-spec/issues/133), [#120](https://github.com/w3c-ccg/did-spec/issues/120)).
+* Service endpoints ([#104](https://github.com/w3c-ccg/did-spec/issues/104)).
+* Content types ([#84](https://github.com/w3c-ccg/did-spec/issues/84)).
 
 Action: The CG should agree definitive definitions or statements for each of these, and then work to integrate them into the spec text.
 
 ## Bigger discussion points
 
-Some topics need deeper discussion to ensure common understanding amongst the CG and the wider community, or more technical work to make sure the are resolved properly.
+Some topics need deeper discussion to ensure common understanding amongst the CG and the wider community, or more technical work to make sure they are resolved properly.
 
 Issues are labeled '[discuss](https://github.com/w3c-ccg/did-spec/issues?q=is%3Aissue+is%3Aopen+label%3Adiscuss)' and include:
 
