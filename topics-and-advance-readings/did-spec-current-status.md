@@ -14,6 +14,8 @@ This document serves as a summary of the current state of work. It includes a ro
 
 If you're new to DIDs, or want a refresher on the background and core concepts of the DID spec, you will find it useful to read the [DID Primer](did-primer.md) (or [extended DID Primer](did-primer-extended.md)) first.
 
+This document will be updated as work on the DID specification progresses, so information will be current at the time of RWOT8.
+
 ## Clarification needed
 
 Some topics have consensus amongst members of the Community Group, or are intuitively understood by people who have been deeply embedded in the work for a while, but remain unclear with regards to text in the specification. For these, the spec needs new text, or reworking of existing text, to make sure concepts are communicated clearly and unambiguously to new readers.
