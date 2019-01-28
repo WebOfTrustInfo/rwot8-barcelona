@@ -19,6 +19,7 @@ In advance of the design workshop, all participants produced a one-or-two page t
 Here are the advanced readings to date:
 
 * [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md) by Amy Guy and Dmitri Zagidulin
+* [Where's the UX?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-ux.md) by Alberto Elias
 
 ### Primers
 These primers overview major topics which are likely to be discussed
