@@ -7,7 +7,7 @@ was to generate five technical white papers and/or proposals on topics
 decided by the group that would have the greatest impact on the
 future.
 
-_We'll have a link to registration as soon at it become available._
+Visit http://rwot8.eventbrite.com for more information and to purchase tickets.
 
 ##  Topics & Advance Readings
 
