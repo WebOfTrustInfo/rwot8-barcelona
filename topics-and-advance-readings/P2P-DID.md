@@ -11,7 +11,7 @@ messaging scenarios.
 ## Proposal
 * Work on a DID Method spec for P2P DIDs as a special subset of DIDs that are not universally
 resolvable on some ledger or central storage infrastructure, but only within the group where
-they are used.
+they are used. [Draft of P2P DID Method Spec.](https://github.com/brentzundel/peer-did-method-spec)
 * Show how a P2P DID could be added/converted to an existing DID method.
 
 ## Requirements
