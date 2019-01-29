@@ -1,1 +1,0 @@
-Digital Trust Protocol
