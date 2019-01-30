@@ -24,7 +24,7 @@ The approach entails the following:
 - Use the SIOP specification to solve OP discovery
 - Use the aggregated and distributed claims OIDC specification to support multiple verifiable credentials issuer. Essentially, this means the id token contains a multitude of JWT issued by different issuers.
 - The SSI holder signs the id token itself.
-- Add DID support for request and response message, i.e., JWT. This was already addressed as part of the ongoing W3C Verifiable Credentials specification.
+- Add DID support for request and response message, i.e., JWT. This was already addressed as part of the ongoing W3C Verifiable Credentials specification [W3C].
 - Client-side DID Auth could additionally protect user info endpoint. 
 
 The following challenges need to be tackled by the OIDC profile:
@@ -44,4 +44,5 @@ The following challenges need to be tackled by the OIDC profile:
 * https://iiw.idcommons.net/OIDC_DID-Auth_Profile, [II18]
 * https://github.com/WebOfTrustInfo/rwot6-santabarbara/blob/master/final-documents/did-auth.md, [RW18]
 * https://iiw.idcommons.net/Open_ID_v._FIDO_v._SSI
+* https://w3c.github.io/vc-data-model/#json-web-token, [W3C]
 
