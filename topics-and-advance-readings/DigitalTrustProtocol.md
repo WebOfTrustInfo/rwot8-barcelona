@@ -1,6 +1,7 @@
 # Digital Trust Protocol
 C. Keutmann & T. Pastoor  
-DigitalTrustProtocol.org
+DigitalTrustProtocol.org  
+postmaster@digitaltrustprotocol.org
 
 ## Abstract
 
