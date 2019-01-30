@@ -1,4 +1,5 @@
 # Peer to Peer DIDs
+by Brent Zundel (with much input from Daniel Hardman)
 
 ## Abstract
 Multiple DID methods are under development, each based on a different support structure
