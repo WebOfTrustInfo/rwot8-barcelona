@@ -6,7 +6,7 @@ Here are the advanced readings to date:
 * [Identity Containers. Blockchain implementation proposal with DIDs & ERC725](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/identity-containers.md)
 * [Multiformat Superfriends](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md) by Manu Sporny and Ganesh Annan
 * [Digital Trust Protocol](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/DigitalTrustProtocol.md) by Carsten Keutmann and Tim Pastoor
-
+* [The universal ledger agent: a logical result of Rabobank's journey in blockchain based self-sovereign identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-ledger-agent.md) by David Lamers
 
 Topics:
 
