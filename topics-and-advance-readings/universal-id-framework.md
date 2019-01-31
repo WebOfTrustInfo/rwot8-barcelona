@@ -14,7 +14,7 @@ If we look at how to treat identity reference in an application, it is natural t
 Key Idea
 --------
 
-One of the ways to support reerences for multiple ID scheme everywhere is developing a general Universal ID Reference scheme, which covers not only the references to DID but also Distinguish Name-based scheme or possibly others.
+One of the ways to support references for multiple ID scheme everywhere is developing a general Universal ID Reference scheme, which covers not only the references to DID but also Distinguish Name-based scheme or possibly others.
 
 It is possible to develop a Universal ID framework consists of standard documents, open source libraries, and other necessary components to help using Universal ID-based system.
 
