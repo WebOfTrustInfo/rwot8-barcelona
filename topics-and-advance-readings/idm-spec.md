@@ -2,7 +2,7 @@
 
 *NOTE: This is a draft, we will be updating the document during the next days*
 
-By Adin Schmahmann &lt;adin@protocol.ai&gt;, Protocol Labs; André Cruz &lt;andre@moxy.studio&gt;, MOXY; and Pedro Teixeira, Protocol Labs &lt;pedro.teixeira@gmail.com&gt;, Protocol Labs.
+By Adin Schmahmann &lt;adin@protocol.ai&gt;, Protocol Labs; André Cruz &lt;andre@moxy.studio&gt;, MOXY; and Pedro Teixeira, Protocol Labs &lt;pedro@protocol.ai&gt;, Protocol Labs.
 
 The IDM (Identity Manager) project itself is open-source, meaning that anyone should be able to look at the specification and implement it in their language of choice. This also enables implementing different user-interfaces. There will be a reference implementation of this spec written in JavaScript as well as a web based user-interface.
 
