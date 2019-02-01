@@ -10,7 +10,7 @@ January 31, 2019, Düsseldorf, Germany
 
 Keywords: decentralized identity, vehicle identity, digital twinning, cryptographically secured data chains, verifiable claims, blockchain, machine learning, agile driving, data chain provenance, audit trails, reputation system
 
-##Inspiration
+## Inspiration
 
 Driven by technology innovation and ecosystem growth mobility value chains are significantly changing from monolithic, closed to distributed, open systems.
 
@@ -35,9 +35,9 @@ Benefits of data provenance along a digitized value chain include:
 
 Our verifiable data chain concept supports the overall goal to demonstrate the working BC/DLT technology components can be used and scaled today for data provenance in digital value chains. 
 
-##General Approach
+## General Approach
 
-###Decentralized identifiers (DIDs)
+### Decentralized identifiers (DIDs)
 
 The resulting combinatorics of possible connections between any given set of entities in a mobility system is an impossibly large number. Yet in today's user journeys or business environments, agents (whether human, machine, or software) increasingly need to communicate, access or transact with a diverse group of these interconnected entities to achieve their goals. This requires an interoperable and ubiquitous method to address, verify and connect these elements together.
 
@@ -57,7 +57,7 @@ We are using the Ethereum Blockchain and DID method *ethr* for our development w
 
 As our technology stack is blockchain agnostic any other DID method based on alternative blockchains can be integrated and used.
 
-###Verifiable claims
+### Verifiable claims
 
 DIDs are only the base layer of decentralized identity infrastructure. The next higher layer (where most of the value is unlocked), are verifiable claims [3,4]. This is the technical term for a digitally signed electronic data structure that conforms to the interoperability standards being developed by the W3C Verifiable Credentials Working Group.
 
@@ -67,7 +67,7 @@ In mobility systems any entity might want to transact with any other entity. Thi
 
 To achieve this objective, we are using the DID approach and are anchoring the verifiable claims on a distributed ledger technology to move the *cryptographic root of trust* from central systems into a decentral, interoperable infrastructure.
 
-###Digital twins that are verifiable
+### Digital twins that are verifiable
 
 A digital twin is a digital representation of a biological entity (human, living organism, organization), a physical entity (objects, machines), a digital entity (digital asset, software agent) or any system formed of any combination of individual entities.
 
@@ -77,7 +77,7 @@ A verifiable digital twin is a digital twin with attributes that are represented
 
 This type of digital twin provides verifiable data about its creation, life-cycle, sensor readings, actuator commands or transactions. These verifiable data can be used for audit trails, decision making and for feedback loops in (autonomous) control systems.
 
-###Verifiable driving event data chain
+### Verifiable driving event data chain
 
 A data chain is a cryptographic data structure that chains signed data objects together and establishes a method for data flow provenance. Data flow provenance allows verifying the end-to-end integrity of every data flow object and its transformations (additions, deletions, modifications, combinations, and machine learning processing).
 
@@ -126,7 +126,7 @@ This approach is of particular value when validation or benchmarking data are av
 
 As a next step, reputation methods can be integrated for both, individual digital twins and entire data chains. Further standardization work on data chain trustworthiness and accuracy metrics need to be done.
 
-###Design principles
+### Design principles
 
 For our digital twin and data chain integration work we are applying the following design principles:
 
@@ -139,7 +139,7 @@ For our digital twin and data chain integration work we are applying the followi
 |**Standards**|Use of existing W3C, Industry 4.0 and Automotive data standards and semantic models to ensure adaptability and portability of our solution.|
 |**Business value**|Focusing on simple data integrity and authenticity problems within existing value chains. Retrofitting of existing infrastructures to scale adoption.|
 
-###Agile driving event data chain for automotive use cases
+### Agile driving event data chain for automotive use cases
 
 Dangerous driving events can be divided into two groups: (1) the interaction between a driver’s vehicle and the road environment, and (2) the interaction between a driver’s vehicle and nearby vehicles [5].
 
@@ -173,13 +173,13 @@ Over the course of the implementation of our verifiable data chain we ran into t
 
 We solved (1.) and (2.) with our data chain implementation. We researched W3C vehicle signalling standards and semantic web as well industry 4.0 standards to address (3.).
 
-We are testing the sidetree protocol on IPFS that might lead to a solution for (4.). We are planning to benchmark the protocol in the next weeks.
+We are testing the *sidetree protocol* on IPFS that might lead to a solution for (4.). We are planning to benchmark the protocol in the next weeks.
 
 We are planning to work with an OEM on (5.).
 
 Data model implementation patterns need to be created in order to enable effective implementation of cyber physical systems (CPS). This is a general task to be done regardless of the use of DLT technology. To address (6.) we are working with the German Centre of Artificial Intelligence (DFKI) on a CPS integration methodology, a data modelling methodology and reusable data model implementation patterns for verifiable data chains.
 
-##Accomplishments that we are proud of
+## Accomplishments that we are proud of
 
 We accomplished the development of verifiable data chains including the following technology components:
 -	DID manager
@@ -192,7 +192,7 @@ We accomplished the development of verifiable data chains including the followin
 
 We are now planning to integrate historic agile driving data and a black box algorithm with our existing data chain solution on Amazon Web Services. We are planning to demonstarte our solution on RWoT 8.
 
-##What we learned
+## What we learned
 
 Our primary leanings are around the following areas of interest:
 -	Abstraction of the DID method to any object
@@ -210,7 +210,7 @@ We are integrating further W3C and Industry 4.0 standards to establish a semanti
 
 We are looking forward to field test our solution in a complete mobility ecosystem.
 
-###Addendum - Key Management in accordance to Corporate Requirements
+### Addendum - Key Management in accordance to Corporate Requirements
 
 We just integrated our Corporate Wallet solution for managing private keys of the entities involved in the drivint event data chain demo.
 
@@ -228,7 +228,7 @@ Key management is done via vaults. Vault policies are defined in accordance to c
 
 In case you are interested in the above, we would be happy to demonstrate the integration of vaults with legal entities, identity/device management and digital twinning for machine twins at RWoT 8.
 
-##References
+## References
 
 [1][ A DID for Everything - Rebooting Web of Trust Working Draft](http://https:// github.com/WebOfTrustInfo/rwot7/blob/master/draft-documents/ A_DID_for_everything.md)
 [2][ W3C DID Specification](https://w3c-ccg.github.io/did-spec/)
