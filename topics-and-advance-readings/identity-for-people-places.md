@@ -31,6 +31,7 @@ transit, work etc). ​ **By mapping our rights and reasonable expectations to p
 **different contexts and comparing with the rights of devices in our spaces, we’ll seek to
 outline systems of access and control that work in accordance with the rights and needs
 of both sides.**
+
 Questions to be explored:
 
 - How do we define identity for place/physical location?
