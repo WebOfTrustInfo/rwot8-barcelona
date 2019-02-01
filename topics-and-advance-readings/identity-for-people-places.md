@@ -28,15 +28,6 @@ self-sovereignty in a world of secondary and tertiary data collection and correl
 This paper will explore how we may architect a more complete individual sovereignty via privacy
 and place identity as a person moves between private and public physical locations (home,
 transit, work etc). ​ **By mapping our rights and reasonable expectations to privacy across**
-
-(^1) Allen, Christopher. “The Path to Self-Sovereignty” ​ _Life With Alacrity_ ​, 25 Apr. 2016.
-[http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html](http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html)
-(^2) Smolenski, Natalie. “Identity and Digital Self-Sovereignty” ​ _Medium_ ​, 19 Sept. 2016.
-[http://www.medium.com/learning-machine-blog/identity-and-digital-self-sovereignty-1f3faab7d9e](http://www.medium.com/learning-machine-blog/identity-and-digital-self-sovereignty-1f3faab7d9e)
-(^3) Section 3: Place and Identity, ​ _The People, Place, and Space Reader_ ​, edited by Jen Jack Gieseking et
-al., [http://www.peopleplacespace.org/toc/section-3/](http://www.peopleplacespace.org/toc/section-3/)
-
-
 **different contexts and comparing with the rights of devices in our spaces, we’ll seek to
 outline systems of access and control that work in accordance with the rights and needs
 of both sides.**
@@ -77,4 +68,10 @@ Potential Additional Use Cases
 - City Port
 
 
+(^1) Allen, Christopher. “The Path to Self-Sovereignty” ​ _Life With Alacrity_ ​, 25 Apr. 2016.
+[http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html](http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html)
+(^2) Smolenski, Natalie. “Identity and Digital Self-Sovereignty” ​ _Medium_ ​, 19 Sept. 2016.
+[http://www.medium.com/learning-machine-blog/identity-and-digital-self-sovereignty-1f3faab7d9e](http://www.medium.com/learning-machine-blog/identity-and-digital-self-sovereignty-1f3faab7d9e)
+(^3) Section 3: Place and Identity, ​ _The People, Place, and Space Reader_ ​, edited by Jen Jack Gieseking et
+al., [http://www.peopleplacespace.org/toc/section-3/](http://www.peopleplacespace.org/toc/section-3/)
 
