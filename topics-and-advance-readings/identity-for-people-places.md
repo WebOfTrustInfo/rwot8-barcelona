@@ -8,23 +8,31 @@ Barcelona, March 2019
 
 **Designing Identity For People & Places**
 _The case for building an internet of proper nouns_
-“We all need a space online and offline that we can be ourselves freely, and not be
-impinged upon.”
 
-- Dr. Kyra Gaunt on Team Human, Ep.
+
+    “We all need a space online and offline that we can be ourselves freely, and not be
+    impinged upon.”
+        - Dr. Kyra Gaunt on Team Human, Ep.
+
+
 Identity is a vital component of our lives, but the more our offline and online worlds merge the
 more problematic identity becomes—vulnerable, fragmented, exposed; owned and controlled by
 profit-motivated third parties. Self-Sovereign Identity promises a solution to these many
 problems by way of protection, control and, as Christopher Allen puts it, healing the fractured
-identity landscape by “reuniting identity with the ineffable ‘I’” of our natural selves.^1
-“Privacy... can be understood as self-directed disclosure... Transparency, on the other
-hand, is socially pornographic and facilitates violence.^2
-Place-Identity states that all “​identities form in relation to environments.”^3 Most
+identity landscape by “reuniting identity with the ineffable ‘I’” of our natural selves.(1)
+
+
+    “Privacy... can be understood as self-directed disclosure... Transparency, on the other
+    hand, is socially pornographic and facilitates violence.(2)
+    
+Place-Identity states that all “​identities form in relation to environments.”(3) Most
 “environments”—especially homes, formerly the ultimate bastions of privacy—are becoming
 blanketed in connected devices and sensors, adding a layer of total and inescapable
 transparency to our daily reality. We’re facing a near future where there are no spaces, whether
 we’re alone or in public, where we are not observed, tracked or recorded. There can be no true
 self-sovereignty in a world of secondary and tertiary data collection and correlation.
+
+
 This paper will explore how we may architect a more complete individual sovereignty via privacy
 and place identity as a person moves between private and public physical locations (home,
 transit, work etc). ​ **By mapping our rights and reasonable expectations to privacy across**
@@ -42,21 +50,26 @@ Questions to be explored:
 - What does identity for place/physical location entail, technologically speaking?
 - How can we sufficiently protect people in private physical space in order to foster healthy
     identity development and interpersonal relationships?
+
+
 We will seek to define some or all of the following:
 - Capabilities: What will a place need to establish its own private, addressable identity?
 - Ownership: ​How are place identities managed? By whom? Who can claim a place and
 under which circumstances?
 - Assurance: How will true privacy be established and confirmed?
 - Access: How will access to private space be managed and mediated?
-- How will we create multi-layered systems for access and control that account for
+    - How will we create multi-layered systems for access and control that account for
 different actors in a space with different rights and responsibilities (a home, a
 school, a business, a city)?
 - Attribution: What constitutes IP in regards to data from a mediated space (private,
 shared, public)?
 - Integration: How will third party devices be incorporated and managed on local
 networks?
+
 This paper will also use the home use case as a model for illustrating how place identity and
 privacy systems may be incorporated to support self-sovereignty.
+
+
 **Use Case - The Home**
 The Castle Doctrine ​designates a person's abode or any legally occupied place (for example, a
 vehicle) as a place in which that person has protections and immunities. To uphold these protections
@@ -64,6 +77,7 @@ in relation to data and surveillance, homes will need their own ​fog network/o
 operating as airlocks between private home space and commercial servers​. These locally
 controlled networks will manage p​roper authorization and encryption for in-home devices and
 other sensing/data-collecting technology.
+
 Potential Additional Use Cases
 - Public School
 - City Port
