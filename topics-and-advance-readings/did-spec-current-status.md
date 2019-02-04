@@ -54,7 +54,6 @@ Editorial issues, such as grammatical fixes or reworking sentences without chang
 
 * Clearer language / small correction requested: [#144](https://github.com/w3c-ccg/did-spec/issues/144), [#137](https://github.com/w3c-ccg/did-spec/issues/137), [#129](https://github.com/w3c-ccg/did-spec/issues/129), [#128](https://github.com/w3c-ccg/did-spec/issues/128), [#127](https://github.com/w3c-ccg/did-spec/issues/127), [#126](https://github.com/w3c-ccg/did-spec/issues/126), [#119](https://github.com/w3c-ccg/did-spec/issues/119), [#118](https://github.com/w3c-ccg/did-spec/issues/118), [#117](https://github.com/w3c-ccg/did-spec/issues/117), [#116](https://github.com/w3c-ccg/did-spec/issues/116), [#112](https://github.com/w3c-ccg/did-spec/issues/112), [#81](https://github.com/w3c-ccg/did-spec/issues/81)
 * Additional explanation requested: [#134](https://github.com/w3c-ccg/did-spec/issues/134).
-* Fixing references: [#132](https://github.com/w3c-ccg/did-spec/issues/132).
 
 Action: PRs please!
 
