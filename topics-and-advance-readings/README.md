@@ -17,3 +17,4 @@ Topics:
 * [OIDC Profile for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/oidc-profile-for-ssi.md) by Oliver Terbu, Andres Junge
 * [PSDAD - Data Format with Secure Semantics](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/psdad.md) by Sandro Hawke
 * [Universal ID Framework](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-id-framework.md) by Shigeya Suzuki
+* [Digital Identity for the Homeless](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Digital-Identity-for-the-Homeless.md) by Mike Varley and Matthew Wong

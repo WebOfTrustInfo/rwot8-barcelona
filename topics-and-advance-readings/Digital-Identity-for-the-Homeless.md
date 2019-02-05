@@ -1,6 +1,6 @@
 # Digital Identity for the Homeless
 
-##Authors
+## Authors
 
 Mike Varley
 Matthew Wong

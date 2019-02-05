@@ -31,6 +31,7 @@ Here are the advanced readings to date:
 * [The universal ledger agent: a logical result of Rabobank's journey in blockchain based self-sovereign identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-ledger-agent.md) by David Lamers
 * [Universal ID Framework](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-id-framework.md) by Shigeya Suzuki
 * [SSI-Framework Proposal](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/SSI-FrameworkProposal.md) by Rieks Joosten
+* [Digital Identity for the Homeless](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Digital-Identity-for-the-Homeless.md) by Mike Varley and Matthew Wong
 
 ### Primers
 These primers overview major topics which are likely to be discussed
