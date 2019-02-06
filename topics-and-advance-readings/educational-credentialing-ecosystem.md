@@ -10,7 +10,7 @@
 
 This paper originated from an exercise to design a digital credentialing ecosystem for universities (as an original target implementation) from first principles -- without assuming specific technology choices or standards. Consistent with the goals of self-sovereign identity (SSI), we wanted this system to be recipient-centric. This included enhanced privacy measures, minimizing issuer-dependencies in use of the credentials, and ease of use. To do this, we outlined the minimal set of requirements, as well as simplifying assumptions for the target deployment.
 
-One goal of this exercise was to understand whether certain elements of the next generation of Blockcerts -- including Verifiable Credentials (VCs), Decentralized Identifiers (DIDs), and blockchain technology -- are essential to the simplified system. If so, we wanted to trace them to specific requirements.
+One goal of this exercise was to understand whether (1) certain emerging SSI standards -- including Verifiable Credentials (VCs), Decentralized Identifiers (DIDs) -- and (2) blockchain anchoring are essential to the simplified digital verifiable credentialing system. If so, we wanted to trace them to specific requirements.
 
 An additional goal was defining a threat model, to understand which aspects could be handled by the system, and which must be addressed by other systems. 
 
@@ -26,8 +26,6 @@ _Note on terminology: we use the term "recipient" below as that's widely used in
 # Requirements
 
 The credentialing system has the following minimal set of requirements:
-
-
 
 *   An issuance should require the consent of both the issuer and recipient
 *   A recipient should be able to prove the credential was issued by the issuer without requiring interaction with the issuer
@@ -46,6 +44,9 @@ The credentialing system has the following minimal set of requirements:
 *   Revoking and changing signing keys (issuer or recipient) should not invalidate previously-issued valid credentials
 *   Revocation check should not reveal any personally identifiable information (or any additional information about that credential or batch)
 
+Beyond this minimal list of functional requirements, we plan to update this with policy-level considerations -- such as environmental sustainability.
+
+We expect to extend/refine this list of requirements, but our guiding heuristic is the solution must be "better than paper". Beyond efficiency and portability, this is particularly important from a privacy and security perspective.
 
 # Designing the system from first principles
 
@@ -60,8 +61,6 @@ Consumers/Relying parties not only want to verify the credential; they want to a
 ## Simplifying Assumptions
 
 Let's make the following simplifying initial assumptions (later we'll address moving to more complex scenarios -- or even whether these assumptions are needed) for the digital credentialing system:
-
-
 
 *   Limited set of institutions initially
 *   Those institutions are trusted to maintain a registry that contains a mapping of institution names to key material
@@ -132,7 +131,7 @@ While this can be solved on a case-by-case basis, we think this problem needs br
 
 ## Out of scope
 
-*   The system does not prevent malicious issuing organizations (other existing mechanisms exist to police them, e.g. accreditation bodies, federal funding guidelines, etc…)
+*   The system does not prevent illegitimate issuing organizations, e.g. "Fake University of North South Idaho". Other existing mechanisms exist to police them, e.g. accreditation bodies, federal funding guidelines, etc...
 *   The system cannot determine whether a backdated credential is valid (e.g. it must allow generation of proof for an individual that graduated 5 years ago)
 *   The system cannot determine exact time of issuance; it can only determine the (approx) time of issuance via "trusted" timestamps (blockchain anchoring and open timestamps)
 
