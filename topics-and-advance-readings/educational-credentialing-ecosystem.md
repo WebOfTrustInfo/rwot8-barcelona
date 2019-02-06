@@ -46,7 +46,7 @@ The credentialing system has the following minimal set of requirements:
 
 Beyond this minimal list of functional requirements, we plan to update this with policy-level considerations -- such as environmental sustainability.
 
-We expect to extend/refine this list of requirements, but our guiding heuristic is the solution must be "better than paper". Beyond efficiency and portability, this is particularly important from a privacy and security perspective.
+We expect to extend/refine this list of requirements, but our guiding heuristic is the solution must be "better than paper". Specifically, in the process of improving efficiency, portability, and interoperability, we must not threaten privacy and control of the individual in the process. In fact; ideally privacy measures and control of the individual will strictly improve. This goal requires more elaboration in the list of requirements.
 
 # Designing the system from first principles
 
