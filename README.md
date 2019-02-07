@@ -86,6 +86,12 @@ really, read as much as you can!)
   * by Philip Sheldrake
   * "It turns out that there is very few data that may be described as purely personal data. That lunch date, that genome map, those photos, that joint bank account — all turn out to be interpersonal data."
   * #data #reputation
+  
+  ### Rights Frameworks
+* [Legal Frameworks for Humanity in the Digital Age](https://github.com/hackylawyER/rwot8-barcelona/blob/1debaa8a1d6b0c6a02e79e9557fbd7406de0c0b3/topics-and-advance-readings/rightsframeworks.md)
+  * by Elizabeth M. Renieris
+  * "We are allowing the tides of technology and commerce to haphazardly turn everything into commodifiable data. But will we allow ourselves to be reduced to data points and, worse yet, commodified? If we are not deliberate about designing the correct legal frameworks for humanity in the data-driven age, we risk losing sight of our fundamental rights as humans."
+  * #data #rights
 
 ### Misc.
 * [PSDAD - Data Format with Secure Semantics](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/psdad.md)
