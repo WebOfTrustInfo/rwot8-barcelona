@@ -17,7 +17,9 @@ We could illustrate that in an example, based on SHA-256 hashing of a private in
 
 <div style="text-align:center;"><img src="./media/ZKP_example.png" width=50% height=50%></div>
 
-A proof can be constructed over these parameters 
+A proof can be constructed over these two signals such as `Proof = F(SHA-256, r)` and the pairing function would check the validity of the proof if `V(SHA-256, H(r), Proof)  = true`.
+
+
 
 
 
