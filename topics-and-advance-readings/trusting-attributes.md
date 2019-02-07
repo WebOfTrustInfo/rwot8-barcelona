@@ -34,17 +34,17 @@ The obvious problem with this is who issued that credential and how can you trus
 
 On reading some of the articles for this RWoT I came across the idea of [DID Namespace records](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-namespace-records.md). An interesting read, suggesting creating a web of trust through name spaced DIDs. 
 
-### Context
+### Contextual Evidence
 
 Providing context could be another mechanism for gauging the trust of an attribute. For example, a verifier receives a credential presentation of an attribute issued by an issuer they have low trust in. The verifier could ask for further corroborating proof of that attribute.  The challenge here would be to enable a prover to provide this proof without giving away any more information about themselves than necessary, following the data minimisation principle.
 
 An example could be when attesting to work experience in a foreign country, the verifier requests proof that you indeed were in that country for the stated amount of time which the prover can present through proofs of digital passport stamps from that country.
 
-### Quantity
+### Quantity of Attesting Entities
 
 The number of different issuers a prover can show attest to the same attribute they are presenting the greater the trust a verifier can place in that attribute. A simple example of this might be attendance at an event. Attestation from 10 different low trust DID's could be as trustworthy as a single attestation from a trusted DID.
 
-### Time
+### Leveraging Time
 
 Time is an interesting one. I think there are multiple ways to include time into a trustworthiness calculation. The most obvious is how long has the issuing DID been registered on the public ledger. However, I think particularly in low trust environments, if there was some way to leverage the length of time the prover has had a private connection with an issuer or an entity attesting to the credibility of a claim in such a way that the prover could combine this into the presentation then time could be a really useful measure of trust.
 
