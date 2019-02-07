@@ -9,6 +9,8 @@ In advance of the design workshop, all participants produced a one-or-two page t
 * A specific problem that they wanted to solve with a web-of-trust solution, and why current solutions (PGP or CA-based PKI) can't address the problem?
 * A specific solution related to the web-of-trust that you'd like others to use or contribute to?
 
+**NOTE:** To add a paper, create a pull request to this repo with your contribution (preferably .md file or PDF), along with updates to the README.md in this folder and at the top of the repo with a link to your paper and your name. Please also include a byline with contact information in the paper itself.
+
 Here are the advanced readings to date:
 * [A DID for Every Thing: Driving Event Data Chain](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/A-DID-for-every-thing---Agile-Driving-Data-Chain) by Carsten Stöcker and Michael Rüther
 * [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md) by Amy Guy and Dmitri Zagidulin
