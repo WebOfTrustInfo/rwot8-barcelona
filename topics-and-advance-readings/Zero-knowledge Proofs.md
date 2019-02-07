@@ -7,6 +7,7 @@ Privacy is key to identity systems, and Zero-knowledge proofs (ZKP) are core to 
 
 A ZKP can be described as a deterministic program (from now circuit) where there is a private input (secret) and a public output. Such a system is able to generate a proof of the private input which is a function of the private input itself and the circuit.
 
+![alt text](./media/ZKP.png "ZKP")
 <div style="text-align:center;"><img src="./media/ZKP.png" width=50% height=50%></div>
 
 Which these variables a pairing function can be constructed such as depending on the circuit, the output and the proof (but still not the private input), a validation can be performed in terms of true or false, conforming the ZKP.
