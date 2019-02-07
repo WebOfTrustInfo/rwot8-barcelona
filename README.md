@@ -9,6 +9,8 @@ future.
 
 Visit http://rwot8.eventbrite.com for more information and to purchase tickets.
 
+[Event details for attendees (schedule, hotels, transportation) (pdf 14MB)](https://github.com/WebOfTrustInfo/website/welcome-pack/rwot8-barcelona-welcome-pack.pdf)
+
 ##  Topics & Advance Readings
 
 In advance of the design workshop, all participants produced a one-or-two page topic paper to be shared with the other attendees on either:
