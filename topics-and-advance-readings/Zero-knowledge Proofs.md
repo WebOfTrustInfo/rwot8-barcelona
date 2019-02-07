@@ -15,7 +15,7 @@ Which these variables a pairing function can be constructed such as depending on
 
 We could illustrate that in an example, based on SHA-256 hashing of a private input `r`. We know the circuit (SHA-256) and also the calculated output `H(r)`. 
 
-<div style="text-align:center;"><img src="./media/ZKP.png" width=50% height=50%></div>
+<div style="text-align:center;"><img src="./media/ZKP_example.png" width=50% height=50%></div>
 
 A proof can be constructed over these parameters 
 
