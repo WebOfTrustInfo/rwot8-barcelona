@@ -20,6 +20,14 @@ We could illustrate that in an example, based on SHA-256 hashing of a private in
 A proof can be constructed over these two signals such as `Proof = F(SHA-256, r)` and the pairing function would check the validity of the proof if `V(SHA-256, H(r), Proof)  = true`.
 
 
+## Merkle tree structures
+
+Merkle trees are the fundamental data structure for the iden3 technology to store and validate the claims for each identity. The dependencies and the hierarchy model allows to generate proofs in a very efficient way.  
+
+For example, in a votation use case, we could have a merkle tree like this one:
+
+![alt text](./media/MerkleTree1.png "Merkle Tree")
+
 
 
 
