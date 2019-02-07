@@ -11,6 +11,13 @@ A ZKP can be described as a deterministic program (from now circuit) where there
 
 Which these variables a pairing function can be constructed such as depending on the circuit, the output and the proof (but still not the private input), a validation can be performed in terms of true or false, conforming the ZKP.
 
+### Example 
+
+We could illustrate that in an example, based on SHA-256 hashing of a private input `r`. We know the circuit (SHA-256) and also the calculated output `H(r)`. 
+
+<div style="text-align:center;"><img src="./media/ZKP.png" width=50% height=50%></div>
+
+A proof can be constructed over these parameters 
 
 
 
