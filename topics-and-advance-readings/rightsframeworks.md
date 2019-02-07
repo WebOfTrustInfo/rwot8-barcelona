@@ -1,4 +1,12 @@
-TL;DR: We are allowing the tides of technology and commerce to haphazardly turn everything into commodifiable data. But will we allow ourselves to be reduced to data points and, worse yet, commodified? If we are not deliberate about designing the correct legal frameworks for humanity in the data-driven age, we risk losing sight of our fundamental rights as humans.
+## Legal Frameworks for Humanity in the Digital Age
+
+*Elizabeth M. Renieris (Twitter @hackylawyER), For Rebooting Web of Trust, 1-3 March 2019*
+
+*Elizabeth is Global Policy Counsel at digital ID startup Evernym. She is a law and policy expert who advises on data protection and privacy in the context of emerging technologies like blockchain, AI, and machine learning. Elizabeth is a Certified Information Privacy Professional in the US and Europe (CIPP/US, CIPP/E) and has advised the European Commission, UK Parliament, and other governments on the intersection of blockchain and data protection/privacy, particularly in the context of digital and self-sovereign identity.* 
+
+> TL;DR: We are allowing the tides of technology and commerce to haphazardly turn everything into commodifiable data. But will we allow ourselves to be reduced to data points and, worse yet, commodified? If we are not deliberate about designing the correct legal frameworks for humanity in the data-driven age, we risk losing sight of our fundamental rights as humans.
+
+* * *
 
 With more than half of the world's population now online and doing more than ever before, personal data is proliferating at an unprecedented rate. Our personal data exhaust is no longer confined to “surfing the Web” or traditional “online” activities. As our lives get "smarter" (through smart phones, smart homes, smart cars, smart devices, smart cities, and eventually smart or augmented humans), every second of our lives becomes a data point. Despite the seeming inevitability of all things digital fueled by our data, usage does not connote trust. On the contrary, our trust and confidence in the entities handling our personal data is at an all-time low. Yet, despite an emerging consensus that the advertising revenue-based business model of the Internet is largely to blame, the most popular solutions on the table risk extending this broken framework to our lives at large.  
 
