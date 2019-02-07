@@ -19,6 +19,7 @@ In advance of the design workshop, all participants produced a one-or-two page t
 * A specific solution related to the web-of-trust that you'd like others to use or contribute to?
 
 Here are the advanced readings to date:
+
 ### Primers
 
 These primers overview major topics which are likely to be discussed
@@ -67,6 +68,9 @@ really, read as much as you can!)
   * by Carsten Keutmann and Tim Pastoor
   * "The Protocol allows anyone, including automated software, to issue their own cryptographic identities, for the use of trust and reputation and be able to verify those of others, without the need for a trusted third party. Users issue claims to other identities, and this way build a personal web of trust network."
   * #VC #DPKI #reputation
+
+* [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md)
+  * by Amy Guy and Dmitri Zagidulin
 
 ### General Self-Sovereign Identity
 * [A Self-Sovereign Identity Framework/Thought Model proposal](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/SSI-FrameworkProposal.md)
@@ -162,6 +166,8 @@ really, read as much as you can!)
 ### Specifications
 * [The Multibase, Multihash, and Hashlink Specifications](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md)
   * by Manu Sporny and Ganesh Annan
+
+* [Multiformat Superfriends](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md)
 
 * [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md)
   * by Amy Guy and Dmitri Zagidulin
