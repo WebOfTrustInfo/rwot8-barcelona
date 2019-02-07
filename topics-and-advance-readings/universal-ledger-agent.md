@@ -1,10 +1,10 @@
 # The universal ledger agent: a logical result of Rabobank's journey in blockchain based self-sovereign identity
 
-By David Lamers &lt;<david.lamers@rabobank.nl>&gt; - v1.0
+By David Lamers &lt;<david.lamers@rabobank.nl>&gt; - v1.1
 
 ## Foreword
 
-Within Rabobank we are doing research on self-sovereign identity using blockchain technology since 2016. Within a wide range of partnerships, we explore together with partners the opportunities for the business but also the technical standards and solutions. An interesting keynote of our CEO about the importance of SSI can be found on [Youtube](https://www.youtube.com/watch?v=866C3PAsQFI). Since we are currently working on supporting the [W3C verifiable credentials](https://w3c.github.io/vc-data-model/) (editor's draft January 2019) and [DID's](https://w3c-ccg.github.io/did-spec/), and have designed an Universal Ledger Agent, we are writing this paper to share our work and to open the discussion of the design and implementation. A demo of the current solution can be found on https://youtu.be/TEQ99syPv3A
+Within Rabobank we are doing research on self-sovereign identity using blockchain technology since 2016. Within a wide range of partnerships, we explore together with partners the opportunities for users and businesses as well as the technical standards and solutions. An interesting keynote of our CEO about the importance of SSI can be found on [Youtube](https://www.youtube.com/watch?v=866C3PAsQFI). Currently we are working on supporting the [W3C verifiable credentials](https://w3c.github.io/vc-data-model/) (editor's draft January 2019) and [DID's](https://w3c-ccg.github.io/did-spec/), and have designed the Universal Ledger Agent. With this paper we intended to share our work and to open the discussion on the design and implementation. A demo of the current solution can be found on https://youtu.be/TEQ99syPv3A
 
 <img src="universal-ledger-agent-media/preview-screens.jpg" width="800">
 
@@ -15,7 +15,6 @@ In this section the fundamental concepts of our SSI solution are explained.
 * **Holder, issuer and verifier**: We developed a mobile application (using Ionic) for the holder and NodeJS web applications for the issuer and verifier demo’s. For the issuing process, the issuer sends a challenge request to the holder - asking for a DID for each credential so they can be revoked independently whilst maintaining privacy. The holder sends the DID’s back in the form of self-issued verifiable credentials encapsulated in a [verifiable presentation](https://w3c.github.io/vc-data-model/#dfn-verifiable-presentations). The issuer then issues credentials on those DID’s and sends a verifiable presentation back to the holder. The verifier uses the same process, but the challenge request has different content. So the holder sends a verifiable presentation with credentials retrieved from the issuer in the previous step.
 
 ![Flow between parties](universal-ledger-agent-media/flow.png)
-TODO: above diagram is draft, improve (text, colors, aligning)
 
 
 * **Decentralized (pure SSI)**: Pure SSI, without any centralized dependencies and providing all functionalities, is probably only possible with blockchain. Blockchain mainly provides functionalities for timestamping, the trust registry and revoking credentials. In each solution being built we maintain the design principles for self-sovereign identity as explained by [Christopher Allen](http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html).
@@ -35,13 +34,13 @@ TODO: above diagram is draft, improve (text, colors, aligning)
 ## Use cases within Rabobank
 The development of an SSI solution can provide opportunities for the Rabobank within for instance the following business lines. The added value for the business lines, our customers and employees is the reason we work on SSI.
 
-* **KYC**: Currently, we have extensive know your customer (KYC) and customer due diligence (CDD) processes for retail and wholesale. With hundreds of possible data points these processes are based on, it's complex to retrieve the data from a (direct) verifiable source. SSI could provide directly verifiable data and as bank we have valuable data for the customer for third parties. [Research](http://essay.utwente.nl/71274/) within Rabobank has shown the added value of SSI within KYC.
-* **Mortgage**: The average mortgage flow requires a lot of time from the customer. Documents from a lot of resources are required and most of them are not verifiable. The application process takes long which can be improved with SSI
+* **KYC**: Currently, we have extensive know your customer (KYC) and customer due diligence (CDD) processes for retail and wholesale. With hundreds of possible data points these processes are based on, it's complex to retrieve the data from a (direct) verifiable source. SSI could provide directly verifiable data and as bank we have valuable data for the customer for third parties. [Research](http://essay.utwente.nl/71274/) within Rabobank has shown the added value of SSI within KYC. In the first proof of concept we retrieved data from the chamber of commerce to the identity app.
+* **Mortgage**: The average mortgage flow requires a lot of time from the customer. Documents from a lot of resources are required and most of them are not verifiable. The application process takes long which can be improved with SSI. By supplying the data using the identity app we can immediately check and verify validity and origin of the data.
 * **HR and onboarding of employees**: we want to empower employees with their own data. It should be possible to reuse certificates or assessments they achieved or did at Rabobank everywhere else. Therefore we do projects in order to save certificates, diplomas, trainings and employment credentials. This means also supporting open badges within W3C verifiable credentials. If we can receive data this way during onboarding, we can also drastically improve onboarding times. It also connects to our vision on the future of work and employee mobility.
 
 
 ##	Universal Ledger Agent
-Within our collaborations we faced the problem that partners were using different standards and blockchains. We can also not deny that in the future, multiple solutions will mature and interoperability issues will arise. For users this will be a challenge in the future. Therefore we designed together with one of our partners the Universal Ledger Agent. Plugins can be developed for each specific set of standards (and so blockchains). This section describes our efforts so far.
+Within our collaborations we faced the problem that partners were using different standards and blockchains. We can also not deny that in the future, multiple solutions will mature and interoperability issues will arise. For users this will be a challenge and we want to avoid that they have to use multiple apps, logins or platforms. Therefore we designed together with one of our partners the Universal Ledger Agent. Plugins can be developed for each specific set of standards (and so blockchains). This section describes our efforts so far.
 
 
 ### Design
@@ -55,13 +54,13 @@ We are currently working on the Ethereum (ERC-780 as well as W3C verifiable cred
 ![ULA messaging](universal-ledger-agent-media/ula-messaging.jpg)
 
 ### Ledgers
-* **Ethereum**: We use the public Ethereum blockchain as credential status registry. Our vision is still to use public infrastructure in order to achieve pure SSI. This credential status registry is a smart contract containing DID's or hashes. Currently there are still challenges in using a public blockchain like scaling and transaction costs. We follow the developments closely and are seeing potential in the solutions being .
+* **Ethereum**: We use the public Ethereum blockchain as credential status registry. Our vision is still to use public infrastructure in order to achieve pure SSI. This credential status registry is a smart contract containing DID's or hashes. Currently there are still challenges in using a public blockchain like scaling and transaction costs. We follow the developments closely and are seeing potential in the solutions being.
 * **Indy (with or without Sovrin)**: Despite being a permissioned blockchain, this type of ledger provides less pure SSI. However, if the governance is setup well it might be acceptable. We are following the developments here but it does not have our main focus.
-* **X**: each ledger could be supported within the ULA in the future by creating plguins
+* **X**: each ledger could be supported within the ULA in the future by creating plugins.
 
 ### Standards
-* **ERC-780**: we started with using uPort's ERC-780 Ethereum claim registry. In this claim registry the issuer, subject, key and value are saved. The value is a hash of the original value with a user's derived public key as salt. Derived keys are also used as subject in order to avoid linkability. We don't use ERC-780 in the current solution (see BIP32 part) but they might be useful for public claims or as trust registry,
-* **W3C and DID's**: The W3C verifiable credential standard is implemented together with DID's. This means no hashes are saved on the blockchain, only DID's. This makes it a more secure and widely supported solution. This plugin also implements proving ownership of DID's, but we are still doing research on the DID documents.
+* **ERC-780**: we started with using uPort's ERC-780 Ethereum claim registry. In this claim registry the issuer, subject, key and value are saved. The value is a hash of the original value with a user's derived public key as salt. Derived keys are also used as subject in order to avoid linkability. We don't use ERC-780 in the current solution (see BIP32 part) but they might be useful for public claims or as trust registry
+* **W3C and DID's**: The W3C verifiable credential standard is implemented together with DID's. This means no hashes are saved on the blockchain, only DID's. This makes it a more secure and widely supported solution. This plugin also implements proving ownership of DID's, but we are still doing research on the DID documents
 * **Proof request & responses**: within the Sovrin plugin there is support for proof request and responses as defined by the Sovrin foundation
 
 
