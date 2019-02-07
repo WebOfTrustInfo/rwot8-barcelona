@@ -36,6 +36,7 @@ Here are the advanced readings to date:
 * [Digital Identity for the Homeless](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Digital-Identity-for-the-Homeless.md) by Mike Varley and Matthew Wong
 * [The Universal Ledger Agent: a Logical Result of Rabobank's Journey in Blockchain-based self-sovereign identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-ledger-agent.md) by David Lamers
 * [Where's the UX?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-ux.md) by Alberto Elias
+* [Assist underrepresented groups when entering the labour market through self sovereign identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/diverse-teams.md) by Karolin Siebert
 * [The Identity Manager specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-spec.md) by Adin Schmahmann, André Cruz and Pedro Teixeira
 * [Identity Manager Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/IdentityManager.md) by André Cruz and João Santos
 * [On Interpersonal Data](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/on-interpersonal-data.md) by Philip Sheldrake
