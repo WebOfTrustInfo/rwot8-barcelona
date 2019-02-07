@@ -1,0 +1,33 @@
+# Journalistic use-cases for SSI:  signatures, verified claims, and canonical-text registries
+
+## DrafT: RWoT 8 Topic Paper
+
+by Juan Caballero & Jefferson Sofarelli
+
+# Abstract
+
+The goal of this paper is to compare notes with the SSI technical community and hopefully to model some possible solutions for middleware systems and/or SSI-powered widgets for CMS systems.  Some of these could, we hope, be built soon on current platforms, to start benefitting journalists, factcheckers, and publics as soon as possible.  Others, at industry-wide or semi-global scale, could not be built as quickly, but planning them in dialogue with the broader community is also a priority for us.
+
+## Background
+
+This paper originates from a few separate working-groups with journalists to identify pain points and to imagine possible use-cases for SSI, drawing in particular from the experiences of developing-world journalists and editors battling misinformation, misattribution, and other identity issues in the press.  The "
+
+[first-world]: https://motherboard.vice.com/en_us/article/pakxby/silicon-valley-is-inserting-its-biases-into-nearly-every-technology-we-use	"first-world bias"
+
+" of tech platforms and social media has been discussed at length, so we will take it for granted, but would add that the journalistic pain points around misattribution, misinformation, and privacy are felt much more acutely in developing nations with potential regime-changes imminent, and in many case the journalists working in these contexts prove themselves to be early-adopters of privacy tech and publishing tools compared to their developed-world analogues.
+
+## SSI for signing articles (in a proprietary CMS)
+
+One basic problem exacerbated by social-media manipulation and other misinformation campaigns is misattribution-- from doctored twitter screengrabs, to altered soundbytes to citations invented wholesale, this is a growing nuisance in the election cycles of the developing world.  Many journalists have expressed a desire to extend the "verification" scheme of a closed platform (Twitter being the most common example) to something more cross-platform, thus that with some degree of certainty whole articles could be cryptographically signed by a keyholder who has also signed public profiles like a twitter page, a facebook page, etc.  Given that many news platforms are currently upgrading and expanding the technical capabilities of their CMS systems and backends, especially in countries battling misinformation proactively like Brasil and India, the timing would seem to be urgent.
+
+Our long-term proposal is to design an SSI-platform-agnostic DID widget or middle-ware system for CMSs such that at the time of committing a canonical version of a published piece on a given publication's CMS, that canonical version could be hashed and signed, with signature and hash being stored in an immutable, external record against which the signature could later be checked (i.e., making a verifiable claim of authorship linking the article's original published form to a DID controlled by its author).
+
+A simpler proposal (a first step towards that, perhaps) would simply be a feasibility assessment of creating a "Sign in with SSI button" of the kind proposed [publically](https://hackernoon.com/launch-a-decentralized-identity-application-using-the-developer-friendly-uport-react-truffle-box-95d1ddf176ea) by uPort for various major CMS systems commonly used in journalism, such that a DID could be associated with an author profile on a given publication, if not directly and uniquely with each article authored by that account.  Even this would differentiate authorized republications and reprintings from unauthorized ones!
+
+## SSI for casual journalists and occasional contributors
+
+Similarly, many controversial and influential pieces of journalism are not written by professional journalists, but by experts and technicians from various other fields.  For these kinds of authors only occasionally publishing open letters, "op-ed"s, and other public statements, it is sometimes necessary to be able to make verifiable claims about education, expertise, and employment, rather than linking back to a short trail of publications.  For this reason, our group would like to check in with the Verified Claims for Education working group and the representatives of government on the status of various registries that soon be online for these purposes.  Anything we design and pilot would need to be maximally interoperable with emerging VC standards to be useful in this corner case.
+
+## An SSI-powered immutable publication registry
+
+Immutable registries of articles (technically, of canonical versions of article, with later corrections stored elsewhere) are increasingly becoming popular projects among journalists for many reasons.  The Ethereum-based startup Civic (and its subsidiary/partner, Popula) has been piloting a program to actually encode all of its published pieces immutably in the ethereum chain itself, while other publications have discussed other immutable and/or decentralized alternatives to traditional, hosted RSS or XML.  An assessment of technical options and costs at different scales will probably be beyond the scale of a single RWoT meeting, but sketching out the parameters for such an assessment in consultation with the RWoT community would be a 
