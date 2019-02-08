@@ -64,7 +64,7 @@ And the most important thing, no information is revealed in this process. The us
 
 The proofs generated for a verifier identity will not be reusable to another identity to maintain privacy for the users. 
 
-<div style="text-align:center;"><img src="./media/ZKP10.png" width=50% height=50%></div>
+<div style="text-align:center;"><img src="./media/ZKP10.png" width=75% height=75%></div>
 
 This mecanism is implemented with a circuit that invalidates the proof when the validator tries to forward it because the proof is only valid if the sender does not know the private key of the validator.
 
