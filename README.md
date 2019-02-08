@@ -86,6 +86,11 @@ really, read as much as you can!)
   * #commonlanguage
   * [Model](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/SSI-FrameworkProposal/SSI-FrameworkProposal.pdf)
 
+* [Aligning SSI with European Union identity legislation (aka eIDAS Regulation)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Aligning-SSI-with-European-Union-Identity-legislation-eIDAS.md)
+  * by Nacho Alamillo and Santi Casas
+  * "This paper aims to advance the alignment of SSI solutions with the eIDAS Regulation regarding electronic identification."
+  * #DID #eIDAS
+  
 ### Identity Philosophy
 * [On Interpersonal Data](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/on-interpersonal-data.md)
   * by Philip Sheldrake
