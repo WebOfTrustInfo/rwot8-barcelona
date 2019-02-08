@@ -52,6 +52,11 @@ In this scenario, it might be necessary to control that each identity can only v
 
 <div style="text-align:center;"><img src="./media/ZKP8.png" width=50% height=50%></div>
 
+## ZKP Use cases
 
+The three party model (identity, claim issuer and verifier) in combination with ZKP is the core of privacy of identity attestations since a user can answer to any requirement as long as the claim exists and there is a trust relationship between the verifier and the issuer. 
 
+<div style="text-align:center;"><img src="./media/ZKP9.png" width=50% height=50%></div>
+
+And the most important thing, no information is revealed in this process. The user is providing *compliance* proofs which are enough for the validator to be accepted.
 
