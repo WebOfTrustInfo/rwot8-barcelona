@@ -38,6 +38,21 @@ So, in the ZKP model previuosly described, we could be able to design such a cir
 
 ![alt text](./media/ZKP5.png "Merkle Tree")
 
+### Example 1
+
+To illustrate this validator abstraction, let's take a basic example such as a circuit that generates a public key of an identity (which is known) from the private key (which is not known):
+
+![alt text](./media/ZKP6.png "Merkle Tree")
+
+### Example 2
+
+A more complex example is a system that is able to check if a specific identity belongs to a census and so is enabled to vote. 
+
+![alt text](./media/ZKP7.png "Merkle Tree")
+
+In this scenario, it might be necessary to control that each identity can only vote once, so an additional calculation can be included which the application of voting is able to register if a unique identity has been participating before but not having to store any identifier which can be associated with the identity. This is a *nullifier* function. 
+
+![alt text](./media/ZKP8.png "Merkle Tree")
 
 
 
