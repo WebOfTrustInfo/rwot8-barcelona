@@ -28,7 +28,9 @@ For example, in a votation use case, we could have a merkle tree like this one:
 
 ![alt text](./media/MerkleTree1.png "Merkle Tree")
 
+In the leafs of the merkle tree there is the claim for each user enabling to participate in the votation, and the middle levels of the tree (and the root) are hashes of the combined data of the tree at the lower level. So, a proof for a single user can be calculated from the specific claim and the corresponding siblings of the merkle tree such as that:
 
+![alt text](./media/MerkleTree2.png "Merkle Tree")
 
 
 
