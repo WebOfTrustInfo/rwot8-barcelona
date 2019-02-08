@@ -30,7 +30,7 @@ For example, in a votation use case, we could have a merkle tree like this one:
 
 ## Merkle proof
 
-In the leafs of the merkle tree there is the claim for each user enabling to participate in the votation, and the middle levels of the tree (and the root) are hashes of the combined data of the tree at the lower level. So, a proof for a single user can be calculated from the specific claim and the corresponding siblings (which are the hashes of the tree needed for the upwards recalculation of the tree) of the merkle tree such as that:
+In the leafs of the merkle tree there is the claim for each user enabling to participate in the votation, and the middle levels of the tree (and the root) are hashes of the combined data of the tree at the lower level. So, a proof for a single user can be generated from the specific claim and the corresponding siblings (which are the nodes of the tree needed for the upwards recalculation of the tree) of the merkle tree such as that:
 
 <div style="text-align:center;"><img src="./media/ZKP4.png" width=50% height=50%></div>
 
