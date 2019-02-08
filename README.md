@@ -76,7 +76,7 @@ really, read as much as you can!)
   
 * [Universal DID Operations](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Universal-DID-Operations.md)
   * by Markus Sabadello and Nader Helmy
-  * Interest in building blockchain-agnostic SSI solutions is increasing, so let's expand the concept of the Universal Resolver to more DID operations, like Create, Update and Revoke.
+  * "Interest in building blockchain-agnostic SSI solutions is increasing, so let's expand the concept of the Universal Resolver to more DID operations, like Create, Update and Revoke."
   * #DID #DPKI
 
 ### General Self-Sovereign Identity
