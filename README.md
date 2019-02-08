@@ -110,6 +110,10 @@ really, read as much as you can!)
   * "The goal is to continue the work on an OIDC profile for SSI based on [NS18] and [II18], and finalize the first version of it."
   * #VC
 
+* [Introductory Capability DHT Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/introductory-capability-dht-concept.md) 
+  * by James Foley
+  * Considering the concept of a DHT for Introductory Capability Routing for object capability based decentralized applications.
+
 ### Social Key Recovery
 * [A New Approach to Social Key Recovery](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/social-key-recovery.md)
   * by Christopher Allen and Mark Friedenbach
