@@ -9,15 +9,15 @@ We start with the description of a model of as a deterministic program or logic 
 
 <div style="text-align:center;"><img src="./media/ZKP1.png" width=50% height=50%></div>
 
-Using these variables, a pairing function can be constructed such as depending on the circuit, the output and the proof (but still not the private input), a validation can be performed in terms of true or false, conforming the ZKP schema.
+Using these variables, a verification function can be constructed such as depending on the circuit, the output and the proof (but still not the private input), a validation can be performed in terms of true or false, conforming the ZKP schema.
 
 ### Example 
 
-We could illustrate that in an example, based on SHA-256 hashing of a private input `r`. We know the circuit (SHA-256) and also the calculated output `H(r)`. 
+We could illustrate that in an example, based on SHA-256 hashing of a private input `r`. We can proof that we know the `r` that matches a given without revealing it.
 
 <div style="text-align:center;"><img src="./media/ZKP2.png" width=50% height=50%></div>
 
-A proof can be constructed over these two signals such as `Proof = F(SHA-256, r)` and the pairing function would check the validity of the proof if `V(SHA-256, H(r), Proof)  = true`.
+A proof can be constructed over these two signals such as `Proof = F(SHA-256, r)` and the verification function would check the validity of the proof if `V(SHA-256, H(r), Proof)  = true`.
 
 
 ## Merkle tree structures
