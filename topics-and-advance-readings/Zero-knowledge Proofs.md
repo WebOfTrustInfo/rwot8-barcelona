@@ -38,15 +38,11 @@ So, in the ZKP model previuosly described, we could be able to design such a cir
 
 ![alt text](./media/ZKP5.png "Merkle Tree")
 
-### Example 1
-
-To illustrate this validator abstraction, let's take a basic example such as a circuit that generates a public key of an identity (which is known) from the private key (which is not known):
+To illustrate this validator abstraction, let's take the basic part with the circuit that generates a public key of an identity (which is known) from the private key (which is not known):
 
 ![alt text](./media/ZKP6.png "Merkle Tree")
 
-### Example 2
-
-A more complex example is a system that is able to check if a specific identity belongs to a census and so is enabled to vote. 
+This circuit can be included into a more complex one where the whole merkle tree is calculated to verify the proof and to check if a specific identity belongs to a census and so is enabled to vote. 
 
 ![alt text](./media/ZKP7.png "Merkle Tree")
 
