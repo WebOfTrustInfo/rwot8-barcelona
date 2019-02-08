@@ -15,7 +15,7 @@ Which these variables a pairing function can be constructed such as depending on
 
 We could illustrate that in an example, based on SHA-256 hashing of a private input `r`. We know the circuit (SHA-256) and also the calculated output `H(r)`. 
 
-![alt text](./media/ZKP_example.png "ZKP Example")
+![alt text](./media/ZKP2.png "ZKP Example")
 
 A proof can be constructed over these two signals such as `Proof = F(SHA-256, r)` and the pairing function would check the validity of the proof if `V(SHA-256, H(r), Proof)  = true`.
 
@@ -26,11 +26,11 @@ Merkle trees are the fundamental data structure for the iden3 technology to stor
 
 For example, in a votation use case, we could have a merkle tree like this one:
 
-![alt text](./media/MerkleTree1.png "Merkle Tree")
+![alt text](./media/ZKP3.png "Merkle Tree")
 
 In the leafs of the merkle tree there is the claim for each user enabling to participate in the votation, and the middle levels of the tree (and the root) are hashes of the combined data of the tree at the lower level. So, a proof for a single user can be calculated from the specific claim and the corresponding siblings of the merkle tree such as that:
 
-![alt text](./media/MerkleTree2.png "Merkle Tree")
+![alt text](./media/ZKP4.png "Merkle Tree")
 
 
 
