@@ -185,6 +185,9 @@ really, read as much as you can!)
   * By Will Abramson
   * "Developing flexible mechanisms for judging the trust of an attribute presentation is going to be essential to driving the network affects needed for widespread adoption of Verifiable Credential based identity networks."
 
+* [Verifiable Claims for Postal Address](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/verifiable-postal-address-claims.md)
+  * by Moses MA
+  * "This is a proposal to facilitate the collaborative drafting of a technical paper that describes the principles and key design considerations for a use case for verifiable physical address claims. Individuals within the global postal network now seek to understand the “decentralization revolution” and help to develop game-changing, blockchain-powered new business models for the world."
 
 ### Specifications
 * [The Multibase, Multihash, and Hashlink Specifications](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md)
