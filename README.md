@@ -79,6 +79,10 @@ really, read as much as you can!)
   * "Interest in building blockchain-agnostic SSI solutions is increasing, so let's expand the concept of the Universal Resolver to more DID operations, like Create, Update and Revoke."
   * #DID #DPKI
 
+* [Staying Anonymous With DIDs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Anonymous_DIDs.md)
+    * by David Stark
+    * If we use DIDs and Verifiable Credentials how can we make sure that users are not being tracked across the web.
+
 ### General Self-Sovereign Identity
 * [A Self-Sovereign Identity Framework/Thought Model proposal](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/SSI-FrameworkProposal.md)
   * by Rieks Joosten
