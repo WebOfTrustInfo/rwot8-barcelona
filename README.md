@@ -165,7 +165,11 @@ really, read as much as you can!)
   * by Juan Caballero and Jefferson Sofarelli
   * "Our long-term proposal is to design an SSI-platform-agnostic DID widget or middle-ware system for CMSs such that at the time of committing a canonical version of a published piece on a given publication's CMS, that canonical version could be hashed and signed, with signature and hash being stored in an immutable, external record against which the signature could later be checked (i.e., making a verifiable claim of authorship linking the article's original published form to a DID controlled by its author)."
   * #DID #VC #reputation
-
+  
+* Financing a Self-sovereign Technology Stack
+  * by Adrian Gropper
+  * Business models for autonomy through self-sovereign identity and self-sovereign technology are experimental. The standards are just starting to gel. Business structures for sustainable decentralized and potentially autonomous systems are still to be invented.
+  * #agent #business
 
 ### Verifiable Claims (VC)
 * [EU Digital Signature vs. VC Model](https://drive.google.com/file/d/1ehi0WMEJWNZV5Cx4wXsqPQC-wRcF4Zi2/view)
