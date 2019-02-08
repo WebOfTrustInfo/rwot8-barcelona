@@ -56,7 +56,15 @@ In this scenario, it might be necessary to control that each identity can only v
 
 The three party model (identity, claim issuer and verifier) in combination with ZKP is the core of privacy of identity attestations since a user can answer to any requirement as long as the claim exists and there is a trust relationship between the verifier and the issuer. 
 
-<div style="text-align:center;"><img src="./media/ZKP11.png" width=50% height=50%></div>
+<div style="text-align:center;"><img src="./media/ZKP11.png" width=25% height=25%></div>
 
 And the most important thing, no information is revealed in this process. The user is providing *compliance* proofs which are enough for the validator to be accepted.
+
+## Non-reusable proofs
+
+The proofs generated for a verifier identity will not be reusable to another identity to maintain privacy for the users. 
+
+<div style="text-align:center;"><img src="./media/ZKP10.png" width=50% height=50%></div>
+
+This mecanism is implemented with a circuit that invalidates the proof when the validator tries to forward it because the proof is only valid if the sender does not know the private key of the validator.
 
