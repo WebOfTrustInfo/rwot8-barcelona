@@ -44,6 +44,7 @@ Here are the advanced readings to date:
 * [DID Namespace Records](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-namespace-records.md) by Drummond Reed
 * [Security Considerations of Shamir's Secret Sharing](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/security_shamirs.md) by Peg
 * [Legal Frameworks for Humanity in the Digital Age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/rightsframeworks.md) by Elizabeth M. Renieris
+* [Introductory Capability DHT Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/introductory-capability-dht-concept.md) by James Foley
 
 ### Primers
 
