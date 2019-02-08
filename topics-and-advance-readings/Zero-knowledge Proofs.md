@@ -28,12 +28,17 @@ For example, in a votation use case, we could have a merkle tree like this one:
 
 ![alt text](./media/ZKP3.png "Merkle Tree")
 
-
-
-
-In the leafs of the merkle tree there is the claim for each user enabling to participate in the votation, and the middle levels of the tree (and the root) are hashes of the combined data of the tree at the lower level. So, a proof for a single user can be calculated from the specific claim and the corresponding siblings of the merkle tree such as that:
+In the leafs of the merkle tree there is the claim for each user enabling to participate in the votation, and the middle levels of the tree (and the root) are hashes of the combined data of the tree at the lower level. So, a proof for a single user can be calculated from the specific claim and the corresponding siblings (which are the hashes of the tree needed for the upwards recalculation of the tree) of the merkle tree such as that:
 
 ![alt text](./media/ZKP4.png "Merkle Tree")
+
+## Proof validator circuit
+
+So, in the ZKP model previuosly described, we could be able to design such a circuit which recreates the calculation model of the root of a merkle tree to verify the received proofs by recalculating the root of the merkle tree. This root will be written in the public Ethereum blockchain so it can be compared and the proof considered as valid.
+
+![alt text](./media/ZKP5.png "Merkle Tree")
+
+
 
 
 
