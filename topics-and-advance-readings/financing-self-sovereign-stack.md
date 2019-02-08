@@ -104,7 +104,7 @@ approaches to financing the transition to commercial product. We tried:
 
 No luck so far.
 
-**Bootstrapping Self-Sovereign Technology **
+**Bootstrapping Self-Sovereign Technology**
 
 HIE of One is now trying something completely different. To the extent a
 Free software product can be developed by volunteers and brought to
