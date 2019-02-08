@@ -102,6 +102,10 @@ ___
  * method metadata
    * method-specific hash
    * token balance
+   
+
+![The Registrar has four states: fail, finished, wait, and action. This flow diagram indicates the responses a typical user can expect.](https://github.com/creatornader/rwot8-barcelona/blob/master/topics-and-advance-readings/media/UniversalRegistrar.png)
+*The Registrar has four states: fail, finished, wait, and action. This flow diagram indicates the responses a typical user can expect.*
 
 # Architecture
 
@@ -120,6 +124,7 @@ Unlike the `resolve()` operation however, the other operations `create()`, `upda
  * **Where are the identifiers generated?** Does the client generate the identifier (the DID) that gets created, or does this happen entirely inside the driver? Note that e.g. in the "btcr" DID method, the DID only becomes known at the end of the creation process, not at the beginning.
 
 ![The Universal Registrar interface can be configured to generate & store keys in various locations, e.g. in the client, in each method-specific driver, or in the Registrar's cloud wallet.](https://github.com/creatornader/rwot8-barcelona/blob/master/topics-and-advance-readings/media/7fb758ec-ac83-4790-a067-2ab0382f0f52.png)
+*The Universal Registrar interface can be configured to generate & store keys in various locations, e.g. in the client, in each method-specific driver, or in the Registrar's cloud wallet.*
 
 
 # HTTP Binding
