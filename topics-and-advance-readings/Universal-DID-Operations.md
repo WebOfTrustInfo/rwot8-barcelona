@@ -105,8 +105,8 @@ ___
    
 
 
-![The Registrar has four states: fail, finished, wait, and action. This flow diagram indicates the responses a typical user can expect.](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/media/UniversalRegistrar.png)
-*The Registrar has four states: fail, finished, wait, and action. This flow diagram indicates the responses a typical user can expect.*
+![The Registrar has four states: finished, failed, wait, and action. This flow diagram indicates the responses a typical user can expect.](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/media/UniversalRegistrar.png)
+*The Registrar has four states: finished, failed, wait, and action. This flow diagram indicates the responses a typical user can expect.*
 
 
 
