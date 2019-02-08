@@ -123,7 +123,7 @@ At the same time, the current VC threat model does not call out this threat, whi
 
 This threat involves a bad actor in the issuing institution, who is able to sign with the issuing address, that is issuing fraudulent credentials to friends/collaborators. Does a verification process that cuts out the issuer increase this risk?
 
-One benefit of blockchain-anchoring is that one can alert on issuer addresses to detect suspicious issuances. However, if batch issuance is used, (and the issuer is not involved in verification), it may not be possible to detect fraudulent entries without additional metadata. 
+One benefit of blockchain-anchoring is that one can alert on issuer addresses to detect suspicious issuances. However, if batch issuance is used, (and the issuer is not involved in verification), it may not be possible to detect fraudulent entries without additional metadata or an audit trail of the batch recipients (e.g. if the issuer records who is expected in the batch, and can deterministically reproduce the batch, they can verify that the merkle root matches what's recorded on chain).
 
 Which level of the credential issuance solution should handle this threat? And do VC threat models call proper attention to this risk?
 
