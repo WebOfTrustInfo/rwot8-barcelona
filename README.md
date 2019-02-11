@@ -132,7 +132,7 @@ really, read as much as you can!)
 * [A New Approach to Social Key Recovery](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/social-key-recovery.md)
   * by Christopher Allen and Mark Friedenbach
   * "The goal of social key recovery is for the user to specify groups of individuals that together possess the ability to recover the root secret of a wallet."
-  * #reputation #shamirsecretsharing #keymanagement
+  * #shamirsecretsharing #sss #keymanagement #masterseed #keyrecovery
 
 * [Security Considerations of Shamir's Secret Sharing](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/security_shamirs.md)
   * by Peg
