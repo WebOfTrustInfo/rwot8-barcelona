@@ -12,6 +12,8 @@ In advance of the design workshop, all participants produced a one-or-two page t
 **NOTE:** To add a paper, create a pull request to this repo with your contribution (preferably .md file or PDF), along with updates to the README.md in this folder and at the top of the repo with a link to your paper and your name. Please also include a byline with contact information in the paper itself.
 
 Here are the advanced readings to date:
+
+* [Aligning SSI with European Union identity legislation (aka eIDAS Regulation)]((https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Aligning-SSI-with-European-Union-Identity-legislation-eIDAS.md) by Nacho Alamillo and Santi Casas
 * [Assist underrepresented groups when entering the labour market through self sovereign identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/diverse-teams.md) by Karolin Siebert
 * [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md) by Amy Guy and Dmitri Zagidulin
 * [Designing an Educational Credentialing Ecosystem](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/educational-credentialing-ecosystem.md) by Kim Hamilton Duffy, J. Philipp Schmidt, and Joe Andrieu
@@ -48,7 +50,6 @@ Here are the advanced readings to date:
 * [Verifiable Displays: secure presentation of Verifiable Credentials in HTML](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/verifiable-displays-in-HTML.md) by Bohdan Andriyiv
 * [Where's the UX?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-ux.md) by Alberto Elias
 * [Zero-knowledge proofs in identity systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Zero-knowledge-Proofs.md) by Jordi Baylina and David Suarez
-* [Aligning SSI with European Union identity legislation (aka eIDAS Regulation)]((https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Aligning-SSI-with-European-Union-Identity-legislation-eIDAS.md) by Nacho Alamillo and Santi Casas
 
 ### Primers
 
