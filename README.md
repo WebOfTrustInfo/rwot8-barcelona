@@ -68,7 +68,7 @@ really, read as much as you can!)
 
 * [Digital Trust Protocol](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/DigitalTrustProtocol.md)
   * by Carsten Keutmann and Tim Pastoor
-  * "The Protocol allows anyone, including automated software, to issue their own cryptographic identities, for the use of trust and reputation and be able to verify those of others, without the need for a trusted third party. Users issue claims to other identities, and this way build a personal web of trust network."
+  * "The Digital Trust Protocol (DTP) is a solution for the handling of trust in the digital space. The protocol is broadly designed to work with all aspects of trust; this includes identity, reputation, and security. The Protocol allows anyone, including software, to issue their own cryptographic identities, for the use of trust and reputation and be able to verify those of others, without the need for a trusted third party."
   * #VC #DPKI #reputation
 
 * [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md)
