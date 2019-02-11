@@ -9,7 +9,7 @@ future.
 
 Visit http://rwot8.eventbrite.com for more information and to purchase tickets.
 
-[Event details for attendees (schedule, hotels, transportation) (pdf 14MB)](https://github.com/WebOfTrustInfo/website/welcome-pack/rwot8-barcelona-welcome-pack.pdf)
+[Event details for attendees (schedule, hotels, transportation) (pdf 14MB)](https://nbviewer.jupyter.org/github/WebOfTrustInfo/website/blob/gh-pages/welcome-pack/rwot8-barcelona-welcome-pack.pdf)
 
 ##  Topics & Advance Readings
 
