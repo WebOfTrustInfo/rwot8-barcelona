@@ -201,6 +201,15 @@ really, read as much as you can!)
   * by Moses MA
   * "This is a proposal to facilitate the collaborative drafting of a technical paper that describes the principles and key design considerations for a use case for verifiable physical address claims. Individuals within the global postal network now seek to understand the “decentralization revolution” and help to develop game-changing, blockchain-powered new business models for the world."
 
+* [Using Immutable Data Objects](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Using-Immutable-Data-Objects.md) by Ken Ebert
+  * by Ken Ebert
+  * "Verifiable Credentials are strengthened by providing immutable data objects that
+  provide a full definition of the data being signed. 
+  This is particularly true for objects with ZKP style signatures,
+  where a more granular description of the data is required in order to support 
+  disclosure and predicate proofs on a per-property basis."
+  * #VC #Schema #ZKP
+  
 ### Specifications
 * [Multiformat Superfriends (The Multibase, Multihash, and Hashlink Specifications)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md)
   * by Manu Sporny and Ganesh Annan
