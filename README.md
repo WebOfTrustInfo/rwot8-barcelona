@@ -71,9 +71,11 @@ really, read as much as you can!)
   * by Carsten Keutmann and Tim Pastoor
   * "The Digital Trust Protocol (DTP) is a solution for the handling of trust in the digital space. The protocol is broadly designed to work with all aspects of trust; this includes identity, reputation, and security. The Protocol allows anyone, including software, to issue their own cryptographic identities, for the use of trust and reputation and be able to verify those of others, without the need for a trusted third party."
   * #VC #DPKI #reputation
-
+  
 * [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md)
   * by Amy Guy and Dmitri Zagidulin
+  * A summary of open issues and discussion topics for moving the [DID Specification](https://w3c-ccg.github.io/did-spec/) forward.
+  * #DID #W3C #CCG
   
 * [Universal DID Operations](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Universal-DID-Operations.md)
   * by Markus Sabadello and Nader Helmy
@@ -102,7 +104,7 @@ really, read as much as you can!)
   * "It turns out that there is very few data that may be described as purely personal data. That lunch date, that genome map, those photos, that joint bank account — all turn out to be interpersonal data."
   * #data #reputation
   
-  ### Rights Frameworks
+### Rights Frameworks
 * [Legal Frameworks for Humanity in the Digital Age](https://github.com/hackylawyER/rwot8-barcelona/blob/1debaa8a1d6b0c6a02e79e9557fbd7406de0c0b3/topics-and-advance-readings/rightsframeworks.md)
   * by Elizabeth M. Renieris
   * "We are allowing the tides of technology and commerce to haphazardly turn everything into commodifiable data. But will we allow ourselves to be reduced to data points and, worse yet, commodified? If we are not deliberate about designing the correct legal frameworks for humanity in the data-driven age, we risk losing sight of our fundamental rights as humans."
@@ -200,13 +202,13 @@ really, read as much as you can!)
   * "This is a proposal to facilitate the collaborative drafting of a technical paper that describes the principles and key design considerations for a use case for verifiable physical address claims. Individuals within the global postal network now seek to understand the “decentralization revolution” and help to develop game-changing, blockchain-powered new business models for the world."
 
 ### Specifications
-* [The Multibase, Multihash, and Hashlink Specifications](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md)
+* [Multiformat Superfriends (The Multibase, Multihash, and Hashlink Specifications)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md)
   * by Manu Sporny and Ganesh Annan
-
-* [Multiformat Superfriends](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md)
 
 * [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md)
   * by Amy Guy and Dmitri Zagidulin
+  * A summary of open issues and discussion topics for moving the [DID Specification](https://w3c-ccg.github.io/did-spec/) forward.
+  * #DID #W3C #CCG
 
 * [The Identity Manager Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-spec.md)
   * by Adin Schmahmann, André Cruz, and Pedro Teixeira
