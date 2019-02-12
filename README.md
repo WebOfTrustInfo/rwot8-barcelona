@@ -39,10 +39,10 @@ really, read as much as you can!)
   * "Our broader objective is to establish a scalable digital twin protocol and a technology layer for autonomous things."
   * #verifiableclaims #reputation #IoT
 
-* [Peer-Star Identity Manager](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/IdentityManager.md)
+* [Identity Manager Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-concept.md)
   * by André Cruz, João Santos, and Pedro Teixeira
-  * "By using the application, users will be able to create identities on several DID methods, import identities created on other devices, manage Verifiable Claims of identities, authenticate to dApps (sessions)."
-  * #VC #UX
+  * The Identity Manager is a unified identity wallet that aims to support multiple DIDs and multiple DID-methods
+  * #DID #VC #DID-Auth #apps #UI #UX #wallet
   * [Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-spec.md)
 
 * [DID Namespace Records](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-namespace-records.md)
@@ -210,8 +210,10 @@ really, read as much as you can!)
   * A summary of open issues and discussion topics for moving the [DID Specification](https://w3c-ccg.github.io/did-spec/) forward.
   * #DID #W3C #CCG
 
-* [The Identity Manager Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-spec.md)
+* [Identity Manager Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-spec.md)
   * by Adin Schmahmann, André Cruz, and Pedro Teixeira
+  * A draft specification of the Identity Manager components, interfaces and protocols
+  * #spec #DID #VC #DID-Auth #apps #wallet
 
 * [Peer-to-peer DID Specification](https://github.com/brentzundel/peer-did-method-spec)
   * by Brent Zundel
