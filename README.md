@@ -221,4 +221,5 @@ really, read as much as you can!)
 
 * [Verifiable Displays: secure presentation of Verifiable Credentials in HTML](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/verifiable-displays-in-HTML.md)
   * by Bohdan Andriyiv
-  * A rough outline of specification to create temper-proofed, future-proofed, “anywhere renderable” Verifieable Displays of Verifiable Credentials in HTML format.
+  * A rough outline of the specification for tamper-proofed, future-proofed, “anywhere renderable”, "truly portable" Verifiable Displays of Verifiable Credentials in HTML format.
+  * #VerifiableDisplays, #VerifiableCredentials, #Hashlink, #HTML
