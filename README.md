@@ -184,8 +184,8 @@ really, read as much as you can!)
 ### Verifiable Claims (VC)
 * [EU Digital Signature vs. VC Model](https://drive.google.com/file/d/1ehi0WMEJWNZV5Cx4wXsqPQC-wRcF4Zi2/view)
   * by L. Boldrin
-  * "VC without ledger provides, as added value, subject confirmation and anonymity/pseudonimity support. VC with ledger provides, as a further value, VC revocation."
-  * #digitalsignatures
+  * To some extent a pdf signed document (or xml, json...) can be used to make trustworthy information about me available to a verifier. People ask: Why do we need VCs? What is the additional value they bring? This note provides an initial hyoothesis which I would like you to challenge: VCs without ledger provide, as added value, subject confirmation and anonymity/pseudonimity support. VCs with ledger provide, as a further value, just VC revocation."
+  * #digitalsignature
 
 * [How Do We Bootstrap the Web of Trust for VC](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/bootstrap_web-of-trust_reliance-lifecycle.md)
   * by Matt Stone and Dan Burnett
