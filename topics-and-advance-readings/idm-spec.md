@@ -1,4 +1,4 @@
-# IDM Spec
+# Identity Manager Specification
 
 *NOTE: This is a draft, we will be updating the document during the next days*
 

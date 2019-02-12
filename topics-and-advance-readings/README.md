@@ -24,8 +24,8 @@ Here are the advanced readings to date:
 * [Financing a Self-sovereign Technology Stack](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/financing-self-sovereign-stack.md) by Adrian Gropper
 * [How Do We Bootstrap the Web of Trust for VC](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/bootstrap_web-of-trust_reliance-lifecycle.md) by Matt Stone and Dan Burnett
 * [Identity Containers. Blockchain implementation proposal with DIDs & ERC725](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/identity-containers.md) by Alex Puig
-* [Identity Manager Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/IdentityManager.md) by André Cruz and João Santos
-* [The Identity Manager Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-spec.md) by Adin Schmahmann, André Cruz and Pedro Teixeira
+* [Identity Manager Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-concept.md) by André Cruz and João Santos
+* [Identity Manager Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-spec.md) by Adin Schmahmann, André Cruz and Pedro Teixeira
 * [IDM Spec](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-spec.md) by Adin Schmahmann, André Cruz, and Pedro Teixeira
 * [Introductory Capability DHT Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/introductory-capability-dht-concept.md) by James Foley
 * [Journalistic Use Cases for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Journalistic%20use-cases%20for%20SSI:%20%20signatures%2C%20verified%20claims%2C%20and%20canonical-text%20registries) by Juan Caballero & Jefferson Sofarelli
