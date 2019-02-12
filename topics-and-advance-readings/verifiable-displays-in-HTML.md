@@ -5,7 +5,7 @@ Authors: Bohdan Andriyiv (bohdan.andriyiv@validbook.org)
 Keywords: Verifiable Displays, Verifiable Credentials, Hashlinks, HTML
 
 ## Abstract
-This paper describes a way to create temper-proofed, future-proofed, "anywhere renderable" bundles of Verifiable Credentials and their Verifiable Displays, by embedding Verifiable Credentials and their Verifiable Displays into HTML files and linking them with Hashlinks. 
+This paper describes a way to create tamper-proofed, future-proofed, "anywhere renderable" bundles of Verifiable Credentials and their Verifiable Displays, by embedding Verifiable Credentials and their Verifiable Displays into HTML files and linking them with Hashlinks. 
 
 This paper is a continued exploration of the problem and proposals discussed in the paper - [Verifiable Displays](https://github.com/WebOfTrustInfo/rwot7-toronto/blob/master/topics-and-advance-readings/verifiable_displays.md). It uses understandings and developments from [Resource Integrity Proofs](https://github.com/WebOfTrustInfo/rwot7-toronto/blob/master/topics-and-advance-readings/resource-integrity-proofs.md) paper and  [Hashlinks - Cryptographic Hyperlinks](https://tools.ietf.org/html/draft-sporny-hashlink-02) specification.
 
@@ -84,7 +84,7 @@ See here [HTML example](https://drive.google.com/uc?export=download&id=1a87-uNSP
 
 
 ## Conclusion
-In this paper we proposed the outline of specification for temper-proofed, future-proofed, "anywhere renderable", "truly portable" bundles of Verifiable Credentials and their Verifiable Displays, by embedding them into HTML files and linking them with Hashlinks.
+In this paper we proposed the outline of the specification for tamper-proofed, future-proofed, "anywhere renderable", "truly portable" bundles of Verifiable Credentials and their Verifiable Displays, by embedding them into HTML files and linking them with Hashlinks.
 
 
 ## Questions
