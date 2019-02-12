@@ -31,6 +31,7 @@ really, read as much as you can!)
 * [DID Primer](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-primer.md) — Decentralized Identifiers ([extended version](https://github.com/WebOfTrustInfo/rwot7-fall2018/blob/master/topics-and-advance-readings/did-primer-extended.md) also available)
 * [Functional Identity Primer](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/functional-identity-primer.md) — A different way to look at identity
 * [Verifiable Credentials Primer](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/verifiable-credentials-primer.md) — the project formerly known as Verifiable Claims
+* [Glossary of Terms](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/glossary-primer.md) — A terse lexicon of Web of Trust words
 
 ### Decentalized Identifiers (DID)
 * [A DID for Every Thing: Driving Event Data Chain](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/A-DID-for-every-thing---Agile-Driving-Data-Chain.md)
