@@ -13,8 +13,9 @@ In advance of the design workshop, all participants produced a one-or-two page t
 
 Here are the advanced readings to date:
 
-* [Aligning SSI with European Union identity legislation (aka eIDAS Regulation)]((https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Aligning-SSI-with-European-Union-Identity-legislation-eIDAS.md) by Nacho Alamillo and Santi Casas
+* [Aligning SSI with European Union identity legislation (aka eIDAS Regulation)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Aligning-SSI-with-European-Union-Identity-legislation-eIDAS.md) by Nacho Alamillo and Santi Casas
 * [Assist underrepresented groups when entering the labour market through self sovereign identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/diverse-teams.md) by Karolin Siebert
+* [Bringing the Dependencies of a BTCR Wallet to the Swift Ecosystem](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/bringing-dependencies-btcr-wallet-to-swift-ecosystem.md) by Wolf McNally for Blockchain Commons
 * [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md) by Amy Guy and Dmitri Zagidulin
 * [Designing an Educational Credentialing Ecosystem](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/educational-credentialing-ecosystem.md) by Kim Hamilton Duffy, J. Philipp Schmidt, and Joe Andrieu
 * [Designing Identity for People & Places](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/identity-for-people-places.md) by Venn Agency - Sam Chase, Joni McKervey, Benji Miller
