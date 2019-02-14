@@ -39,3 +39,7 @@ Similarly, many controversial and influential pieces of journalism are not writt
 ## 3.) An SSI-powered immutable publication registry
 
 Immutable registries of articles (technically, of canonical versions of article, with later corrections stored elsewhere) are increasingly becoming popular projects among journalists for many reasons.  The Ethereum-based startup Civic (and its subsidiary/partner, Popula) has been piloting a program to actually encode all of its published pieces immutably in the ethereum chain itself, while other publications have discussed other immutable and/or decentralized alternatives to traditional, hosted RSS or XML.  An assessment of technical options and costs at different scales will probably be beyond the scale of a single RWoT meeting, but sketching out the parameters for such an assessment in consultation with the community might be a reasonable goal for this RWoT.
+
+## Other ramifications
+
+We are not yet at the stage of actively researching GDPR or eIDAS ramifications, but we are hoping to learn more about those from other, further along projects and welcome any input.
