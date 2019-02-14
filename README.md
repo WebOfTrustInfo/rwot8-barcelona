@@ -194,7 +194,7 @@ data private. This article proposes allowing a fee market to develop around what
   * Business models for autonomy through self-sovereign identity and self-sovereign technology are experimental. The standards are just starting to gel. Business structures for sustainable decentralized and potentially autonomous systems are still to be invented.
   * #agent #business
   
-* [Designing Trust in Identity Systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Designing%20Trust%20in%20Identity%20Systems)
+* [Designing Trust in Identity Systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Designing%20Trust%20in%20Identity%20Systems.md)
   * By Bentley Farrington & Bart Suichies
   * Putting the ID holder at the center of an identity system comes with great opportunity, but also introduces new risks and barriers to adoption. Many of these are non-technical and such, should be explored in multi-disciplanary way. We propose a human centered design approach to tackle some of these issues and help shift the focus to not just the technical feasibility, but also inclusive usability. This is a prerequisite to creating an identity system which combines technical and human trust elements. 
   * #UX #trust #adoption #design
