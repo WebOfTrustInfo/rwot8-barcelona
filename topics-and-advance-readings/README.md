@@ -17,6 +17,7 @@ Here are the advanced readings to date:
 * [Assist underrepresented groups when entering the labour market through self sovereign identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/diverse-teams.md) by Karolin Siebert
 * [Bringing the Dependencies of a BTCR Wallet to the Swift Ecosystem](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/bringing-dependencies-btcr-wallet-to-swift-ecosystem.md) by Wolf McNally for Blockchain Commons
 * [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md) by Amy Guy and Dmitri Zagidulin
+* [Decentralized Identity Fee Market](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-fee-market-using-micropayments.md) by Yancy Ribbens
 * [Designing an Educational Credentialing Ecosystem](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/educational-credentialing-ecosystem.md) by Kim Hamilton Duffy, J. Philipp Schmidt, and Joe Andrieu
 * [Designing Identity for People & Places](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/identity-for-people-places.md) by Venn Agency - Sam Chase, Joni McKervey, Benji Miller
 * [Designing Trust in Identity Systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Designing%20Trust%20in%20Identity%20Systems.md) by Bentley Farrington & Bart Suichies
@@ -28,7 +29,6 @@ Here are the advanced readings to date:
 * [Identity Containers. Blockchain implementation proposal with DIDs & ERC725](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/identity-containers.md) by Alex Puig
 * [Identity Manager Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-concept.md) by André Cruz and João Santos
 * [Identity Manager Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-spec.md) by Adin Schmahmann, André Cruz and Pedro Teixeira
-* [IDM Spec](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-spec.md) by Adin Schmahmann, André Cruz, and Pedro Teixeira
 * [Introductory Capability DHT Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/introductory-capability-dht-concept.md) by James Foley
 * [Journalistic Use Cases for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/journalistic-use-cases.md) by Juan Caballero & Jefferson Sofarelli
 * [Legal Frameworks for Humanity in the Digital Age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/rightsframeworks.md) by Elizabeth M. Renieris
