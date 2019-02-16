@@ -1,9 +1,9 @@
-= Blockchain-based Trust for Software Components
+= Decentralized Trust for Software Components
 Sean Gilligan <https://github.com/msgilligan>
-v0.1
-:description: Rough draft of topic paper for Rebooting Web of Trust.
+v0.2
+:description: Topic paper for Rebooting Web of Trust 8
 
-== Zooko's Triangle Stalks the Bazaar
+== Trust Issues in the Software Supply Chain
 
 A computing device cannot be secure if an attacker is able to surreptitiously insert malicious code on it. Current solutions for signing and verifying computer software -- both source code and binaries -- generally rely on the same flawed, hierarchical systems as our network connections do.
 
@@ -12,19 +12,83 @@ Blockchain technology allows us to sidestep Zooko's Triangle <<zooko>> and provi
 Language-specific software component repositories such as Maven, NPM, RubyGems, and CocoaPods are not as secure as they should be and yet most developers have no alternative but to assume their component downloads have not been tampered with. In the rare circumstances where developers are validating their downloaded components they're using homegrown validation tools and often manually verifying hashes. Typically file hashes are stored on the same server as the hashed file to be validated. If the download is compromised, the hash will  be too. Developers need a way of sending and receiving decentralized, secure, and human meaningful information that can be used to secure software components and applications.
 
 
-== Blockchain-based ID Systems Can Help
+== Decentralized ID and DPKI Can Help
 
-As blockchain-based identity solutions become increasingly viable and search for early adopters, they can be applied to the software development process itself.
+As decentralized identity solutions become increasingly viable and search for early adopters, they can be applied to the software development process itself.
 
-Namecoin is (one of?) the first blockchain-based identity solutions and currently provides enough functionality to solve some of the major issues involved in secure software distribution. Blockchain-agnostic middleware like DNSChain <<dnschain>> can provide servers and APIs for integrating with software build tools to provide the decentralized identity and other functions that are needed. Developing tools that are blockchain-agnostic will reassure tool developers that they can migrate to another blockchain based upon future adoption and technology trends.
-
-One area of concern is "blockchain bloat", but it is unclear whether file signatures would be stored on a blockchain and, if so, how many would really need to be store. There has been preliminary discussion within the Namecoin community about blockchain-based signing/hashing of file contents although simply using a blockchain user id or domain id may be enough to significantly improve some of the current pain points.
+We propose investigating how Decentralized Identifiers might be applied to the problem of code and file signing. Decentralized Identifiers provide a decentralized identity layer and public key infrastructure (PKI) that is an essential component of a decentralized code signing ecosystem. They also provide blockchain independence and a mechanism for linking a small amount of on-chain data with a larger amount of identity and public key information stored in a DID Document.   
 
 == Proposed directions
 
-We propose discussing these issues at the conference and unless presented with more attractive options, proceed with developing a working prototype for the Java ecosystem that uses Namecoin and DNSChain. Why Java? It is large, it generally distributes binaries rather than sources, it is clearly in need of solution, and (this author) knows it best.
+We propose defining use cases, working on a preliminary specification, and when appropriate building a proof-of-concept implementation.
 
-== Java & Maven Repositories
+=== Use Cases
+
+There are variety of use cases to consider, including but not limited to:
+
+* Signed source code snapshots
+* Signed library releases
+* Signed executable software releases
+* General-purupose file signing
+* Verifiable builds (Binary x was built from source y with toolchain Z)
+* Code-signing certificate issuance and revocation
+* Hierarchical authority and delegation for larger organizations?
+* Multi-signature key management (both blockchain address and code signing key)
+
+For these use cases we will need to define the various actors and software components and the DIDs and Verifiable Credentials that will be used. Christopher Allen suggests that we can assign DIDs to the software components themselves.
+
+A whitepaper defining these use cases and actors in sufficient detqil to define a specification would be a great first step.
+
+=== Specification
+
+Once the use cases are defined we should be able to draft a specification for how DIDs and Verifiable Credentials can be used for code signing and what additional components will need to be designed and implemented.
+
+Most likely there will be on overall specification and additional specifications that are specific for DID methods and/or language-specific component/repository managers.
+
+=== Proof-of-concept implementation
+
+The author of this topic proposal is interested in building a proof-of-concept implementation for the Java/OpenJDK/Maven ecosystem using a Gradle plugin. Once the use cases are better defined and a prelminary specification has been developed, such a proof of concept is possible. We welcome volunteers who are interested in integration/implementation with other langauages and toolchains.
+
+== Questions
+
+=== Use Cases
+
+* What are the use cases?
+* Who are the actors?
+
+=== Model
+
+* Can we create a simple model for the overall ecosystem?
+* How would the model map to various DID methods, decentralized ecosystem components, mainstream build tools?
+
+=== DID 
+
+* Do we define new DID methods for software?
+* Are there nay interopability issues across diferent DID methods for (human) DIDs?
+* Are any additons to DID Documents necessary?
+* How do we associate human-readable names with software DIDs?
+
+=== Verifyable builds
+
+* What is the definition of a build? (Input repo + build tool repo + vm/container => output repo)
+* Is there any way to implicitly trust a build?
+* How do we specify a web-of-trust of build verifications by known entities?
+* Can smart contracts be used for verifying and/or voting among verifiers?
+
+=== Interaction with existing software libraries and tools
+
+* Do we define a new virtual repository to replace (or wrap) existing repository managers?
+* What file storage systems do we use? (e.g. IPFS)
+* How, if at all do we interact with Git? Do we require a cryptographic-hash mechanism for source code repos? (Or do we just sign a virtual zip file?)
+* Do we adapt existing naming hierarchies for naming software components (e.g. Maven "coordinates")
+* Do we integrate signature checking into existing build tools (e.g. Gradle) or make it a pre-processing step oer both?
+* How to validate or make verified cliams about older, existing releases.
+
+== Appendix A: Language-Specific Tools & Software Repositories
+
+This section will be updated as we collect additional information on the tools and repositories of other languages.
+
+=== Java & Maven Repositories
 
 For years the default option for the leading Java repository, http://central.sonatype.org[Maven Central], was to use HTTP rather than HTTPS. This weakness was common knowledge, but generally ignored. In 2014 an exploit was demonstrated <<veytsman>> that used a MITM attack to insert unwanted code into any downloaded JAR file. Shortly thereafter https became the default option. However, there are still no reliable, automated methods for ensuring that files weren't corrupted on the Maven Central servers themselves <<jbaruch1>>. https://bintray.com/bintray/jcenter[JCenter] provides additional identity information about component developers but does not provide a truly decentralized solution <<jbaruch2>>.
 
@@ -33,36 +97,6 @@ Maven is the build tool that standardized the Maven repository format. Currently
 Given the author's preference for and familiarity with Gradle, it is likely that the Gradle Witness Plugin will be the starting point for the project.
 
 
-== Issues
-
-The issues are grouped into short-term (roughly corresponding with the coming "Rebooting the Web of Trust Hackathon") and longer-term issues.
-
-=== Short-term
-
-* It looks like Namecoin is going to be the first implementation, but feedback is welcome.
-* Which namespaces will be used? `d/`, `id/`, or both?
-* Integration with Gradle and Maven build tools (most likely via plugins)
-* Focus on new releases that can use new methods and tools
-* Other languages welcome if Hackathon volunteers.
-
-=== Longer-term
-
-* How to validate older, existing releases.
-* Tools for languages and repositories other than Java
-* How to handle name expiration
-* Solutions for blockchains other than Namecoin
-* Hierarchical authority and delegation for larger organizations
-* Multi-signature key management (both blockchain address and code signing key)
-* Code-signing certificate issuance and revocation
-
-== Appendix: Language-Specific Tools & Software Repositories
-
-This section will be updated as we collect additional information on the tools and repositories of other languages.
-
-=== Ruby
-
-* https://rubygems.org[RubyGems]
-
 === JavaScript (Node.js)
 
 * https://www.npmjs.com/[NPM]
@@ -70,9 +104,22 @@ This section will be updated as we collect additional information on the tools a
 
 Early work on using hashes for validation of scripts loaded from CDNs: https://hacks.mozilla.org/2015/09/subresource-integrity-in-firefox-43/
 
+=== Ruby
+
+* https://rubygems.org[RubyGems]
+
 === Objective-C/Swift
 
 * https://cocoapods.org/[CocoaPods]
+
+== Appendix B: Original 2015 proposal
+
+This paper is an updated version of the 2015 topic paper <<gilligan>> presented at the first Rebooting Web of Trust event in San Francisco.
+
+The original proposal suggested using the Namecoin blockchain for a proof-of-concept implementation with an architectural direction of blockchain independence in future implementations. There was insufficient interest at that event to pursue the topic, so no further work was done.
+
+With the progress made on defining Decentralized Identifiers and Verifiable Crdentials, it is time to look at applying those solutions to code and file signing. This paper is an updated version of that original topic paper.
+
 
 == Bibliography
 
@@ -88,6 +135,8 @@ Early work on using hashes for validation of scripts loaded from CDNs: https://h
 - [[[jbaruch2]]] Sadogursky, Baruch, "Feeling secure with Bintray downloads", May 14, 2015, http://blog.bintray.com/2015/05/14/feeling-secure-with-bintray-downloads/
 
 - [[[bitcoinj]]] "How to depend on bitcoinj with Maven using projects" https://bitcoinj.github.io/using-maven
+
+- [[[gilligan]]] Gilligan, Sean, "Blockchain-based Trust for Software Components", 2015, https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/code-and-file-signing.adoc
 
 
 
