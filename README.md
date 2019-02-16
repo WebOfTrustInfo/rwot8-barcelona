@@ -140,6 +140,11 @@ data private. This article proposes allowing a fee market to develop around what
   * by James Foley
   * Considering the concept of a DHT for Introductory Capability Routing for object capability based decentralized applications.
 
+* [Zero-knowledge proofs in identity systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Zero-knowledge-Proofs.md)
+
+  * by Jordi Baylina and David Suarez
+  * "Privacy is key to identity systems, and Zero-knowledge proofs (ZKP) are core to maintain confidentiality over user data, but still being able to transact by receiving claims and proving these to a third party."
+  
 ### Social Key Recovery
 * [A New Approach to Social Key Recovery](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/social-key-recovery.md)
   * by Christopher Allen and Mark Friedenbach
