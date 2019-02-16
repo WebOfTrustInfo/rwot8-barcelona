@@ -30,7 +30,7 @@ Here are the advanced readings to date:
 * [Identity Manager Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-spec.md) by Adin Schmahmann, André Cruz and Pedro Teixeira
 * [IDM Spec](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/idm-spec.md) by Adin Schmahmann, André Cruz, and Pedro Teixeira
 * [Introductory Capability DHT Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/introductory-capability-dht-concept.md) by James Foley
-* [Journalistic Use Cases for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Journalistic%20use-cases%20for%20SSI:%20%20signatures%2C%20verified%20claims%2C%20and%20canonical-text%20registries) by Juan Caballero & Jefferson Sofarelli
+* [Journalistic Use Cases for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/journalistic-use-cases.md) by Juan Caballero & Jefferson Sofarelli
 * [Legal Frameworks for Humanity in the Digital Age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/rightsframeworks.md) by Elizabeth M. Renieris
 * [Multi-Factor Attribute Trust](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/trusting-attributes.md) by Will Abramson
 * [Multiformat Superfriends](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md) by Manu Sporny and Ganesh Annan
