@@ -188,7 +188,7 @@ data private. This article proposes allowing a fee market to develop around what
   * "This paper will explore how we may architect a more complete individual sovereignty via privacy and place identity as a person moves between private and public physical locations (home, transit, work etc). ​ By mapping our rights and reasonable expectations to privacy across different contexts and comparing with the rights of devices in our spaces, we’ll seek to outline systems of access and control that work in accordance with the rights and needs of both sides."
   * #DID #IoT
 
-* [Journalistic use-cases for SSI: signatures, verified claims, and canonical-text registries](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Journalistic%20use-cases%20for%20SSI:%20%20signatures%2C%20verified%20claims%2C%20and%20canonical-text%20registries)
+* [Journalistic use-cases for SSI: signatures, verified claims, and canonical-text registries](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/journalistic-use-cases.md)
   * by Juan Caballero and Jefferson Sofarelli
   * "Our long-term proposal is to design an SSI-platform-agnostic DID widget or middle-ware system for CMSs such that at the time of committing a canonical version of a published piece on a given publication's CMS, that canonical version could be hashed and signed, with signature and hash being stored in an immutable, external record against which the signature could later be checked (i.e., making a verifiable claim of authorship linking the article's original published form to a DID controlled by its author)."
   * #DID #VC #reputation
