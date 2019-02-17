@@ -2,7 +2,9 @@ Universal ID Framework
 ======================
 
 By Dr. Shigeya Suzuki, Keio University
+
 Submitted to Rebooting Web of Trust 8
+
 January 31, 2019, Tokyo Japan
 
  
