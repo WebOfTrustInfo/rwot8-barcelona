@@ -54,6 +54,8 @@ Here are the advanced readings to date:
 * [Verifiable Displays: secure presentation of Verifiable Credentials in HTML](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/verifiable-displays-in-HTML.md) by Bohdan Andriyiv
 * [Where's the UX?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-ux.md) by Alberto Elias
 * [Zero-knowledge proofs in identity systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Zero-knowledge-Proofs.md) by Jordi Baylina and David Suarez
+* [GDPR and the right to erasure](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/RightToErasure.md) by Oleg Burundukov and Eduardo Moraes de Morais
+
 
 ### Primers
 
