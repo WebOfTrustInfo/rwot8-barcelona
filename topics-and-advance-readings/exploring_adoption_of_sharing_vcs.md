@@ -4,18 +4,18 @@
 
 For the community to get faster adoptation of the standards we are working on now it is important to explore the the possibilities that can work out of the box, which is also safe enough to be trustworthy and not loose any sensitive data. 
 
-With Verifiable Credentials it is important to ask the questiont what are we expecting the issuer, the holder, and / or the verifier to do? While still making it easily enough for all the users and keeping trustworthiness.
+With Verifiable Credentials it is important to ask the question what are we expecting the issuer, the holder, and / or the verifier to do? While still making it easily enough for all the users and keeping trustworthiness.
 
-Sharing is what provides the end value for both the verifying and the sharing party. Hence if we are to provide value for the sharing party today, we have to ask the questions of where is this adopted, how can we make this adoption effortless by putting the work on the service providers? Is the user or another service expected to install software? If so install software where? Is that software domain-specific or integrated with some existing software?
+Sharing is what provides the end value for both the verifying and the sharing party. If there is no sharing, the issuance of the VC has gone to waste. Hence if we are to provide value for the sharing party today, we have to ask the questions of where is this adopted, how can we make this adoption effortless by putting the work on the service providers? Is the user or another service expected to install software? If so, install software where? Is that software domain-specific or integrated with some existing software?
 
 We have to explore methods of trustworthy sharing with all these aspects in mind, can we do it without too much intrusion in the verifier side? If so we can be able to showcase the value of VC's in a real live example, very quickly.
 
 # Situation
 Diwala experienced with their users tests and pilots in East Africa that the same approach beeing taken by the community is not always feasible in these situations.
 
-Many of the current sharing suggestions I feel are based on software having to be installed at every point of the process, from verifier, issuer and user.
+Many of the current sharing suggestions I feel are based on software having to be installed at every point of the process, from verifier, issuer and user. That the process is more pull based rather than push based. In this case is is expected of the verifier to have some sort of software installed to be able to pull the information from the sharing party, and not that the initial interaction can start from the sharing party, of some sorts.
 
-In East Africa, Uganda to be specific, we found that even installing a couple of apps on your phone was problematic without enough insentivisation, or insight to what value this would provide the user. That was mainly because of the lack of space on once phone. We also have seen that the systems beeing worked with are not always as integrated as the western culture is used to, meaning it is quite difficult to figure out where this software installation would be put to generate the most value.
+In East Africa, Uganda to be specific, we found that even installing a couple of apps on your phone was problematic without enough insentivisation, or insight to what value this would provide the user. That was mainly because of the lack of space on once phone. Meaning that installation of software is not straight forward on user facing phones. We also have seen that the systems beeing worked with are not always as integrated as the western culture is used to, meaning it is quite difficult to figure out where this software installation would be put to generate the most value.
 
 # A solution in experimentation
 
@@ -30,7 +30,7 @@ Right now Diwala works with uPort as an implementation for the identity solution
 
 # Discussion
 
-There are things to discuss and there might not be that the mentioned solution is viable at all. But it is something Diwala saw as a possibility and are currently testing out the value of this approach.
+There are things to discuss and there might not be that the mentioned solution is viable at all. But it is something Diwala saw as a possibility and are currently testing out the value gain of this approach.
 
 But in the end, the discussion is about adoption, how can we introduce this as frictionless as possible, and still keep the core values intact.
 
