@@ -1,5 +1,13 @@
 # Implementing threshold schemes
 
+## Author
+
+Daan Sprenkels `<hello@dsprenkels.com>`
+
+## Abstract
+
+"Shamir secret sharing is a method to split secrets into shares, and to later recombine them. However, it does not feature integrity protection of the secret. This article elaborates on Feldman VSS and Pederson VSS, which *do* protect the message integrity. Furthermore, we show how hashing the shares also protects the message integrity, but is vulnerable to a cheating dealer.
+
 > Markdown does not really support footnotes. In this document, I use blockquotes for this purpose.
 
 > A couple of weeks ago, Christopher Allen requested me to "summarize [my] post https://dsprenkels.com/sss-34c3.html" and submit it to the [RWOT8 repo][rwot8].
