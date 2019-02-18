@@ -157,6 +157,12 @@ data private. This article proposes allowing a fee market to develop around what
   Threshold-based secret sharing schemes provide a powerful tool to address the private-key custody problem. There are promising solutions to the issues explored in this article. However, we have focussed here mainly on technical limitations of such schemes."
   * #reputation #shamirsecretsharing #keymanagement
 
+* [Implementing of threshold schemes](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/implementing-threshold-schemes.md)
+  * by Daan Sprenkels
+  * "Shamir secret sharing is a method to split secrets into shares, and to later recombine them. However, it does not feature integrity protection of the secret.
+  This article elaborates on Feldman VSS and Pederson VSS, which *do* protect the message integrity.
+  Furthermore, we show how hashing the shares also protects the message integrity, but is vulnerable to a cheating dealer.
+  * #shamirsecretsharing #keymanagement
 
 ### UX and Use Cases
 
