@@ -2,7 +2,7 @@
 
 # GDPR: Right to erasure
 
-_Authors: O.Burundukov, E. Moraes de Morais_
+_Authors: O.Burundukov <olegwb@gmail.com>, E. Moraes de Morais <eduardo.morais@gmail.com>_
 
 _Company: ING Group, Netherlands_
 
