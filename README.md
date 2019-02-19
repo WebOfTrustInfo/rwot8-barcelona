@@ -71,12 +71,12 @@ really, read as much as you can!)
   * by Carsten Keutmann and Tim Pastoor
   * "The Digital Trust Protocol (DTP) is a solution for the handling of trust in the digital space. The protocol is broadly designed to work with all aspects of trust; this includes identity, reputation, and security. The Protocol allows anyone, including software, to issue their own cryptographic identities, for the use of trust and reputation and be able to verify those of others, without the need for a trusted third party."
   * #VC #DPKI #reputation
-  
+
 * [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md)
   * by Amy Guy and Dmitri Zagidulin
   * A summary of open issues and discussion topics for moving the [DID Specification](https://w3c-ccg.github.io/did-spec/) forward.
   * #DID #W3C #CCG
-  
+
 * [Universal DID Operations](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Universal-DID-Operations.md)
   * by Markus Sabadello and Nader Helmy
   * "Interest in building blockchain-agnostic SSI solutions is increasing, so let's expand the concept of the Universal Resolver to more DID operations, like Create, Update and Revoke."
@@ -85,6 +85,11 @@ really, read as much as you can!)
 * [Staying Anonymous With DIDs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Anonymous_DIDs.md)
     * by David Stark
     * If we use DIDs and Verifiable Credentials how can we make sure that users are not being tracked across the web.
+
+* [Decentralized Identity Fee Market](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-fee-market-using-micropayments.md)
+    * by Yancy Ribbens
+    * Micro-payments and DID (Decentralized Identities) can enable a user to curate their online identity, request payment or mark
+data private. This article proposes allowing a fee market to develop around what information a user chooses to reveal about their identity in the context of verifiable credentials.
 
 ### General Self-Sovereign Identity
 * [A Self-Sovereign Identity Framework/Thought Model proposal](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/SSI-FrameworkProposal.md)
@@ -108,9 +113,13 @@ really, read as much as you can!)
   * by Philip Sheldrake
   * "It turns out that there is very few data that may be described as purely personal data. That lunch date, that genome map, those photos, that joint bank account — all turn out to be interpersonal data."
   * #data #reputation
-  
+* [Structures of Identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/structures_of_identity.pdf)
+  * by Ethan Brown
+  * Graphical explorations of current identity structures and alternatives.
+  * #namespace
+
 ### Rights Frameworks
-* [Legal Frameworks for Humanity in the Digital Age](https://github.com/hackylawyER/rwot8-barcelona/blob/1debaa8a1d6b0c6a02e79e9557fbd7406de0c0b3/topics-and-advance-readings/rightsframeworks.md)
+* [Legal Frameworks for Humanity in the Digital Age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/rightsframeworks.md)
   * by Elizabeth M. Renieris
   * "We are allowing the tides of technology and commerce to haphazardly turn everything into commodifiable data. But will we allow ourselves to be reduced to data points and, worse yet, commodified? If we are not deliberate about designing the correct legal frameworks for humanity in the data-driven age, we risk losing sight of our fundamental rights as humans."
   * #data #rights
@@ -132,9 +141,21 @@ really, read as much as you can!)
   * "The goal is to continue the work on an OIDC profile for SSI based on [NS18] and [II18], and finalize the first version of it."
   * #VC
 
-* [Introductory Capability DHT Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/introductory-capability-dht-concept.md) 
+* [Introductory Capability DHT Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/introductory-capability-dht-concept.md)
   * by James Foley
   * Considering the concept of a DHT for Introductory Capability Routing for object capability based decentralized applications.
+
+* [Zero-knowledge proofs in identity systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Zero-knowledge-Proofs.md)
+
+  * by Jordi Baylina and David Suarez
+  * "Privacy is key to identity systems, and Zero-knowledge proofs (ZKP) are core to maintain confidentiality over user data, but still being able to transact by receiving claims and proving these to a third party."
+
+* [GDPR and the right to erasure](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/RightToErasure.md)
+
+  * by Oleg Burundukov and Eduardo Moraes de Morais
+  * In accordance to GDPR law, an owner of data has the right to withdraw the initial consent and to request to erase the data. To execute this the owner has to hold an evidence of the interaction. The owner of digital data needs to obtain the digital proof of what and with whom the data have been disclosed.
+
+
 
 ### Social Key Recovery
 * [A New Approach to Social Key Recovery](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/social-key-recovery.md)
@@ -148,8 +169,20 @@ really, read as much as you can!)
   Threshold-based secret sharing schemes provide a powerful tool to address the private-key custody problem. There are promising solutions to the issues explored in this article. However, we have focussed here mainly on technical limitations of such schemes."
   * #reputation #shamirsecretsharing #keymanagement
 
+* [Implementing of threshold schemes](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/implementing-threshold-schemes.md)
+  * by Daan Sprenkels
+  * "Shamir secret sharing is a method to split secrets into shares, and to later recombine them. However, it does not feature integrity protection of the secret.
+  This article elaborates on Feldman VSS and Pederson VSS, which *do* protect the message integrity.
+  Furthermore, we show how hashing the shares also protects the message integrity, but is vulnerable to a cheating dealer.
+  * #shamirsecretsharing #keymanagement
 
 ### UX and Use Cases
+
+* [Bringing the Dependencies of a BTCR Wallet to the Swift Ecosystem](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/bringing-dependencies-btcr-wallet-to-swift-ecosystem.md)
+  * by Wolf McNally for Blockchain Commons
+  * "While all the code to implement something as complex as a DID resolver or registrar could be written entirely in Swift, it makes sense to leverage code already written in other languages, and use Swift as a top-level language used to tie heterogenous modules into a unified application, whether it be a mobile application or server. This document surveys programing languages and technologies of interest, discusses issues of interoperating with Swift, and lists software packages of note."
+  * #Swift #UX #iOS #DID
+
 * [Digital Identity for the Homeless](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Digital-Identity-for-the-Homeless.md)
   * by Mike Varley and Matthew Wong
   * "The focus of this topic is how to apply existing decentralized digital ID solution to help individuals experiencing homelessness in the city (Toronto). E.g. how to reserve services such as overnight shelters with digital ID, keep track of certificate offered by free public organized re-training programs, and built credibility via repeat use the the same digital ID with varies services run by non-profit organizations in the city etc."
@@ -178,15 +211,20 @@ really, read as much as you can!)
   * "This paper will explore how we may architect a more complete individual sovereignty via privacy and place identity as a person moves between private and public physical locations (home, transit, work etc). ​ By mapping our rights and reasonable expectations to privacy across different contexts and comparing with the rights of devices in our spaces, we’ll seek to outline systems of access and control that work in accordance with the rights and needs of both sides."
   * #DID #IoT
 
-* [Journalistic use-cases for SSI: signatures, verified claims, and canonical-text registries](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Journalistic%20use-cases%20for%20SSI:%20%20signatures%2C%20verified%20claims%2C%20and%20canonical-text%20registries)
+* [Journalistic use-cases for SSI: signatures, verified claims, and canonical-text registries](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/journalistic-use-cases.md)
   * by Juan Caballero and Jefferson Sofarelli
   * "Our long-term proposal is to design an SSI-platform-agnostic DID widget or middle-ware system for CMSs such that at the time of committing a canonical version of a published piece on a given publication's CMS, that canonical version could be hashed and signed, with signature and hash being stored in an immutable, external record against which the signature could later be checked (i.e., making a verifiable claim of authorship linking the article's original published form to a DID controlled by its author)."
   * #DID #VC #reputation
-  
+
 * [Financing a Self-sovereign Technology Stack](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/financing-self-sovereign-stack.md)
   * by Adrian Gropper
   * Business models for autonomy through self-sovereign identity and self-sovereign technology are experimental. The standards are just starting to gel. Business structures for sustainable decentralized and potentially autonomous systems are still to be invented.
   * #agent #business
+
+* [Designing Trust in Identity Systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Designing%20Trust%20in%20Identity%20Systems.md)
+  * By Bentley Farrington & Bart Suichies
+  * Putting the ID holder at the center of an identity system comes with great opportunity, but also introduces new risks and barriers to adoption. Many of these are non-technical and such, should be explored in multi-disciplanary way. We propose a human centered design approach to tackle some of these issues and help shift the focus to not just the technical feasibility, but also inclusive usability. This is a prerequisite to creating an identity system which combines technical and human trust elements.
+  * #UX #trust #adoption #design
 
 ### Verifiable Claims (VC)
 * [EU Digital Signature vs. VC Model](https://drive.google.com/file/d/1ehi0WMEJWNZV5Cx4wXsqPQC-wRcF4Zi2/view)
@@ -209,12 +247,12 @@ really, read as much as you can!)
 * [Using Immutable Data Objects](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Using-Immutable-Data-Objects.md) by Ken Ebert
   * by Ken Ebert
   * "Verifiable Credentials are strengthened by providing immutable data objects that
-  provide a full definition of the data being signed. 
+  provide a full definition of the data being signed.
   This is particularly true for objects with ZKP style signatures,
-  where a more granular description of the data is required in order to support 
+  where a more granular description of the data is required in order to support
   disclosure and predicate proofs on a per-property basis."
   * #VC #Schema #ZKP
-  
+
 ### Specifications
 * [Multiformat Superfriends (The Multibase, Multihash, and Hashlink Specifications)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md)
   * by Manu Sporny and Ganesh Annan

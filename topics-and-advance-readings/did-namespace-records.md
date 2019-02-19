@@ -17,7 +17,7 @@ did:example:foo:
 did:example:bar:
 did:example:bar:baz:
 ```
-However the DID spec (as of 2019-01-31) does not include a mechanism to enable DID namespaces to "point" to one another—similar to how DNS nameservers point to one another—in a manner that can be discovered and cryptographically verified.
+However the DID spec (as of 2019-01-31) does not yet include a mechanism to enable DID namespaces to "point" to one another—similar to how DNS nameservers point to one another—in a manner that can be discovered and cryptographically verified.
 
 The lack of this feature is not surprising since every DID method name represents an entire decentralized network, and it was originally thought that the "flat" nature of DIDs meant nesting DID namespaces would have minimal value.
 
@@ -25,13 +25,13 @@ But as DID usage has grown, new motivations have emerged for linking DID namespa
 
 ## DID Namespace Records
 
-This gap can easily be filled with a simple addition to the DID specification to support **DID namespace records**. The  vocabulary for DID namespace records could be either:
-1. Added to the base JSON-LD context for all DID documents, or
-1. Specified in a separate JSON-LD context for DID namespace records.
+This gap can easily be filled with a simple addition to the DID specification: **DID namespace records**. The  vocabulary for DID namespace records could be defined either by:
+1. Adding it to the base JSON-LD context for all DID documents, or
+1. Specifying it in a separate JSON-LD context for DID namespace records.
 
 Which approach is better is a judgement that can be made by the forthcoming DID Working Group. In this proposal, we will assume the former approach, i.e., that the vocabulary for DID namespace records have been included in the base JSON-LD context for DID documents.
 
-A DID namespace record is very simple because its address is the **fully qualified name of the DID method for that namespace**. In other words, to resolve a DID namespace record, a DID resolver simply makes a resolution request for the fully qualified DID method name using that DID method. For example, to request the DID namespace record for `did:example:foo:`, a resolver would resolve `did:example:foo:` using the DID method `:did:example:`.
+A DID namespace record is very simple because its address is just **the fully qualified name of the DID method for that namespace**. In other words, to resolve a DID namespace record, a DID resolver simply makes a resolution request for the fully qualified DID method name using that DID method. For example, to request the DID namespace record for `did:example:foo:`, a resolver would resolve the DID method name `did:example:foo:` using the DID method `:did:example:`.
 
 The DID document returned MAY contain one or more DID namespace records. Each DID namespace record is a JSON object in the following form:
 ```
