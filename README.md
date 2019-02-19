@@ -98,6 +98,11 @@ really, read as much as you can!)
   * "This paper aims to advance the alignment of SSI solutions with the eIDAS Regulation regarding electronic identification."
   * #DID #eIDAS
   
+* [The Untimely Death of SSI](https://github.com/mxshea/rwot8-barcelona/blob/master/topics-and-advance-readings/the-untimely-death-of-ssi.md)
+  * by Michael Shea
+  * "This paper aims aims to provide a strategic analysis of the SSI space to identify the areas where additional focus is needed to prevent a mis-direction, hijacking or failure to reach a critical market presence."
+  * #ssi #strategy
+  
 ### Identity Philosophy
 * [On Interpersonal Data](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/on-interpersonal-data.md)
   * by Philip Sheldrake
