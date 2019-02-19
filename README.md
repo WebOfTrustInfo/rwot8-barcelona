@@ -114,7 +114,7 @@ data private. This article proposes allowing a fee market to develop around what
   * #namespace
 
 ### Rights Frameworks
-* [Legal Frameworks for Humanity in the Digital Age](https://github.com/hackylawyER/rwot8-barcelona/blob/1debaa8a1d6b0c6a02e79e9557fbd7406de0c0b3/topics-and-advance-readings/rightsframeworks.md)
+* [Legal Frameworks for Humanity in the Digital Age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/rightsframeworks.md)
   * by Elizabeth M. Renieris
   * "We are allowing the tides of technology and commerce to haphazardly turn everything into commodifiable data. But will we allow ourselves to be reduced to data points and, worse yet, commodified? If we are not deliberate about designing the correct legal frameworks for humanity in the data-driven age, we risk losing sight of our fundamental rights as humans."
   * #data #rights
