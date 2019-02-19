@@ -63,7 +63,13 @@ opportunities, build up the weaknesses, and maintain the strengths.
 -	Size of and breadth community
 -	Economic model of underlying Blockchain or DLT technology
 -	Interoperability
--	Immaturity of underlying Blockchain/DLT technology
+-	Immaturity of underlying Blockchain/DLT technology 
+- Missing research into communicating highly technical SSI ideas to non-technical business, government, and general publics
+- Missing research into user experience and user interfaces for SSI
+- Missing centralized or coordinated advocacy and rapid responders to active threats to SSI. Who are SSI's funded lawyers and lobbyists?   
+- Sovereignty is hard for most people to spell and most people are unclear on what it means
+- The politics and values surrounding SSI are not universal
+- The language of "owning personal data" obstructs the move from data exploitation to data personhood and human rights 
 
 ### Opportunities
 -	Rapid technology changes occurring in the base technologies
@@ -73,7 +79,11 @@ opportunities, build up the weaknesses, and maintain the strengths.
 -	Fragmenting of the internet 
 -	Failure to reach critical mass
 -	Entrenchment of centralized identity solutions within market
--	Centralized identity systems controlled by State actors.
+-	Centralized identity systems controlled by State actors
+- Consent Theater lowers demand for vs. informed consent
+- It is becoming harder to persuade key adopters that the problems are solvable with so much identity theft, cyberwar, and incompetent infosec 
+- The language of "owning personal data" conflicts with extant business and civil rights laws  
+- Branding association with "blockchain" may increase perceived risk 
 
 # Summary 
 
