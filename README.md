@@ -164,6 +164,11 @@ data private. This article proposes allowing a fee market to develop around what
 
   * by Boyma Fahnbulleh
   * Handshake is a decentralized, permissionless naming protocol compatible with DNS. The aim of the protocol is to replace the root zone file and the root servers with a public commons.
+  
+  * [Credentials and Correlation](./topics-and-advance-readings/credentials-and-correlation.md)
+
+  * by Jack Poole
+  * How can users be educated of the privacy implications of sharing multiple attributes about one’s identity, and what role can software agents have?
 
 
 ### Social Key Recovery
