@@ -138,6 +138,32 @@ data private. This article proposes allowing a fee market to develop around what
   * #data #rights
 
 ### Misc.
+
+* [Credentials and Correlation](./topics-and-advance-readings/credentials-and-correlation.md)
+  * by Jack Poole
+  * How can users be educated of the privacy implications of sharing multiple attributes about one’s identity, and what role can software agents have?
+
+* [Decentralized Trust for Software Components](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/code-and-file-signing.adoc) 
+  * by Sean Gilligan
+  * "A computing device cannot be secure if an attacker is able to surreptitiously insert malicious code on it. Current solutions for signing and verifying computer software — both source code and binaries — generally rely on the same flawed, hierarchical systems as our network connections do."
+
+* [GDPR and the right to erasure](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/RightToErasure.md)
+  * by Oleg Burundukov and Eduardo Moraes de Morais
+  * In accordance to GDPR law, an owner of data has the right to withdraw the initial consent and to request to erase the data. To execute this the owner has to hold an evidence of the interaction. The owner of digital data needs to obtain the digital proof of what and with whom the data have been disclosed.
+
+* [Handshake](./topics-and-advance-readings/handshake.md)
+  * by Boyma Fahnbulleh
+  * Handshake is a decentralized, permissionless naming protocol compatible with DNS. The aim of the protocol is to replace the root zone file and the root servers with a public commons.
+  
+* [Introductory Capability DHT Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/introductory-capability-dht-concept.md)
+  * by James Foley
+  * Considering the concept of a DHT for Introductory Capability Routing for object capability based decentralized applications.
+  
+* [OIDC Profile for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/oidc-profile-for-ssi.md)
+  * by Oliver Terbu and Andres Junge
+  * "The goal is to continue the work on an OIDC profile for SSI based on [NS18] and [II18], and finalize the first version of it."
+  * #VC
+  
 * [PSDAD - Data Format with Secure Semantics](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/psdad.md)
   * by Sandro Hawke
   * "Existing data serialization formats like JSON, JSON-LD, XML, and even ASN.1 (with its various encoding rules) work well enough for conventional computing environments, but they fall short when high levels of both trust and decentralization are required. PSDAD (plaintext self-describing assertional data) is a proposed new approach which uses natural language strings simultaneously as identifiers, delimiters, and documentation, resulting in a surprisingly simple and robust system with distinct advantages over known approaches in certain environments."
@@ -148,35 +174,10 @@ data private. This article proposes allowing a fee market to develop around what
   * by David Lamers
   * "The universal ledger agent (ULA) is a component that is implemented by the app and the verifier. The ULA makes it possible to retrieve credentials from issuers, independently which standards and blockchain they use. Also, a verifier can accept and verify credentials from multiple standards."
   * #DID #VC #GDPR #ERC780
-
-* [OIDC Profile for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/oidc-profile-for-ssi.md)
-  * by Oliver Terbu and Andres Junge
-  * "The goal is to continue the work on an OIDC profile for SSI based on [NS18] and [II18], and finalize the first version of it."
-  * #VC
-
-* [Introductory Capability DHT Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/introductory-capability-dht-concept.md)
-  * by James Foley
-  * Considering the concept of a DHT for Introductory Capability Routing for object capability based decentralized applications.
-
+ 
 * [Zero-knowledge proofs in identity systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Zero-knowledge-Proofs.md)
-
   * by Jordi Baylina and David Suarez
   * "Privacy is key to identity systems, and Zero-knowledge proofs (ZKP) are core to maintain confidentiality over user data, but still being able to transact by receiving claims and proving these to a third party."
-
-* [GDPR and the right to erasure](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/RightToErasure.md)
-
-  * by Oleg Burundukov and Eduardo Moraes de Morais
-  * In accordance to GDPR law, an owner of data has the right to withdraw the initial consent and to request to erase the data. To execute this the owner has to hold an evidence of the interaction. The owner of digital data needs to obtain the digital proof of what and with whom the data have been disclosed.
-
-* [Handshake](./topics-and-advance-readings/handshake.md)
-
-  * by Boyma Fahnbulleh
-  * Handshake is a decentralized, permissionless naming protocol compatible with DNS. The aim of the protocol is to replace the root zone file and the root servers with a public commons.
-  
-* [Credentials and Correlation](./topics-and-advance-readings/credentials-and-correlation.md)
-
-  * by Jack Poole
-  * How can users be educated of the privacy implications of sharing multiple attributes about one’s identity, and what role can software agents have?
 
 
 ### Social Key Recovery
