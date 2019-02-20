@@ -56,11 +56,15 @@ really, read as much as you can!)
   * #ledgerless
   * [Specification](https://github.com/brentzundel/peer-did-method-spec)
 
-* [Proof of Key Ownership with OpenID Connect Self-Issued Identities](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/Proof_of_Key_Ownership_with_OpenID_Connect_Self-Issued_Identities.md)
+* [Proof of Key Ownership with OpenID Connect Self-Issued Identities](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Proof_of_Key_Ownership_with_OpenID_Connect_Self-Issued_Identities.md)
   * by Michael B. Jones
   * "Proving ownership of a DID requires proving ownership of a private key corresponding to a public key for the DID.  Microsoft is experimenting with using OpenID Connect Self-Issued Identities to prove ownership of DIDs."
   * #OpenID #Connect #Self-Issued #DID
 
+* [Querying Bitcoin blockchain for BTCR support](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/supporting-btcr.md) 
+  * by Kulpreet Singh
+  * "I describe the progress made during the BTCR hackathon towards providing a community service for querying the bitcoin blockchain as a means to support clients building BTCR DID resolvers using the BTCR DID method."
+  
 * [Universal ID Framework](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-id-framework.md)
   * by Shigeya Suzuki
   * "One of the ways to support references for multiple ID scheme everywhere is developing a general Universal ID Reference scheme, which covers not only the references to DID but also Distinguish Name-based scheme or possibly others."
@@ -108,6 +112,10 @@ data private. This article proposes allowing a fee market to develop around what
   * "This paper aims to advance the alignment of SSI solutions with the eIDAS Regulation regarding electronic identification."
   * #DID #eIDAS
   
+* [A Notebook Workbench for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/notebook-workbench.md)
+  * by Eric Welton
+  * "The technical cost of experimenting with and evaluating web-of-trust technology, SSI and other, remains bewilderingly high. This situation hinders broad adoption."
+  
 * [The Untimely Death of SSI](https://github.com/mxshea/rwot8-barcelona/blob/master/topics-and-advance-readings/the-untimely-death-of-ssi.md)
   * by Michael Shea
   * "This paper aims aims to provide a strategic analysis of the SSI space to identify the areas where additional focus is needed to prevent a mis-direction, hijacking or failure to reach a critical market presence."
@@ -130,36 +138,50 @@ data private. This article proposes allowing a fee market to develop around what
   * #data #rights
 
 ### Misc.
+
+* [Credentials and Correlation](./topics-and-advance-readings/credentials-and-correlation.md)
+  * by Jack Poole
+  * How can users be educated of the privacy implications of sharing multiple attributes about one’s identity, and what role can software agents have?
+
+* [Decentralized Trust for Software Components](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/code-and-file-signing.adoc) 
+  * by Sean Gilligan
+  * "A computing device cannot be secure if an attacker is able to surreptitiously insert malicious code on it. Current solutions for signing and verifying computer software — both source code and binaries — generally rely on the same flawed, hierarchical systems as our network connections do."
+
+* [GDPR and the right to erasure](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/RightToErasure.md)
+  * by Oleg Burundukov and Eduardo Moraes de Morais
+  * In accordance to GDPR law, an owner of data has the right to withdraw the initial consent and to request to erase the data. To execute this the owner has to hold an evidence of the interaction. The owner of digital data needs to obtain the digital proof of what and with whom the data have been disclosed.
+
+* [Handshake](./topics-and-advance-readings/handshake.md)
+  * by Boyma Fahnbulleh
+  * Handshake is a decentralized, permissionless naming protocol compatible with DNS. The aim of the protocol is to replace the root zone file and the root servers with a public commons.
+  
+* [Introductory Capability DHT Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/introductory-capability-dht-concept.md)
+  * by James Foley
+  * Considering the concept of a DHT for Introductory Capability Routing for object capability based decentralized applications.
+  
+* [OIDC Profile for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/oidc-profile-for-ssi.md)
+  * by Oliver Terbu and Andres Junge
+  * "The goal is to continue the work on an OIDC profile for SSI based on [NS18] and [II18], and finalize the first version of it."
+  * #VC
+  
 * [PSDAD - Data Format with Secure Semantics](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/psdad.md)
   * by Sandro Hawke
   * "Existing data serialization formats like JSON, JSON-LD, XML, and even ASN.1 (with its various encoding rules) work well enough for conventional computing environments, but they fall short when high levels of both trust and decentralization are required. PSDAD (plaintext self-describing assertional data) is a proposed new approach which uses natural language strings simultaneously as identifiers, delimiters, and documentation, resulting in a surprisingly simple and robust system with distinct advantages over known approaches in certain environments."
   * #data
   * [Specification](https://sandhawke.github.io/psdad/spec.html)
 
+* [Rethinking Priorities: Should Identity Systems Divide or Unite People?](https://bford.info/2019/02/08/identity/)
+  * by Bryan Ford
+  * "The problem of identity has become a hot topic, with the idea of self-sovereign identity in particular attracting significant excitement. The essence of the idea, in short, is to put users in charge of how their identities and personal data are used. Self-sovereign identity posits that users should decide how much and what aspects of their identities to disclose in any situation, and should know and have control over what that information is used for."
+  
 * [The Universal Ledger Agent: a Logical Result of Rabobank's Journey in Blockchain-based self-sovereign identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-ledger-agent.md)
   * by David Lamers
   * "The universal ledger agent (ULA) is a component that is implemented by the app and the verifier. The ULA makes it possible to retrieve credentials from issuers, independently which standards and blockchain they use. Also, a verifier can accept and verify credentials from multiple standards."
   * #DID #VC #GDPR #ERC780
-
-* [OIDC Profile for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/oidc-profile-for-ssi.md)
-  * by Oliver Terbu and Andres Junge
-  * "The goal is to continue the work on an OIDC profile for SSI based on [NS18] and [II18], and finalize the first version of it."
-  * #VC
-
-* [Introductory Capability DHT Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/introductory-capability-dht-concept.md)
-  * by James Foley
-  * Considering the concept of a DHT for Introductory Capability Routing for object capability based decentralized applications.
-
+ 
 * [Zero-knowledge proofs in identity systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Zero-knowledge-Proofs.md)
-
   * by Jordi Baylina and David Suarez
   * "Privacy is key to identity systems, and Zero-knowledge proofs (ZKP) are core to maintain confidentiality over user data, but still being able to transact by receiving claims and proving these to a third party."
-
-* [GDPR and the right to erasure](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/RightToErasure.md)
-
-  * by Oleg Burundukov and Eduardo Moraes de Morais
-  * In accordance to GDPR law, an owner of data has the right to withdraw the initial consent and to request to erase the data. To execute this the owner has to hold an evidence of the interaction. The owner of digital data needs to obtain the digital proof of what and with whom the data have been disclosed.
-
 
 
 ### Social Key Recovery
@@ -236,7 +258,11 @@ data private. This article proposes allowing a fee market to develop around what
   * by L. Boldrin
   * To some extent a pdf signed document (or xml, json...) can be used to make trustworthy information about me available to a verifier. People ask: Why do we need VCs? What is the additional value they bring? This note provides an initial hyoothesis which I would like you to challenge: VCs without ledger provide, as added value, subject confirmation and anonymity/pseudonimity support. VCs with ledger provide, as a further value, just VC revocation."
   * #digitalsignature
-
+  
+* [Exploring adoptation of VC sharing to provide value today](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/exploring_adoption_of_sharing_vcs.md) 
+  * by Snorre Lothar von Gohren Edwin
+  * "With Verifiable Credentials it is important to ask the question what are we expecting the issuer, the holder, and / or the verifier to do? While still making it simple enough for all the users and keeping the needed level of trustworthiness. Sharing is what provides the end value for both the verifying and the sharing party. If there is no sharing, the issuance of the VC has gone to waste. Hence if we are to provide value for the sharing party today, we have to ask the questions of where is this adopted, how can we make this adoption effortless? Can we put most of the work on the service providers? Is the user or another service expected to install software? If so, install software where? Is that software domain-specific or integrated with some existing software?"
+  
 * [How Do We Bootstrap the Web of Trust for VC](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/bootstrap_web-of-trust_reliance-lifecycle.md)
   * by Matt Stone and Dan Burnett
   * "In the world of Verifiable Credentials, it is essential that Verifiers can trust Issuers. To this end, there must be a common understanding of the 'functional identity' of the Issuer. How do humans establish the appropriate level understanding to trust the artifact with conviction? i.e. how does one link 'this key' to 'that real world entity (person, company, etc)'"
