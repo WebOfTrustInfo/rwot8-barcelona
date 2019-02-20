@@ -155,6 +155,10 @@ data private. This article proposes allowing a fee market to develop around what
   * by Oleg Burundukov and Eduardo Moraes de Morais
   * In accordance to GDPR law, an owner of data has the right to withdraw the initial consent and to request to erase the data. To execute this the owner has to hold an evidence of the interaction. The owner of digital data needs to obtain the digital proof of what and with whom the data have been disclosed.
 
+* [Handshake](./topics-and-advance-readings/handshake.md)
+
+  * by Boyma Fahnbulleh
+  * Handshake is a decentralized, permissionless naming protocol compatible with DNS. The aim of the protocol is to replace the root zone file and the root servers with a public commons.
 
 
 ### Social Key Recovery
