@@ -35,6 +35,7 @@ Here are the advanced readings to date:
 * [Multi-Factor Attribute Trust](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/trusting-attributes.md) by Will Abramson
 * [Multiformat Superfriends](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md) by Manu Sporny and Ganesh Annan
 * [A New Approach to Social Key Recovery](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/social-key-recovery.md) by Christopher Allen & Mark Friedenbach
+* [Social Key Recovery Design and Implementation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Social_Key_Recovery_design_implementation.md) by Hank Chiu, Hankuan Yu, Justin Lin & Jon Tsai
 * [A Notebook Workbench for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/notebook-workbench.md) by Eric Welton
 * [OIDC Profile for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/oidc-profile-for-ssi.md) by Oliver Terbu, Andres Junge
 * [On Interpersonal Data](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/on-personal-data.md) by Philip Sheldrake
