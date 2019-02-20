@@ -108,6 +108,10 @@ data private. This article proposes allowing a fee market to develop around what
   * "This paper aims to advance the alignment of SSI solutions with the eIDAS Regulation regarding electronic identification."
   * #DID #eIDAS
   
+* [A Notebook Workbench for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/notebook-workbench.md)
+  * by Eric Welton
+  * "The technical cost of experimenting with and evaluating web-of-trust technology, SSI and other, remains bewilderingly high. This situation hinders broad adoption."
+  
 * [The Untimely Death of SSI](https://github.com/mxshea/rwot8-barcelona/blob/master/topics-and-advance-readings/the-untimely-death-of-ssi.md)
   * by Michael Shea
   * "This paper aims aims to provide a strategic analysis of the SSI space to identify the areas where additional focus is needed to prevent a mis-direction, hijacking or failure to reach a critical market presence."
