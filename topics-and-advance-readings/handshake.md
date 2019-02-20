@@ -22,6 +22,8 @@ headers and using compact, merklelized proofs of inclusion and non-inclusion.
 
 We believe this project could be used to add human readability to DIDs by
 committing to them in the DNS records of names registered on the network.
+Or the names themselves could exist as DIDs and DID documents could be
+committed to in the DNS records.
 
 ### Name Auctions
 
