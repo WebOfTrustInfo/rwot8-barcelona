@@ -249,7 +249,11 @@ data private. This article proposes allowing a fee market to develop around what
   * by L. Boldrin
   * To some extent a pdf signed document (or xml, json...) can be used to make trustworthy information about me available to a verifier. People ask: Why do we need VCs? What is the additional value they bring? This note provides an initial hyoothesis which I would like you to challenge: VCs without ledger provide, as added value, subject confirmation and anonymity/pseudonimity support. VCs with ledger provide, as a further value, just VC revocation."
   * #digitalsignature
-
+  
+* [Exploring adoptation of VC sharing to provide value today](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/exploring_adoption_of_sharing_vcs.md) 
+  * by Snorre Lothar von Gohren Edwin
+  * "With Verifiable Credentials it is important to ask the question what are we expecting the issuer, the holder, and / or the verifier to do? While still making it simple enough for all the users and keeping the needed level of trustworthiness. Sharing is what provides the end value for both the verifying and the sharing party. If there is no sharing, the issuance of the VC has gone to waste. Hence if we are to provide value for the sharing party today, we have to ask the questions of where is this adopted, how can we make this adoption effortless? Can we put most of the work on the service providers? Is the user or another service expected to install software? If so, install software where? Is that software domain-specific or integrated with some existing software?"
+  
 * [How Do We Bootstrap the Web of Trust for VC](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/bootstrap_web-of-trust_reliance-lifecycle.md)
   * by Matt Stone and Dan Burnett
   * "In the world of Verifiable Credentials, it is essential that Verifiers can trust Issuers. To this end, there must be a common understanding of the 'functional identity' of the Issuer. How do humans establish the appropriate level understanding to trust the artifact with conviction? i.e. how does one link 'this key' to 'that real world entity (person, company, etc)'"
