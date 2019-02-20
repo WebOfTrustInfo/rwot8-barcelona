@@ -56,6 +56,11 @@ really, read as much as you can!)
   * #ledgerless
   * [Specification](https://github.com/brentzundel/peer-did-method-spec)
 
+* [Proof of Key Ownership with OpenID Connect Self-Issued Identities](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/Proof_of_Key_Ownership_with_OpenID_Connect_Self-Issued_Identities.md)
+  * by Michael B. Jones
+  * "Proving ownership of a DID requires proving ownership of a private key corresponding to a public key for the DID.  Microsoft is experimenting with using OpenID Connect Self-Issued Identities to prove ownership of DIDs."
+  * #OpenID #Connect #Self-Issued #DID
+
 * [Universal ID Framework](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-id-framework.md)
   * by Shigeya Suzuki
   * "One of the ways to support references for multiple ID scheme everywhere is developing a general Universal ID Reference scheme, which covers not only the references to DID but also Distinguish Name-based scheme or possibly others."
