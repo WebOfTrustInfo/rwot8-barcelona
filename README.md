@@ -61,6 +61,10 @@ really, read as much as you can!)
   * "Proving ownership of a DID requires proving ownership of a private key corresponding to a public key for the DID.  Microsoft is experimenting with using OpenID Connect Self-Issued Identities to prove ownership of DIDs."
   * #OpenID #Connect #Self-Issued #DID
 
+* [Querying Bitcoin blockchain for BTCR support](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/supporting-btcr.md) 
+  * by Kulpreet Singh
+  * "I describe the progress made during the BTCR hackathon towards providing a community service for querying the bitcoin blockchain as a means to support clients building BTCR DID resolvers using the BTCR DID method."
+  
 * [Universal ID Framework](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-id-framework.md)
   * by Shigeya Suzuki
   * "One of the ways to support references for multiple ID scheme everywhere is developing a general Universal ID Reference scheme, which covers not only the references to DID but also Distinguish Name-based scheme or possibly others."
