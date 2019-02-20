@@ -170,6 +170,10 @@ data private. This article proposes allowing a fee market to develop around what
   * #data
   * [Specification](https://sandhawke.github.io/psdad/spec.html)
 
+* [Rethinking Priorities: Should Identity Systems Divide or Unite People?](https://bford.info/2019/02/08/identity/)
+  * by Bryan Ford
+  * "The problem of identity has become a hot topic, with the idea of self-sovereign identity in particular attracting significant excitement. The essence of the idea, in short, is to put users in charge of how their identities and personal data are used. Self-sovereign identity posits that users should decide how much and what aspects of their identities to disclose in any situation, and should know and have control over what that information is used for."
+  
 * [The Universal Ledger Agent: a Logical Result of Rabobank's Journey in Blockchain-based self-sovereign identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-ledger-agent.md)
   * by David Lamers
   * "The universal ledger agent (ULA) is a component that is implemented by the app and the verifier. The ULA makes it possible to retrieve credentials from issuers, independently which standards and blockchain they use. Also, a verifier can accept and verify credentials from multiple standards."
