@@ -25,6 +25,7 @@ Here are the advanced readings to date:
 * [A DID for Every Thing: Driving Event Data Chain](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/A-DID-for-every-thing---Agile-Driving-Data-Chain) by Carsten Stöcker and Michael Rüther
 * [DID Namespace Records](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-namespace-records.md) by Drummond Reed
 * [Digital Trust Protocol](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/DigitalTrustProtocol.md) by Carsten Keutmann and Tim Pastoor
+* [Exploring adoptation of VC sharing to provide value today](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/exploring_adoption_of_sharing_vcs.md) by Snorre Lothar von Gohren Edwin
 * [Financing a Self-sovereign Technology Stack](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/financing-self-sovereign-stack.md) by Adrian Gropper
 * [GDPR and the right to erasure](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/RightToErasure.md) by Oleg Burundukov and Eduardo Moraes de Morais
 * [Handshake](./handshake.md) by Boyma Fahnbulleh
