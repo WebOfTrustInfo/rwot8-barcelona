@@ -29,7 +29,7 @@ The below architecture describes the components involved when we implement the S
 - Trust Zone
     + TEE
         * The mnemonic phrase is securely saved in Trust Zone.
-        * The Shamir secret sharing is implemented in Trust Zone. Only the *encypted* partial seed will be sent out to Android.
+        * The Shamir secret sharing is implemented in Trust Zone. The SSS implementation is using SSS from dsprenkels. [https://github.com/dsprenkels/sss](https://github.com/dsprenkels/sss). Only the **encypted** partial seed will be sent out to Android.
 - Cloud storage
     + Cloud storage is only used for saving user's trusted contact list. It is to help user remembering who they have asked to help backup. In future, we are considering move the data from Google Drive to IPFS, where user might need to access it with their DID.
 - Cloud messaing
