@@ -4,9 +4,9 @@
 
 ### Introduction
 
-Social Key Recovery aims to provide an alternative and interesting way to help user backup their cryptocurrency mnemonic phrase. Currently user needs manually to write down all his mnemonic phrase on a piece of paper and locks it in a safe, which is troublesome to user. To solve user’s pain in backup, Social Key Recovery tries to propose a social way to help user backup their mnemonic phrase. The idea is dividing the mnemonic phrase into several pieces and sends them to few trusted friends. Each friend gets a piece of the secret, e.g., 1/5. And thanks to the secret sharing mechanism, e.g., Shamir secret sharing, user can restore their mnemonic phrase from only partial of the backups, e.g., user would just need to collect secrets from 3 friends when he sent out to 5 friends; moreover, even some friends have bad intention, he or she still needs to get 3 of them to recovery the mnemonic phrase.
+Social Key Recovery aims to provide an alternative and interesting way to help user backup their cryptocurrency mnemonic phrase. Currently user needs manually to write down all his mnemonic phrase on a piece of paper and locks it in a safe, which is troublesome to user. To solve user’s pain in backup, Social Key Recovery tries to propose a social way to help user backup their mnemonic phrase. The idea is dividing the mnemonic phrase into several pieces and sends them to few trusted friends via the social channel that user is communicating with their friends. Each friend only gets a piece of the secret, e.g., 1/5. And thanks to the secret sharing mechanism, e.g., the Shamir secret sharing, user can restore their mnemonic phrase from only partial of the backups, e.g., user would just need to collect secrets from 3 friends when he sent out to 5 friends; moreover, even some friends have bad intention, he or she still needs to get at least 3 of them to recovery the mnemonic phrase.
 
-The design is aim to solve the following questions:
+The design of Social Key Recovery will have to solve the following questions:
 
 1.  How can user connect with their friends?
 2.  How can user verify their friends as trusted?
@@ -21,7 +21,7 @@ The below architecture describes the components involved when we implement the S
 
 - Zion app
     + Android
-        * The Android app is used as a blockchain wallet, it can help user manage user's blockchain asset and also can help user's friend to backup their mnemonic phrase (published on Google play store).
+        * The Android app is used as a blockchain wallet, it can help user manage their's blockchain asset and also can help user's friend to backup their mnemonic phrase (published on Google play store).
     + iOS
         * The iOS app can help user's friend to backup their mnemonic phrase (published on iOS app store).
     + Desktop
@@ -29,11 +29,11 @@ The below architecture describes the components involved when we implement the S
 - Trust Zone
     + TEE
         * The mnemonic phrase is securely saved in Trust Zone.
-        * The Shamir secret sharing is implemented in Trust Zone. So only the encrypted partial seeds will be sent out.
+        * The Shamir secret sharing is implemented in Trust Zone. Only the *encypted* partial seed will be sent out to Android.
 - Cloud storage
     + Cloud storage is only used for saving user's trusted contact list. It is to help user remembering who they have asked to help backup. In future, we are considering move the data from Google Drive to IPFS, where user might need to access it with their DID.
 - Cloud messaing
-    + The data exchanging are using cloud messaing. Current implementation is using Firebase Cloud Messaging (FCM).
+    + The data exchanging are using cloud messaing. Current implementation is using Firebase Cloud Messaging (FCM) and we are implementing the messaging with Whisper system, where the message will be exchanged with Whisper and FCM will only be used for push notifcation.
 - Deep link
     + The deep link is used for initial connection set up. Current implementation is using Firebase Dynamic Links.
 
@@ -80,4 +80,15 @@ The below architecture describes the components involved when we implement the S
 14. After Amy collects 3 friends’ partial seeds, she can proceed to combine seeds.
 15. After seeds combined, the wallet is restored.
 
+#### Questions to answer
 
+By using our design, below are answers to questions at beginning.
+
+1.  How can user connect with their friends?
+    - User first share app link to their friend with communication app and their token are exchanged with app link.
+2.  How can user verify their friends as trusted?
+    - Friend needs to get verification code from user. Verification code will be passed from communication channel that user is connecting with their friends, e.g., phone, whatsapp, email. After the verification process, the FCM channel between user and friend are consider as trusted.
+3.  How can we make sure the user data is secure and not compromise by the weakness of Android?
+    - User's blockchain data are saved in Trust Zone and the data (e.g., partial seeds spilt by SSS) are encrypted with friend's public key, so even the user cannot view the data within Android world.
+4.  How can we solve the data at friend's side might missing, e.g., phone stolen, app uninstalled... etc?
+    - Zion app at friend's side will rountinely report backup status to user's device.
