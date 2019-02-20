@@ -92,3 +92,8 @@ By using our design, below are answers to questions at beginning.
     - User's blockchain data are saved in Trust Zone and the data (e.g., partial seeds spilt by SSS) are encrypted with friend's public key, so even the user cannot view the data within Android world.
 4.  How can we solve the data at friend's side might missing, e.g., phone stolen, app uninstalled... etc?
     - Zion app at friend's side will rountinely report backup status to user's device.
+    
+#### Further discussion
+
+1. Is adding Whisper to cloud messaging making the process more secure and decentralized?
+2. Is replacing Google Drive with IPFS making the user's data more secure and decentralized?
