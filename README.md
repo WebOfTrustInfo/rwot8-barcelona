@@ -203,6 +203,12 @@ data private. This article proposes allowing a fee market to develop around what
   Furthermore, we show how hashing the shares also protects the message integrity, but is vulnerable to a cheating dealer.
   * #shamirsecretsharing #keymanagement
 
+* [Social Key Recovery Design and Implementation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Socia_%20Key_Recovery_design_implentation.md) 
+  * by Hank Chiu, Hankuan Yu, Justin Lin & Jon Tsai
+  * "Social Key Recovery aims to provide an alternative and interesting way to help user backup their cryptocurrency mnemonic phrase. Currently user needs manually to write down all his mnemonic phrase on a piece of paper and locks it in a safe, which is troublesome to user. To solve user’s pain in backup, Social Key Recovery tries to propose a social way to help user backup their mnemonic phrase."
+  * #shamirsecretsharing #sss #keymanagement #keyrecovery
+ 
+
 ### UX and Use Cases
 
 * [Bringing the Dependencies of a BTCR Wallet to the Swift Ecosystem](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/bringing-dependencies-btcr-wallet-to-swift-ecosystem.md)
