@@ -1,5 +1,5 @@
-**Decentralized Digital Identity\
-The advent of Self-Sovereign Identity with Blockchain **
+# Decentralized Digital Identity
+### The advent of Self-Sovereign Identity with Blockchain
 
 **Alex Preukschat and Drummond Reed**
 
