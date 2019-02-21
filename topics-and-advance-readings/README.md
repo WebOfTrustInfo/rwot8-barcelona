@@ -18,6 +18,7 @@ Here are the advanced readings to date:
 * [Bringing the Dependencies of a BTCR Wallet to the Swift Ecosystem](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/bringing-dependencies-btcr-wallet-to-swift-ecosystem.md) by Wolf McNally for Blockchain Commons
 * [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md) by Amy Guy and Dmitri Zagidulin
 * [Credentials and Correlation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/credentials-and-correlation.md) by Jack Poole
+* [Decentralized Digital Identity: The Book](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/decentralized-digital-identity-book.md) by Alex Preukschat and Drummond Reed
 * [Decentralized Identity Fee Market](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-fee-market-using-micropayments.md) by Yancy Ribbens
 * [Decentralized Trust for Software Components](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/code-and-file-signing.adoc) by Sean Gilligan
 * [Designing an Educational Credentialing Ecosystem](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/educational-credentialing-ecosystem.md) by Kim Hamilton Duffy, J. Philipp Schmidt, and Joe Andrieu
