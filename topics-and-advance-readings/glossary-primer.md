@@ -60,7 +60,7 @@ __Ethereum:__ A distributed computer blockchain focused on smart contracts that 
 
 __FIDO:__ An authentication method for secure two-factor authentication, managed by a hardware key.
 
-__GDPR:__ _General Data Protection Regulation._ A European set of rules that protect the data and privacy of individuals and that place restrictions on how others can use that data. 
+__GDPR:__ _General Data Protection Regulation._ European laws that protect the data and privacy of individuals and that place restrictions on how others can use that data. 
 
 __Holder:__ Someone who possesses credentials, usually (but not always) the subject of the credentials.
 
