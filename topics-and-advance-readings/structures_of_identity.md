@@ -2,10 +2,13 @@
 Ethan Brown | ethn@ethn.co 
 
 
+
 <img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/1.png">
 ---
 
 With the development of new digital networks, especially in recent years, the scope of identity has expanded significantly. On one hand, our trajectory points toward a future of sustainable solutions built in the context of collaborative networks based on communication between these identities. On the other hand, it appears that rather than "owning" our identities, we are increasingly owned by them -- aggregated and dependent. This limits the range of possibilities for emergent conversations and solutions. In light of this, I hope to present some work that involves exploring the features of this terrain, with an eye to seeing how we might move toward greater freedom from the limitations of current models of identity. 
+
+Note: If you're reading this as a markdown, the image alignment is a bit broken. Try downloading the PDF in the same directory.
 
 ###  Two Approaches: - 
 
