@@ -33,6 +33,7 @@ really, read as much as you can!)
 * [Verifiable Credentials Primer](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/verifiable-credentials-primer.md) — the project formerly known as Verifiable Claims
 * [Glossary of Terms](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/glossary-primer.md) — A terse lexicon of Web of Trust words
 
+
 ### Decentalized Identifiers (DID)
 * [A DID for Every Thing: Driving Event Data Chain](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/A-DID-for-every-thing---Agile-Driving-Data-Chain.md)
   * by Carsten Stöcker and Michael Rüther
@@ -314,3 +315,8 @@ data private. This article proposes allowing a fee market to develop around what
   * by Bohdan Andriyiv
   * A rough outline of the specification for tamper-proofed, future-proofed, “anywhere renderable”, "truly portable" Verifiable Displays of Verifiable Credentials in HTML format.
   * #VerifiableDisplays, #VerifiableCredentials, #Hashlink, #HTML
+
+* [libp2p for DID Authentication and the exchange of Verifiable Credentials](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/libp2p_did_auth..md)
+  * by jonnycrunch 
+  * "In our last paper we presented how IPLD could be used as a generalized framework to repesent and resolve the DID document. In this paper, we will describe a way to perform DID authenication and thereby proove ownership of the private key that is presented in the DID document utilizing the libp2p protocol."
+  * #DID Auth #libp2p #ipfs #ipid #verifiableclaims
