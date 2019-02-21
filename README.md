@@ -113,6 +113,10 @@ data private. This article proposes allowing a fee market to develop around what
   * "This paper aims to advance the alignment of SSI solutions with the eIDAS Regulation regarding electronic identification."
   * #DID #eIDAS
   
+* [Decentralized Digital Identity: The Book](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/decentralized-digital-identity-book.md) 
+  * by Alex Preukschat and Drummond Reed
+  * Outline for a book on decentralized digital identity
+  
 * [A Notebook Workbench for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/notebook-workbench.md)
   * by Eric Welton
   * "The technical cost of experimenting with and evaluating web-of-trust technology, SSI and other, remains bewilderingly high. This situation hinders broad adoption."
