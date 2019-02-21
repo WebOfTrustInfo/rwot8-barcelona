@@ -3,6 +3,7 @@ Ethan Brown | ethn@ethn.co
 
 
 <img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/1.png" align="center">
+---
 
 With the development of new digital networks, especially in recent years, the scope of identity has expanded significantly. On one hand, our trajectory points toward a future of sustainable solutions built in the context of collaborative networks based on communication between these identities. On the other hand, it appears that rather than "owning" our identities, we are increasingly owned by them -- aggregated and dependent. This limits the range of possibilities for emergent conversations and solutions. In light of this, I hope to present some work that involves exploring the features of this terrain, with an eye to seeing how we might move toward greater freedom from the limitations of current models of identity. 
 
@@ -26,6 +27,7 @@ Here I consider email, but any network handle which is difficult to change can b
 <img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/2.png" align="left" width="300">
 <img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/3.png" align="center" width="300">
 <img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/4.png" align="right" width="300">
+---
 
 This is a concept I represent by showing that, at some level, because of this tight coupling, the person (circle) and the email (dotted circle) may be in some way considered one-and-the-same, because it is a relatively persistent relationship. 
 
@@ -36,6 +38,7 @@ Beyond the dependence on memorable addresses is the fact that we increasingly ca
 
 <img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/5.png" align="left" width="300">
 <img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/6.png" align="right" width="300">
+---
 
 Here we see a rough approximation of the layers of abstraction through which information passes over time with respect to ALICE. In much the same way we looked at her IDENTITY-EMAIL, here we see her DEVICE-BODY, which arises from that fact that she usually has the device with her that enables her access to her digital identity. This results in a sort of inextricability from her digital identity, which is not always desirable. 
 
@@ -51,23 +54,24 @@ Instead of having a single address you have the ability to create addresses, in 
 
 
 <img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/7.png" align="left" width="300"><img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/8.png" align="right" width="300">
+---
 
 These nodes can have hierarchical relationships. I.e., a node can generate a child node every time it wants to initiate a new conversation with another node: 
 
-
 <img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/9.png" align="right" width="300">
-
+---
 
 This means instead of ALICE being one-and-the-same with her rented digital identity (left), there is a layer which serves to separate her from her digital identity (right): 
 
 
 <img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/10.png" align="left" width="300"><img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/11.png" align="right" width="300">
-
+---
 
 In this model there is a clearer separation between elements. ALICE has a mind and body, ALICE has a computer, and her computer enables her to create ALICE’S ALICES, nodal representations of her identity that hierarchically descend from her root representations to create micro identities that may or may not be associated with her directly. The ensuing hierarchical and historical graphs encode more complex and subtle representations of her relationships with others.
 
 <img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/12.png" align="right" width="300">
 <img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/13.png" align="left" width="300">
+---
 
 Especially if ALICE creates a new node every time she makes a new connection, she gains the ability to grant and revoke access to her identity. If this node begins to be misused, it can be revoked without affecting other relationships.
 
@@ -76,6 +80,7 @@ In the above instance, if DAN decides to start sending ALICE unwanted communicat
 Furthermore, by clearly establishing the scope of a digital identity graph, we can create new identities which are outside of this domain, and explore what attributes should be associated with this identity. 
 
 <img src="https://raw.githubusercontent.com/ethan3523/rwot8-barcelona/master/topics-and-advance-readings/media/soi_images/14.png" align="center">
+---
 
 
 ## Guiding Principles 
