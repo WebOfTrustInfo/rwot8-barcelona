@@ -1,6 +1,7 @@
 # Contextual Non-discrete Identity
 
 By Siu Kei Chung, Clearmatics Technologies
+
 cc@clearmatics.com
 
 ## Introduction
