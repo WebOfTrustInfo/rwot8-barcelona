@@ -108,7 +108,8 @@ data private. This article proposes allowing a fee market to develop around what
   * by Philip Sheldrake
   * "It turns out that there is very few data that may be described as purely personal data. That lunch date, that genome map, those photos, that joint bank account — all turn out to be interpersonal data."
   * #data #reputation
-* [Structures of Identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/structures_of_identity.pdf)
+* [Structures of Identity PDF](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/structures_of_identity.pdf)
+* [Structures of Identity MD](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/structures_of_identity.md)
   * by Ethan Brown
   * Graphical explorations of current identity structures and alternatives.
   * #namespace
