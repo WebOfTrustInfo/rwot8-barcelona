@@ -2,7 +2,7 @@
 Ethan Brown | ethn@ethn.co 
 
 
-![media/soi-images/1.png]
+![1](media/soi-images/1.png)
 
 With the development of new digital networks, especially in recent years, the scope of identity has expanded significantly. On one hand, our trajectory points toward a future of sustainable solutions built in the context of collaborative networks based on communication between these identities. On the other hand, it appears that rather than "owning" our identities, we are increasingly owned by them -- aggregated and dependent. This limits the range of possibilities for emergent conversations and solutions. In light of this, I hope to present some work that involves exploring the features of this terrain, with an eye to seeing how we might move toward greater freedom from the limitations of current models of identity. 
 
@@ -23,9 +23,9 @@ I’d like to focus on two characteristics of the way we approach identity that 
 Here I consider email, but any network handle which is difficult to change can be considered in this way. An average person has one or two email addresses, and can’t easily change their addresses without considerable effort. So, people don’t change their email addresses. The effect of this is essentially a tight coupling between a real person and their address. If you have someone’s address, you have access to them, because that connection is not generally ephemeral. Sometimes, this is not a desirable feature.
 
 
-![media/soi-images/2.png]
-![media/soi-images/3.png]
-![media/soi-images/4.png]
+![2](media/soi-images/2.png)
+![3](media/soi-images/3.png)
+![4](media/soi-images/4.png)
 
 This is a concept I represent by showing that, at some level, because of this tight coupling, the person (circle) and the email (dotted circle) may be in some way considered one-and-the-same, because it is a relatively persistent relationship. 
 
@@ -34,8 +34,8 @@ This is a concept I represent by showing that, at some level, because of this ti
 Beyond the dependence on memorable addresses is the fact that we increasingly cannot expect the devices that allow us to connect to the Internet to be transparent to our identities. 
 
 
-![media/soi-images/5.png]
-![media/soi-images/6.png]
+![5](media/soi-images/5.png)
+![6](media/soi-images/6.png)
 
 Here we see a rough approximation of the layers of abstraction through which information passes over time with respect to ALICE. In much the same way we looked at her IDENTITY-EMAIL, here we see her DEVICE-BODY, which arises from that fact that she usually has the device with her that enables her access to her digital identity. This results in a sort of inextricability from her digital identity, which is not always desirable. 
 
@@ -50,21 +50,21 @@ In light of these issues, it ought to be easy and quick to create a new address 
 Instead of having a single address you have the ability to create addresses, in infinite NAMESPACE:
 
 
-![media/soi-images/7.png]
-![media/soi-images/8.png]
+![7](media/soi-images/7.png)
+![8](media/soi-images/8.png)
 
 These nodes can have hierarchical relationships. I.e., a node can generate a child node every time it wants to initiate a new conversation with another node: This means instead of ALICE being one-and-the-same with her rented digital identity (left), there is a layer which serves to separate her from her digital identity (right): 
 
 
-![media/soi-images/9.png]
-![media/soi-images/10.png]
+![9](media/soi-images/9.png)
+![10](media/soi-images/10.png)
 
 
 In this model there is a clearer separation between elements. ALICE has a mind and body, ALICE has a computer, and her computer enables her to create ALICE’S ALICES, nodal representations of her identity that hierarchically descend from her root representations to create micro identities that may or may not be associated with her directly. The ensuing hierarchical and historical graphs encode more complex and subtle representations of her relationships with others.
 
 
-![media/soi-images/11.png]
-![media/soi-images/12.png]
+![11](media/soi-images/11.png)
+![12](media/soi-images/12.png)
 
 Especially if ALICE creates a new node every time she makes a new connection, she gains the ability to grant and revoke access to her identity. If this node begins to be misused, it can be revoked without affecting other relationships.
 
