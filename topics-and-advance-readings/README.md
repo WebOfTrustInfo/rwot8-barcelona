@@ -16,6 +16,7 @@ Here are the advanced readings to date:
 * [Aligning SSI with European Union identity legislation (aka eIDAS Regulation)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Aligning-SSI-with-European-Union-Identity-legislation-eIDAS.md) by Nacho Alamillo and Santi Casas
 * [Assist underrepresented groups when entering the labour market through self sovereign identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/diverse-teams.md) by Karolin Siebert
 * [Bringing the Dependencies of a BTCR Wallet to the Swift Ecosystem](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/bringing-dependencies-btcr-wallet-to-swift-ecosystem.md) by Wolf McNally for Blockchain Commons
+* [Contextual Non-discrete Identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/contextual_nondiscrete_identity.md) by Siu Kei Chung
 * [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md) by Amy Guy and Dmitri Zagidulin
 * [Credentials and Correlation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/credentials-and-correlation.md) by Jack Poole
 * [Decentralized Digital Identity: The Book](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/decentralized-digital-identity-book.md) by Alex Preukschat and Drummond Reed

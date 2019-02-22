@@ -135,6 +135,10 @@ data private. This article proposes allowing a fee market to develop around what
   * by Ethan Brown
   * Graphical explorations of current identity structures and alternatives.
   * #namespace
+* [Contextual Non-Discrete Identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/contextual_nondiscrete_identity.md)
+  * by Siu Kei Chung
+  * Philosphical exploration of non-discrete identities based on context of application.
+  * #context #data #relative
 
 ### Rights Frameworks
 * [Legal Frameworks for Humanity in the Digital Age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/rightsframeworks.md)
