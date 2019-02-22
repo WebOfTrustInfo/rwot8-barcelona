@@ -1,24 +1,24 @@
-#Using Immutable Data Objects to Define Verifiable Credential Data
+# Using Immutable Data Objects to Define Verifiable Credential Data
 
 Ken Ebert,
 Sovrin Foundation,
 ken@sovrin.org
 
-##Abstract
+## Abstract
 Verifiable Credentials are strengthened by providing immutable data objects that
 provide a full definition of the data being signed. 
 This is particularly true for objects with ZKP style signatures,
 where a more granular description of the data is required in order to support 
 disclosure and predicate proofs on a per-property basis.
 
-##Control Objects
+## Control Objects
 Control objects, such as DIDs, revocation registries, and payment addresses, 
 contain data required to establish control. 
 It is expected that these objects need to change over time. 
 Keys need to be rotated, credentials need to be revoked, 
 and balances need to be updated.
 
-##Data Objects
+## Data Objects
 Data objects contain information that describes semantic meaning of 
 verifiable credentials. 
 In order to establish a cryptographic assurance of what is being signed in a 
@@ -26,7 +26,7 @@ verifiable credential,
 the definition of the meaning must not change after a credential is issued. 
 Immutable data objects that provide this definition of meaning include:
 
-###Verifiable Credential
+### Verifiable Credential
 A verifiable credential is a set of signed claims about a subject. 
 The issuer and claims in the credential about the subject can be 
 cryptographically verified to confirm that the issuer made those claims. 
@@ -36,7 +36,7 @@ Verifiable credentials are stored off-ledger to preserve privacy.
 
 Verifiable credential definitions are specified in JSON-LD.
 
-###Credential Definition
+### Credential Definition
 The credential definition identifies the issuer, an associated mapping, 
 and public keys for this type of credential. 
 
@@ -45,7 +45,7 @@ materials used to verify any of the credentials issued using the definition.
 
 Credential definitions are specified in JSON-LD.
 
-###Mapping	
+### Mapping	
 A mapping contains an ordered selection of properties from the source schema. 
 For each property a corresponding encoding is specified to prepare the data for 
 ZKP signatures. 
@@ -62,7 +62,7 @@ trust framework may choose to trust credentials from the framework.
 
 Mappings are specified in JSON-LD.
 
-###Schema	
+### Schema	
 A schema defines the structure and type of data for claim data. 
 Schemas can contain sub-schemas. Schemas can represent complex data objects. 
 Schemas include properties such as type, label, and description. 
@@ -84,7 +84,7 @@ Multiple presentations can share schemas.
 
 Schemas are specified in JSON-LD.
 	
-###Context
+### Context
 A context is a collection of shortcut term definitions. 
 Contexts establish definitions that promote efficiency while preserving accuracy. 
 
@@ -95,7 +95,7 @@ Changing a context could change the meaning of a signed verifiable credential.
 
 Contexts are specified in JSON-LD.
 	
-###Encoding 
+### Encoding 
 An encoding specifies the source data type and conversion algorithm used to 
 transform a claim property to an attribute that can be signed using a 
 ZKP style signature. ZKP signatures require an array of integer attributes. 
@@ -117,7 +117,7 @@ Corresponding encoding algorithms are coded in approved and signed libraries.
 
 Encoding definitions are specified in JSON-LD.
 
-###Presentation Request
+### Presentation Request
 Presentation Requests describe to a holder the set of properties, types of proofs, 
 and issuers that are acceptable to a verifier. 
 Presentation requests can specify one or more sources for a presentation data element.
@@ -134,7 +134,7 @@ in which case, the presentation request can be stored off-ledger.
 
 Presentation requests are specified in JSON-LD.
 
-###Presentation
+### Presentation
 Presentations are a special case of a verifiable credential. 
 Presentations contain derived claims from verifiable credentials. 
 Presentations also contain cryptographic material for the proof of the derived claims.
@@ -151,7 +151,7 @@ Presentations are stored off the ledger by the verifier or deleted after use.
 
 Presentations are specified in JSON-LD.
 
-##Conclusion
+## Conclusion
 Once a verifiable credential is issued it cannot be changed 
 without breaking the cryptographic chain of trust. 
 Similarly, once a verifiable credential is issued, 
