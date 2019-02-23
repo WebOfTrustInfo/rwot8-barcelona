@@ -152,6 +152,10 @@ data private. This article proposes allowing a fee market to develop around what
   * by Jack Poole
   * How can users be educated of the privacy implications of sharing multiple attributes about one’s identity, and what role can software agents have?
 
+* [Data Value Realisation: Control, Commons & Ownership](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/data-vala-realization.md) 
+  * by Katryna Dow
+  * "Since data is becoming a key measure of whether a company will remain relevant through the digital revolution (Opher et. al., 2016), new approaches and business models are required to meet the needs of the changing marketplace (Opher et. al., 2016). To address these increasing data value issues, a number of data-value models and frameworks are emerging, including: Data as Labor; Data as Property; Data Commons; and Open Data. This paper explores the aforementioned frameworks in the context of the emerging human-centred data economy."
+  
 * [Decentralized Trust for Software Components](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/code-and-file-signing.adoc) 
   * by Sean Gilligan
   * "A computing device cannot be secure if an attacker is able to surreptitiously insert malicious code on it. Current solutions for signing and verifying computer software — both source code and binaries — generally rely on the same flawed, hierarchical systems as our network connections do."
