@@ -19,6 +19,7 @@ Here are the advanced readings to date:
 * [Contextual Non-discrete Identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/contextual_nondiscrete_identity.md) by Siu Kei Chung
 * [Current Status of the DID Specification](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-spec-current-status.md) by Amy Guy and Dmitri Zagidulin
 * [Credentials and Correlation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/credentials-and-correlation.md) by Jack Poole
+* [Data Value Realisation: Control, Commons & Ownership](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/data-vala-realization.md) by Katryna Dow
 * [Decentralized Digital Identity: The Book](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/decentralized-digital-identity-book.md) by Alex Preukschat and Drummond Reed
 * [Decentralized Identity Fee Market](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-fee-market-using-micropayments.md) by Yancy Ribbens
 * [Decentralized Trust for Software Components](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/code-and-file-signing.adoc) by Sean Gilligan
