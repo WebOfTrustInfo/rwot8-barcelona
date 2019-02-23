@@ -122,6 +122,16 @@ data private. This article proposes allowing a fee market to develop around what
   * "This paper aims aims to provide a strategic analysis of the SSI space to identify the areas where additional focus is needed to prevent a mis-direction, hijacking or failure to reach a critical market presence."
   * #ssi #strategy
   
+  * [Attention as a Source of Scarcity for Decentralized Identity Systemst](
+        rwot8-barcelona/topics-and-advance-readings/Attention as a Source of Scarcity for Decentralized Identity Systems.pdf
+      )
+  * by Maciej Laskus
+  * "This paper proposes a new approach to introducing scarcity into identity systems without sacrificing privacy and self-sovereignty. 
+
+The method relies on quantifying attention flows between identities. It is predicated on the fact that attention is a basic element of all cognitive processes. It is also limited and therefore is a 
+natural source of scarcity." 
+  * #scarcity
+ 
 ### Identity Philosophy
 * [On Interpersonal Data](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/on-interpersonal-data.md)
   * by Philip Sheldrake
