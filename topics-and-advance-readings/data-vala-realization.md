@@ -48,6 +48,9 @@ It describes the use of data to derive a “behavioural futures markets,” wher
 
 Zuboff affirms that society is at a critical point in history where our decisions regarding how we use technology, under what terms and who the beneficiaries are, will largely define the rest of the twenty-first century (Zuboff, 2019)
 
+![](media/dataval-fig1.png)
+
+> __Figure 1: Evolution of business models resulting from data sharing. 1. Companies that make their customers into products. 2. Companies that make products to help their customers (© Meeco, 2015)__
 
 ## Data Regulation
 
@@ -108,6 +111,9 @@ The question is whether this can now be can be applied to data, such that the da
 
 10.	Innovation supports the evolution of society and often means the things of the past are no longer acceptable, such as the     centralised commercial control of personal data through social networks.
 
+![](media/dataval-fig2.png)
+
+> __Figure 2: Data as an asset unlocks new value in the data marketplace © Meeco 2015__
 
 ## Emerging Legal and Commercial Models
 
