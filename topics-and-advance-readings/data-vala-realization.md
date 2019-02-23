@@ -1,9 +1,12 @@
-Up until now the power to capture, analyse and profit from personal data has resided with business, government and social networks. 
-What if you and I had the same power?
+# Data Value Realisation: Control, Commons & Ownership
+### by Katryna Dow
+
+_Up until now the power to capture, analyse and profit from personal data has resided with business, government and social networks. 
+What if you and I had the same power?_
  - Meeco Manifesto, 2012
 
 
-Introduction
+## Introduction
 
 As our lives become ever more digital, we are faced with new challenges around the economic models, methods of service delivery and how to equitably distribute the exchange of value. 
 
@@ -23,7 +26,7 @@ Since data is becoming a key measure of whether a company will remain relevant t
 This paper explores the aforementioned frameworks in the context of the emerging human-centred data economy.
 
 
-The Evolution of Data Sharing 
+## The Evolution of Data Sharing 
 
 The evolution of data sharing has resulted in a common observation; “if it is free, then you’re the product”. 
 
@@ -46,41 +49,40 @@ It describes the use of data to derive a “behavioural futures markets,” wher
 Zuboff affirms that society is at a critical point in history where our decisions regarding how we use technology, under what terms and who the beneficiaries are, will largely define the rest of the twenty-first century (Zuboff, 2019)
 
 
-Data Regulation
+## Data Regulation
 
 Over the past 12 months, regulatory regimes have begun to address the rights of access, portability and control.  Some of this regulation has been passed to specifically address the asymmetry and power of surveillance capitalism. 
 
 The regulation is also trying to provide recourse in parallel to the rapid development and deployment of technologies such as artificial intelligence (AI) inclusive of the data required for training AI.  Some of the key regulatory and legal mechanisms include:
 
-•	The General Data Protection Regulation (GDPR) – Europe, May 2018
-•	Payment Services Directive 2 (PSD2) – European Union, 13th January 2018
-•	Open Banking (European Union & UK - 13th January 2018, Australia -1st February 2020)
-•	Personal Information Protection Act (PIPA) – Japan (30th May 2017)
-•	California Consumer Privacy Act (28th June 2018)
+*	The General Data Protection Regulation (GDPR) – Europe, May 2018
+*	Payment Services Directive 2 (PSD2) – European Union, 13th January 2018
+*	Open Banking (European Union & UK - 13th January 2018, Australia -1st February 2020)
+*	Personal Information Protection Act (PIPA) – Japan (30th May 2017)
+*	California Consumer Privacy Act (28th June 2018)
 
 The primary objective of these regulatory changes is to address the asymmetry of power exercised by centralised data controllers. More often these are multinational social networks, e-commerce platforms and multinational enterprises.
 
 The aim is to protect the rights of individuals in step with the development of technology. However, it is evident that the rate of technology evolution is moving much faster than the ability for regulators to keep pace. As a result, regulation alone won’t bring the necessary changes for a more equitable data economy.
 
-
-The Data Economy
+## The Data Economy
 
 In 2012 when Meeco was founded, the preliminary research projects focussed on the value of data. Key lines of enquiry included questions such as:
 
-•	Can data actually be owned, or does the nature of it mean there are always multiple parties of interest, e.g. data creator,   subject, observer, issuer etc?
+*	Can data actually be owned, or does the nature of it mean there are always multiple parties of interest, e.g. data creator,   subject, observer, issuer etc?
 
-•	Is data control a more likely mechanism to derive value than ownership?
+*	Is data control a more likely mechanism to derive value than ownership?
 
-•	What could be enabled at an individual, family or community group through data consolidation and collective control?
+*	What could be enabled at an individual, family or community group through data consolidation and collective control?
 
-•	How might society at large; government and commercial ventures create net additional benefit for through data control         mechanisms, such as data commons, trusts or mutual benefit structures?
+*	How might society at large; government and commercial ventures create net additional benefit for through data control         mechanisms, such as data commons, trusts or mutual benefit structures?
 
-•	What would be the potential benefits to society and who be the beneficiaries? 
+*	What would be the potential benefits to society and who be the beneficiaries? 
 
 Reports published by the World Economic Forum painted a picture of an emerging data and identity economy, with the promise of increased agency if trust, transparency and fair value could be established. 
 
 
-New Models for the Realisation of Value 
+## New Models for the Realisation of Value 
 
 Regardless of the mechanisms for regulation or technology acceptance, there are some basic fundamentals that drive the creation and realisation of value. These are consistent in society and have been applied to property, financial instruments, gold, art and intellectual property protected artefacts such as music and literature.  
 
@@ -107,7 +109,7 @@ The question is whether this can now be can be applied to data, such that the da
 10.	Innovation supports the evolution of society and often means the things of the past are no longer acceptable, such as the     centralised commercial control of personal data through social networks.
 
 
-Emerging Legal and Commercial Models
+## Emerging Legal and Commercial Models
 
 Over the past decade organisations have been able to increase the value of their asset base through the collection and control of customer data, e.g. loyalty programs and big data repositories. Additionally, organisations have been able to insure data and record its value as a tangible asset to increase the value of balance sheets, stock prices and market position.  
 
@@ -125,21 +127,21 @@ To address these increasing data value issues a number of models are emerging, i
 In order to evaluate the merits of these proposed frameworks, it’s important to understand the underlying ethos and where they draw on or seek to apply existing legal statues. 
 
 
-Data as Labor
+## Data as Labor
 
 The prevailing model of treating personal data is essentially a barter system – consumers enjoy free services in exchange for their data, which is gathered by service providers at no charge. This model is called Data as Capital (DaC). An alternative offered is DaL (Ibarra et. al., 2017). This offers incentives to consumers to contribute data. DaL would provide benefits such as
 
-•	Increased quality and quantity of user data, especially in the context of AI and Machine Learning, which requires large       amounts of different data
+*	Increased quality and quantity of user data, especially in the context of AI and Machine Learning, which requires large       amounts of different data
 
-•	Curbing the activity of trans-national companies as sole “buyers” of user data, and the creation of a fair and vibrant         market for data labor
+*	Curbing the activity of trans-national companies as sole “buyers” of user data, and the creation of a fair and vibrant         market for data labor
 
-•	Increased engagement in their own data by individuals, and creation of “digital dignity” even to the point of assisting       Machine Learning in tackling sophisticated tasks, with commensurate reward
+*	Increased engagement in their own data by individuals, and creation of “digital dignity” even to the point of assisting       Machine Learning in tackling sophisticated tasks, with commensurate reward
 
 While pointing out that DaC and DaL can cohabit in the market, the authors acknowledge the difficulties in creating this new “Radical Market” and data economy. They include:
 
-•	The necessity of enlisting very large organisations in the change. There are different business models among the large         commercial data players (Facebook and Google are most reliant on DaC), but all have relatively stable, profitable          `   businesses. To pivot to a different form of data economy will be challenging for them, despite the appeal of access to more   and different data for use in AI and Machine Learning activities.
+*	The necessity of enlisting very large organisations in the change. There are different business models among the large         commercial data players (Facebook and Google are most reliant on DaC), but all have relatively stable, profitable          `   businesses. To pivot to a different form of data economy will be challenging for them, despite the appeal of access to more   and different data for use in AI and Machine Learning activities.
 
-•	The need for users’ to participate in numbers and be prepared to bargain collectively (which implies membership of a form of   union or membership association).
+*	The need for users’ to participate in numbers and be prepared to bargain collectively (which implies membership of a form of   union or membership association).
 
 Finally, governments, despite mandating significant new access to user data (e.g. GDPR), have not created labour laws that are compatible with the DaL economy.
 
@@ -152,8 +154,7 @@ Radical Markets sets out to demonstrate why private property is inherently monop
 “Only by radically expanding the scope of markets can we reduce inequality, restore robust economic growth, and resolve political conflicts. But to do that, we must replace our most sacred institutions with truly free and open competition”
  	  — Radical Markets 
 
-
-Data as Property
+## Data as Property
 
 Personal data is generated between the data subject and the data controller. This is distinct from intellectual property which is generated by the data subject (Schermer, 2015). 
 As Schermer points out, this fact alone questions whether the data subject owns their personal data as they did not autonomously generate it and suggests that personal data is the opinion that a data controller holds about a person (Schermer, 2015). 
@@ -180,11 +181,12 @@ If data has the potential to unlock expediential value in terms of personalisati
     – Katryna Dow 2019
     
 As outlined by Renieris and Greenwood, under common law, ownership in property is a collective of five rights:
-  1.	Of possession
-  2.	Control
-  3.	Exclusion
-  4.	Enjoyment
-  5.	Disposition 
+
+1.	Of possession
+2.	Control
+3.	Exclusion
+4.	Enjoyment
+5.	Disposition 
   
 Whilst title ownership of real property or goods relates to the evidence of a form of deed, bill of lading, receipt – essentially proof of commercial transaction or purchase. Also, property rights are granted and as such enable property or goods to be transferred moving ownership and control to another party.
 
@@ -193,16 +195,15 @@ Essentially it will not serve humanity or society if people need to “sell” p
 
 Which leaves us with the tension between the protections afforded by control, e.g. exclusion and enjoyment (imagine if you could limit what Facebook does with your data) and at the same time, property law in its entirety doesn’t account for the phenomenon that data is and exoskeleton (location, action, device) virtual layer around our physical self, and therefore requires protections akin to our physical self.
 
-
-Data Commons
+## Data Commons
 
 Whilst Data commons is not a new concept, it is beginning to gain more attention as the issues of regulation and ownership are debated. Taking a ‘Commons’ approach has proved to enable other disciplines, e.g. Creative Commons to flourish with fair use and acknowledgment of contributors for the collective good.
 
 Critical to a Commons approach is the clarity of purpose, use and application. For data this is particularly challenging because there exists the:
 
-•	data created by individuals (data subject)
-•	data that is created about the data created (metadata)
-•	data the observer creates about what the data subject created or is derived, enhanced or used from the metadata or data processing. 
+*	data created by individuals (data subject)
+*	data that is created about the data created (metadata)
+*	data the observer creates about what the data subject created or is derived, enhanced or used from the metadata or data processing. 
 
 And so, it goes, on between the data subject (or creator) and the observer, collector, processor etc. More often there is more than one party of interest or desired control in any data created. A current example is the data created on social networks. Whilst data subjects may have the “rights” to request data created (posts, media, comments), many networks consider the meta-data, insights and inferences to belong to the processor and not the subject.
 
@@ -235,7 +236,7 @@ Christopher Allen (2015) summarises the principles of the commons in the followi
 Whilst there are many benefits made possible through a Commons approach, the rights of value derived from control of a data asset are not as clear and open to exploitation by entities that have the means to do so.
 
 
-Open Data
+## Open Data
 
 Open data is the theory that data should be readily available to the public to access, analyse and republish as they wish, without restrictions from copyright, patents or other mechanisms of control (Open Data Institute).
 
@@ -250,8 +251,7 @@ Conversely there are emerging projects, such as DEcentralised Citizens Owned Dat
 DECODE aims to build a data-centric digital economy where data that is generated and gathered by citizens, the Internet of Things (IoT), and sensor networks can be available for broader communal use, with appropriate privacy protections. 
 Outcomes will demonstrate the wider social value that comes with individuals being given the power to take control of their personal data and given the means to share their data on their terms (Vercellone et. al., 2018). 
 
-
-The Argument Against Data Rights
+## The Argument Against Data Rights
 
 Despite the range of emerging frameworks, there are also strong arguments against the rights of data subjects, in particular for use-cases that benefit the common good, such as; the collection of census, pollution, voting, health and transport data. These data sets are vital to planning critical infrastructure such as hospitals, schools, places of worship, airports and managing environmental impact.
 
@@ -262,7 +262,7 @@ Whilst ever commercial actors with centralised data control power can justify th
 Under changes such as Open Banking, it’s likely financial intuitions will argue for the minimum compliance in order to protect what they consider as “owning the customer”. Conversely, neo banks and early adopters may take the lead in providing increased customer utility and better customer experiences by embracing more open and inclusive data eco-systems.
 
 
-CONCLUSION
+## CONCLUSION
 
 In summary many of these concepts have merit; the potential to blend data as labor (for effort reward) with data as property (rights of contol and enjoyment) with data commons (fair use) together with open data (collective good) represent an ideal legally protected outcome.
 
@@ -279,8 +279,7 @@ However, without a clear legal framework inclusive of liability and recourse, it
 This is why open standards, decentralised solutions and interoperability of personal data exchange mechanisms are vital to maintaining a free and democratic society; one that can harness the power of data for both the individual and collective good.
 
 
-
-References
+## References
 
 Allen C., (2015) 10 Design Principles for Governing the Commons. Available: http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html
 
