@@ -14,6 +14,7 @@ In advance of the design workshop, all participants produced a one-or-two page t
 Here are the advanced readings to date:
 
 * [Aligning SSI with European Union identity legislation (aka eIDAS Regulation)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Aligning-SSI-with-European-Union-Identity-legislation-eIDAS.md) by Nacho Alamillo and Santi Casas
+* [Applying POLA to User Interaction](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Applying_POLA_to_User_Interaction.md) by Bill Tulloh
 * [Assist underrepresented groups when entering the labour market through self sovereign identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/diverse-teams.md) by Karolin Siebert
 * [Bringing the Dependencies of a BTCR Wallet to the Swift Ecosystem](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/bringing-dependencies-btcr-wallet-to-swift-ecosystem.md) by Wolf McNally for Blockchain Commons
 * [Contextual Non-discrete Identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/contextual_nondiscrete_identity.md) by Siu Kei Chung
