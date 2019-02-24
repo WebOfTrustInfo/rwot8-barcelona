@@ -477,7 +477,7 @@ again when he leaves this temporary camp.)
 The 15-stage model presented here is an instance of an Information
 Lifecycle Engagement Framework, as illustrated below.
 
-<img src="media/image1.png" alt="engagement framework.png" style="width:6.5in;height:5.02778in" />
+<img src="media/engagement_framework.png" alt="engagement framework.png" style="width:6.5in;height:5.02778in" />
 
 Each phase in the model is a concise description of one or two
 interactions illustrating the phase. Rather than attempting to describe
