@@ -285,9 +285,12 @@ data private. This article proposes allowing a fee market to develop around what
   * "I've been doing some user testing with both developers and non-technical folks and every single one of them has complained about the authentication and registration flows. We all agree that this work is for nothing if people don't end up using them. This community is definitely human-focused, but initial DID implementations haven't nailed the user experience yet."
   * #DID #VC #socialkeyrecovery
 
-* [Designing Identity for People & Places](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/identity-for-people-places.md)
-  * by Venn Agency - Sam Chase, Joni McKervey, and Benji Miller
-  * "This paper will explore how we may architect a more complete individual sovereignty via privacy and place identity as a person moves between private and public physical locations (home, transit, work etc). ​ By mapping our rights and reasonable expectations to privacy across different contexts and comparing with the rights of devices in our spaces, we’ll seek to outline systems of access and control that work in accordance with the rights and needs of both sides."
+* [Generating Actionable Intelligence with Wallets and Agents for People & Places](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/identity-for-people-places.md)
+  * by Venn Agency - Sam Chase, Joni McKervey
+  * "The purpose of this paper is to discuss building in the principals of sovereign identity systems
+for places as well as people to better manage multiple stakeholders and layers of access, while
+preserving both the saliency of digital information and the individual privacy and protections of
+the physical world."
   * #DID #IoT
 
 * [Journalistic use-cases for SSI: signatures, verified claims, and canonical-text registries](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/journalistic-use-cases.md)
