@@ -132,7 +132,7 @@ data private. This article proposes allowing a fee market to develop around what
   * Explaining Fermi paradox due to the absence of technology, that enables optimal cooperation oh humanity on the global scale. Positing a hypothesis that when we have such technology it will enable us to be contacted and to contact interstellar civilizations.
   * #Fermi_paradox, #hypothesis, #graph_analysis, #humanity 
   
-* [I see graphs everywhere. On the importance graph analysis way of thinking.](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/graphs-everywhere.md) 
+* [I see graphs everywhere. On the importance of graphs and graph analysis way of thinking.](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/graphs-everywhere.md) 
   * by Bohdan Andriyiv
   * A call to look at identity and other RWOT problem space through the graph analysis lenses
   * #graphs, #graph_analysis #short_topic_paper_to_open_discussion  
