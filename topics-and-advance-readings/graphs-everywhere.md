@@ -1,4 +1,4 @@
-# I see graphs everywhere. On the importance graph analysis way of thinking.
+# I see graphs everywhere. On the importance of graphs and graph analysis way of thinking.
 
 
 Authors: Bohdan Andriyiv (bohdan.andriyiv@validbook.org)
