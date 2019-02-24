@@ -129,7 +129,7 @@ data private. This article proposes allowing a fee market to develop around what
 ### Graph analysis
 * [Humanity's API - solving Fermi paradox](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/humanity-API.md) 
   * by Bohdan Andriyiv
-  * Explaining Fermi paradox due to the absence of technology, that enables optimal cooperation oh humanity on the global scale. Positing a hypothesis that when we have such technology it will enable us to be contacted and to contact interstellar civilizations.
+  * Explaining existence of Fermi paradox due to the humanity's lack of advanced cooperation technologies that enable optimal cooperation on the global scale. Positing a hypothesis that when humanity has such technology it will enable us to contact and to be contacted by interstellar civilizations.
   * #Fermi_paradox, #hypothesis, #graph_analysis, #humanity 
   
 * [I see graphs everywhere. On the importance of graphs and graph analysis way of thinking.](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/graphs-everywhere.md) 
