@@ -126,6 +126,23 @@ data private. This article proposes allowing a fee market to develop around what
   * "This paper aims aims to provide a strategic analysis of the SSI space to identify the areas where additional focus is needed to prevent a mis-direction, hijacking or failure to reach a critical market presence."
   * #ssi #strategy
   
+### Graph analysis
+* [Humanity's API - solving Fermi paradox](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/humanity-API.md) 
+  * by Bohdan Andriyiv
+  * Explaining Fermi paradox due to the absence of technology, that enables optimal cooperation oh humanity on the global scale. Positing a hypothesis that when we have such technology it will enable us to be contacted and to contact interstellar civilizations.
+  * #Fermi_paradox, #hypothesis, #graph_analysis, #humanity 
+  
+* [I see graphs everywhere. On the importance graph analysis way of thinking.](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/graphs-everywhere.md) 
+  * by Bohdan Andriyiv
+  * A call to look at identity and other RWOT problem space through the graph analysis lenses
+  * #graphs, #graph_analysis #short_topic_paper_to_open_discussion  
+  
+* [Why webs of trust work, even the PGP one?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/why-WOTs-work.md) 
+  * by Bohdan Andriyiv
+  * Challenging widespread notion that Webs of Trust do not work. They work. They just need customization as per their purposes and environments. 
+  * #Web_of_Trust, #PGP, #graph_analysis, #short_topic_paper_to_open_discussion  
+   
+  
 ### Identity Philosophy
 * [On Interpersonal Data](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/on-interpersonal-data.md)
   * by Philip Sheldrake
@@ -172,6 +189,11 @@ data private. This article proposes allowing a fee market to develop around what
   * by James Foley
   * Considering the concept of a DHT for Introductory Capability Routing for object capability based decentralized applications.
   
+* [Is the Universe a blockchain?  A cryptographic model of the Universe. ](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universe-is-blockchain.md)
+  * by Bohdan Andriyiv
+  * Exploring analogies between blockchain and the universe.
+  * #crackpotting, #fun_with_physics   
+  
 * [OIDC Profile for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/oidc-profile-for-ssi.md)
   * by Oliver Terbu and Andres Junge
   * "The goal is to continue the work on an OIDC profile for SSI based on [NS18] and [II18], and finalize the first version of it."
@@ -186,6 +208,16 @@ data private. This article proposes allowing a fee market to develop around what
 * [Rethinking Priorities: Should Identity Systems Divide or Unite People?](https://bford.info/2019/02/08/identity/)
   * by Bryan Ford
   * "The problem of identity has become a hot topic, with the idea of self-sovereign identity in particular attracting significant excitement. The essence of the idea, in short, is to put users in charge of how their identities and personal data are used. Self-sovereign identity posits that users should decide how much and what aspects of their identities to disclose in any situation, and should know and have control over what that information is used for."
+
+* [RWOT local chapters](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/RWOT-local-chapters.md) 
+  * by Bohdan Andriyiv
+  * Exploring the need for local RWOT-like face to face meetings.
+  * #local_communities, face_to_face_meetings, #short_topic_paper_to_open_discussion  
+  
+* [The United Humans - can it really work?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/united-humans-critiqal-questions.md) 
+  * by Bohdan Andriyiv
+  * Positing a list of critical questions to the central points of The United Humans project. 
+  * #critique, #short_topic_paper_to_open_discussion  
   
 * [The Universal Ledger Agent: a Logical Result of Rabobank's Journey in Blockchain-based self-sovereign identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-ledger-agent.md)
   * by David Lamers
@@ -303,6 +335,11 @@ data private. This article proposes allowing a fee market to develop around what
 * [Verifiable Claims for Postal Address](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/verifiable-postal-address-claims.md)
   * by Moses MA
   * "This is a proposal to facilitate the collaborative drafting of a technical paper that describes the principles and key design considerations for a use case for verifiable physical address claims. Individuals within the global postal network now seek to understand the “decentralization revolution” and help to develop game-changing, blockchain-powered new business models for the world."
+  
+* [Verifiable Displays: secure presentation of Verifiable Credentials in HTML](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/verifiable-displays-in-HTML.md)
+  * by Bohdan Andriyiv
+  * A rough outline of the specification for tamper-proofed, future-proofed, “anywhere renderable”, "truly portable" Verifiable Displays of Verifiable Credentials in HTML format.
+  * #VerifiableDisplays, #VerifiableCredentials, #Hashlink, #HTML  
 
 * [Using Immutable Data Objects](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Using-Immutable-Data-Objects.md) by Ken Ebert
   * by Ken Ebert
