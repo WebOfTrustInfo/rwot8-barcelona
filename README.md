@@ -252,7 +252,8 @@ data private. This article proposes allowing a fee market to develop around what
   * by Hank Chiu, Hankuan Yu, Justin Lin & Jon Tsai
   * "Social Key Recovery aims to provide an alternative and interesting way to help user backup their cryptocurrency mnemonic phrase. Currently user needs manually to write down all his mnemonic phrase on a piece of paper and locks it in a safe, which is troublesome to user. To solve user’s pain in backup, Social Key Recovery tries to propose a social way to help user backup their mnemonic phrase."
   * #shamirsecretsharing #sss #keymanagement #keyrecovery
- 
+
+* [Joram 2.0.0](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/joram.1.0.0.md) by Joe Andrieu and Bob Clint
 
 ### UX and Use Cases
 
@@ -308,6 +309,10 @@ data private. This article proposes allowing a fee market to develop around what
  * By Bill Tulloh
  * Object capabilities (ocaps) are increasingly recognized as an important tool for achieving the goals of self-sovereign identity. Many of the principles of self-sovereign identity, such as minimization and protection, can best be achieved through the disciplined pursuit of the principle of least authority that ocaps enable. This paper examines how POLA can be extended to better protect users when exercising their self-sovereign identity.
   * #UX #Ocaps
+
+* [Joram 2.0.0](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/joram.1.0.0.md)
+ * By Joe Andrieu and Bob Clint
+ * Joram is a Syrian refugee who has found his way to Greece. We describe in simple prose his experience through the 15 stages of the Information Lifecyce Enagement Model. This update to Joram 1.0.0 includes stronger authentication and social key recovery. 
 
 ### Verifiable Claims (VC)
 * [EU Digital Signature vs. VC Model](https://drive.google.com/file/d/1ehi0WMEJWNZV5Cx4wXsqPQC-wRcF4Zi2/view)
