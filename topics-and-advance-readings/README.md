@@ -29,6 +29,7 @@ Here are the advanced readings to date:
 * [Designing Trust in Identity Systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Designing%20Trust%20in%20Identity%20Systems.md) by Bentley Farrington & Bart Suichies
 * [A DID for Every Thing: Driving Event Data Chain](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/A-DID-for-every-thing---Agile-Driving-Data-Chain) by Carsten Stöcker and Michael Rüther
 * [DID Namespace Records](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-namespace-records.md) by Drummond Reed
+* [Digital Contraception](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/digital-contraception.md) by Mitzi László
 * [Digital Trust Protocol](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/DigitalTrustProtocol.md) by Carsten Keutmann and Tim Pastoor
 * [Exploring adoptation of VC sharing to provide value today](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/exploring_adoption_of_sharing_vcs.md) by Snorre Lothar von Gohren Edwin
 * [Financing a Self-sovereign Technology Stack](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/financing-self-sovereign-stack.md) by Adrian Gropper
@@ -43,14 +44,13 @@ Here are the advanced readings to date:
 * [Introductory Capability DHT Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/introductory-capability-dht-concept.md) by James Foley
 * [I see graphs everywhere. On the importance of graphs and graph analysis way of thinking.](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/graphs-everywhere.md) by Bohdan Andriyiv
 * [Is the Universe a blockchain?  A cryptographic model of the Universe. ](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universe-is-blockchain.md) by Bohdan Andriyiv
-* [Joram 2.0.0](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/joram.1.0.0.md) by Joe Andrieu and Bob Clint
+* [Joram 2.0.0](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/joram.2.0.0.md) by Joe Andrieu and Bob Clint
 * [Journalistic Use Cases for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/journalistic-use-cases.md) by Juan Caballero & Jefferson Sofarelli
 * [Legal Frameworks for Humanity in the Digital Age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/rightsframeworks.md) by Elizabeth M. Renieris
 * [libp2p for DID Authentication and the exchange of Verifiable Credentials](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/libp2p_did_auth..md) by jonnycrunch
 * [Multi-Factor Attribute Trust](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/trusting-attributes.md) by Will Abramson
 * [Multiformat Superfriends](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md) by Manu Sporny and Ganesh Annan
 * [A New Approach to Social Key Recovery](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/social-key-recovery.md) by Christopher Allen & Mark Friedenbach
-* [Social Key Recovery Design and Implementation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Socia_%20Key_Recovery_design_implentation.md) by Hank Chiu, Hankuan Yu, Justin Lin & Jon Tsai
 * [A Notebook Workbench for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/notebook-workbench.md) by Eric Welton
 * [OIDC Profile for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/oidc-profile-for-ssi.md) by Oliver Terbu, Andres Junge
 * [On Interpersonal Data](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/on-personal-data.md) by Philip Sheldrake
@@ -63,6 +63,7 @@ Here are the advanced readings to date:
 * [RWOT local chapters](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/RWOT-local-chapters.md) by Bohdan Andriyiv
 * [Security Considerations of Shamir's Secret Sharing](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/security_shamirs.md) by Peg
 * [A Self-Sovereign Identity Framework/Thought Model proposal](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/SSI-FrameworkProposal.md) by Rieks Joosten
+* [Social Key Recovery Design and Implementation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Socia_%20Key_Recovery_design_implentation.md) by Hank Chiu, Hankuan Yu, Justin Lin & Jon Tsai
 * [Staying Anonymous With DIDs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Anonymous_DIDs.md) by David Stark
 * Structures of Identity [PDF](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/structures_of_identity.pdf) [MD](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/structures_of_identity.md) by Ethan Brown
 * [Universal DID Operations](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Universal-DID-Operations.md) by Markus Sabadello and Nader Helmy
