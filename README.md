@@ -256,7 +256,7 @@ data private. This article proposes allowing a fee market to develop around what
   * "Social Key Recovery aims to provide an alternative and interesting way to help user backup their cryptocurrency mnemonic phrase. Currently user needs manually to write down all his mnemonic phrase on a piece of paper and locks it in a safe, which is troublesome to user. To solve user’s pain in backup, Social Key Recovery tries to propose a social way to help user backup their mnemonic phrase."
   * #shamirsecretsharing #sss #keymanagement #keyrecovery
 
-* [Joram 2.0.0](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/joram.1.0.0.md) by Joe Andrieu and Bob Clint
+* [Joram 2.0.0](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/joram.2.0.0.md) by Joe Andrieu and Bob Clint
 
 ### UX and Use Cases
 
