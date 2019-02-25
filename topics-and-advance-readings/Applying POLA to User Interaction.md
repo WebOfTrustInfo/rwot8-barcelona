@@ -1,9 +1,9 @@
-#Applying the Principle of Least Authority to User Interaction
+# Applying the Principle of Least Authority to User Interaction
 by Bill Tulloh
 
 Object capabilities (ocaps) are increasingly recognized as an important tool for achieving the goals of self-sovereign identity. Many of the principles of self-sovereign identity, such as minimization and protection, can best be achieved through the disciplined pursuit of the principle of least authority that ocaps enable. This paper examines how POLA can be extended to better protect users when exercising their self-sovereign identity.
 
-##Rich Sharing on the Web
+## Rich Sharing on the Web
 
 Perhaps most visibly, ocaps minimize the degree to which systems must rely on identity for access control, by replacing frequent identity checks with bearer instruments representing authority. Ocaps replace [identity-based access with authorization-based access.](http://www.hpl.hp.com/techreports/2009/HPL-2009-30) 
 
@@ -19,13 +19,13 @@ Alan Karp illustrates this with the [following example:](https://alanhkarp.com/p
 
 Rich sharing demonstrates how the applyinng the principle of least authority enables us to cooperate with those with whom we have only limited trust. POLA enables secure cooperation across trust boundaries. 
 
-##The Powerbox Pattern
+## The Powerbox Pattern
 
 Ocaps can also play an important role in the control, access, and protection of user identities. For example, ocaps, by providing confinement of authority, helps [stop exfiltration](https://www.youtube.com/watch?v=pig-sIS8_Wc) of users' data by malicious code. Moreover, as we build identity wallets and user agents, we must be ensure both a high level of security and usability. Ocaps help achieve high security by applying fine-grained POLA to [reduce the attack surface.](https://www.youtube.com/watch?v=wQHjITxQX0g&t=0s&index=20&list=PLKr-mvz8uvUgybLg53lgXSeLOp4BiwvB2) Such fine-grained division of authority may at first glance appear as a usability nightmare. Yet, much interesting work has been done showing that this need not be the case. Ocaps combine designation with authority, which enables user acts of designation - needed anyway - to also control the division of authority. 
 
 The use of ocaps for secure interaction was pioneered during the early 2000sin the work of Mark Miller and Marc Stiegler on [CapDesk and the DarpaBrowser.](http://www.combex.com/papers/darpa-report/html/) A major design goal was to put the user, not their applications, in charge. An important step in this direction, was to the invention of [the PowerBox pattern.](http://www.hpl.hp.com/techreports/2006/HPL-2006-116.html) The CapDesk Powerbox was a software module that mediates the granting of authorities to a capability confined application from the user. Individuals necessarily hold many authorities, but there is no need for their applications to do so as well. The Powerbox manages the users authorities and safely allocates them as needed to applications, thus applying the prinicple of least authority. 
 
-##Guidelines for Secure Interaction design
+## Guidelines for Secure Interaction design
 
 Ka-Ping Yee, building on the CapDesk work, identified a set of ten [guidelines for secure interaction design.](http://people.cs.vt.edu/~kafura/cs6204/Readings/Usability/AliigningSecurityUsability.pdf) Guidelines well supported by ocap architectures.
 
