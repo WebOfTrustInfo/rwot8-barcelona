@@ -144,6 +144,9 @@ data private. This article proposes allowing a fee market to develop around what
    
   
 ### Identity Philosophy
+* [Digital Contraception](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/digital-contraception.md) 
+  * by Mitzi László
+  * "The question of personal data falls into an unknown territory in between corporate ownership, intellectual property, and slavery."
 * [On Interpersonal Data](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/on-interpersonal-data.md)
   * by Philip Sheldrake
   * "It turns out that there is very few data that may be described as purely personal data. That lunch date, that genome map, those photos, that joint bank account — all turn out to be interpersonal data."
@@ -313,7 +316,7 @@ the physical world."
  * Object capabilities (ocaps) are increasingly recognized as an important tool for achieving the goals of self-sovereign identity. Many of the principles of self-sovereign identity, such as minimization and protection, can best be achieved through the disciplined pursuit of the principle of least authority that ocaps enable. This paper examines how POLA can be extended to better protect users when exercising their self-sovereign identity.
   * #UX #Ocaps
 
-* [Joram 2.0.0](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/joram.1.0.0.md)
+* [Joram 2.0.0](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/joram.2.0.0.md)
  * By Joe Andrieu and Bob Clint
  * Joram is a Syrian refugee who has found his way to Greece. We describe in simple prose his experience through the 15 stages of the Information Lifecyce Enagement Model. This update to Joram 1.0.0 includes stronger authentication and social key recovery. 
 
