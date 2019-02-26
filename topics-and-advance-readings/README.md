@@ -75,6 +75,7 @@ Here are the advanced readings to date:
 * [Using Immutable Data Objects](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Using-Immutable-Data-Objects.md) by Ken Ebert
 * [Verifiable Claims for Postal Addresses](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/verifiable-postal-address-claims.md) by Moses MA
 * [Verifiable Displays: secure presentation of Verifiable Credentials in HTML](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/verifiable-displays-in-HTML.md) by Bohdan Andriyiv
+* [W3C Strong Authentication and Identity Workshop Report (DRAFT)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/w3c-identity-workshop-report.md) by The W3C Strong Authentication and Identity Workshop Program Committee and Participants
 * [Where's the UX?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-ux.md) by Alberto Elias
 * [Why webs of trust work, even the PGP one?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/why-WOTs-work.md) by Bohdan Andriyiv
 * [Zero-knowledge proofs in identity systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Zero-knowledge-Proofs.md) by Jordi Baylina and David Suarez

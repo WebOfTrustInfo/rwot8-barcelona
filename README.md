@@ -62,10 +62,10 @@ really, read as much as you can!)
   * "Proving ownership of a DID requires proving ownership of a private key corresponding to a public key for the DID.  Microsoft is experimenting with using OpenID Connect Self-Issued Identities to prove ownership of DIDs."
   * #OpenID #Connect #Self-Issued #DID
 
-* [Querying Bitcoin blockchain for BTCR support](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/supporting-btcr.md) 
+* [Querying Bitcoin blockchain for BTCR support](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/supporting-btcr.md)
   * by Kulpreet Singh
   * "I describe the progress made during the BTCR hackathon towards providing a community service for querying the bitcoin blockchain as a means to support clients building BTCR DID resolvers using the BTCR DID method."
-  
+
 * [Universal ID Framework](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-id-framework.md)
   * by Shigeya Suzuki
   * "One of the ways to support references for multiple ID scheme everywhere is developing a general Universal ID Reference scheme, which covers not only the references to DID but also Distinguish Name-based scheme or possibly others."
@@ -101,6 +101,12 @@ really, read as much as you can!)
     * Micro-payments and DID (Decentralized Identities) can enable a user to curate their online identity, request payment or mark
 data private. This article proposes allowing a fee market to develop around what information a user chooses to reveal about their identity in the context of verifiable credentials.
 
+* [W3C Strong Authentication and Identity Workshop Report (DRAFT)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/w3c-identity-workshop-report.md)
+    * by The W3C Strong Authentication and Identity Workshop Program Committee and Participants
+    * A draft report from the W3C Strong Authentication and Identity Workshop
+noting the topics covered during the workshop as well as the outcomes and next
+steps identified by the workshop participants.
+
 ### General Self-Sovereign Identity
 * [A Self-Sovereign Identity Framework/Thought Model proposal](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/SSI-FrameworkProposal.md)
   * by Rieks Joosten
@@ -112,15 +118,15 @@ data private. This article proposes allowing a fee market to develop around what
   * by Nacho Alamillo and Santi Casas
   * "This paper aims to advance the alignment of SSI solutions with the eIDAS Regulation regarding electronic identification."
   * #DID #eIDAS
-  
-* [Decentralized Digital Identity: The Book](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/decentralized-digital-identity-book.md) 
+
+* [Decentralized Digital Identity: The Book](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/decentralized-digital-identity-book.md)
   * by Alex Preukschat and Drummond Reed
   * Outline for a book on decentralized digital identity
-  
+
 * [A Notebook Workbench for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/notebook-workbench.md)
   * by Eric Welton
   * "The technical cost of experimenting with and evaluating web-of-trust technology, SSI and other, remains bewilderingly high. This situation hinders broad adoption."
-  
+
 * [The Untimely Death of SSI](https://github.com/mxshea/rwot8-barcelona/blob/master/topics-and-advance-readings/the-untimely-death-of-ssi.md)
   * by Michael Shea
   * "This paper aims aims to provide a strategic analysis of the SSI space to identify the areas where additional focus is needed to prevent a mis-direction, hijacking or failure to reach a critical market presence."
@@ -134,24 +140,24 @@ The method relies on quantifying attention flows between identities. It is predi
   * #Sybil-resistance #scarcity #attention
 
 ### Graph analysis
-* [Humanity's API - solving Fermi paradox](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/humanity-API.md) 
+* [Humanity's API - solving Fermi paradox](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/humanity-API.md)
   * by Bohdan Andriyiv
   * Explaining existence of Fermi paradox due to the humanity's lack of advanced cooperation technologies that enable optimal cooperation on the global scale. Positing a hypothesis that when humanity has such technology it will enable us to contact and to be contacted by interstellar civilizations.
-  * #Fermi_paradox, #hypothesis, #graph_analysis, #humanity 
-  
-* [I see graphs everywhere. On the importance of graphs and graph analysis way of thinking.](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/graphs-everywhere.md) 
+  * #Fermi_paradox, #hypothesis, #graph_analysis, #humanity
+
+* [I see graphs everywhere. On the importance of graphs and graph analysis way of thinking.](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/graphs-everywhere.md)
   * by Bohdan Andriyiv
   * A call to look at identity and other RWOT problem space through the graph analysis lenses
-  * #graphs, #graph_analysis #short_topic_paper_to_open_discussion  
-  
-* [Why webs of trust work, even the PGP one?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/why-WOTs-work.md) 
+  * #graphs, #graph_analysis #short_topic_paper_to_open_discussion
+
+* [Why webs of trust work, even the PGP one?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/why-WOTs-work.md)
   * by Bohdan Andriyiv
-  * Challenging widespread notion that Webs of Trust do not work. They work. They just need customization as per their purposes and environments. 
-  * #Web_of_Trust, #PGP, #graph_analysis, #short_topic_paper_to_open_discussion  
-   
-  
+  * Challenging widespread notion that Webs of Trust do not work. They work. They just need customization as per their purposes and environments.
+  * #Web_of_Trust, #PGP, #graph_analysis, #short_topic_paper_to_open_discussion
+
+
 ### Identity Philosophy
-* [Digital Contraception](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/digital-contraception.md) 
+* [Digital Contraception](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/digital-contraception.md)
   * by Mitzi László
   * "The question of personal data falls into an unknown territory in between corporate ownership, intellectual property, and slavery."
 * [On Interpersonal Data](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/on-interpersonal-data.md)
@@ -179,11 +185,11 @@ The method relies on quantifying attention flows between identities. It is predi
   * by Jack Poole
   * How can users be educated of the privacy implications of sharing multiple attributes about one’s identity, and what role can software agents have?
 
-* [Data Value Realisation: Control, Commons & Ownership](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/data-vala-realization.md) 
+* [Data Value Realisation: Control, Commons & Ownership](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/data-vala-realization.md)
   * by Katryna Dow
   * "Since data is becoming a key measure of whether a company will remain relevant through the digital revolution (Opher et. al., 2016), new approaches and business models are required to meet the needs of the changing marketplace (Opher et. al., 2016). To address these increasing data value issues, a number of data-value models and frameworks are emerging, including: Data as Labor; Data as Property; Data Commons; and Open Data. This paper explores the aforementioned frameworks in the context of the emerging human-centred data economy."
-  
-* [Decentralized Trust for Software Components](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/code-and-file-signing.adoc) 
+
+* [Decentralized Trust for Software Components](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/code-and-file-signing.adoc)
   * by Sean Gilligan
   * "A computing device cannot be secure if an attacker is able to surreptitiously insert malicious code on it. Current solutions for signing and verifying computer software — both source code and binaries — generally rely on the same flawed, hierarchical systems as our network connections do."
 
@@ -194,21 +200,21 @@ The method relies on quantifying attention flows between identities. It is predi
 * [Handshake](./topics-and-advance-readings/handshake.md)
   * by Boyma Fahnbulleh
   * Handshake is a decentralized, permissionless naming protocol compatible with DNS. The aim of the protocol is to replace the root zone file and the root servers with a public commons.
-  
+
 * [Introductory Capability DHT Concept](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/introductory-capability-dht-concept.md)
   * by James Foley
   * Considering the concept of a DHT for Introductory Capability Routing for object capability based decentralized applications.
-  
+
 * [Is the Universe a blockchain?  A cryptographic model of the Universe. ](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universe-is-blockchain.md)
   * by Bohdan Andriyiv
   * Exploring analogies between blockchain and the universe.
-  * #crackpotting, #fun_with_physics   
-  
+  * #crackpotting, #fun_with_physics
+
 * [OIDC Profile for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/oidc-profile-for-ssi.md)
   * by Oliver Terbu and Andres Junge
   * "The goal is to continue the work on an OIDC profile for SSI based on [NS18] and [II18], and finalize the first version of it."
   * #VC
-  
+
 * [PSDAD - Data Format with Secure Semantics](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/psdad.md)
   * by Sandro Hawke
   * "Existing data serialization formats like JSON, JSON-LD, XML, and even ASN.1 (with its various encoding rules) work well enough for conventional computing environments, but they fall short when high levels of both trust and decentralization are required. PSDAD (plaintext self-describing assertional data) is a proposed new approach which uses natural language strings simultaneously as identifiers, delimiters, and documentation, resulting in a surprisingly simple and robust system with distinct advantages over known approaches in certain environments."
@@ -219,21 +225,21 @@ The method relies on quantifying attention flows between identities. It is predi
   * by Bryan Ford
   * "The problem of identity has become a hot topic, with the idea of self-sovereign identity in particular attracting significant excitement. The essence of the idea, in short, is to put users in charge of how their identities and personal data are used. Self-sovereign identity posits that users should decide how much and what aspects of their identities to disclose in any situation, and should know and have control over what that information is used for."
 
-* [RWOT local chapters](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/RWOT-local-chapters.md) 
+* [RWOT local chapters](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/RWOT-local-chapters.md)
   * by Bohdan Andriyiv
   * Exploring the need for local RWOT-like face to face meetings.
-  * #local_communities, face_to_face_meetings, #short_topic_paper_to_open_discussion  
-  
-* [The United Humans - can it really work?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/united-humans-critiqal-questions.md) 
+  * #local_communities, face_to_face_meetings, #short_topic_paper_to_open_discussion
+
+* [The United Humans - can it really work?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/united-humans-critiqal-questions.md)
   * by Bohdan Andriyiv
-  * Positing a list of critical questions to the central points of The United Humans project. 
-  * #critique, #short_topic_paper_to_open_discussion  
-  
+  * Positing a list of critical questions to the central points of The United Humans project.
+  * #critique, #short_topic_paper_to_open_discussion
+
 * [The Universal Ledger Agent: a Logical Result of Rabobank's Journey in Blockchain-based self-sovereign identity](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-ledger-agent.md)
   * by David Lamers
   * "The universal ledger agent (ULA) is a component that is implemented by the app and the verifier. The ULA makes it possible to retrieve credentials from issuers, independently which standards and blockchain they use. Also, a verifier can accept and verify credentials from multiple standards."
   * #DID #VC #GDPR #ERC780
- 
+
 * [Zero-knowledge proofs in identity systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Zero-knowledge-Proofs.md)
   * by Jordi Baylina and David Suarez
   * "Privacy is key to identity systems, and Zero-knowledge proofs (ZKP) are core to maintain confidentiality over user data, but still being able to transact by receiving claims and proving these to a third party."
@@ -258,7 +264,7 @@ The method relies on quantifying attention flows between identities. It is predi
   Furthermore, we show how hashing the shares also protects the message integrity, but is vulnerable to a cheating dealer.
   * #shamirsecretsharing #keymanagement
 
-* [Social Key Recovery Design and Implementation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Socia_%20Key_Recovery_design_implentation.md) 
+* [Social Key Recovery Design and Implementation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Socia_%20Key_Recovery_design_implentation.md)
   * by Hank Chiu, Hankuan Yu, Justin Lin & Jon Tsai
   * "Social Key Recovery aims to provide an alternative and interesting way to help user backup their cryptocurrency mnemonic phrase. Currently user needs manually to write down all his mnemonic phrase on a piece of paper and locks it in a safe, which is troublesome to user. To solve user’s pain in backup, Social Key Recovery tries to propose a social way to help user backup their mnemonic phrase."
   * #shamirsecretsharing #sss #keymanagement #keyrecovery
@@ -325,18 +331,18 @@ the physical world."
 
 * [Joram 2.0.0](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/joram.2.0.0.md)
  * By Joe Andrieu and Bob Clint
- * Joram is a Syrian refugee who has found his way to Greece. We describe in simple prose his experience through the 15 stages of the Information Lifecyce Enagement Model. This update to Joram 1.0.0 includes stronger authentication and social key recovery. 
+ * Joram is a Syrian refugee who has found his way to Greece. We describe in simple prose his experience through the 15 stages of the Information Lifecyce Enagement Model. This update to Joram 1.0.0 includes stronger authentication and social key recovery.
 
 ### Verifiable Claims (VC)
 * [EU Digital Signature vs. VC Model](https://drive.google.com/file/d/1ehi0WMEJWNZV5Cx4wXsqPQC-wRcF4Zi2/view)
   * by L. Boldrin
   * To some extent a pdf signed document (or xml, json...) can be used to make trustworthy information about me available to a verifier. People ask: Why do we need VCs? What is the additional value they bring? This note provides an initial hyoothesis which I would like you to challenge: VCs without ledger provide, as added value, subject confirmation and anonymity/pseudonimity support. VCs with ledger provide, as a further value, just VC revocation."
   * #digitalsignature
-  
-* [Exploring adoptation of VC sharing to provide value today](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/exploring_adoption_of_sharing_vcs.md) 
+
+* [Exploring adoptation of VC sharing to provide value today](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/exploring_adoption_of_sharing_vcs.md)
   * by Snorre Lothar von Gohren Edwin
   * "With Verifiable Credentials it is important to ask the question what are we expecting the issuer, the holder, and / or the verifier to do? While still making it simple enough for all the users and keeping the needed level of trustworthiness. Sharing is what provides the end value for both the verifying and the sharing party. If there is no sharing, the issuance of the VC has gone to waste. Hence if we are to provide value for the sharing party today, we have to ask the questions of where is this adopted, how can we make this adoption effortless? Can we put most of the work on the service providers? Is the user or another service expected to install software? If so, install software where? Is that software domain-specific or integrated with some existing software?"
-  
+
 * [How Do We Bootstrap the Web of Trust for VC](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/bootstrap_web-of-trust_reliance-lifecycle.md)
   * by Matt Stone and Dan Burnett
   * "In the world of Verifiable Credentials, it is essential that Verifiers can trust Issuers. To this end, there must be a common understanding of the 'functional identity' of the Issuer. How do humans establish the appropriate level understanding to trust the artifact with conviction? i.e. how does one link 'this key' to 'that real world entity (person, company, etc)'"
@@ -348,11 +354,11 @@ the physical world."
 * [Verifiable Claims for Postal Address](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/verifiable-postal-address-claims.md)
   * by Moses MA
   * "This is a proposal to facilitate the collaborative drafting of a technical paper that describes the principles and key design considerations for a use case for verifiable physical address claims. Individuals within the global postal network now seek to understand the “decentralization revolution” and help to develop game-changing, blockchain-powered new business models for the world."
-  
+
 * [Verifiable Displays: secure presentation of Verifiable Credentials in HTML](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/verifiable-displays-in-HTML.md)
   * by Bohdan Andriyiv
   * A rough outline of the specification for tamper-proofed, future-proofed, “anywhere renderable”, "truly portable" Verifiable Displays of Verifiable Credentials in HTML format.
-  * #VerifiableDisplays, #VerifiableCredentials, #Hashlink, #HTML  
+  * #VerifiableDisplays, #VerifiableCredentials, #Hashlink, #HTML
 
 * [Using Immutable Data Objects](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Using-Immutable-Data-Objects.md) by Ken Ebert
   * by Ken Ebert
@@ -362,6 +368,12 @@ the physical world."
   where a more granular description of the data is required in order to support
   disclosure and predicate proofs on a per-property basis."
   * #VC #Schema #ZKP
+
+* [W3C Strong Authentication and Identity Workshop Report (DRAFT)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/w3c-identity-workshop-report.md)
+    * by The W3C Strong Authentication and Identity Workshop Program Committee and Participants
+    * A draft report from the W3C Strong Authentication and Identity Workshop
+noting the topics covered during the workshop as well as the outcomes and next
+steps identified by the workshop participants.
 
 ### Specifications
 * [Multiformat Superfriends (The Multibase, Multihash, and Hashlink Specifications)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md)
@@ -389,6 +401,6 @@ the physical world."
   * #VerifiableDisplays, #VerifiableCredentials, #Hashlink, #HTML
 
 * [libp2p for DID Authentication and the exchange of Verifiable Credentials](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/libp2p_did_auth..md)
-  * by jonnycrunch 
+  * by jonnycrunch
   * "In our last paper we presented how IPLD could be used as a generalized framework to repesent and resolve the DID document. In this paper, we will describe a way to perform DID authenication and thereby proove ownership of the private key that is presented in the DID document utilizing the libp2p protocol."
   * #DID Auth #libp2p #ipfs #ipid #verifiableclaims
