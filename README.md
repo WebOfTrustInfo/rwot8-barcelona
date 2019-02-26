@@ -320,7 +320,7 @@ the physical world."
  * By Joe Andrieu and Bob Clint
  * Joram is a Syrian refugee who has found his way to Greece. We describe in simple prose his experience through the 15 stages of the Information Lifecyce Enagement Model. This update to Joram 1.0.0 includes stronger authentication and social key recovery. 
 
-* [Joram 2.0.0](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Providing_Decentralized_Identity_to_the_most_vulnerable_populations.md)
+* [Providing Decentralized Identity to the most vulnerable populations](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Providing_Decentralized_Identity_to_the_most_vulnerable_populations.md)
  * By Jeremi Joslin, Greg Martel and Hailey Park
  * A Decentralized Identity stored on a smart card is used to provide a digital identity to people in the least developed areas of the planet.
  * #humanitarian #SDG
