@@ -125,7 +125,14 @@ data private. This article proposes allowing a fee market to develop around what
   * by Michael Shea
   * "This paper aims aims to provide a strategic analysis of the SSI space to identify the areas where additional focus is needed to prevent a mis-direction, hijacking or failure to reach a critical market presence."
   * #ssi #strategy
-  
+
+### Sybil Resistance
+* [Attention as a Source of Scarcity for Decentralized Identity Systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Attention%20as%20a%20Source%20of%20Scarcity%20for%20Decentralized%20Identity%20Systems.pdf)
+  * by Maciej Laskus
+  * This paper proposes a new approach to introducing scarcity into identity systems without sacrificing privacy and self-sovereignty.
+The method relies on quantifying attention flows between identities. It is predicated on the fact that attention is a basic element of all cognitive processes. It is also limited and therefore is a natural source of scarcity.
+  * #Sybil-resistance #scarcity #attention
+
 ### Graph analysis
 * [Humanity's API - solving Fermi paradox](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/humanity-API.md) 
   * by Bohdan Andriyiv
