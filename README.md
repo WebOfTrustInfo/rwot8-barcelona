@@ -312,18 +312,18 @@ the physical world."
   * #UX #trust #adoption #design
 
 * [Applying POLA to User Interaction](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Applying_POLA_to_User_Interaction.md)
- * By Bill Tulloh
- * Object capabilities (ocaps) are increasingly recognized as an important tool for achieving the goals of self-sovereign identity. Many of the principles of self-sovereign identity, such as minimization and protection, can best be achieved through the disciplined pursuit of the principle of least authority that ocaps enable. This paper examines how POLA can be extended to better protect users when exercising their self-sovereign identity.
+  * By Bill Tulloh
+  * Object capabilities (ocaps) are increasingly recognized as an important tool for achieving the goals of self-sovereign identity. Many of the principles of self-sovereign identity, such as minimization and protection, can best be achieved through the disciplined pursuit of the principle of least authority that ocaps enable. This paper examines how POLA can be extended to better protect users when exercising their self-sovereign identity.
   * #UX #Ocaps
 
 * [Joram 2.0.0](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/joram.2.0.0.md)
- * By Joe Andrieu and Bob Clint
- * Joram is a Syrian refugee who has found his way to Greece. We describe in simple prose his experience through the 15 stages of the Information Lifecyce Enagement Model. This update to Joram 1.0.0 includes stronger authentication and social key recovery. 
+  * By Joe Andrieu and Bob Clint
+  * Joram is a Syrian refugee who has found his way to Greece. We describe in simple prose his experience through the 15 stages of the Information Lifecyce Enagement Model. This update to Joram 1.0.0 includes stronger authentication and social key recovery. 
 
 * [Providing Decentralized Identity to the most vulnerable populations](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Providing_Decentralized_Identity_to_the_most_vulnerable_populations.md)
- * By Jeremi Joslin, Greg Martel and Hailey Park
- * A Decentralized Identity stored on a smart card is used to provide a digital identity to people in the least developed areas of the planet.
- * #humanitarian #SDG
+  * By Jeremi Joslin, Greg Martel and Hailey Park
+  * A Decentralized Identity stored on a smart card is used to provide a digital identity to people in the least developed areas of the planet.
+  * #humanitarian #SDG
 
 ### Verifiable Claims (VC)
 * [EU Digital Signature vs. VC Model](https://drive.google.com/file/d/1ehi0WMEJWNZV5Cx4wXsqPQC-wRcF4Zi2/view)
