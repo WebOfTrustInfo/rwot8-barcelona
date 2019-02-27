@@ -155,6 +155,10 @@ The method relies on quantifying attention flows between identities. It is predi
   * Challenging widespread notion that Webs of Trust do not work. They work. They just need customization as per their purposes and environments.
   * #Web_of_Trust, #PGP, #graph_analysis, #short_topic_paper_to_open_discussion
 
+* [Higher-Definition Digital Identity] (https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/higher-definition-identity.md)
+ * Shaun Conway
+ * Introducing the idea of stateful identity graphs to increase the resolution and fidelity of verifiable credentials.
+ * #graphs #merkle_dag #information_theory #personal_data #short_topic_paper_to_open_discussion
 
 ### Identity Philosophy
 * [Digital Contraception](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/digital-contraception.md)
