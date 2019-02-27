@@ -79,6 +79,7 @@ Here are the advanced readings to date:
 * [Where's the UX?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-ux.md) by Alberto Elias
 * [Why webs of trust work, even the PGP one?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/why-WOTs-work.md) by Bohdan Andriyiv
 * [Zero-knowledge proofs in identity systems](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Zero-knowledge-Proofs.md) by Jordi Baylina and David Suarez
+* [Can Name Services provide Persistent Human-meaningful Names Linked To A Self Sovereign Identity DID Without Compromising SSI?](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/name-services-and-ssi.md) by Toby Tremayne and Ryan Gill
 
 
 ### Primers
