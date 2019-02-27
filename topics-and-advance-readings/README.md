@@ -48,6 +48,7 @@ Here are the advanced readings to date:
 * [Journalistic Use Cases for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/journalistic-use-cases.md) by Juan Caballero & Jefferson Sofarelli
 * [Legal Frameworks for Humanity in the Digital Age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/rightsframeworks.md) by Elizabeth M. Renieris
 * [libp2p for DID Authentication and the exchange of Verifiable Credentials](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/libp2p_did_auth..md) by jonnycrunch
+* [Minimal implementation of verifiable credentials for a community of practice use case on an agent-centric distributed platform](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/vcs-agent-centric.md) by Jakub Lanc  
 * [Multi-Factor Attribute Trust](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/trusting-attributes.md) by Will Abramson
 * [Multiformat Superfriends](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md) by Manu Sporny and Ganesh Annan
 * [A New Approach to Social Key Recovery](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/social-key-recovery.md) by Christopher Allen & Mark Friedenbach
