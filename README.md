@@ -342,7 +342,7 @@ the physical world."
   * A Decentralized Identity stored on a smart card is used to provide a digital identity to people in the least developed areas of the planet.
   * #humanitarian #SDG
 
-* [#SSI20XX - Model Use-Case Definitions and Implementation](https://github.com/mxshea/rwot8-barcelona/blob/master/topics-and-advance-readings/ssi20XX-model-use-case-def.md)
+* [#SSI20XX - Model Use-Case Definitions and Implementation](./topics-and-advance-readings/ssi20XX-model-use-case-def.md)
   * by Martin Riedel
   * "This paper proposes that a vision statement (for example #SSI20XX) containing a very limited set of highly specified use-cases and UX descriptions will allow solution providers to commit to a common implementation goal which can greatly benefit solution interoperability and provide valuable feedback to existing specifications in the field of SSI."
   * #use-cases #interoperability #implementation #vision
