@@ -380,6 +380,11 @@ the physical world."
 noting the topics covered during the workshop as well as the outcomes and next
 steps identified by the workshop participants.
 
+* [Minimal implementation of verifiable credentials for a community of practice use case on an agent-centric distributed platform](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/vcs-agent-centric.md)
+  * by Jakub Lanc
+  * We experiment with a minimal Verifiable Credentials-like system implementation on a distributed agent-centric platform (Holochain), explore its suitability for use cases related to distributed communities of practice and discuss the specifics of such use cases.
+  * #VC #Agent-centric #Education
+
 ### Specifications
 * [Multiformat Superfriends (The Multibase, Multihash, and Hashlink Specifications)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/multiformat-superfriends.md)
   * by Manu Sporny and Ganesh Annan
