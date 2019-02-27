@@ -10,9 +10,7 @@ The goal of this paper is to compare notes with the SSI technical community and 
 
 ## Background
 
-This paper originates from a few separate working-groups with journalists to identify pain points and to imagine possible use-cases for SSI, drawing in particular from the experiences of developing-world journalists and editors battling misinformation, misattribution, and other identity issues in the press.  The "
-
-[]: https://motherboard.vice.com/en_us/article/pakxby/silicon-valley-is-inserting-its-biases-into-nearly-every-technology-we-use	"first world bias"
+This paper originates from a few separate working-groups with journalists to identify pain points and to imagine possible use-cases for SSI, drawing in particular from the experiences of developing-world journalists and editors battling misinformation, misattribution, and other identity issues in the press.  The ["first world bias"](https://motherboard.vice.com/en_us/article/pakxby/silicon-valley-is-inserting-its-biases-into-nearly-every-technology-we-use).
 
 " of tech platforms and social media has been discussed at length, so we will take it for granted, but would add that the journalistic pain points around misattribution, misinformation, and privacy are felt much more acutely in developing nations with potential regime-changes imminent and more fraught relations between journalists and government, and in many case the journalists working in these contexts prove themselves to be early-adopters of privacy tech and publishing tools compared to their developed-world analogues.
 
