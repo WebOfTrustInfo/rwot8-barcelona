@@ -1,0 +1,64 @@
+Dr Shaun Conway, ixo
+
+We can think of verifiable claims as having  [‘high-definition’ data qualities](https://hackernoon.com/high-definition-data-eeab16b055a3). With this mindset we can innovate how to increase the resolution and fidelity of claims, to generate digital credentials that are even more useful for a wider range of identity applications.
+ 
+The current state of the art for self-sovereign digital identity is compelling: We can now add context to identity attributes; independently verify the authenticity of a claim and authenticate credential issuers within a web of trust; Verifiable Credentials can be used to originate zero-knowledge proofs that preserve privacy; and to some extent (depending on how this is implemented) credentials can also be revoked publicly or privately, to update the current status of an identity claim.
+
+However, we still face limitations to the usefulness and productivity of claims data, when it comes to recording changes over time and when we want to use digital identity credentials in complex real-world contexts, where provenance and attribution matter.
+
+In many instances, we cannot simply rely on a single source of truth (‘the issuer of a credential’) to properly identify a subject with adequate assurance (fidelity) and sufficient information (resolution). 
+Trusted intermediaries will therefore often still be relied on to provide a meta-analysis of *their* data sources on a subject, for an identity credential to be useful. 
+This is not good enough if we want to increase self-sovereignty.
+
+*What if we could engineer digital identity systems to produce even higher-definition identity credentials?*
+
+As a first proposal, we want to explore how claims can be linked to a credential in a way that makes the credential more trustworthy (higher fidelity) and more informative (higher resolution). 
+
+Claims include statements, attestations, opinions, or other observations that are attributable to identifiable things that already exist — including abstract things, such as identity credentials. 
+
+Verifiable Claims exist as temporal (point-in-time) opinions or factual states. 
+Each claim at minimum points to the target Decentralised Identifier (DID) that is the subject of the claims. Each claim is attributable to the issuer of the claim and chains of attribution are possible (and possibly also desirable).
+
+## Stateful identity
+If we record claims in an attribution graph format that provides a state record, this would enable your digital identity to both evolve over time and hold a historical record. This would give your identity credentials provenance. It would enables us to identify changes over time and to retrospectively attribute changes to provable prior states, which introduces causality. This is a lot of additional information that can quickly accumulate as the graph grows over time. 
+
+*So how do we implement stateful claims?*
+
+## Identity DAGs
+Directed Acyclical Graphs (DAGs) work well for keeping records of verifiable claims because DAGs can only be created by hashing existing information. Past claims may not be changed, regardless of subsequent events, so the edges of an attribution DAG only point upstream to earlier claims or events (and revocation is still possible).
+
+For this reason, DAGs are well-suited to describing how a given claim is connected to past claims. This provides the information for building graphs of claims wherein chains of attribution can add information and levels of assurance to each target credential. 
+Metadata can be recorded with claims, or derived from analysing the relationships between claims. These metadata can be statistically weighted and rated to calculate probabilistic determinants about the identified target claim. For instance, the likelihood that a credential attribute is probably true and positively correlated with an identifier. 
+
+We can now start considering how new classes of claims metadata might add degrees of informational definition to a credential and make it even higher-definition. 
+Think of this as increasing the spectrum of colours available for each ‘pixel’ of identity information. In future we could have high-definition, “full-colour”, machine-readable information about an identified subject. 
+
+## Identity maps
+> *“We are not makers of history. We are made by history”. Martin Luther-King Jr.*  
+
+A Merkle tree-like map can be generated to hold the state of an identity graph in an abstraction layer. This provides a verifiable data structure that transparently stores arbitrary key:value pairs derived from the hash of the contents of verifiable claims. 
+The key’s hash designates a particular leaf of a Merkle tree. 
+The graph is read by using the hash address of the claim, to return the claim content. 
+This can be can be implemented using a  hash table, IPFS or [Trillian](https://github.com/google/trillian) . Content would be served from a personal data storage layer, such as an Identity Hub.
+
+Taking this further, we could use deep Merkle Trees to summarise the state of an underlying graph. This could allow scalability to extremely large trees. In this option, the map is parsed to represent filled and unfilled leaves. As filled leaves are vastly outnumbered by unfilled leaves, this produces *sparse* Merkle trees.  This highly efficient and light data model provides an efficient mechanism to append or revoke claims and to audit a graph. (The trade-off is that we get an  unordered map with loss of information, for instance about the relationships between claims).
+ 
+## Digital Identity Applications 
+To build identity applications that use stateful identity maps, the data services layer could be  implemented with software agents that manage functions such as:
+**Validation** to ensure that submissions to append claims to the graph comply with the purpose of the application.
+**Canonicalisation** to ensure that equivalent versions of the same data get the same canonical identifier, so they can be de-duplicated.
+**External Interfaces** that provide users with APIs and authentication mechanisms.
+**Data transformations** that take claims attributes and their metadata as inputs and that return the results of a computational process, which could also enrich the data with further information, such as statistical risk probabilities.  
+**Zero-knowledge proofs** that originate privacy-preserving proofs from claims attributes and their metadata.
+
+## Interim conclusions
+DAG data models enable us to deterministically map multiple claims to a target identifier, through attribution graphs. DAGs enable us to hold these graphs as stateful records, with temporal ordering. Merkle Tree-like DAGS (and possibly sparse Merkle Trees) give us an abstraction layer that services can work with to deliver digital identity applications that preserve privacy.
+These verifiable data structures could increase both the resolution and fidelity of claims data, which could produce higher-definition credentials that are more useful in real-world applications.
+By transferring assurance and contextual interpretation to software agents, rather than relying on trusted intermediaries, we could achieve greater self-sovereignty.
+
+## Next steps 
+* We would like to further explore how stateful identity graphs might be used to generate higher-definition digital identity credentials.
+* We should find out about existing approaches or equivalent models - including for applications unrelated to identity, to learn what others have done.
+* The trade-offs and possible alternative technical designs and implementation options need to be considered. 
+* The practical utility of this idea must be further considered and tested against a range of use-cases. 
+* Then we must test the technical feasibility of using Merkle DAGs to implement stateful identity graphs for digital identity applications.
