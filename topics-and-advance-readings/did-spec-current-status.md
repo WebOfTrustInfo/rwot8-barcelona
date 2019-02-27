@@ -80,5 +80,5 @@ Action: answer the commenter's question(s), check they are happy, and close the 
 
 And if that wasn't enough, there are other topics that are of interest to the CG which haven't (yet) been raised as issues.
 
-* [Cryptographic Hyperlinks](https://tools.ietf.org/html/draft-sporny-hashlink-02)
+* [Cryptographic Hyperlinks](https://datatracker.ietf.org/doc/draft-sporny-hashlink/)
 * (Non-normative) Discussion about Cryptonyms and "Off-ledger" DIDs (related: [#113](https://github.com/w3c-ccg/did-spec/issues/113))
