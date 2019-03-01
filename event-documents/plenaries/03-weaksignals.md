@@ -122,5 +122,17 @@ Unique ideas:
 * Young people can make mistakes
 * Shift in topology of communication could lead people back to countryside
 
+# The Big Commonalities
 
+Some things that emerged:
 
+* Right to Forgiveness / Opt-Out
+   * Look Backward to See Forward?
+      * Branding and Scarlet Letter were old problems like this
+* How Do We Have Dignity at Scale?
+   * That is, how do we get rid of trolls online?
+* How to Use DIDs and VCs for Humans to Cooperate?
+* Agent Capabilities & Delegating Responsibilities
+* Collective vs. Collaborative Intelligence
+* Take Care & Think About What We're Doing
+* Where Is the Locus of Control?
