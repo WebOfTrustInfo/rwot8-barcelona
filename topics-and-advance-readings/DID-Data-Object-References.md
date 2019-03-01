@@ -1,5 +1,5 @@
-# DID ABNF With Support for Data Object References
-2019-02-28
+# DID Data Object References
+2019-02-29
 
 Drummond Reed and Ken Ebert
 
@@ -9,13 +9,13 @@ A "naked DID" by itself identifies a DID subject. A naked DID is also is by itse
 
 By adding additional syntax elements as allowed under RFC 3986, a DID URL can also address other resources besides a DID subject. For example, by adding a service ID using semicolon syntax, a DID URL can dereference to a service endpoint and pass on to it the path, query, and/or fragment component of a DID URL. In this way services represent the ability for a DID URL to address a "predicate"—the predicate being a service.
 
-To complete the ability of a DID URL to address all types of semantic objects, we also need the ability for DID URLs to serve as persistent, cryptographically verifiable identifiers for **data objects** of two types:
-1. **Immutable Data Objects (IDOs)**—data objects whose state MUST NOT change.
-1. **Mutable Data Objects (MDOs)**—data objects whose state SHOULD change over time.
+To complete the ability of a DID URL to address all three basic types of semantic objects (subjects, predicates, and objects), we also need the ability for DID URLs to serve as persistent, cryptographically verifiable identifiers for **data objects** of two types:
+1. **Immutable Data Objects (IDOs)**—data objects whose state MUST NOT change. Examples include schema definitions, credential definitions, and state anchors.
+1. **Mutable Data Objects (MDOs)**—data objects whose state MAY change over time. Examples include payment addresses, revocation registries, and other forms of control objects that need fixed addresses but can have mutable state. A DID document is also an MDO, however it the default MDO returned by a naked DID.
 
-## Starting ABNF Syntax
+## Base ABNF Syntax
 
-Following is the base ABNF syntax for DIDs and DID URLs that we will use as the starting point for this proposal. We note that this syntax is currently under discussion by the [W3C Credentials Community Group](https://www.w3.org/community/credentials/), so do not take this as gospel.
+Following is the base ABNF syntax for DIDs and DID URLs that we will use as the starting point for this proposal. We note that this syntax is currently under discussion by the [W3C Credentials Community Group](https://www.w3.org/community/credentials/), so it may change, particularly during the upcoming discussions at Rebooting the Web of Trust #8. For the definitive DID and DID URL ABNF once it is solidified, see the DID spec at https://w3c-ccg.github.io/did-spec/. Any rules not defined in this ABNF are defined in RFC 3986. For easy reference, a copy of that ABNF is included in the last section of this document.
 
 ```
 did                = "did:" method ":" method-specific-idstring
@@ -35,7 +35,7 @@ did-reference      = did-url / did-relative-ref
 ```
 ## Proposed ABNF Syntax With Support for Data Object References
 
-To add support for both types of data object references, we only need to add syntax that is parallel to the semicolon syntax used for service references.
+To add support for both types of data object references, we only need to add syntax that is parallel to the semicolon syntax used for service references. The limited character set available for this syntax in a valid URI is defined the `sub-delims` rule from the URI syntax defined in [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). In this ABNF we chose `!` for IDOs and `$` doe MDOs.
 
 ```
 did                = "did:" method ":" method-specific-idstring
@@ -59,16 +59,20 @@ service-id         = 1*( ALPHA / DIGIT / "." / "-" / "_" /
 did-reference      = did-url / did-relative-ref
 ```
 
-## RFC 3986 Appendix A
+## Resolution of DID Data Object References
 
-The following is the ABNF for URIs as defined by [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). We have annotated the syntax path through this ABNF used by ABNF for a complete DID URL.
+The intention of this extension to the DID specification is to enable DID target systems (also called DID registries), such as distributed ledgers or decentralized file systems, to be able to store IDOs and MDOs natively if they are able. In this case, a DID method specification can be extended to define how a DID resolver can resolve a DID Object Reference directly to the IDO or MDO and thus return that as a result of resolution exactly like it would return a DID document as a result of naked DID resolution.
+
+## RFC 3986 Appendix A (For Reference)
+
+Any rules that are not defined in the ABNF above are defined in the ABNF for [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). That ABNF is included here for easy reference. Note that we have annotated the syntax path through this ABNF used by the DID and DID URL ABNF.
 
 ```
    URI           = scheme ":" hier-part [ "?" query ] [ "#" fragment ]
 
    hier-part     = "//" authority path-abempty
                  / path-absolute
-                 / path-rootless                                ; DIDs use this rule
+                 / path-rootless                                 ; DID URLs use this rule
                  / path-empty
 
    URI-reference = URI / relative-ref
@@ -123,15 +127,15 @@ The following is the ABNF for URIs as defined by [RFC 3986](https://www.ietf.org
    path-abempty  = *( "/" segment )
    path-absolute = "/" [ segment-nz *( "/" segment ) ]
    path-noscheme = segment-nz-nc *( "/" segment )
-   path-rootless = segment-nz *( "/" segment )                        ; DIDs use this rule
+   path-rootless = segment-nz *( "/" segment )                        ; DID URLs use this rule
    path-empty    = 0<pchar>
 
    segment       = *pchar
-   segment-nz    = 1*pchar                                            ; DIDs use this rule
+   segment-nz    = 1*pchar                                            ; DID URLs use this rule
    segment-nz-nc = 1*( unreserved / pct-encoded / sub-delims / "@" )
                  ; non-zero-length segment without any colon ":"
 
-   pchar         = unreserved / pct-encoded / sub-delims / ":" / "@"  ; DIDs use this rule
+   pchar         = unreserved / pct-encoded / sub-delims / ":" / "@"  ; DID URLs use this rule
 
    query         = *( pchar / "/" / "?" )
 
@@ -142,6 +146,6 @@ The following is the ABNF for URIs as defined by [RFC 3986](https://www.ietf.org
    unreserved    = ALPHA / DIGIT / "-" / "." / "_" / "~"
    reserved      = gen-delims / sub-delims
    gen-delims    = ":" / "/" / "?" / "#" / "[" / "]" / "@"
-   sub-delims    = "!" / "$" / "&" / "'" / "(" / ")"                 ; DIDs use this rule
+   sub-delims    = "!" / "$" / "&" / "'" / "(" / ")"                 ; DID URLs use this rule
                  / "*" / "+" / "," / ";" / "="
 ```
