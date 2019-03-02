@@ -18,7 +18,9 @@ These are the documents in process at RWOT8.
 | OSI/DID Interoperability | |
 | Peer-to-Peer DID Method Spec | |
 | Satyrn | Joe |
-| Social key Recovery | Chris A. |
+| Social Key Recovery #1: Shamir Best Practices | ChristopherA |
+| Social Key Recovery #1a: New SSS library | Daan & Mark |
+| Social Key Recovery #2: Identity Recovery Schemes | Peg |
 | Terminology | Reiks |
 | Universal Pluralism | Boris |
 | Verifiable Credential Test Corpus | Ryan |
