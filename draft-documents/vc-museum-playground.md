@@ -1,17 +1,19 @@
 # Verifiable Credential playground-museum
 
-In order to test our verifiable credential software, we need a corpus of claims that implementations can clearly succeed or fail against.  One of our main goals is to be neutral on all current candidates in use.
+In order to test our verifiable credential software, we need a corpus of claims that implementations can clearly succeed or fail against.  One of our main goals is to be neutral on all current candidates in use, and be able to show case some interopability.
 
 We aim to first collect instances of Verifiable Credentials in a static database.
+
 * Collect versions of JSON-LD with LD-Proofs
 * Collect versions of JSON-LD with LD-Signatures
 * Collect versions of JSON with JWT
 * Collect versions of JSON-LD with JWT
 
-We aim to second show the use of these credentials using developer-friendly playgrounds.
+We have some examples from 2017, but small changes have occurred in the DID formatting so the examples will need small updates.
 
-  We have some examples from 2017, but small changes have occurred in
-  the DID formatting so the examples will need small updates.
+We aim to second be able to make an initial specification what a site like this would need and initate the project as far as we come.
+
+The goal is to have a developer-friendly playgrounds that shows the use of these credentials that will be open source and templated for easy expansion by the community.
 
 ## Existing playgrounds
 
@@ -36,13 +38,11 @@ We aim to second show the use of these credentials using developer-friendly play
   * try to verify them using current libraries
             https://github.com/WebOfTrustInfo/btcr-did-tools-js/blob/master/claims/kimh-knows-christophera.jsonld
           
-* JWT from uPort (node architecture)
-        will generate VC from test example
+* JWT from uPort (node architecture) will generate VC from test example
 
-* Martin Riedel's interoperability stuff
-        Rouven Heck (Consensys)
+* Will follow and look how the DIF interop project driven by Rouven Heck (Consensys), where Rouven and Martin Riedel's has come with simple suggestions that project will work on.
 
-* get a useful complicated graph of verifiable credentials
+* Get a useful complicated graph of verifiable credentials
 
 ## Roadmap
 
