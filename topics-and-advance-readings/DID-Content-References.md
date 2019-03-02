@@ -1,5 +1,5 @@
-# DID Data Object References
-2019-02-29
+# DID Content References
+2019-03-02
 
 Drummond Reed and Ken Ebert
 
@@ -9,9 +9,7 @@ A "naked DID" by itself identifies a DID subject. A naked DID is also is by itse
 
 By adding additional syntax elements as allowed under RFC 3986, a DID URL can also address other resources besides a DID subject. For example, by adding a service ID using semicolon syntax, a DID URL can dereference to a service endpoint and pass on to it the path, query, and/or fragment component of a DID URL. In this way services represent the ability for a DID URL to address a "predicate"—the predicate being a service.
 
-To complete the ability of a DID URL to address all three basic types of semantic objects (subjects, predicates, and objects), we also need the ability for DID URLs to serve as persistent, cryptographically verifiable identifiers for **data objects** of two types:
-1. **Immutable Data Objects (IDOs)**—data objects whose state MUST NOT change. Examples include schema definitions, credential definitions, and state anchors.
-1. **Mutable Data Objects (MDOs)**—data objects whose state MAY change over time. Examples include payment addresses, revocation registries, and other forms of control objects that need fixed addresses but can have mutable state. A DID document is also an MDO, however it the default MDO returned by a naked DID.
+To complete the ability of a DID URL to address all three basic types of semantic objects (subjects, predicates, and objects), we also need the ability for DID URLs to serve as persistent, cryptographically verifiable identifiers for **content**. For example, a DID URL could be used to address schema, credential definitions, revocation registries, or other content types that may be stored in verifiable data registries.
 
 ## Base ABNF Syntax
 
@@ -33,9 +31,9 @@ service-id         = 1*( ALPHA / DIGIT / "." / "-" / "_" /
                      pct-encoded )
 did-reference      = did-url / did-relative-ref
 ```
-## Proposed ABNF Syntax With Support for Data Object References
+## Proposed ABNF Syntax With Support for DID Content References
 
-To add support for both types of data object references, we only need to add syntax that is parallel to the semicolon syntax used for service references. The limited character set available for this syntax in a valid URI is defined the `sub-delims` rule from the URI syntax defined in [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). In this ABNF we chose `!` for IDOs and `$` doe MDOs.
+To add support for both types of content references, we only need to add syntax that is parallel to the semicolon syntax used for service references. The limited character set available for this syntax in a valid URI is defined the `sub-delims` rule from the URI syntax defined in [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). In this ABNF we propose the `$` as the delimiter for content references.
 
 ```
 did                = "did:" method ":" method-specific-idstring
@@ -46,22 +44,19 @@ idstring           = 1*idchar
 idchar             = ALPHA / DIGIT / "." / "-"
 did-url            = did [ did-relative-ref ]
 did-relative-ref   = did-fragment-ref / did-service-ref /
-                     did-ido-ref / did-mdo-ref                    ; These two rules added
+                     did-content-ref                              ; This rule is new
 did-fragment-ref   = "#" fragment
-did-ido-ref        = 1*( "!" type-id )                            ; Syntax for immutable data object references
-did-mdo-ref        = 1*( "$" type-id )                            ; Syntax for mutable data object references
-type-id            = 1*( ALPHA / DIGIT / "." / "-" / "_" /        ; Syntax for type-ids
-                     pct-encoded )
 did-service-ref    = *( ";" service-id ) [ path-abempty ] 
                      [ "?" query ] [ "#" fragment ]
 service-id         = 1*( ALPHA / DIGIT / "." / "-" / "_" / 
                      pct-encoded )
+did-content-ref    = "$" idstring *( ":" idstring )               ; Syntax for content references
 did-reference      = did-url / did-relative-ref
 ```
 
-## Resolution of DID Data Object References
+## Resolution of DID Content References
 
-The intention of this extension to the DID specification is to enable DID target systems (also called DID registries), such as distributed ledgers or decentralized file systems, to be able to store IDOs and MDOs natively if they are able. In this case, a DID method specification can be extended to define how a DID resolver can resolve a DID Object Reference directly to the IDO or MDO and thus return that as a result of resolution exactly like it would return a DID document as a result of naked DID resolution.
+The intention of this extension to the DID specification is to enable verifiable data registries, such as distributed ledgers or decentralized file systems, to be able to store persistent content natively if they are able. In this case, a DID method specification can be extended to define how a DID resolver can resolve a DID content reference directly to the content object and thus return that as a result of resolution exactly like it would return a DID document as a result of naked DID resolution.
 
 ## RFC 3986 Appendix A (For Reference)
 
