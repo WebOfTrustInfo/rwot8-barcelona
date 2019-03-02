@@ -85,6 +85,10 @@ And how does that influence business model, UX, and others?
 
 ## Illustrating User Stories, such as Joram
 
+## DID Key Management on the Web
+
+The Web has a different security model than native platforms (e.g. mobile apps) and even, limited access to native device capabilities (e.g secure cryptoprocessor chips). We explore these limitations and how they apply to DID key management.
+
 ## Universal Postal Unions and DIDs
 
 
