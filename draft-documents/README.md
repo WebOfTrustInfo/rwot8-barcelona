@@ -7,11 +7,11 @@ These are the documents in process at RWOT8.
 | Bootstrapping an SS-I Framework | |
 | DID Key Management in the Browser | Alberto |
 | DID Spec Work | Manu |
+| The Digital Citizen | Chris C. |
 | Driving Adoption Based on Basic Human Needs | Sam |
 | Establishing Trust Relation Between Verifier and Issuer, First Time | Matt |
 | Framework to Assess Value of Self-Issued Credentials |
 | Human-meaningful Names for SS-I | |
-| Incentivizing Decentralized Collaboration | Chris C. |
 | Identity Containers | |
 | JORAM Illustrations | |
 | Journalism Use Cases |
