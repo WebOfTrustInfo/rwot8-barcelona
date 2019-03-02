@@ -2,7 +2,7 @@
 
 These are the documents in process at RWOT8.
 | Paper | Lead |
-|-----|-----|
+| ------------- | ------------- |
 | Bootstrapping an SS-I Framework | |
 | DID Key Management in the Group | |
 | DID Spec Work | Manu |
