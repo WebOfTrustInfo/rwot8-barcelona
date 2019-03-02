@@ -11,7 +11,7 @@ These are the documents in process at RWOT8.
 | Establishing Trust Relation Between Verifier and Issuer, First Time | Matt |
 | Framework to Assess Value of Self-Issued Credentials |
 | Human-meaningful Names for SS-I | |
-| Incentivizing Decentralized Collaboration | Chris |
+| Incentivizing Decentralized Collaboration | Chris C. |
 | Identity Containers | |
 | JORAM Illustrations | |
 | Journalism Use Cases |
