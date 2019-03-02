@@ -5,7 +5,7 @@ These are the documents in process at RWOT8.
 | Paper | Lead |
 | ------------- | ------------- |
 | Bootstrapping an SS-I Framework | |
-| DID Key Management in the Group | |
+| DID Key Management in the Browser | Alberto |
 | DID Spec Work | Manu |
 | Driving Adoption Based on Basic Human Needs | Sam |
 | Establishing Trust Relation Between Verifier and Issuer, First Time | Matt |
