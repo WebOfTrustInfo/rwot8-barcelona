@@ -33,7 +33,7 @@ did-reference      = did-url / did-relative-ref
 ```
 ## Proposed ABNF Syntax With Support for DID Content References
 
-To add support for both types of content references, we only need to add syntax that is parallel to the semicolon syntax used for service references. The limited character set available for this syntax in a valid URI is defined the `sub-delims` rule from the URI syntax defined in [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). In this ABNF we propose the `$` as the delimiter for content references.
+To add support for both types of content references, we only need to add syntax that is parallel to the semicolon syntax used for service references, but which allows for content references in various content referencing formats. The limited character set available for this syntax in a valid URI is defined the `sub-delims` rule from the URI syntax defined in [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). In this ABNF we propose the `$` as the delimiter for content references.
 
 ```
 did                = "did:" method ":" method-specific-idstring
@@ -52,6 +52,13 @@ service-id         = 1*( ALPHA / DIGIT / "." / "-" / "_" /
                      pct-encoded )
 did-content-ref    = "$" idstring *( ":" idstring )               ; Syntax for content references
 did-reference      = did-url / did-relative-ref
+```
+
+## Content Reference Formats
+
+This syntax for content references can support emerging content addressing formats such as [Hashlink](https://tools.ietf.org/html/draft-sporny-hashlink-00). Following is an example of a DID URL containing a Hashlink as a content reference to a (fictitious) schema on the Sovrin ledger:
+```
+     did:sov:21tDAKCERh95uGgKbJNHYp$hl:zQmWvQxTqbG2Z9HPJgG57jjwR154cKhbtJenbyYTWkjgF3e
 ```
 
 ## Resolution of DID Content References
