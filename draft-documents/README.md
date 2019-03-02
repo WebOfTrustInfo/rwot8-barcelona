@@ -22,3 +22,4 @@ These are the documents in process at RWOT8.
 | Terminology | Reiks |
 | Universal Pluralism | Boris |
 | Verifiable Credential Test Corpus | Ryan |
+| Using OpenID Connect Self-Issued to Achieve DID Auth | Dmitri Z |
