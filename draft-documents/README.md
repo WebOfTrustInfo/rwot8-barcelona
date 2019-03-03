@@ -24,7 +24,7 @@ These are the documents in process at RWOT8.
 | Self-Issued Credentials | Nader |
 | Social Key Recovery #1: Shamir best Practices | Christopher A. |
 | Social Key Recovery #1a: New SSS Library | Daan & Mark |
-| Social Key Recovery #2: Evaluating Social Schemes for Recovering Control of an Identifier | Peg |
+| Social Key Recovery #2: [Evaluating Social Schemes for Recovering Control of an Identifier](Evaluating-social-recovery.md) | Peg |
 | <strike>Terminology</strike> | <strike>Reiks</strike> |
 | Understanding DIDs | Drummond |
 | Updated to IPID DID Method | Alberto | 
