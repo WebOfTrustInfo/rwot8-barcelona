@@ -158,7 +158,7 @@ did-reference             = did-url / did-relative-ref
 
 
 
-# Appendix B: ABNF for URIs (RFC 3986)
+## Appendix B: ABNF for URIs (RFC 3986)
 
 The syntax path through the ABNF used by a DID is highlighted in red below.
 
