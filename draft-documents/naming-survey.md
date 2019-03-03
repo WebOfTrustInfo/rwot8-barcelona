@@ -8,7 +8,7 @@ In lieu of a published draft at rwot8, we have decided to dig deeper into
 the historical discussion around human-meaningful naming for SSI. We have
 identified and digested important papers which shape the argument. We plan
 to continue to research the topic through the network of citations from the
-rwot papers, the information garnered from these surveys, and interviews
+rwot papers, the information garnered from the survey results, and interviews
 with the authors and key figures within the discussion.
 
 ## Papers
