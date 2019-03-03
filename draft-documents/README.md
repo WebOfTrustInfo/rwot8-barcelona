@@ -18,7 +18,7 @@ These are the documents in process at RWOT8.
 | [JORAM Illustrations](Joram_Illustrated.md) | Katie |
 | [JORAM 2](joram.2.0.0.md) | Joe |
 | LibP2P for DID Auth | jonnycrunch |
-| [Peer-to-Peer DID Method Spec](peer-DID-method-spec-report.md) | Brent |
+| [Peer DID Method Spec Report](peer-DID-method-spec-report.md) | Brent |
 | [Satyrn](satyrn.md) | Joe |
 | Social Key Recovery #1: [Shamir Secret Sharing Best Practices](shamir-secret-sharing-best-practices.md) | Christopher A. |
 | Social Key Recovery #1a: New SSS Library | Daan & Mark |
