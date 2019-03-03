@@ -6,22 +6,22 @@
   Mike Varley,
   Marton Csernai
 
-## Contributers
+## Contributors
 
 # Abstract
 
-This paper consists of objectives, use cases and observations around a peer-to-peer DID method, based off a draft specification submitted to RWOT8. The following abstract is from that draft specification.
+This paper consists of objectives, use cases and observations around a "peer" DID method, based off a draft specification submitted to RWOT8. The following abstract is from that draft specification, [located here](https://dhh1128.github.io/peer-did-method-spec/index.html).
 
 This DID method spec conforms to the requirements in the DID specification currently published by the W3C Credentials Community Group. For more information about DIDs and DID method specifications, please see the DID Primer and DID Spec.
 This document defines a "peer" DID Method that can be used independent of any source of truth external to the relationship in which it is used. The method is cheap, fast, scalable, and secure. It is suitable for most private relationships between people, organizations, and IoT things. DIDs associated with this method are also promotable to a more public context. That is, blockchains with different DID methods can graft some or all peer DIDs into their namespace(s) with no risk of accidental collision, and no loss of meaning. Peer DID will have a recognizable and consistent identity in all of them.
 
 
 # Objectives
-- p2p DIDs are transactional - they may be used for one or more transaction between parties.
-- p2p did communication/resolution does not require a Universal Resolver - documents are self contained in a message protocol.
-- p2p did exchange is for the purposes of establishing secure communication, but Trust in the peers must be established at another level step (in person, out of band, using Verifiable Credentials, using other attestations)
-- p2p DIDs communication / protocol is not bound to any specific ledger based DID service or design model
-- p2p DIDs are interoperable with Ledger (anchored) backed DIDs; the ‘anchored’ DID documents can be exchanged over this methodology and treated as ‘peer’.
+- peer DIDs are transactional - they may be used for one or more transaction between parties.
+- peer DID communication/resolution does not require a Universal Resolver - documents are self contained in a message protocol.
+- peer DID exchange is for the purposes of establishing secure communication, but Trust in the peers must be established at another level step (in person, out of band, using Verifiable Credentials, using other attestations)
+- peer DIDs communication / protocol is not bound to any specific ledger based DID service or design model
+- peer DIDs are interoperable with Ledger (anchored) backed DIDs; the ‘anchored’ DID documents can be exchanged over this methodology and treated as ‘peer’.
 - create an n-wise peer DID spec - of which a use case is pairwise DID exchange.
 
 # Use Cases
@@ -40,9 +40,12 @@ In a doctor, hospital, patient context these three entities may wish to establis
 
 - Removing participants from a Group is basically recreating the group without the person who is 'removed'.
 
+## Namestring Generation - keyfmtchar
+- understand the need for keyfmtchar, but it needs a definition and maybe an example of when to use it (ie, when to make a "2") would be helpful.
+
 ## Protocol - Message Format section
 
-- Indy HIPE message protocol is referenced - with the desire to be as close to JWE "as possible"
+- Indy HIPE message protocol is referenced - what extensions are required (multiplexed encryption) and why? The observation is that pure JWE would be better for adoption (possibly) so understanding the need for extensions would be helpful.
 
 
 # Next Steps
