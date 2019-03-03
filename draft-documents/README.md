@@ -18,6 +18,7 @@ These are the documents in process at RWOT8.
 | JORAM Illustrations | Katie |
 | JORAM 2 | Joe |
 | Journalism Use Cases | Juan C. | 
+| LibP2P for DID Auth | jonnycrunch |
 | Peer-to-Peer DID Method Spec | Brent |
 | Satyrn | Joe |
 | Self-Issued Credentials | Nader |
@@ -25,6 +26,7 @@ These are the documents in process at RWOT8.
 | Social Key Recovery #1a: New SSS Library | Daan & Mark |
 | Social Key Recovery #2: Identity Recovery Schemes | Peg |
 | <strike>Terminology</strike> | <strike>Reiks</strike> |
+| Understanding DIDs | Drummond |
 | Updated to IPID DID Method | Alberto | 
 | Verifiable Credential Museum/Playground | Ryan |
 | Using OpenID Connect Self-Issued to Achieve DID Auth | Dmitri Z |
