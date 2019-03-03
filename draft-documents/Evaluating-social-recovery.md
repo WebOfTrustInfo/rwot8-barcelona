@@ -4,7 +4,7 @@ Sean Gilligan, Peg, Adin Schmahmann, Andrew Hughes
 
 ### Abstract
 
-The private key custody problem is getting bigger, as systems where people are required to manage their own keys become more popular. Such systems are inherently empowering to users but safegaurding keys is a hard problem.
+As systems where people are required to manage their own keys become more popular, social recovery or reissuance of keys increases in importance. Such systems are inherently empowering to users but safegaurding keys is a hard problem.
 
 We focus on social recovery of control of an identifier. There are several techniques to re-assert control over identifiers including key recovery and issuance of a new key. In many situations it is preferrable to establish a new key than recover the old one. 
 
@@ -101,7 +101,7 @@ Issues:
 
 ### Schnorr signatures (TODO)
 
-### Maybe another way to summarize schemes -- don't take too seriously
+### Rubric Evaluations (WIP)
 
 Classic Shamir Usage:
  - Peers are asked to store User's recovery data
@@ -109,21 +109,16 @@ Classic Shamir Usage:
  - User doesn't need to do anything during stasis
  - Relies on the channels peers use to send the recovery data to the user being private. Relies on the user's device being private
  -  Requires redoing the setup phase (reissuing recovery data to all peers)
- -  Yes, as 
  -  They are allowed to withhold or send incorrect recovery data
  -  Yes, the user device
  -  Yes, assuming that the channels peers use for sending recovery data are anonymous and protected from traffic analysis
 
-Simplistic Multi Signature Schemes:
-
-> [name=peg] what do you mean by 'simplistic'?
+Multi Signature Schemes:
 
 - Peers not required to store information beyond what they already have
 - Peers required to protect their keys (and report issues if their keys are compromised)
 - User doesn't need to do anything during stasis
-- ?
 - Requires redoing the setup phase (no peer interaction required)
-- 
 
 ### Conclusion (TODO)
 
@@ -140,7 +135,10 @@ Simplistic Multi Signature Schemes:
 - [Colic, Petar Hlad - Anonymous Threshold Signatures](https://upcommons.upc.edu/bitstream/handle/2117/119360/memoria.pdf?sequence=1&isAllowed=y)
 - [Back and Zheng - Identity-Based Threshold Signature Scheme from the Bilinear Pairings](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.157.6146&rep=rep1&type=pdf)
 - [Gregory Maxwell, Andrew Poelstra1, Yannick Seurin, and Pieter Wuille - Simple Schnorr Multi-Signatures with Applications to Bitcoin](https://eprint.iacr.org/2018/068.pdf)
-- 
+
+TODO: Look for and incoude existing references on the network and social issues we've raised above. 
+
+ 
 ### Revocation of compromised keys
 
 [Permanent Revocation Systems - Brownstein, Gilboa,Dolev](https://www.cs.bgu.ac.il/~frankel/TechnicalReports/2017/17-02.pdf)
