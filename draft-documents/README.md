@@ -30,3 +30,4 @@ These are the documents in process at RWOT8.
 | Updated to IPID DID Method | Alberto |
 | Verifiable Credential Museum/Playground | Ryan |
 | [Using OpenID Connect Self-Issued to Achieve DID Auth](did-auth-oidc.md) | Dmitri Z |
+| [Using OpenID Connect Self-Issued to achieve Verifiable Credentials Presentation](did-auth-vc-exchange.md) | Dmitri Z |
