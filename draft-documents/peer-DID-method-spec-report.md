@@ -43,6 +43,13 @@ In a doctor, hospital, patient context these three entities may wish to establis
 
 - Indy HIPE message protocol is referenced - with the desire to be as close to JWE "as possible" 
 
+## Comments on the Spec
+- The language of the abstract is "marketing speak". I would suggest changing it to state just the intent.
+  - "The method is cheap, fast, scalable, and secure" -> "The method is **supposed to be** cheap, fast, scalable, and secure"
+- [Section 2.1](https://dhh1128.github.io/peer-did-method-spec/index.html#namestring) links to a non-existing section "cross-registration" at the end
+- [Section 2.3](https://dhh1128.github.io/peer-did-method-spec/index.html#namespace-specific-identifier-nsi) could be better structured with subsections maybe. E.g. for `keyfmtstring` and `idstring`
+- [Section 3.4](https://dhh1128.github.io/peer-did-method-spec/index.html#cooperative-synchronization) contains a lot of prose, which doesn't fit the structure of the rest of the document. Also it is not clear, what is meant by "The significance of the error situation described above, ..." 
+
 
 # Next Steps
 
