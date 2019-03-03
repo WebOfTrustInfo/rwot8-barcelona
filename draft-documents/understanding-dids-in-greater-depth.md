@@ -148,7 +148,7 @@ did-fragment-ref          = "#" fragment
 did-content-ref           = "!" content-id                                                  
 content-id                = content-idstring *( ":" content-idstring )                      
 content-idstring          = 1*uri-safe-char                                                 
-url-safe-char             = idchar / "_" / pct-encoded
+uri-safe-char             = idchar / "_" / pct-encoded
 did-service-ref           = "$" service-id [ path-abempty ] [ "?" query ] 
                             [ "#" fragment ]
 service-id                = service-idstring *( ":" service-idstring )
