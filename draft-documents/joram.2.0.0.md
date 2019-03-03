@@ -95,8 +95,8 @@ identity data.
 As a strawman approach for the sake of this discussion, we make a few
 assumptions about this data store:
 
-1.  A secure element, a pin, and biometrics cryptographically secure
-    records in the data store. The secure element is embedded in Joram’s
+1.  A secure element protected by a pin or and iris biometrics that 
+    can store Joram’s credentials. The secure element is embedded in Joram’s 
     camp bracelet.
 
 2.  A semi-private ledger--governed by the UN--enables approved stewards
@@ -107,7 +107,10 @@ assumptions about this data store:
     set by the UN to assure the integrity of the consent and disclosure
     ceremony and subsequent data hygiene.
 
-4.  In each steward interaction, there is an authorization ceremony that
+4.  Before each steward interaction, Joram unlock access to his data 
+    using his biometrics.
+
+5.  In each steward interaction, there is an authorization ceremony that
     requests permission to both query *and* create associated records.
     Consent for specific scope is given or denied in every interaction.
 
@@ -210,22 +213,27 @@ refugees, claimed origin, Damascus, etc.*
 
 **Stage 5 — Consent**
 
-At Camp Alpha, UN volunteer Celine matches Joram to the record created
-by Alexandra and asks Joram to confirm that it is his. She explains that
-she is creating a new record in an isolated system that will enable
-Joram to securely access camp services. She explains that he will have
-control over who can access this data through powerful
-cryptography--that neither the Greek nor Syrian governments will be able
-to access any of this information without his assistance. She asks for
-and receives Joram’s consent to create a profile for him.
+At camp Alpha, Joram and the other refugees are queing to be registered. 
+UN volunteer Celine matches Joram to the record created by Alexandra and 
+asks Joram to confirm that it is his. She then play an audio file in 
+Joram’s local language explaining what data they will gather and what 
+they will do with it.  It explains that he will have control over who can 
+access this data through powerful cryptography--that neither the Greek 
+nor Syrian governments will be able to access any of this information 
+without his assistance. She then asks for and receives Joram’s consent 
+to create a profile for him.
 
-Celine records biometrics for Joram, **storing templates** in the data
-store and the secure element in Joram’s new bracelet. Celine gives Joram
-the new bracelet, giving him control over his records in the distributed
-data store. He can also use it to access goods and services in Camp
-Alpha. Joram records a passphrase for accessing the bracelet. Celine and
-Joram use the newly provisioned bracelet to record Joram’s consent to
-participate in the camp refugee management system.
+Celine give him a QR code printed on paper that he presents at every booth. 
+He move to the next booth where another volunteer records his fingerprints 
+and iris biometrics then to another one where they take his picture. 
+At the last booth, they show him all the informations collected and ask 
+him to confirm all of them. Finally they issue him a new bracelet with 
+a secure element that store *his records and biometrics templates*. The 
+Volunteer gives Joram the new bracelet, giving him control over his records
+in the distributed data store. He can also use it to access goods and 
+services in Camp Alpha. Celine and Joram use the newly provisioned 
+bracelet to record Joram’s consent to participate in the camp refugee 
+management system.
 
 *Data Records: biometric templates, passphrase (in secure element),
 intake records (from Greek military), consent receipt.*
@@ -297,15 +305,15 @@ relocation request.*
 **Stage 9 — Updates**
 
 Upon confirmation of the relocation request, Dion creates a travel chit
-for Joram, scheduling him on the next bus to Camp Beta. On the day of
-the transfer, Dion records Joram’s departure in the data store,
-deallocates his Camp Alpha assigned resources, and makes sure Joram
-takes the bus.
+for Joram that she stores on his bracelet, scheduling him on the next bus 
+to Camp Beta. On the day of the transfer, Dion records Joram’s departure 
+in the data store, deallocates his Camp Alpha assigned resources, and 
+makes sure Joram takes the bus.
 
-Upon arriving at Camp Beta, Joram presents his chit to Mary who creates
-a local record for Joram, records his arrival in the data store, and
-completes the allocation of resources at Camp Beta. Once in the system,
-Joram is reunited with Fatima.
+Upon arriving at Camp Beta, Joram presents his bracelet and give access to 
+his travel chit to Mary who creates a local record for Joram, records his
+arrival in the data store, and completes the allocation of resources at Camp
+Beta. Once in the system, Joram is reunited with Fatima.
 
 *Data Records: Prescription, camp assignment. *
 
@@ -334,11 +342,11 @@ arrests Qasim and brings him to Markos.
 
 Faced with the “real” Qasim, Joram admits he lied. Qasim, in turn claims
 HE is the real Qasim, who has been in these camps for weeks. Markos asks
-Qasim a few corroborating questions and gives Qasim Mary’s device to
-authenticate. Qasim fails. Clearly, the Qasim in the room is NOT the
-same individual that has been in the camps under that name. Given the
-alibi in the data store and the evidence against Qasim, Markos releases
-Joram.
+Qasim a few corroborating questions and gives Qasim Joram’s device to
+authenticate with his biometrics. Qasim fails. Clearly, the Qasim in the
+room is NOT the same individual that has been in the camps under that 
+name. Given the alibi in the data store and the evidence against Qasim,
+Markos releases Joram.
 
 *Data Records: Camp Records reviewed. Joram’s named updated to “Joram”.*
 
@@ -416,12 +424,6 @@ his original identifier.
 
 Each time that Joram and an advocate go through the recovery ceremony,
 Joram also adds them as a recovery advocate for his new bracelet.
-
-In Stage 10, when Qasim attempts to authenticate as Joram, he doesn’t
-know the passphrase. After three tries, the bracelet suggests a
-passphrase reset, which Qasim triggers. The bracelet then requests
-biometrics. Unfortunately for Qasim, his biometrics don’t match the
-template and he is unable to reset the bracelet.
 
 *Data records: Joram’s name, photo of Joram, recovery assertions,
 recovery tokens, recovery claim.*
