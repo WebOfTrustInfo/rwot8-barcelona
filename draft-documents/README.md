@@ -27,7 +27,7 @@ These are the documents in process at RWOT8.
 | [Sociolegal frameworks for the phygital age](Sociolegal frameworks for the phygital age.txt) | Katryna |
 | Understanding DIDs | Drummond |
 | Updated to IPID DID Method | Alberto | 
-| [Use Cases and Research Directions for self-sovereign publication and journalism](Use Cases and Research Directions for self-sovereign publication and journalism.md) | Juan C. |
+| [Use Cases and Research Directions for self-sovereign publication and journalism](journalism-use-cases.md) | Juan C. |
 | [Using OpenID Connect Self-Issued to Achieve DID Auth](did-auth-oidc.md) | Dmitri Z |
 | [Using OpenID Connect Self-Issued to achieve Verifiable Credentials Presentation](did-auth-vc-exchange.md) | Dmitri Z |
 | [Verifiable Credential Museum/Playground](vc-museum-playground.md) | Ryan | [Draft](vc-museum-playground.md) |
