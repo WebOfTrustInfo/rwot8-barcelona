@@ -5,12 +5,12 @@ These are the documents in process at RWOT8.
 | Paper | Lead |
 | ------------- | ------------- |
 | How SSI Will Survive Capitalism | Adrian G. |
-| Crypto Jurisdiction | Toni | http://bit.ly/cryptojurisdiction |
+| [Crypto Jurisdiction](http://bit.ly/cryptojurisdiction) | Toni |
 | DID Key Management in the Browser | Alberto |
 | DID Spec Work | Manu |
-| The Digital Citizen | Chris C. | [Draft](digital-citizen.md) |
+| [The Digital Citizen](digital-citizen.md) | Chris C. |
 | Driving Adoption Based on Basic Human Needs | Sam |
-| Establishing the Identity of the Issuer by the Verifier in Verifiable Credentials | Matt | [Draft](establishing_the-identity_of_the_issuer_by_the_verifier_in_verifiable_credentials.md) |
+| [Establishing the Identity of the Issuer by the Verifier in Verifiable Credentials](establishing_the-identity_of_the_issuer_by_the_verifier_in_verifiable_credentials.md) | Matt |
 | Exchange Presentation of Verifiable Credentials Using OpenID Connect | TBD |
 | First Principles (or) Ethics | Katryna |
 | Human-Meaningful Names for SSI | Boyma |
