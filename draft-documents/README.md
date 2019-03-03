@@ -10,7 +10,7 @@ These are the documents in process at RWOT8.
 | DID Spec Work | Manu |
 | The Digital Citizen | Chris C. | [Draft](digital-citizen.md) |
 | Driving Adoption Based on Basic Human Needs | Sam |
-| Establishing First-Time Trust Relation Between Verifier and Issuer | Matt |
+| Establishing the Identity of the Issuer by the Verifier in Verifiable Credentials | Matt |
 | Exchange Presentation of Verifiable Credentials Using OpenID Connect | TBD |
 | First Principles (or) Ethics | Katryna |
 | Human-Meaningful Names for SSI | Boyma |
