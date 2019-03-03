@@ -17,7 +17,7 @@ These are the documents in process at RWOT8.
 | Identity Containers | Alex P. |
 | JORAM Illustrations | Katie |
 | JORAM 2 | Joe |
-| Journalism Use Cases | Juan C. | 
+| Journalism Use Cases | Juan C. |
 | LibP2P for DID Auth | jonnycrunch |
 | Peer-to-Peer DID Method Spec | Brent |
 | Satyrn | Joe |
@@ -29,4 +29,4 @@ These are the documents in process at RWOT8.
 | Understanding DIDs | Drummond |
 | Updated to IPID DID Method | Alberto | 
 | Verifiable Credential Museum/Playground | Ryan | [Draft](vc-museum-playground.md) |
-| Using OpenID Connect Self-Issued to Achieve DID Auth | Dmitri Z |
+| [Using OpenID Connect Self-Issued to Achieve DID Auth](did-auth-oidc.md) | Dmitri Z |
