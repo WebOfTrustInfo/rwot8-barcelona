@@ -25,7 +25,11 @@ human-meaningful names for SSI:
 - [Self-Sovereign Identity Framework/Thought Model][9]
 
 ## Survey
-The survey can be found [here][survey].
+We would appreciate feedback from all attendees of rwot8, as well as past
+attendees of the design workshop that would like to weigh-in. We want to
+give adequate time for reflection and will leave the survey open for the
+next couple of weeks. We plan to share the results with the resultant
+paper. The survey can be found [here][survey].
 
 ## Contributions
 This work has been contributed to by: Boyma Fahnbulleh, Moses Ma, and Ryan Gill
