@@ -3,11 +3,11 @@
 Authors: Alberto &lt;hi@albertoelias.me&gt;, André Cruz &lt;andre@moxy.studio&gt;, [jonnycrunch](https://github.com/jonnycrunch), João Santos &lt;jrmsantos15@gmail.com&gt;
 
 Outline:
-    - Introduction
-    - Multi-writter scenario
-        - State based
-        - Operation based
-    - Security of the Master Key
+
+    - [Introduction](#outline)
+    - [Problems](#problems)
+        - [Publishing the DID-Document concurrently](publishing-the-did-document-concurrently)
+        - [Security of the Master Key](security-of-the-master-key)
 
 
 ## Introduction
