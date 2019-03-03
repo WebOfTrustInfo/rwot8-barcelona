@@ -1,11 +1,12 @@
 # Enabling a Web of Trust with Self-Issued Credentials
 Lead: Nader Helmy (nader.helmy@danubetech.com)
 
-Authors or Contributors: 
-Maciek Laskus (maciej.laskus@gmail.com)
+Authors or Contributors (in alphabetical order): 
 Juan Caballero (juan@sourcecheck.org)
 Carsten Keutmann (carstenkeutmann@gmail.com)
+Maciek Laskus (maciej.laskus@gmail.com)
 Jack Poole (jack.w.poole@gmail.com)
+Alex Preukschat (alex.preukschat@evernym.com)
 
 ## Abstract
 The invention of Verifiable Credentials has provided the basis for a new web of trust, including an ecosystem of Issuers, Holders, and Verifiers interacting in a myriad of ways. Many of the use cases to date have primarily focused on the role of the Issuing Authority as a public root of trust. Examples of these credentials include passports, transcripts, financial documents, and digital certificates. While these kinds of Verifiable Credentials are valuable in a variety of business and consumer use cases, they do not address the broad role of the Issuer as outlined in the Verifiable Credentials data model (§1.2). As it describes, Issuers can be “corporations, non-profit organizations, trade associations, governments, and individuals.” The last item has not received significant coverage in current implementations and use cases. In addition, the spec details that “Issuers can issue Verifiable Credentials about any subject” (§1.3). If we consider the implications of a real Web of Trust which includes a variety of identities interacting in a variety of complex ways, we must examine the role of self-issued credentials and define a framework for interpreting their potential value. The Decentralized Identifier (DID) spec allows for self-sovereign identifiers which can be controlled by individuals. These identifiers, combined with Verifiable Credentials, provide the basis for new kinds of mutually shared consent. The basic question at hand is how do we evaluate whether to trust an unknown DID being used in a particular context? Phrased in another way, what can I prove about myself which is not known by an issuing authority? The answer is personal data, the mechanism is Verifiable Credentials, and for many use cases, these credentials will be self-issued.
