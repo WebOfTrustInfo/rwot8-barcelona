@@ -31,3 +31,4 @@ These are the documents in process at RWOT8.
 | [Using OpenID Connect Self-Issued to Achieve DID Auth](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-oidc.md) | Dmitri Z |
 | [Using OpenID Connect Self-Issued to achieve Verifiable Credentials Presentation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-vc-exchange.md) | Dmitri Z |
 | [Verifiable Credential Museum/Playground](vc-museum-playground.md) | Ryan | [Draft](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/vc-museum-playground.md) |
+| [CRUD and multi-device for IPID](ipid-crud.md) | André Cruz | [Draft](ipid-crud.md) |
