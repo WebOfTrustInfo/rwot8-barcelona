@@ -17,11 +17,12 @@ This document defines a "peer" DID Method that can be used independent of any so
 
 
 # Objectives
-- peer DIDs are transactional - they may be used for one or more transaction between parties.
-- peer DID communication/resolution does not require a Universal Resolver - documents are self contained in a message protocol.
-- peer DID exchange is for the purposes of establishing secure communication, but Trust in the peers must be established at another level step (in person, out of band, using Verifiable Credentials, using other attestations)
-- peer DIDs communication / protocol is not bound to any specific ledger based DID service or design model
-- peer DIDs are interoperable with Ledger (anchored) backed DIDs; the ‘anchored’ DID documents can be exchanged over this methodology and treated as ‘peer’.
+- peer DID resolution does not require a Universal Resolver - documents are self contained in a message protocol.
+- peer DID exchange is for the purposes of establishing secure communication, but Trust in the peers must be established at another level (in person, out of band, using Verifiable Credentials, using other attestations).
+- peer DIDs may be created on the fly for each new session between parties. This enables privacy and anonymity features.
+- peer DIDs may be persisted for subsequent sessions between the parties. This enables a persistent trust relationship between parties.  
+- peer DID communication protocol is not bound to any specific ledger based DID service or design model. (A peer attempting to use a peer DID is not required, or bound to, another 'anchored' ledger).
+- peer DIDs are interoperable with Ledger (anchored) backed DIDs; the peers group do not all need to be using peer DIDs (Alice wants to use a did:sov:... DID, and Bob wants to use a did:peer:...) DID.
 - create an n-wise peer DID spec - of which a use case is pairwise DID exchange.
 
 # Use Cases
@@ -46,6 +47,13 @@ In a doctor, hospital, patient context these three entities may wish to establis
 ## Protocol - Message Format section
 
 - Indy HIPE message protocol is referenced - what extensions are required (multiplexed encryption) and why? The observation is that pure JWE would be better for adoption (possibly) so understanding the need for extensions would be helpful.
+
+## Comments on the Spec
+- The language of the abstract is "marketing speak". I would suggest changing it to state just the intent.
+  - "The method is cheap, fast, scalable, and secure" -> "The method is **supposed to be** cheap, fast, scalable, and secure"
+- [Section 2.1](https://dhh1128.github.io/peer-did-method-spec/index.html#namestring) links to a non-existing section "cross-registration" at the end
+- [Section 2.3](https://dhh1128.github.io/peer-did-method-spec/index.html#namespace-specific-identifier-nsi) could be better structured with subsections maybe. E.g. for `keyfmtstring` and `idstring`
+- [Section 3.4](https://dhh1128.github.io/peer-did-method-spec/index.html#cooperative-synchronization) contains a lot of prose, which doesn't fit the structure of the rest of the document. Also it is not clear, what is meant by "The significance of the error situation described above, ..." 
 
 
 # Next Steps
