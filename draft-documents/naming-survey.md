@@ -27,6 +27,9 @@ human-meaningful names for SSI:
 ## Survey
 The survey can be found [here][survey].
 
+## Contributions
+This work has been contributed to by: Boyma Fahnbulleh, Moses Ma, and Ryan Gill
+
 [1]: https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/Secure-Naming-on-the-Blockchain.md
 [2]: https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/topics-and-advance-readings/linked-local-names.md
 [3]: https://github.com/WebOfTrustInfo/rwot2-id2020/blob/master/topics-and-advance-readings/SovereignIdentityNamespaces.pdf
