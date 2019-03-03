@@ -1,9 +1,9 @@
 # Peer DID Method Specification Report
 
 ## Authors
-  Brent Zundel
-  Timo Welde
-  Mike Varley
+  Brent Zundel,
+  Timo Welde,
+  Mike Varley,
   Marton Csernai
 
 ## Contributer
