@@ -59,10 +59,7 @@ Architecture
 
 ### 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Documento-sin0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/schema1.png "image_tooltip")
+![alt_text](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/ContainerId/schema1.png "image_tooltip")
 
 
 Identity Smart Contract
@@ -81,11 +78,7 @@ The proxy contract is supposed to hold ZK proofs of possession of keys or DIDs o
 ## Create and Share Claims
 
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Documento-sin1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/schema2.png "image_tooltip")
+![alt_text](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/ContainerId/schema2.png "image_tooltip")
 
 
 
