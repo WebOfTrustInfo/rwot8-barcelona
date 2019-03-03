@@ -1,78 +1,106 @@
 # Verifiable Credential playground-museum
 
-In order to test our verifiable credential software, we need a corpus of claims that implementations can clearly succeed or fail against.  One of our main goals is to be neutral on all current candidates in use.
+In order to test our verifiable credential software, we need a playground-museum of claims (a test suite of collected claims) that implementations can clearly succeed or fail against.  One of our main goals is to be neutral on all current candidates in use, and be able to showcase some interoperability.
 
-We aim to first collect instances of Verifiable Credentials in a static database.
-* Collect versions of JSON-LD with LD-Proofs
-* Collect versions of JSON-LD with LD-Signatures
-* Collect versions of JSON with JWT
-* Collect versions of JSON-LD with JWT
+We want this service to be a collection point, viewing point and playground for community VCs out there.  We aim to make it possible to understand how others have generated credentials, get a better understanding of interopability, and recommend libraries that are compliant with the specification.
 
-We aim to second show the use of these credentials using developer-friendly playgrounds.
-
-  We have some examples from 2017, but small changes have occurred in
-  the DID formatting so the examples will need small updates.
+This will be both an informative draft and a specification on what will be built over 5 phases, if time allows for it.
 
 ## Existing playgrounds
 
-* https://jwt.io
-* https://w3c-vc.github.io/playground/
-* https://json-ld.org/playground/
+* Verifiable Claims playground
+    * https://w3c-vc.github.io/playground/
+* JSON-LD playground
+    * https://json-ld.org/playground/
+* JWT encode/decode
+    * https://jwt.io
 
-## Specs
-* https://tools.ietf.org/html/rfc7519
-* https://json-ld.org/spec/latest/json-ld/#dfn-graph
-* https://json-ld.org/learn.html
-* https://w3c.github.io/vc-data-model/
+## Specs, Docs
+* VC data model
+    * https://w3c.github.io/vc-data-model/
+* JSON-LD
+    * https://json-ld.org/spec/latest/json-ld/
+* JSON-LD documentation
+    * https://json-ld.org/learn.html
+* JWT
+    * https://tools.ietf.org/html/rfc7519
         
-## Corpus
-  
-* collect a few 2017 examples
-  * Kim's work
-            https://github.com/WebOfTrustInfo/btcr-did-tools-js/blob/master/claims/kimh-knows-christophera.jsonld
+## The museum
 
-  * https://w3c-vc.github.io/playground/
+Data has to be collected from the community, so this draft initates the collecting of VCs from a simple form.
 
-  * try to verify them using current libraries
-            https://github.com/WebOfTrustInfo/btcr-did-tools-js/blob/master/claims/kimh-knows-christophera.jsonld
-          
-* JWT from uPort (node architecture)
-        will generate VC from test example
+Please help us get up to speed on what types of VCs exist out there, and how they are understood, through this upload form: https://airtable.com/shr4ctJ5aJxkZEWkR
 
-* Martin Riedel's interoperability stuff
-        Rouven Heck (Consensys)
+#### Examples we are curious about
+* Graph VC's
+* Real usecase VC's
+* User facing VC's
+* VC's used between machines
 
-* get a useful complicated graph of verifiable credentials
+#### Already existing examples
+* Kim Hamiltons's examples: https://github.com/WebOfTrustInfo/btcr-did-tools-js/blob/master/claims/kimh-knows-christophera.jsonld
+                   
+* Test suite from W3C VC WG https://github.com/w3c/vc-test-suite
 
-## Roadmap
+## The playground
+For the playground to work intitially, and without any interopability protocol or library, we need to build a bridge between the VCs that we have been made aware of.
+#### Existing libraries
+##### General purpose bitcoin client
+* bitcoinjs-lib (tested 3.3.2): https://github.com/bitcoinjs/bitcoinjs-lib
+##### DID Method specific
+* jsonld-signatures (tested 2.3.1): https://www.npmjs.com/package/jsonld-signatures
+* txref-conversion-js     : https://github.com/WebOfTrustInfo/txref-conversion-js.git
 
-* add usage notes to corpus (how should the fields be interprested)
-  * which VC-spec versions is this VC believed to comply with?
-  * how to interpret fields (local, or open-world model with @context?)
-  * contributor
-  * help contact
-  * encoded text
-  * decoded text
-  * necessary DIDs
-  * tested on libraries X,Y,Z  (VCs!)
-  * deprecated?
-  * git metadata...
-  * related claims... / tags
-  * intended result (verifies/fails)
+# Execution phases
+### Phase 1
+#### Collection
+* Collect VCs made as JSON-LD with LD-Proofs, that this community is curious about
+* Collect VCs made as JSON-LD with LD-Signatures, that this community is curious about
+* Collect VCs made as JSON with JWT, that this community is curious about
+* Collect VCs made as JSON-LD with JWT, that this community is curious about
 
-* fork from existing javscript playground
-* (BTCR specific) return SatoshiAuditTrail via CGI-script
-        https://w3c-ccg.github.io/didm-btcr/
-* (BTCR specific) return DIDdoc via CGI-script
-* validate non-graph verifiable credential, encoded as JWT
-* validate non-graph verifiable credential, encoded as JSON-LD
-* try a verifiable credential with a graph, for JWT
-* try a verifiable credential with a graph, for JSON-LD 
-* validate Verifiable Credential (in a low-friction way)
-* launch online (no requirements) playground for users
-* write a joint statement on comparison tables for signature schemes JWT and LD-Proofs
-        https://pr-preview.s3.amazonaws.com/w3c/vc-data-model/pull/384.html#syntax-and-proof-format-trade-offs
-  * how do you encode a LD-Proof for transmission?  (pretty clear with JWT)
-* review JSON-LD playground features to try to understand graph
-        https://json-ld.org/playground/
-        
+#### Playground initiation
+* Start a code template for the playground so collaboration can grow.
+* Get it hosted openly so it is easy for developers to improve the playground.
+
+### Phase 2
+#### Viewing VCs
+* Create a flexible way to view the VCs in the museum.
+* Look at integrating with Satyrn (an all-Javascript Jupyter-like single-page workspace) for a better playground.
+
+#### Understand the verification processs of VCs
+* Start mapping the libraries that are being used to verify VCs.
+* Specify a version 1.0 playground that can show interopability progress.
+
+#### Initiate a comparison table
+* Write a joint statement on comparison tables for the different schemas that have come in, with inspiration from https://pr-preview.s3.amazonaws.com/w3c/vc-data-model/pull/384.html#syntax-and-proof-format-trade-offs
+
+### Phase 3
+####  Verifying the simplest VCs
+* Programatically verify the VC examples that are collected.
+* Build out the interopability solution for the examples.
+    * (BTCR specific) return SatoshiAuditTrail via CGI-script https://w3c-ccg.github.io/didm-btcr/
+    * (BTCR specific) return DIDdoc via CGI-script
+
+#### Build a feedback loop
+* Develop a feedback view for the different simple VCs. This feedback loop includes:
+    * Which VC-spec versions does this comply with?
+    * Deprecated?
+    * Are these fields connected with an open-world model?
+    * Tested on libraries [X,Y,Z]
+    * Decoding all text
+    * Signatures valid
+* Add possibilities to tweak the VCs for different feedback.  This could mean trying a different context, or encoding differently, or siging with a different key available in the DIDdoc.
+
+### Phase 4
+#### Initiate interop transportation examples
+* Proof of concept integration of an SSI method with the playground, to be able to experiment with transportation methods.
+
+### Phase 5
+#### Graphing out data collected
+* Are there related claims so we can explore synergies?
+
+
+# Questions that are still not clear
+* What is the recommended encoding of an LD-Proof for transmission?  (pretty clear with JWT)
+* What are the best transmission methods?

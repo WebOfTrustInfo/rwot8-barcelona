@@ -1,4 +1,4 @@
-# Demons
+# Demos
 
 ## HIE of One
 
