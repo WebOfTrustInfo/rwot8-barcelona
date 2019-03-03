@@ -6,7 +6,7 @@
   Mike Varley,
   Marton Csernai
 
-## Contributer
+## Contributers
 
 # Abstract
 
