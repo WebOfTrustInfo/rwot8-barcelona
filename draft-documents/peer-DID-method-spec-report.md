@@ -5,11 +5,13 @@
   Timo Welde
   Mike Varley
 
-## Contributer
+## Contributors
+
+
 
 # Abstract
 
-This paper consists of objectives, use cases and observations around a peer-to-peer DID method, based off a draft specification submitted to RWOT8. The following abstract is from that draft specification.
+This paper consists of objectives, use cases and observations around a peer-to-peer (p2p) DID method, based off a draft specification submitted to RWOT8. The following abstract is from that draft specification, [located here](https://dhh1128.github.io/peer-did-method-spec/index.html).
 
 This DID method spec conforms to the requirements in the DID specification currently published by the W3C Credentials Community Group. For more information about DIDs and DID method specifications, please see the DID Primer and DID Spec.
 This document defines a "peer" DID Method that can be used independent of any source of truth external to the relationship in which it is used. The method is cheap, fast, scalable, and secure. It is suitable for most private relationships between people, organizations, and IoT things. DIDs associated with this method are also promotable to a more public context. That is, blockchains with different DID methods can graft some or all peer DIDs into their namespace(s) with no risk of accidental collision, and no loss of meaning. Peer DID will have a recognizable and consistent identity in all of them.
@@ -38,6 +40,9 @@ In a doctor, hospital, patient context these three entities may wish to establis
 - It should be made clear that if an Alice and Bob are already connected (through peer DIDs) they would need to create new peer DIDs when adding another party Carol (both to each other and for Carol).
 
 - Removing participants from a Group is basically recreating the group without the person who is 'removed'.
+
+## Namestring Generation - keyfmtchar
+- understand the need for keyfmtchar, but it needs a definition and maybe an example of when to use it (ie, when to make a "2") would be helpful.
 
 ## Protocol - Message Format section
 
