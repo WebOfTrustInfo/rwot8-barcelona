@@ -113,14 +113,14 @@ Issue to research: I think they expire, how to handle this when an expired one i
 ### 3. Use a "web of trust" of Verifiable Credentials issued by the group of issuers to each other
 Verifier can use Verifiable Credentials issued by community/network of issuers to each other to estimate the level of trust it can provide to the Verifiable Credential provided by the issuer that is the part of the network of issuers - "web of trust". 
 Verifier can use the following techniques to estimate the trust level it can extend to the issuer and the "web of trust" of issuers:
--- estimate simplicity/explicitly of the relations in the "web of trust" of issuers
--- estimate how simply and deeply it is possible to traverse/analyse "web of trust"
--- find shortest path to well known global high-trust issuer in the "web of trust"
--- find shortest path to local (contextual) high-trust issuer in the "web of trust"
--- find, count and estimate quality of paths (path length, intermediary issuer, the quality of "connectors"/bottle necks) to the biggest component of the well known high level trust nodes
--- find, count and estimate quality of paths (path length, intermediary nodes, the quality of "connectors"/bottle necks) to local (known to verifier to be trustable) high-trust "web of trust" 
--- estimate the availability of rich data connected to "web of trust" - to check linkability of issuers to the "real world"
--- use tools for manual/visual human-readable graph analysis (see image below)
+- estimate simplicity/explicitly of the relations in the "web of trust" of issuers
+- estimate how simply and deeply it is possible to traverse/analyse "web of trust"
+- find shortest path to well known global high-trust issuer in the "web of trust"
+- find shortest path to local (contextual) high-trust issuer in the "web of trust"
+- find, count and estimate quality of paths (path length, intermediary issuer, the quality of "connectors"/bottle necks) to the biggest component of the well known high level trust nodes
+- find, count and estimate quality of paths (path length, intermediary nodes, the quality of "connectors"/bottle necks) to local (known to verifier to be trustable) high-trust "web of trust" 
+- estimate the availability of rich data connected to "web of trust" - to check linkability of issuers to the "real world"
+- use tools for manual/visual human-readable graph analysis (see image below)
 
 ![](https://i.imgur.com/fWoMLv0.png)
 [Image source](https://k-learn.adb.org/system/files/materials/2018/05/201805-self-sovereign-identity-converging-forces-challenges-and-opportunities.pdf) 
