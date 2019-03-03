@@ -1,3 +1,3 @@
 # Peer DID Method Specification Report
 
-by Brent Zundel
+by Brent Zundel, Timo Welde
