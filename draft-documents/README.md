@@ -28,5 +28,5 @@ These are the documents in process at RWOT8.
 | <strike>Terminology</strike> | <strike>Reiks</strike> |
 | Understanding DIDs | Drummond |
 | Updated to IPID DID Method | Alberto | 
-| Verifiable Credential Museum/Playground | Ryan |
+| Verifiable Credential Museum/Playground | Ryan | [Draft](vc-museum-playground.md) |
 | Using OpenID Connect Self-Issued to Achieve DID Auth | Dmitri Z |
