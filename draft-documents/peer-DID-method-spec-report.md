@@ -8,8 +8,6 @@
 
 ## Contributors
 
-
-
 # Abstract
 
 This paper consists of objectives, use cases and observations around a "peer" DID method, based off a draft specification submitted to RWOT8. The following abstract is from that draft specification, [located here](https://dhh1128.github.io/peer-did-method-spec/index.html).
@@ -59,3 +57,12 @@ In a doctor, hospital, patient context these three entities may wish to establis
 
 
 # Next Steps
+
+The next step is to form a working group and establish a regular cadence of meetings to continue working.
+
+The working group will work to:
+- Address the issues outlined in this document.
+- Continue to refine the objectives for peer DIDs.
+- Iteratively modify the draft Peer DID Method Spec to reflect the objectives.
+- Seek feedback on the draft Peer DID Method Spec from the community.
+- Identify further issues with the Peer DID Method Spec.

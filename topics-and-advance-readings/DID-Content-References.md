@@ -13,52 +13,55 @@ To complete the ability of a DID URL to address all three basic types of semanti
 
 ## Base ABNF Syntax
 
-Following is the base ABNF syntax for DIDs and DID URLs that we will use as the starting point for this proposal. We note that this syntax is currently under discussion by the [W3C Credentials Community Group](https://www.w3.org/community/credentials/), so it may change, particularly during the upcoming discussions at Rebooting the Web of Trust #8. For the definitive DID and DID URL ABNF once it is solidified, see the DID spec at https://w3c-ccg.github.io/did-spec/. Any rules not defined in this ABNF are defined in RFC 3986. For easy reference, a copy of that ABNF is included in the last section of this document.
+Following is a base ABNF syntax for DIDs and DID URLs that we propose to use as the starting point for this proposal. We note that this syntax is currently under discussion by the [W3C Credentials Community Group](https://www.w3.org/community/credentials/), so it may change, particularly during the upcoming discussions at Rebooting the Web of Trust #8. For the definitive DID and DID URL ABNF once it is solidified, see the DID spec at https://w3c-ccg.github.io/did-spec/. Any rules not defined in this ABNF are defined in RFC 3986 (for easy reference, a copy of that ABNF is included in the last section of this document).
+
+**Note: this proposal changes the delimiter character for service references from a semicolon to a dollar sign.** While both semicolon and dollar sign are `sub-delims` characters under RFC 3986 and thus valid delimiters, the dollar sign character is: a) more visually distinguishable, and b) more suggestive of "service".
 
 ```
-did                = "did:" method ":" method-specific-idstring
-method             = 1*methodchar
-methodchar         = %x61-7A / DIGIT
+did                       = "did:" method ":" method-specific-idstring
+method                    = 1*methodchar
+methodchar                = %x61-7A / DIGIT
 method-specific-idstring  = idstring *( ":" idstring )
-idstring           = 1*idchar
-idchar             = ALPHA / DIGIT / "." / "-"
-did-url            = did [ did-relative-ref ]
-did-relative-ref   = did-fragment-ref / did-service-ref
-did-fragment-ref   = "#" fragment
-did-service-ref    = *( ";" service-id ) [ path-abempty ] [ "?"    
-                     query ] [ "#" fragment ]
-service-id         = 1*( ALPHA / DIGIT / "." / "-" / "_" / 
-                     pct-encoded )
-did-reference      = did-url / did-relative-ref
+idstring                  = 1*idchar
+idchar                    = ALPHA / DIGIT / "." / "-"
+did-url                   = did [ did-relative-ref ]
+did-relative-ref          = did-fragment-ref / did-service-ref
+did-fragment-ref          = "#" fragment
+did-service-ref           = "$" service-id [ path-abempty ] [ "?" query ] [ "#" fragment ]
+service-id                = service-idstring *( ":" service-idstring )
+service-id                = 1*uri-safe-char
+url-safe-char             = idchar / "_" / pct-encoded
+did-reference             = did-url / did-relative-ref
 ```
 ## Proposed ABNF Syntax With Support for DID Content References
 
-To add support for both types of content references, we only need to add syntax that is parallel to the semicolon syntax used for service references, but which allows for content references in various content referencing formats. The limited character set available for this syntax in a valid URI is defined the `sub-delims` rule from the URI syntax defined in [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). In this ABNF we propose the `$` as the delimiter for content references.
+To add support for both types of content references, we only need to add syntax that is parallel to the delimiter syntax used for service references, but which allows for content references in various content referencing formats. The limited character set available for this syntax in a valid URI is defined the `sub-delims` rule from the URI syntax defined in [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). In this ABNF we propose the `!` as the delimiter for content references.
 
 ```
-did                = "did:" method ":" method-specific-idstring
-method             = 1*methodchar
-methodchar         = %x61-7A / DIGIT
+did                       = "did:" method ":" method-specific-idstring
+method                    = 1*methodchar
+methodchar                = %x61-7A / DIGIT
 method-specific-idstring  = idstring *( ":" idstring )
-idstring           = 1*idchar
-idchar             = ALPHA / DIGIT / "." / "-"
-did-url            = did [ did-relative-ref ]
-did-relative-ref   = did-fragment-ref / did-service-ref /
-                     did-content-ref                              ; This rule is new
-did-fragment-ref   = "#" fragment
-did-service-ref    = *( ";" service-id ) [ path-abempty ] 
-                     [ "?" query ] [ "#" fragment ]
-service-id         = 1*( ALPHA / DIGIT / "." / "-" / "_" / 
-                     pct-encoded )
-did-content-ref    = "$" idstring *( ":" idstring )               ; Syntax for content references
-did-reference      = did-url / did-relative-ref
+idstring                  = 1*idchar
+idchar                    = ALPHA / DIGIT / "." / "-"
+did-url                   = did [ did-relative-ref ]
+did-relative-ref          = did-fragment-ref / did-content-ref / did-service-ref             ;added did-content-ref
+did-fragment-ref          = "#" fragment
+did-content-ref           = "!" content-id                                                   ;new
+content-id                = content-idstring *( ":" content-idstring )                       ;new
+content-idstring          = 1*uri-safe-char                                                  ;new
+url-safe-char             = idchar / "_" / pct-encoded
+did-service-ref           = "$" service-id [ path-abempty ] [ "?" query ] [ "#" fragment ]
+service-id                = service-idstring *( ":" service-idstring )
+service-idstring          = 1*uri-safe-char
+did-reference             = did-url / did-relative-ref
 ```
 
 ## Content Reference Formats
 
 This syntax for content references can support emerging content addressing formats such as [Hashlink](https://tools.ietf.org/html/draft-sporny-hashlink-00). Following is an example of a DID URL containing a Hashlink as a content reference to a (fictitious) schema on the Sovrin ledger:
 ```
-     did:sov:21tDAKCERh95uGgKbJNHYp$hl:zQmWvQxTqbG2Z9HPJgG57jjwR154cKhbtJenbyYTWkjgF3e
+     did:sov:21tDAKCERh95uGgKbJNHYp!hl:zQmWvQxTqbG2Z9HPJgG57jjwR154cKhbtJenbyYTWkjgF3e
 ```
 
 ## Resolution of DID Content References
