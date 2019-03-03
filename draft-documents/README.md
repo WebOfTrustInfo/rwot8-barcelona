@@ -4,7 +4,7 @@ These are the documents in process at RWOT8.
 
 | Paper | Lead |
 | ------------- | ------------- |
-| Bootstrapping an SSI Framework | Adrian G. |
+| How SSI Will Survive Capitalism | Adrian G. |
 | Crypto Jurisdiction | Toni | http://bit.ly/cryptojurisdiction |
 | DID Key Management in the Browser | Alberto |
 | DID Spec Work | Manu |
