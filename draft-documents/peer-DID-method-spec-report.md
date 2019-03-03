@@ -2,6 +2,7 @@
 
 ## Authors
   Brent Zundel
+  Timo Welde
   Mike Varley
 
 ## Contributer
