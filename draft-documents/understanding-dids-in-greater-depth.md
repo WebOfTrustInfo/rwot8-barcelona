@@ -84,7 +84,7 @@ HTTP URL strings look like the following:
 
 The idea of a DID URL is that it has the same overall syntactic structure as an HTTP URL except for the structure of the "authority" part.
 
-![alt_text](images/Understanding-DIDs3.png "image_tooltip")
+![alt_text](media/Understanding-DIDs3.png "image_tooltip")
 
 
 To clarify terminology, here are the two terms used in the DID ABNF and the DID specification to talk about overall sets of DID URL syntax:
