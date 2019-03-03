@@ -1,9 +1,10 @@
 # Peer DID Method Specification Report
 
 ## Authors
-  Brent Zundel
-  Timo Welde
-  Mike Varley
+  Brent Zundel,
+  Timo Welde,
+  Mike Varley,
+  Marton Csernai
 
 ## Contributors
 
@@ -22,7 +23,7 @@ This document defines a "peer" DID Method that can be used independent of any so
 - p2p did communication/resolution does not require a Universal Resolver - documents are self contained in a message protocol.
 - p2p did exchange is for the purposes of establishing secure communication, but Trust in the peers must be established at another level step (in person, out of band, using Verifiable Credentials, using other attestations)
 - p2p DIDs communication / protocol is not bound to any specific ledger based DID service or design model
-- p2p DIDs are interoperable with Ledger (anchored) backed DIDs; the ‘anchored’ DID documents can be exchanged over this methodology and treated as ‘peer’. 
+- p2p DIDs are interoperable with Ledger (anchored) backed DIDs; the ‘anchored’ DID documents can be exchanged over this methodology and treated as ‘peer’.
 - create an n-wise peer DID spec - of which a use case is pairwise DID exchange.
 
 # Use Cases
@@ -46,9 +47,7 @@ In a doctor, hospital, patient context these three entities may wish to establis
 
 ## Protocol - Message Format section
 
-- Indy HIPE message protocol is referenced - with the desire to be as close to JWE "as possible" 
+- Indy HIPE message protocol is referenced - with the desire to be as close to JWE "as possible"
 
 
 # Next Steps
-
-
