@@ -24,7 +24,7 @@ These are the documents in process at RWOT8.
 | Social Key Recovery #1a: New SSS Library | Daan & Mark |
 | Social Key Recovery #2: [Evaluating Social Schemes for Recovering Control of an Identifier](Evaluating-social-recovery.md) | Peg |
 | <strike>Terminology</strike> | <strike>Reiks</strike> |
-| [Sociolegal frameworks for the phygital age](Sociolegal frameworks for the phygital age.txt) | Katryna |
+| [Sociolegal frameworks for the phygital age](sociolegal-frameworks.txt) | Katryna |
 | Understanding DIDs | Drummond |
 | Updated to IPID DID Method | Alberto | 
 | [Use Cases and Research Directions for self-sovereign publication and journalism](journalism-use-cases.md) | Juan C. |
