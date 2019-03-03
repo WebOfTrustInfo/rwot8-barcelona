@@ -6,13 +6,14 @@ _Authors: O.Burundukov <olegwb@gmail.com>, E. Moraes de Morais <eduardo.morais@g
 
 _Company: ING Group, Netherlands_
 
+
 ## Abstract
 
 In accordance to GDPR law ( see Appendix A ), once an owner of data has shared them with another party V, he/she has the right to withdraw the initial consent and to request the party V to erase the data. To execute the right the owner has to hold an evidence of the interaction with V. In the world of digital identities and anonymous credentials, the owner of data needs to obtain the digital proof of what and with whom the data have been disclosed.
 
 ## Introduction
 
-This work is dedicated to the subject of sharing and withdrawing digital credentials in a self sovereign identity (**SSI**) system. We choose Hyperledger Indy SSI working system as the baseline, therefore the paper uses its architecture and vocabulary, e.g. three main Indy party roles in SSI process  are Issuer, Prover and Verifier.
+This work is dedicated to the subject of sharing and withdrawing digital credentials in a self sovereign identity (**SSI**) system. We choose Hyperledger Indy SSI working system as the baseline, therefore the paper uses its architecture and vocabulary, e.g., three main Indy party roles in SSI process  are Issuer, Prover and Verifier.
 
 ### Facts about sharing digital data       
 
@@ -29,11 +30,6 @@ This work is dedicated to the subject of sharing and withdrawing digital credent
 
 Having said that, it becomes obvious that pure technical measures do not facilitate the execution of the RTE. The legislation has to enforce the Verifier to put rules of GDPR into effect, and that is the legislation only, which can do that efficiently. As a consequence, the application of the law requires the circumstances of the interaction between Prover and Verifier documented in a form suitable for the legal case. In digital systems, the proof of interaction is usually a message digitally signed by all participants, where facts about the interaction are enlisted.
 
-## Implementation
-
-Indy verification ( data disclose ) process consists of the exchange of credentials between two parties. The applicability of RTE in this case necessitate the generation of bi-lateral non-repudiated evidence of transferring data. One can see that the Proof object is self-containing evidence of the data disclose for the Verifier. On the other hand the evidence required by Prover is merely the confirmation that the Proof has arrived to the Verifier. We assume that dishonest Verifier can deny it.
-
-
 ### Glossary
 
 Hereafter the following abbreviations take place:
@@ -48,10 +44,13 @@ Hereafter the following abbreviations take place:
 
 **MSA** - multi-signature algorithm
 
-### Simple solution
 
+## Implementation
 
-We use Indy verification algorithm  as the baseline:
+Data sharing  in SSI system consists of the exchange of credentials between two parties. The applicability of RTE in this case necessitate the generation of bi-lateral non-repudiated evidence of transferring data.
+
+### Naive solutions
+
 
 * **P** sends the request to start protocol to **V**
 * **V** responds with PRQ
@@ -71,15 +70,36 @@ Slightly better version is where **P** can encrypt the proof beforehand:
 
 There are still problems here: dishonest **V** can repudiate that the **P** shared the **sk**. Besides that, the **V** has to sign encrypted proof without seeing its content.
 
+Using Trusted Third Party
+
+The protocol of non-repudiation may be built with only two parties interacting, however it has been argued that such protocol is inefficient.
+
+The history of non-repudiating protocols starts from multiple works published by J. Zhou and D. Gollmann between 1996 and 2000. These papers  were summarised and reviewed by P.Louridas in 2000.  The papers propose using TTP and they cover dispute resolution, fairness, timeliness and the cases of protocol recovery and protocol abort. Each next version of the protocol adds an improvement over the previous version by addressing one of concerns. The first work where more than two parties exchange data was published some time later in the paper by Steve Kremer and Olivier Markowitch.
+
+The non-repudiation is twofold. First, the non-repudiation of origin guards against the originator of a message falsely denying having sent the message. Second, non-repudiation of receipt defends the originator against the recipient of a message falsely denying having received the message.  In case of disclosing data in the SSI protocol , one can see that the Proof object is self-containing evidence of origin. Therefore we can safely state that bi-lateral evidence is formally uni-lateral in our case. 
+All the protocols discussed above have one common property: the shared data is encrypted first, and then the key to it has to be shared at the very last step of  the protocol.
+
+Main problem with sharing a key emerges with the requirement to maintain a public service for that.  Papers refer to such service as public FTP site  or Web server run by a party, either Prover or Notary, depending on the version of the protocol. Recall that SSI systems facilitate anonymity  of the Prover facing Verifier. There is high chance that a Prover operates the SSI application on a mobile device, where service access entries are not available for public in general way. We conclude that running key service on the side of a Prover becomes great challenge. We argue that the versions of  non-repudiation protocol where the key is generated by a Prover but shared by TTP ( Notary) remain the only realistic ones in the case of SSI.
+
+We shall see that if the Notary shares the decryption key using publicly available service, such as Web server,  the Notary must be able to prove later that the key was obtained by Verifier. It can be achieved by the recording of the identity of  a reader during each reading operation, which ,in turn, requires the reader to prove his/her identity.  Once the chosen Verifier accomplishes the reading of the key, Notary considers the protocol finished and sends the confirmation to the Prover.
+
+Note that  disclosing  keys with arbitrary users can result in revealing the weaknesses in underlying cryptographic schemas, therefore Notary has to restrict the access to the key before publishing by encrypting it with trusted public key of the Verifier.
+
+Two other important properties of non-repudiation protocol are unique labelling for each message and time limits for waiting for next message. The former is required to identify each step in the protocol, and the latter makes provision for the eventual termination.
+
+## Smart contracts as key storage
+
+Recall that the Notary has to register the event of sharing the key with chosen Verifier, and this requires checking the identity of each client which performs read operation. This process can be cumbersome.
+
+We shall consider using a notion of smart contract on the distributed ledger for holding keys and for capturing the event. Smart contract  is able to check its caller’s identity, therefore the contract should be able to write yet another change into the ledger, namely the receipt of reading the key by designated Verifier. This evidence is very strong for the purpose of RTE, and it remains publicly available and verifiable. We should analyse whether the receipt has to hold the details of the protocol interaction too.
+
+It is technically feasible to map the entire protocol between P, V and N into the sequence of transactions in the ledger. However,  this would lead to the pollution of the ledger.
+
+
 ## Proposal
 
-The verification process requires additional participant, notary, a **TTP**. Other aspects, anonymity and confidentiality of data exchange between parties, still have to be facilitated, for example by the secure  verification protocol implemented in target SSI system.  
+The protocol description is given in the second document, RightToErasure-protocol.pdf
 
-The notary plays a role of communicator between P and V:
-* the notary initialises the context of the process;
-* the notary collects signatures produced by both P and V at different stages of the protocols into the context using **MSA**, and signs the context at several checkpoints too.
-
-The details of the proposal are to be discussed in the workshop.
 
 ## Other aspects
 
@@ -98,7 +118,7 @@ The **P** and **V** have to communicate safely and securely to eliminate the thr
 
 
 ### ZK proofs
-Anonymous credentials involve partial disclose of data and employ zero knowledge proofs.  Sometimes the **P** discloses so little about him/herself so that the need of the regulation of the  privacy seems to be negligible. Is is also hard to link ZK proofs to real identity.
+Anonymous credentials involve partial disclose of data and employ zero knowledge proofs.  Sometimes the **P** discloses so little about him/herself so that the demand of the privacy keeping seems to be negligible. It is also hard to link ZK proofs to real identity.
 
 
 ## Conclusion
@@ -107,7 +127,7 @@ Anonymous credentials involve partial disclose of data and employ zero knowledge
 
 * The provisioning of the evidence of the actions performed by parties in the protocol is feasible by means of multi-signatures and trusted third party.
 
-* While the notion of trusted third party is opposed to the nature of public permissionless ledgers, the Indy ledger is merely the chain of trust, where TTP fits with the role of attested observer, similar to the role of Inspector.   
+* While the notion of trusted third party is opposed to the nature of public permissionless ledgers, the Hyperledger Indy is merely the chain of trust, where TTP fits with the role of attested observer, similar to the role of Inspector.   
 
 * The usage of ZK proofs together with anonymity almost solves entire problem. However, stored ZK proofs have to be qualified first by the law as objects not falling into the data categories protected by the GDPR.
 
