@@ -19,11 +19,12 @@ This document defines a "peer" DID Method that can be used independent of any so
 
 
 # Objectives
-- peer DIDs are transactional - they may be used for one or more transaction between parties.
-- peer DID communication/resolution does not require a Universal Resolver - documents are self contained in a message protocol.
-- peer DID exchange is for the purposes of establishing secure communication, but Trust in the peers must be established at another level step (in person, out of band, using Verifiable Credentials, using other attestations)
-- peer DIDs communication / protocol is not bound to any specific ledger based DID service or design model
-- peer DIDs are interoperable with Ledger (anchored) backed DIDs; the ‘anchored’ DID documents can be exchanged over this methodology and treated as ‘peer’.
+- peer DID resolution does not require a Universal Resolver - documents are self contained in a message protocol.
+- peer DID exchange is for the purposes of establishing secure communication, but Trust in the peers must be established at another level (in person, out of band, using Verifiable Credentials, using other attestations).
+- peer DIDs may be created on the fly for each new session between parties. This enables privacy and anonymity features.
+- peer DIDs may be persisted for subsequent sessions between the parties. This enables a persistent trust relationship between parties.  
+- peer DID communication protocol is not bound to any specific ledger based DID service or design model. (A peer attempting to use a peer DID is not required, or bound to, another 'anchored' ledger).
+- peer DIDs are interoperable with Ledger (anchored) backed DIDs; the peers group do not all need to be using peer DIDs (Alice wants to use a did:sov:... DID, and Bob wants to use a did:peer:...) DID.
 - create an n-wise peer DID spec - of which a use case is pairwise DID exchange.
 
 # Use Cases
