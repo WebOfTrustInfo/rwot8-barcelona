@@ -2,13 +2,13 @@
 
 These are the documents in process at RWOT8.
 
-| Paper | Lead |
-| ------------- | ------------- |
+| Paper | Lead | Link |
+| ------------- | ------------- | ---------- |
 | Bootstrapping an SSI Framework | Adrian G. |
 | Crypto Jurisdiction | Toni | http://bit.ly/cryptojurisdiction |
 | DID Key Management in the Browser | Alberto |
 | DID Spec Work | Manu |
-| The Digital Citizen | Chris C. |
+| The Digital Citizen | Chris C. | [Draft](digital-citizen.md) |
 | Driving Adoption Based on Basic Human Needs | Sam |
 | Establishing First-Time Trust Relation Between Verifier and Issuer | Matt |
 | Exchange Presentation of Verifiable Credentials Using OpenID Connect | TBD |
