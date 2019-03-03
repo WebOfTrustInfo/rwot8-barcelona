@@ -4,6 +4,7 @@ These are the documents in process at RWOT8.
 
 | Paper | Lead |
 | ------------- | ------------- |
+| [CRUD and multi-device for IPID](ipid-crud.md) | André Cruz | [Draft](ipid-crud.md) |
 | [Crypto Jurisdiction](http://bit.ly/cryptojurisdiction) | Toni |
 | [DID Key Management in the Browser](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-key-management-browser.md) | Alberto |
 | [DID Spec Work](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-spec-refinement.md) | Manu |
@@ -25,7 +26,6 @@ These are the documents in process at RWOT8.
 | <strike>Terminology</strike> | <strike>Reiks</strike> |
 | [Sociolegal frameworks for the phygital age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/sociolegal-frameworks.txt) | Elizabeth |
 | [Understanding DIDs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/understanding-dids-in-greater-depth.md) | Drummond |
-| [CRUD and multi-device for IPID](ipid-crud.md) | André Cruz | [Draft](ipid-crud.md) |
 | [Use Cases and Research Directions for self-sovereign publication and journalism](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/journalism-use-cases.md) | Juan C. |
 | [Using OpenID Connect Self-Issued to Achieve DID Auth](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-oidc.md) | Dmitri Z |
 | [Using OpenID Connect Self-Issued to achieve Verifiable Credentials Presentation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-vc-exchange.md) | Dmitri Z |
