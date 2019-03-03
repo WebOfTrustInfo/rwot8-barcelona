@@ -11,7 +11,6 @@ These are the documents in process at RWOT8.
 | Driving Adoption Based on Basic Human Needs | Sam |
 | [Enabling a Web of Trust with Self-Issued Credentials](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/self-issued-credentials.md) | Nader |
 | [Establishing the Identity of the Issuer by the Verifier in Verifiable Credentials](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/establishing_the-identity_of_the_issuer_by_the_verifier_in_verifiable_credentials.md) | Matt |
-| Exchange Presentation of Verifiable Credentials Using OpenID Connect | Dmitri |
 | [How SSI Will Survive Capitalism](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/how-ssi-will-survive-capitalism.md) | Adrian G. |
 | [Human-Meaningful Names for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/naming-survey.md) | Boyma |
 | [Identity Containers](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/ContainerId.md) | Alex P. |
