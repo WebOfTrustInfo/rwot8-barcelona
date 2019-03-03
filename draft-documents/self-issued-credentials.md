@@ -1,7 +1,7 @@
 # Enabling a Web of Trust with Self-Issued Credentials
 Lead: Nader Helmy (nader.helmy@danubetech.com)
 
-Authors or Contributors (in alphabetical order): 
+Contributors (in alphabetical order): 
 Juan Caballero (juan@sourcecheck.org)
 Carsten Keutmann (carstenkeutmann@gmail.com)
 Maciek Laskus (maciej.laskus@gmail.com)
