@@ -4,10 +4,10 @@ Authors: Alberto &lt;hi@albertoelias.me&gt;, André Cruz &lt;andre@moxy.studio&g
 
 Outline:
 
-    - [Introduction](#outline)
-    - [Problems](#problems)
-        - [Publishing the DID-Document concurrently](publishing-the-did-document-concurrently)
-        - [Security of the Master Key](security-of-the-master-key)
+- [Introduction](#introduction)
+- [Problems](#problems)
+- [Publishing the DID-Document concurrently](publishing-the-did-document-concurrently)
+- [Security of the Master Key](security-of-the-master-key)
 
 
 ## Introduction
