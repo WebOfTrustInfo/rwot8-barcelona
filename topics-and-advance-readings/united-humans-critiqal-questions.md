@@ -4,7 +4,7 @@ Authors: Bohdan Andriyiv (bohdan.andriyiv@validbook.org)
 
 Keywords: short_topic_paper_to_open_discussion, critique of The United Humans project 
 
-This paper is an attempt to elicit critique, and start discussion to explore weak points of the [United Humans idea and project](https://github.com/WebOfTrustInfo/rwot7-toronto/blob/master/topics-and-advance-readings/united-humans.md) [1]. 
+This paper is an attempt to elicit critique, and start discussion to explore weak points of the [United Humans idea, project](https://github.com/WebOfTrustInfo/rwot7-toronto/blob/master/topics-and-advance-readings/united-humans.md)[1] and to encourage people to join its [boostraping effort](https://drive.google.com/file/d/1Rk32GV8BoEPQPgZ16AUNSj6zI04Kgxyo/view) [2]. 
 
 * Existential
     * Do we need organization of the United Humans? Will it duplicate the the United Nations?
@@ -32,4 +32,5 @@ This paper is an attempt to elicit critique, and start discussion to explore wea
 
 
 ## References
-[1] The United Humans - https://github.com/WebOfTrustInfo/rwot7-toronto/blob/master/topics-and-advance-readings/united-humans.md)
+[1] The United Humans paper - https://github.com/WebOfTrustInfo/rwot7-toronto/blob/master/topics-and-advance-readings/united-humans.md)
+[2] The United Humans investment deck - https://drive.google.com/file/d/1Rk32GV8BoEPQPgZ16AUNSj6zI04Kgxyo/view
