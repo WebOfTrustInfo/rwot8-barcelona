@@ -12,9 +12,8 @@ A DID can be anchored to a public blockchain which acts as a registry.
 Interrogating a public blockchain allows a user to find, reference,
 revoke or update a DID. Only the user possessing the cryptographic material
 to a DID can make state changes and prove ownership. Services that
-implement DID infrastructure allow users to be the source of truth for
-their online identity, removing ownership from third parties or other
-central authorities.
+implement DID infrastructure move ownership of idenfiers from third parties to
+individuals, thereby allowing people ownership of their digital identifiers.
 
 Earners
 =======
