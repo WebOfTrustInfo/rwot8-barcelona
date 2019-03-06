@@ -45,7 +45,7 @@ Example credentials such as Blockcerts and OBI have data attributes for both iss
 (credential recipient). By augmenting a credential to use an issuer DID
 and a recipient DID, both issuer and earner can have greater control
 over the data that is revealed and associated with the 
-credential.
+credential, assuming no other PII is collected except the DID pubkey.
 
 Issuing Authority
 =================
