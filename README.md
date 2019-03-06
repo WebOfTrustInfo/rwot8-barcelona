@@ -96,10 +96,10 @@ really, read as much as you can!)
     * by David Stark
     * If we use DIDs and Verifiable Credentials how can we make sure that users are not being tracked across the web.
 
-* [Decentralized Identity Fee Market](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-fee-market-using-micropayments.md)
+* [Re-inventing Incentive Structures Using DID and Microtransactions](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-fee-market-using-micropayments.md)
     * by Yancy Ribbens
-    * Micro-payments and DID (Decentralized Identities) can enable a user to curate their online identity, request payment or mark
-data private. This article proposes allowing a fee market to develop around what information a user chooses to reveal about their identity in the context of verifiable credentials.
+    * Microtransactions and DID (Decentralized Identifiers) can enable a user to curate their online identity, request payment or mark
+data private. This article proposes allowing a fee market to develop around what information a user chooses to reveal about their identity in the context of an earned credential.
 
 * [W3C Strong Authentication and Identity Workshop Report (DRAFT)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/w3c-identity-workshop-report.md)
     * by The W3C Strong Authentication and Identity Workshop Program Committee and Participants
