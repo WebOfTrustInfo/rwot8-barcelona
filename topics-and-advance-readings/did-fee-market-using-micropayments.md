@@ -53,7 +53,7 @@ Issuing Authority
 The issuing authority is often a third party entity contracted out by
 the issuer and registered with by the earner. This authority may
 possess details of PII associated with the issuer as well as the
-earner which enables the issuing authority to be an intermediary for PII data.
+earner enabling the issuing authority to be an intermediary for PII data.
 
 DID Semantics
 =============
