@@ -27,9 +27,11 @@ This will be both an informative draft and a specification on what will be built
         
 ## The museum
 
-Data has to be collected from the community, so this draft initates the collecting of VCs from a simple form.
+Data has to be collected from the community, so this draft initates the collecting of VCs in two ways:
 
-Please help us get up to speed on what types of VCs exist out there, and how they are understood, through this upload form: https://airtable.com/shr4ctJ5aJxkZEWkR
+* From **a simple webform**.  Please help us get up to speed on what types of VCs exist out there, and how they are understood, through this upload form: https://airtable.com/shr4ctJ5aJxkZEWkR
+
+* Via **Github pull requests**.  You will find directions here: https://github.com/w3c-ccg/vc-examples/blob/master/via-pull-requests/HOWTO-contribute.md
 
 #### Examples we are curious about
 * Graph VC's
