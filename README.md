@@ -13,4 +13,4 @@ Visit http://rwot8.eventbrite.com for more information and to purchase tickets.
 
 ##  Topics & Advance Readings
 
-Please see [Topics & Advance Readings]((https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/) for a list of readings prepared in advance of the conference.
+Please see [Topics & Advance Readings]((https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/README.md) for a list of readings prepared in advance of the conference.
