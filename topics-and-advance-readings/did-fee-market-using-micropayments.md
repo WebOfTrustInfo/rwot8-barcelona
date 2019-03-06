@@ -12,7 +12,7 @@ A DID can be anchored to a public blockchain which acts as a registry.
 Interrogating a public blockchain allows a user to find, reference,
 revoke or update a DID. Only the user possessing the cryptographic material
 to a DID can make state changes and prove ownership. Services that
-implement DID infrastructure move ownership of idenfiers from third parties to
+implement DID infrastructure move ownership of identifiers from third parties to
 individuals, thereby allowing people ownership of their digital identifiers.
 
 Earners
@@ -33,7 +33,7 @@ lieu of other PII, the issuer could be limited to only the PII that is
 relevant to issue the credential and nothing more. For example, the
 issuer may require cryptographic proof that has been signed by a government to show
 citizenship. When the issuer issues a credential because of a passing
-exam for example, they only need to associate the passing marks with a unique DID
+exam, for example, they only need to associate the passing marks with a unique DID
 that has citizenship. Other attributes of the earner such as race, age,
 name and gender can all be hidden by the owner of the DID because they
 are irrelevant to the achievement.
@@ -58,7 +58,7 @@ earner enabling the issuing authority to be an intermediary for PII data.
 DID Semantics
 =============
 
-BTCR (Bitcoin Resolver), secures an individuals identifiers in the same way as
+BTCR (Bitcoin Resolver), secures an individual's identifiers in the same way as
 currency. The owner of the identifier possesses a public key which can be
 known to anyone, and a private key known only by the identifier owner (or
 trusted interface). This public key can
