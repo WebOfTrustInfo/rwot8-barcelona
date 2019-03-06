@@ -58,9 +58,7 @@ earner enabling the issuing authority to be an intermediary for PII data.
 DID Semantics
 =============
 
-A DID gives users greater sovereignty over their data by enabling the
-user to be the source of truth of their identity. In the case of BTCR
-(Bitcoin Resolver), the user identity is secured in the same way as
+BTCR (Bitcoin Resolver), secures an individuals identifiers in the same way as
 currency. The owner of the identifier possesses a public key which can be
 known to anyone, and a private key known only by the identifier owner (or
 trusted interface). This public key can
