@@ -154,6 +154,9 @@ did-service-ref           = "$" service-id [ path-abempty ] [ "?" query ]
 service-id                = service-idstring *( ":" service-idstring )
 service-idstring          = 1*uri-safe-char
 did-reference             = did-url / did-relative-ref
+
+ALPHA                     =  %x41-5A / %x61-7A   ; A-Z / a-z
+DIGIT                     =  %x30-39             ; 0-9
 ```
 
 
