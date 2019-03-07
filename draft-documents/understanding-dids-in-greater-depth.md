@@ -134,8 +134,8 @@ A string that is interpreted according to the rules of the specific DID method. 
 
 NOTE: The following ABNF is currently a proposal for the [DID Specification](https://w3c-ccg.github.io/did-spec/) at the W3C Credentials Community Group. The intent is for this appendix to always contain a copy of the authoritative ABNF for DIDs and DID URLs.
 
-
-```
+```abnf
+; !syntax("abnf")
 did                       = "did:" method ":" method-specific-idstring
 method                    = 1*methodchar
 methodchar                = %x61-7A / DIGIT
@@ -145,9 +145,9 @@ idchar                    = ALPHA / DIGIT / "." / "-"
 did-url                   = did [ did-relative-ref ]
 did-relative-ref          = did-fragment-ref / did-content-ref / did-service-ref             ;added did-content-ref
 did-fragment-ref          = "#" fragment
-did-content-ref           = "!" content-id                                                  
-content-id                = content-idstring *( ":" content-idstring )                      
-content-idstring          = 1*uri-safe-char                                                 
+did-content-ref           = "!" content-id
+content-id                = content-idstring *( ":" content-idstring )
+content-idstring          = 1*uri-safe-char
 uri-safe-char             = idchar / "_" / pct-encoded
 did-service-ref           = "$" service-id [ path-abempty ] [ "?" query ] 
                             [ "#" fragment ]
@@ -163,8 +163,8 @@ did-reference             = did-url / did-relative-ref
 The syntax path through the ABNF used by a DID is highlighted in red below.
 
 
-```
-Appendix A.  Collected ABNF for URI
+```abnf
+; Appendix A.  Collected ABNF for URI
 
    URI           = scheme ":" hier-part [ "?" query ] [ "#" fragment ]
 
