@@ -4,18 +4,26 @@ Sean Gilligan, Peg, Adin Schmahmann, Andrew Hughes
 
 ### Abstract
 
-As systems where people are required to manage their own keys become more popular, social recovery or reissuance of keys increases in importance. Such systems are inherently empowering to users but safegaurding keys is a hard problem.
+As systems where people are required to manage their own keys become more popular, social recovery or re-issuance of keys increases in importance. Such systems are inherently empowering to users but safe-guarding keys is a hard problem.
 
-We focus on social recovery of control of an identifier. There are several techniques to re-assert control over identifiers including key recovery and issuance of a new key. In many situations it is preferrable to establish a new key than recover the old one. 
+We focus on social recovery of control of an identifier. There are several techniques to re-assert control over identifiers including key recovery and issuance of a new key. In many situations it is preferable to establish a new key than recover the old one. 
 
 We propose a rubrik for evaluating such schemes, and provide some possible schemes to consider.
 
 ## Table of Contents
 
-1. Overview
+1. Introduction
 2. Evaluation Rubric
 3. Example Schemes
 4. Conclusion
+
+## Introduction
+
+With traditional multi-user systems, such as web-based services where users authenticate with a username and password, there is typically an authority who may revoke, re-issue or modify identifiers when problems arise. In recent years, the limitations of this model have become more apparent, but there are also problems with giving individual users ultimate control of their identifiers. 
+
+Several proposals have been made for 'social recovery', generally involving consensus of a quorum of trusted peers chosen by the user themself. These offer a promising compromise but there are a multitude of social, technical and contextual factors which should be considered before adopting such a scheme. 
+
+We address this problem by defining a rubrik to help determine the suitability of different social recovery schemes in a particular context.
 
 ### A Rubrik for Evaluating Recovery Schemes
 
@@ -44,10 +52,10 @@ We propose a rubrik for evaluating such schemes, and provide some possible schem
 - What involvement is required from the user during stasis?
 - How does the scheme deal with a loss of confidence in one of the peers?
 
-###### Identfier Recovery Scenarios
+###### Identifier Recovery Scenarios
   * Lost secret - control of the identifier has been lost, but it has not been compromised.  For example, device has fallen in the sea.
   * Compromised secret.  For example, device is stolen.
-  * Inheritance after death or incapacitation - we want to enable control of the identifier to our hiers.
+  * Inheritance after death or incapacitation - we want to enable control of the identifier to our heirs.
 
 ###### Threat Model
 
@@ -121,6 +129,8 @@ Multi Signature Schemes:
 - Requires redoing the setup phase (no peer interaction required)
 
 ### Conclusion (TODO)
+
+> [name=peg] somewhere in the conclusion i would like to mention again this distinction between the need to recover lost encryption keys, and the need to re-establish new signing keys (not much point in recovering them). as this was the biggest 'aha' thing i took home from RWOT.
 
 ## References (TODO)
 
