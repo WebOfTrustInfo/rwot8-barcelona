@@ -1,4 +1,4 @@
-# Enabling a Web of Trust with Self-Issued Credentials
+# Enabling a Web of Trust with Self-Signed and Self-Issued Credentials
 Lead: Nader Helmy (nader.helmy@danubetech.com)
 
 Contributors (in alphabetical order): 
