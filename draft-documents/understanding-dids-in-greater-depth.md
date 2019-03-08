@@ -144,7 +144,7 @@ idstring                  = 1*idchar
 idchar                    = ALPHA / DIGIT / "." / "-"
 did-url                   = did [ did-relative-ref ]
 did-relative-ref          = did-fragment-ref / did-service-ref
-did-fragment-ref          = ";" fragment
+did-fragment-ref          = "#" fragment
 uri-safe-char             = idchar / "_" / pct-encoded
 did-service-ref           = ";" service-id [ path-abempty ] [ "?" query ]
                             [ "#" fragment ]
