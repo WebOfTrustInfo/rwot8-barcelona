@@ -143,13 +143,10 @@ method-specific-idstring  = idstring *( ":" idstring )
 idstring                  = 1*idchar
 idchar                    = ALPHA / DIGIT / "." / "-"
 did-url                   = did [ did-relative-ref ]
-did-relative-ref          = did-fragment-ref / did-content-ref / did-service-ref             ;added did-content-ref
-did-fragment-ref          = "#" fragment
-did-content-ref           = "!" content-id
-content-id                = content-idstring *( ":" content-idstring )
-content-idstring          = 1*uri-safe-char
+did-relative-ref          = did-fragment-ref / did-service-ref
+did-fragment-ref          = ";" fragment
 uri-safe-char             = idchar / "_" / pct-encoded
-did-service-ref           = "$" service-id [ path-abempty ] [ "?" query ] 
+did-service-ref           = ";" service-id [ path-abempty ] [ "?" query ]
                             [ "#" fragment ]
 service-id                = service-idstring *( ":" service-idstring )
 service-idstring          = 1*uri-safe-char
