@@ -5,11 +5,18 @@ Drummond Reed and Ken Ebert
 
 ## Motivation
 
-A "naked DID" by itself identifies a DID subject. A naked DID is also is by itself a valid URL (Uniform Resource Locator), which is one type of URI (Uniform Resource Identifier) as defined by [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). 
+A "naked DID" by itself identifies a DID subject. A naked DID is also is by itself a valid URL (Uniform Resource Locator), which is one type of URI (Uniform Resource Identifier) as defined by [RFC 3986](https://www.ietf.org/rfc/rfc3986.txt). As a URL, a naked DID resolves to a DID document that describes the DID subject. We can therefore call a naked DID a **DID document reference**.
 
-By adding additional syntax elements as allowed under RFC 3986, a DID URL can also address other resources besides a DID subject. For example, by adding a service ID using semicolon syntax, a DID URL can dereference to a service endpoint and pass on to it the path, query, and/or fragment component of a DID URL. In this way services represent the ability for a DID URL to address a "predicate"—the predicate being a service.
+By adding additional syntax elements as allowed under RFC 3986, a DID URL can also address other resources besides a DID document. For example:
 
-To complete the ability of a DID URL to address all three basic types of semantic objects (subjects, predicates, and objects), we also need the ability for DID URLs to serve as persistent, cryptographically verifiable identifiers for **content**. For example, a DID URL could be used to address schema, credential definitions, revocation registries, or other content types that may be stored in verifiable data registries.
+1. By adding a fragment directly to a naked DID, a DID URL can address a specific component within a DID document (such as a specific public key). We will call this a **DID fragment reference**.
+1. By adding a service ID directly after a naked DID, a DID URL can be dereferenced to a service endpoint and then pass on to it the optional path, query, and/or fragment components of a DID URL. In this way, a **DID service reference** can serve as a way to persistently address any service endpoint on the Web and to pass to that service endpoint the same components that a conventional URL can pass.
+
+More recently a fourth general category of use cases for DIDs has arisen—the use of a DID to provide a persistent, decentralized references to **content** that is not hosted at a separate service endpoint but is stored at the verifiable data registry itself. A specific example of this use case is the [Sovrin community](https://sovrin.org/), which stores various persistent content types needed by Sovrin-based credentials on the Sovrin ledger, including schema definitions, credential definitions, and revocation registries.
+
+While such persistent content references could be made using a Sovrin-specific content addressing syntax, it would be strongly preferable for these references to use a ledger-neutral DID syntax so they can be shared and reused across other ledgers or anywhere else that DID syntax is supported.
+
+We will refer to this fourth category of DID-based references as **DID content references**. The balance of this document will propose DID ABNF syntax that supports all four types of DID references.
 
 ## Base ABNF Syntax
 
