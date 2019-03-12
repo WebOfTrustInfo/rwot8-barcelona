@@ -30,7 +30,7 @@ These are the documents currently in process from RWOT8.
 | [Identity Containers](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/ContainerId.md) | Alex P. |
 | [JORAM Illustrations](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/Joram_Illustrated.md) | Katie |
 | [JORAM 2](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/joram.2.0.0.md) | Joe |
-| LibP2P for DID Auth | jonnycrunch |
+| [LibP2P for DID Auth](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/lip2p2_did_auth.md) | jonnycrunch |
 | [Peer DID Method Spec Report](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/peer-DID-method-spec-report.md) | Brent |
 | [Satyrn](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/satyrn.md) | Joe |
 | Social Key Recovery #1: [Shamir Secret Sharing Best Practices](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/shamir-secret-sharing-best-practices.md) | Christopher A. |
