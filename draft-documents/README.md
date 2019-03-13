@@ -20,8 +20,8 @@ These are the documents in process at RWOT8.
 | LibP2P for DID Auth | jonnycrunch | 4/1
 | [Peer DID Method Spec Report](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/peer-DID-method-spec-report.md) | Brent |
 | [Satyrn](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/satyrn.md) | Joe |
-| Social Key Recovery #1: [Shamir Secret Sharing Best Practices](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/shamir-secret-sharing-best-practices.md) | Christopher A. |
-| Social Key Recovery #1a: New SSS Library | Daan & Mark |
+| Social Key Recovery #1: [Shamir Secret Sharing Best Practices](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/shamir-secret-sharing-best-practices.md) | Christopher A. | 5/13
+| Social Key Recovery #1a: New SSS Library | Daan & Mark | 5/13
 | Social Key Recovery #2: [Evaluating Social Schemes for Recovering Control of an Identifier](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/Evaluating-social-recovery.md) | Peg |
 | <strike>Terminology</strike> | <strike>Reiks</strike> |
 | [Sociolegal frameworks for the phygital age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/sociolegal-frameworks.txt) | Elizabeth |
