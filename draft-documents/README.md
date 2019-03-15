@@ -4,7 +4,7 @@ These are the documents in process at RWOT8.
 
 | Paper | Lead | Status |
 | ------------- | ------------- | ------- |
-| [CRUD and multi-device for IPID](ipid-crud.md) | André Cruz |
+| [CRUD and multi-device for IPID](ipid-crud.md) | André Cruz | 4/29
 | [Crypto Jurisdiction](http://bit.ly/cryptojurisdiction) | Toni |
 | [DID Key Management in the Browser](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-key-management-browser.md) | Alberto | 4/29 | 
 | [DID Spec Work](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-spec-refinement.md) | Manu | 3/25 (as is)
@@ -14,7 +14,7 @@ These are the documents in process at RWOT8.
 | [Establishing the Identity of the Issuer by the Verifier in Verifiable Credentials](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/establishing_the-identity_of_the_issuer_by_the_verifier_in_verifiable_credentials.md) | Matt |
 | [How SSI Will Survive Capitalism](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/how-ssi-will-survive-capitalism.md) | Adrian G. | 3/18 |
 | [Human-Meaningful Names for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/naming-survey.md) | Boyma | 4/29
-| [Identity Containers](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/ContainerId.md) | Alex P. |
+| [Identity Containers](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/ContainerId.md) | Alex P. | 4/29
 | [JORAM Illustrations](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/Joram_Illustrated.md) | Katie |
 | [JORAM 2](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/joram.2.0.0.md) | Joe |
 | LibP2P for DID Auth | jonnycrunch | 4/1
