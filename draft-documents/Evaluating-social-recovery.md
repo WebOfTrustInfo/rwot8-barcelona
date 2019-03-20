@@ -1,12 +1,12 @@
-## Evaluating social schemes for recovering control of an identifier 
+# RWOT8: Evaluating social schemes for recovering control of an identifier 
 
 Sean Gilligan, Peg, Adin Schmahmann, Andrew Hughes
 
 ### Abstract
 
-As systems where people are required to manage their own keys become more popular, social recovery or re-issuance of keys increases in importance. Such systems are inherently empowering to users but safe-guarding keys is a hard problem.
+As systems where people are required to manage their own keys become more popular, social recovery or reissuance of keys increases in importance. Such systems are inherently empowering to users but safegaurding keys is a hard problem.
 
-We focus on social recovery of control of an identifier. There are several techniques to re-assert control over identifiers including key recovery and issuance of a new key. In many situations it is preferable to establish a new key than recover the old one. 
+We focus on social recovery of control of an identifier. There are several techniques to re-assert control over identifiers including key recovery and issuance of a new key. In many situations it is preferrable to establish a new key than recover the old one. 
 
 We propose a rubrik for evaluating such schemes, and provide some possible schemes to consider.
 
@@ -19,7 +19,7 @@ We propose a rubrik for evaluating such schemes, and provide some possible schem
 
 ## Introduction
 
-With traditional multi-user systems, such as web-based services where users authenticate with a username and password, there is typically an authority who may revoke, re-issue or modify identifiers when problems arise. In recent years, the limitations of this model have become more apparent, but there are also problems with giving individual users ultimate control of their identifiers. 
+With traditional multi-user systems, such as web-based services where users authenticate with a username and password, there is typically an authority who may revoke, re-issue or modify identifiers when problems arise. In recent years, the limitations of this model have become more apparent, but there are also problems with giving individual users ultimate control of their intentifiers. 
 
 Several proposals have been made for 'social recovery', generally involving consensus of a quorum of trusted peers chosen by the user themself. These offer a promising compromise but there are a multitude of social, technical and contextual factors which should be considered before adopting such a scheme. 
 
@@ -52,10 +52,10 @@ We address this problem by defining a rubrik to help determine the suitability o
 - What involvement is required from the user during stasis?
 - How does the scheme deal with a loss of confidence in one of the peers?
 
-###### Identifier Recovery Scenarios
+###### Identfier Recovery Scenarios
   * Lost secret - control of the identifier has been lost, but it has not been compromised.  For example, device has fallen in the sea.
   * Compromised secret.  For example, device is stolen.
-  * Inheritance after death or incapacitation - we want to enable control of the identifier to our heirs.
+  * Inheritance after death or incapacitation - we want to enable control of the identifier to our hiers.
 
 ###### Threat Model
 
@@ -84,6 +84,8 @@ For encryption keys these schemes are very useful, as the integrity of the origi
 
 ### Threshold signature schemes / Group signatures
 
+Group signatures, originally described by David Chaum in 1991, allow a group member to make a signature which proves they are a group member but does not reveal who they are. Threshold-based group signatures require consensus of a specified quorum of group members, and as such have application in social recovery.
+
 The Boneh–Lynn–Shacham signature scheme, which uses Weil pairings on an elliptic curve, has some desireable properties for group signatures.
 
 Using BLS group signatures it is possible to have a signed message from *m* of *n* members of a group, with an identical signature and public key regardless of which group members signed. 
@@ -105,7 +107,7 @@ Advantages:
 
 Issues:
  - Clients must have access to most recent messages in order to resolve Alice's current key.  This is difficult with distributed or offline-first systems.
- - Unlike secret sharing schemes like Shamirs, this recovery mechanism must be baked into the system using it. It cannot be used for existing systems which have not implemented this mechanism. 
+ - Unlike secret sharing schemes like Shamirs, this recovery mechanism requires changes to the system using it. It cannot be used for existing systems which have not implemented this mechanism. 
 
 ### Schnorr signatures (TODO)
 
