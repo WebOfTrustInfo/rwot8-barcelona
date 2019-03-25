@@ -41,27 +41,27 @@ enables privacy and anonymity features.
 - peer DIDs may be persisted for subsequent sessions between the parties. This
 enables a persistent trust relationship between parties.
 - peer DID communication protocol is not bound to any specific ledger based DID
-service or design model. (A peer attempting to use a peer DID is not required,
-or bound to, another 'anchored' ledger).
-- peer DIDs are interoperable with Ledger (anchored) backed DIDs; the peers
+service or design model. (Someone who wishes to use a peer DID is not bound to
+any 'anchor,' such as a ledger).
+- peer DIDs may be interoperable with Ledger (anchored) backed DIDs; the peers
 group do not all need to be using peer DIDs (e.g. Alice wants to use a did:sov
 DID, and Bob wants to use a did:peer DID).
-- create an n-wise peer DID spec - of which a use case is pairwise DID exchange.
+- create an n-wise peer DID spec - of which one use case is pairwise DID
+exchange.
 
 # Use Cases
 
-Two or more individuals can create DIDs “without any overhead”: infrastructure,
+- Two or more individuals can create DIDs “without any overhead”: infrastructure,
 registry costs, or time penalty, or even network requirement.
 
-Two service entities wish to communicate in an ‘anonymous but trusted’ way for a
+- Two service entities wish to communicate in an ‘anonymous but trusted’ way for a
 data exchange transaction, but do not need this relationship persisted beyond
 the transaction lifetime.
 
-In a doctor, hospital, patient context these three entities may wish to
+- In a doctor, hospital, patient context these three entities may wish to
 establish trusted communication channels for delegating care or sharing
 information (securely) regarding the other parties (the hospital sharing a
 record with the doctor and the patient seeing the exchange has occurred).
-
 
 # Spec Review Observations
 
@@ -74,21 +74,20 @@ party Carol (both to each other and for Carol).
 the person who is 'removed'.
 
 ## Namestring Generation - keyfmtchar
-- understand the need for keyfmtchar, but it needs a definition and maybe an
+- We understand the need for keyfmtchar, but it needs a definition and an
 example of when to use it (ie, when to make a "2") would be helpful.
 
 ## Protocol - Message Format section
 
 - Indy HIPE message protocol is referenced - what extensions are required
-(multiplexed encryption) and why? The observation is that pure JWE would be
-better for adoption (possibly) so understanding the need for extensions would be
-helpful.
+(multiplexed encryption) and why? The observation here is that pure JWE may be
+better for adoption, so understanding the need for extensions would be helpful.
 
 ## Comments on the Spec
 - The language of the abstract is "marketing speak". I would suggest changing it
 to state just the intent.
   - "The method is cheap, fast, scalable, and secure" -> "The method is
-  **supposed to be** cheap, fast, scalable, and secure"
+  **intended to be** cheap, fast, scalable, and secure"
 - [Section 2.1](https://dhh1128.github.io/peer-did-method-spec/index.html#namestring)
 links to a non-existing section "cross-registration" at the end
 - [Section 2.3](https://dhh1128.github.io/peer-did-method-spec/index.html#namespace-specific-identifier-nsi)
@@ -98,7 +97,6 @@ could be better structured with subsections maybe. E.g. for `keyfmtstring` and
 contains a lot of prose, which doesn't fit the structure of the rest of the
 document. Also it is not clear, what is meant by "The significance of the error
 situation described above, ..."
-
 
 # Next Steps
 
@@ -111,3 +109,20 @@ The working group will work to:
 - Iteratively modify the draft Peer DID Method Spec to reflect the objectives.
 - Seek feedback on the draft Peer DID Method Spec from the community.
 - Identify further issues with the Peer DID Method Spec.
+
+# Conclusion
+
+The authors established a communication channel in the DIF slack and held a
+series of meetings. The issues introduced in this report (where still valid
+after significant changes to the
+[Peer DID Method Spec](https://dhh1128.github.io/peer-did-method-spec/index.html))
+will be created in the
+[github repo](https://github.com/dhh1128/peer-did-method-spec) where the method
+spec is being refined.
+
+The peer DID method has great promise. We feel that many of the interoperability
+concerns in the DID space may be addressed by wide adoption of a peer DID.
+We invite the SSI community to provide feedback on the
+[Peer DID Method Spec](https://dhh1128.github.io/peer-did-method-spec/index.html)
+reviewed here, and to participate in interoperability testing of implementations
+of the spec as they mature.
