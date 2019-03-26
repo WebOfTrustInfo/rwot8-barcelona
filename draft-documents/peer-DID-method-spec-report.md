@@ -66,9 +66,10 @@ record with the doctor and the patient seeing the exchange has occurred).
 # Spec Review Observations
 
 ## Groups section
-- It should be made clear that if an Alice and Bob are already connected
-(through peer DIDs) they would need to create new peer DIDs when adding another
-party Carol (both to each other and for Carol).
+
+- It should be made clear that if Alice and Bob are already connected 
+(through peer DIDs), but wish to add another party, they should first create 
+new peer DIDs with one another then invite Carol to that group.
 
 - Removing participants from a Group is basically recreating the group without
 the person who is 'removed'.
