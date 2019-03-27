@@ -42,7 +42,7 @@ In a doctor, hospital, patient context these three entities may wish to establis
 - Removing participants from a Group is basically recreating the group without the person who is 'removed'.
 
 ## Namestring Generation - keyfmtchar
-- understand the need for keyfmtchar, but it needs a definition and maybe an example of when to use it (ie, when to make a "2") would be helpful.
+- We understand the need for keyfmtchar, but it needs a definition and maybe an example of when to use it (ie, when to make a "2") would be helpful.
 
 ## Protocol - Message Format section
 
