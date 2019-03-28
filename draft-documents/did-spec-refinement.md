@@ -11,7 +11,7 @@ Team (in alphabetical order): Dan Burnett, Ken Ebert, Amy Guy, Drummond Reed, Ma
 
 ## Abstract
 
-The Decentralized Identifier (DID) specification describes a new type of URL that is globally unique, highly available, cryptographically verifiable, and has no central authority. The document describes the expected ecosystem, data model, and syntaxes for DIDs. In December 2018, the W3C held a Strong Authentication and Identity Workshop that determined that a reasonable next step would be to create a W3C Working Group to standardize the DID specification. As a result, the W3C Credentials Community Group, which has been incubating the specification, will eventually need to hand the specification over to the newly formed W3C DID Working Group. In preparation for this hand off, a group at Rebooting the Web of Trust triaged issues related to the DID specification, refined existing proposals related to the specification, and gathered new features and requirements from the community. The result of this work is outlined in this document.
+The Decentralized Identifier (DID) specification describes a new type of URL that is globally unique, highly available, and cryptographically verifiable and which has no central authority. The [DID spec document](https://w3c-ccg.github.io/did-spec/) describes the expected ecosystem, data model, and syntaxes for DIDs. In December 2018, the W3C held a Strong Authentication and Identity Workshop that determined that a reasonable next step would be to create a W3C Working Group to standardize the DID specification. As a result, the W3C Credentials Community Group, which has been incubating the specification, will eventually need to hand the specification over to the newly formed W3C DID Working Group. In preparation for this hand off, a group at Rebooting the Web of Trust triaged issues related to the DID specification, refined existing proposals related to the specification, and gathered new features and requirements from the community. The result of this work is outlined in this document.
 
 
 ## Introduction
@@ -22,8 +22,6 @@ In an attempt to provide the DID WG with a good foundation to build upon, the W3
 
 The first day consisted of triaging issues that resulted in three broad categories:
 
-
-
 1. Issues that are editorial and did not require debate.
 2. Current features that required debate and refinement.
 3. New features and requirements that needed to be captured.
@@ -32,12 +30,9 @@ The second day consisted of communicating open questions and answering them so t
 
 The group had wanted to produce a document to detail a plan for the W3C Credentials Community Group to  summarize discussion or propose one or more PRs that add the feature to the specification
 
-
 ## Issue Triage
 
 One of the results of the issue triage was the desire to restructure the specification in order to communicate the concepts in the document more cleanly. The following structure was agreed upon by the group as an improvement that would need to be further refined:
-
-
 
 *   Intro
 *   A Simple Example
@@ -53,8 +48,6 @@ One of the results of the issue triage was the desire to restructure the specifi
 *   Accessibility
 
 The result of the issue triage follow. Issue numbers with strike-throughs were resolved during the event. 
-
-
 
 *   Update relationship between DID spec and URI spec: [https://github.com/w3c-ccg/did-spec/issues/81](https://github.com/w3c-ccg/did-spec/issues/81)
 *   Does the did-spec need to be specific about which parts of the URI RFC it is conformant with? [https://github.com/w3c-ccg/did-spec/issues/169](https://github.com/w3c-ccg/did-spec/issues/169)
@@ -80,10 +73,7 @@ The result of the issue triage follow. Issue numbers with strike-throughs were r
 *   Quick fixes: ~~137~~, ~~144~~, 133, ~~116~~, ~~118~~, ~~129~~, ~~140, 141~~
 *   Clarify language about requirements: ~~120~~
 
-
 ## Feature Refinement
-
-
 
 *   MIME Types 1: [https://github.com/w3c-ccg/did-spec/issues/84](https://github.com/w3c-ccg/did-spec/issues/84)
 *   MIME Types 2: [https://github.com/w3c-ccg/did-spec/issues/82](https://github.com/w3c-ccg/did-spec/issues/82)
@@ -99,20 +89,14 @@ The result of the issue triage follow. Issue numbers with strike-throughs were r
 *   Which URL spec? [https://github.com/w3c-ccg/did-spec/issues/163](https://github.com/w3c-ccg/did-spec/issues/163)
     *   If we don't need WHAT WG URL spec features, then cite only the RFC3986.
 
-
 ## New Features and Requirements
 
 The following new features and requirements were identified at RWoT8
 
-
-
 *   The need for a place to express keys that are used to digitally sign Verifiable Credentials (e.g. a "credentialIssuer" property)
 *   The need for a place to express keys that are used to digitally sign legal agreements (e.g. a "legalAgreement" property)
 
-
 **Michael Herman's Key Feedback**
-
-
 
 *   DID Resolution Technical Use Cases: [https://github.com/w3c-ccg/did-resolution/issues/32](https://github.com/w3c-ccg/did-resolution/issues/32)
 *   Check that small-e "entities" references are removed or better qualified
