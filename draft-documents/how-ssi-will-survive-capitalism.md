@@ -43,14 +43,14 @@ Abstract
 The Self Sovereign Identity (SSI community) has described several
 groundbreaking properties that come along with the adoption of its
 principles. Governance, as in business and financing structure, is
-arguably the most challenging of the properties, [[captured
-succinctly]{.underline}](https://www.youtube.com/watch?v=8IcU9w9STAo) by
+arguably the most challenging of the properties, [captured
+succinctly](https://www.youtube.com/watch?v=8IcU9w9STAo) by
 Shoshana Zuboff as: "Who decides? Who decides who decides?" However,
 even though the technology has matured greatly over recent years,
 bootstrapping an SSI product within the existing capitalistic market
 environment is complicated and has not been achieved within any
-functional domain at scale. A [[RWOT6
-paper]{.underline}](https://github.com/WebOfTrustInfo/rwot6-santabarbara/blob/master/final-documents/sustainable-commons.md)
+functional domain at scale. A [RWOT6
+paper](https://github.com/WebOfTrustInfo/rwot6-santabarbara/blob/master/final-documents/sustainable-commons.md)
 explored the challenges to a sustainable commons. In this paper, we
 apply the SWOT framework (Strengths, Weaknesses, Opportunities, and
 Threats) to identify potential paths to adoption. For example, what are
@@ -267,11 +267,11 @@ Pathway Choices
 Open source, standards based code, in a cooperative based financial
 model, with each coop on their specific policies while agreeing to allow
 any individual or entity to exit the cooperative, start their own
-cooperative or operate outside of any cooperative. See [[Rochdale
-Society]{.underline}](https://www.rochdalepioneersmuseum.coop/about-us/the-rochdale-principles/)
-and seven principles of cooperatives and [[Past, Present, Future: From
+cooperative or operate outside of any cooperative. See [Rochdale
+Society](https://www.rochdalepioneersmuseum.coop/about-us/the-rochdale-principles/)
+and seven principles of cooperatives and [Past, Present, Future: From
 Co-ops to
-Cryptonetworks]{.underline}](https://a16z.com/2019/03/02/cooperatives-cryptonetworks/).
+Cryptonetworks](https://a16z.com/2019/03/02/cooperatives-cryptonetworks/).
 
 ### Community-driven Wallet reference implementation
 
