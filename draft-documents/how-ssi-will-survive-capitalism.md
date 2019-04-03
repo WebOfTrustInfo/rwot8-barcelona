@@ -40,16 +40,18 @@ out?")](#swot-result-interpretation---barriers-pathways-and-the-third-rail)
 Abstract
 ========
 
-The Self Sovereign Identity (SSI community) has described several
-groundbreaking properties that come along with the adoption of its
+The Self-Sovereign Identity (SSI) community has described several
+groundbreaking properties that arise from the adoption of its
 principles. Governance, as in business and financing structure, is
-arguably the most challenging of the properties, [captured
+arguably the most challenging of these properties, [captured
 succinctly](https://www.youtube.com/watch?v=8IcU9w9STAo) by
 Shoshana Zuboff as: "Who decides? Who decides who decides?" However,
 even though the technology has matured greatly over recent years,
 bootstrapping an SSI product within the existing capitalistic market
-environment is complicated and has not been achieved within any
-functional domain at scale. A [RWOT6
+environment is complicated and has not been achieved at scale within any
+functional domain. 
+
+A [RWOT6
 paper](https://github.com/WebOfTrustInfo/rwot6-santabarbara/blob/master/final-documents/sustainable-commons.md)
 explored the challenges to a sustainable commons. In this paper, we
 apply the SWOT framework (Strengths, Weaknesses, Opportunities, and
@@ -57,7 +59,7 @@ Threats) to identify potential paths to adoption. For example, what are
 the general implications of introducing a credential holder into
 existing issuer/verifier relationships? Our analysis leads to
 cooperative (in the legal sense) governance with focus on the holder
-(the wallet) as the key innovation since issuers and verifiers already
+(the wallet) as the key innovation, since issuers and verifiers already
 exist. The healthcare industry is used as an example.
 
 Introduction
@@ -66,22 +68,22 @@ Introduction
 Over the past twenty years there have been a consistent wish that
 individuals would be able to control their personal information in a
 manner equivalent to the pre-internet age. There have been multiple
-'turns of the wheel' (OAuth, SAML) of technological standards to attempt
+"turns of the wheel" (OAuth, SAML) of technological standards that have attempted
 to enable this. Self-Sovereign Identity (SSI) is the latest attempt to
-enable this. In each of the previous attempts the technology and work
+do so. In each of the previous attempts, the technology and work
 that was supposed to strengthen the position of the individual was
 subverted and the result is the current situation of strong corporate
 players (Google, Facebook) leveraging convenience to further mine
 behavioral data on individuals.
 
 There can be no argument that there is a ground swell around SSI
-currently, the real unknown is whether SSI will maintain its current
+currently; the real unknown is whether SSI will maintain its current
 trajectory of empowering the individual to regain control of their
 information. However there are still real challenges ahead around
-enabling adoption, and countering attempts to hijack the sector and
+enabling adoption and countering attempts to hijack the sector and
 direct it in some unforeseen manner. This paper provides a strategic
-analysis (SWOT) of the SSI community and sector to surface where we
-believe the threats may appear, and identify the best path to adoption.
+analysis (SWOT) of the SSI community and sector to reveal where we
+believe the threats may appear and to identify the best path to adoption.
 
 SWOT Analysis
 =============
@@ -100,24 +102,23 @@ anticipated factors.
 Strengths of SSI
 ----------------
 
--   Avoiding an enterprise sale - adoption can be decentralized, one
-doctor, one patient at a time. Separating the SSI strategy,
-avoiding having to create both supply & demand (bootstrapping
-cost - typical in a platform)
+-   Avoids an enterprise sale: adoption can be decentralized, one
+doctor, one patient at a time. Separating the SSI strategy in this way avoids having to create both supply & demand (bootstrapping
+cost, typical in a platform)
 
--   Makes it easy to implement Privacy by Default
+-   Ease of implementing Privacy by Default
 
--   Transparency controlled by principals (doctors, patients) not by
+-   Transparency is controlled by principals (doctors, patients) not by
 intermediaries
 
--   Non-sectoral; the same personal agent creates opportunities across
+-   Non-sectoral: the same personal agent creates opportunities across
 industries/sectors
 
 -   No corporate data aggregation
 
--   Building on top of object capabilities and delegation framework
+-   Builds on top of object capabilities and delegation framework
 
--   A Identity-layered Internet allows for the development of new
+-   An Identity-layered Internet allows for the development of new
 business models in a privacy-preserving way without expensive
 platform intermediaries (decentralized Uber, decentralized eBay,
 decentralized AirBnB).
@@ -125,8 +126,8 @@ decentralized AirBnB).
 Weaknesses of SSI
 -----------------
 
--   Introducing the holder into an incumbent verifier-issuer
-relationship adds a barrier or friction point in adoption.
+-  A barrier or friction point in adoption is created by introducing the holder into an incumbent verifier-issuer
+relationship.
 
 -   Lack of upfront financing due to lack of platform leverage (chicken
 & egg problem)
@@ -135,10 +136,10 @@ relationship adds a barrier or friction point in adoption.
 
 -   Every technology can be used for good or bad and in many instances
 the first 'commercial' successes are for illicit purposes; quacks
-and fraudsters, are going to rise, potential for social media
+and fraudsters, are going to rise, creaing the potential for social media
 hysteria and significant shifting of market perception.
 
--   Correlation of agent endpoint (we need tumbelrs, Tor, ...)
+-   Correlation of agent endpoint (we need tunnels, Tor, ...)
 
 -   Cellphones, as a secure element, are not inherently SSI
 
@@ -147,36 +148,35 @@ hysteria and significant shifting of market perception.
 Opportunities of SSI
 --------------------
 
--   Redistributing the value (cost) of data brokers/intermediaries to
+-   The value (cost) of data brokers/intermediaries can be redistributed to
 the principals (issuer, subject/holder, verifier)
 
 -   Decentralization of policy making promotes diversity and resilience
 
 -   Competition for governance
 
--   Authorization agent improves data quality - elimination of rekeying,
+-   Authorization agent improves data quality: elimination of rekeying,
 provenance implicit, streaming, query, single of point of
 monitoring, policies stay private
 
--   Use of Zero Knowledge proofs for reputation, nullification (e.g.:
+-   Use of Zero-knowledge proofs for reputation, nullification (e.g.,
 vote only once), data minimization
 
--   Globalization of medicine, the patient selects the jurisdiction of
-physician; decentralization of reputation and issuance (example:
+-   Globalization of medicine where the patient selects the jurisdiction of
+physician; decentralization of reputation and issuance (e.g.,
 guilds vs states)
 
 -   AI cost is 80% data and data cleansing, 10% data science and
 technology, 10% verification/validation (elimination/reduction of
 data brokers does not remove/limit AI)
 
--   Decentralization of AI to reflect SSI principles through Self
-Sovereign AI-enhanced agents based on federated machine learning.
+-   Decentralization of AI to reflect SSI principles through Self-Sovereign AI-enhanced agents based on federated machine learning.
 Federated machine learning means that one AI can teach another AI
 without actually sharing the training data itself.
 Human-in-the-loop AI is another example of Self-Sovereign AI.
 
 -   Standardized data governance labeling
-([http://bit.ly/PPR-IGL](http://bit.ly/PPR-IGL),
+([http://bit.ly/PPR-IGL](http://bit.ly/PPR-IGL)),
 *Quinn Grundy et al. - Data sharing practices of medicines related
 apps and the mobile ecosystem: traffic, content, and network
 analysis, BMJ2019*)
@@ -197,16 +197,16 @@ raise regulatory barriers.
 
 -   Need for standards, and lead times for standards.
 
--   Market inertia - data brokers are here and built into the value
+-   Market inertia: data brokers are here and built into the value
 chain.
 
--   May require governmental action (antitrust - oligopolies/monopolies,
+-   May require governmental action (antitrust for oligopolies/monopolies,
 human rights of access and privacy)
 
 -   Requiring change by multiple stakeholder categories (issuer, holder,
 verifier) magnifies barriers.
 
--   Existence of government regulation (NIST regulated trust framework
+-   Existence of government regulation (NIST-regulated trust framework
 models), where stakeholders may be willing to change but
 regulatory inertia causes delay.
 
@@ -228,17 +228,17 @@ and record retention)
 
 -   Lack of business knowledge for tech-first SSI industry participants
 
--   Collusion or Regulatory Capture - Direction is taken over by a
+-   Collusion or Regulatory Capture: direction is taken over by a
 limited number of private corporations that organize in "community
-groups", but do not truly represent commons or effectively create
+groups", that do not truly represent commons or effectively create
 a barrier to entry.
 
-SWOT Result Interpretation - "Barriers, Pathways and the Third Rail" 
+SWOT Result Interpretation: "Barriers, Pathways and the Third Rail" 
 =====================================================================
 
 With the identified factors of the SWOT analysis we are able to deduce
-further implications around the adoption of SSI. Specifically we want to
-point out possible barriers, pathways and distractions that may arise.
+further implications around the adoption of SSI. Specifically, we want to
+point out possible barriers, pathways, and distractions that may arise.
 
 Barriers
 --------
@@ -248,26 +248,26 @@ Barriers
 -   Non-traditional economic model; SSI model has by definition no
 equity upfront. All value is created in the Commons.
 
--   A Commons does generate enough equity for traditional finance models
+-   A Commons does generate enough equity for traditional finance models.
 
--   Platform tokens have security regulatory risk
+-   Platform tokens have security regulatory risk.
 
--   Surveillance capitalism has very low friction
+-   Surveillance capitalism has very low friction.
 
--   Cultural norms (China) resistant to full agency (want backdoors)
+-   Cultural norms (China) resistant to full agency (want backdoors).
 
 -   India (Aadhaar) wants to centralize and maintain control of
-identifiers
+identifiers.
 
 Pathway Choices
 ---------------
 
 ### Desired End State
 
-Open source, standards based code, in a cooperative based financial
-model, with each coop on their specific policies while agreeing to allow
+Open-source standards-based code in a cooperative-based financial
+model, with each co-op on their specific policies while agreeing to allow
 any individual or entity to exit the cooperative, start their own
-cooperative or operate outside of any cooperative. See [Rochdale
+cooperative, or operate outside of any cooperative. See [Rochdale
 Society](https://www.rochdalepioneersmuseum.coop/about-us/the-rochdale-principles/)
 and seven principles of cooperatives and [Past, Present, Future: From
 Co-ops to
@@ -275,7 +275,7 @@ Cryptonetworks](https://a16z.com/2019/03/02/cooperatives-cryptonetworks/).
 
 ### Community-driven Wallet reference implementation
 
-Given the novelty and importance of the introduction of the holder
+Given the novelty and importance of the introduction of holder
 responsibility, the community should strive towards providing a
 non-commercial wallet implementation to support this process and lower
 the barrier to entry.
@@ -283,8 +283,8 @@ the barrier to entry.
 ### AaaS First
 
 Agent as a Service (AaaS) as an intermediate pathway before completely
-moving the responsibility of the agent into the User space ("e.g. Access
-recovery via the centralized service, like he was used to"). However,
+moving the responsibility of the agent into the User space (e.g., "access
+recovery via the centralized service, like people are used to"). However,
 these services would need to be tightly regulated and allow a seamless
 transition into a fully self-sovereign internet. Regulation should aim
 at removing them altogether as soon as a critical size has been reached.
@@ -297,20 +297,20 @@ creates the universal identity based on transaction surveillance.
 Regulating data use instead of regulating aggregation itself is a
 prescription for disaster.
 
--   Apple fails at privacy by default, Facebook privacy theater wins.
+-   Apple fails at privacy by default; Facebook privacy theater wins.
 
 -   Private telecom uses 5G to eliminate the opportunity for personal
-firewalls as agents. Alternative, such as mesh networks and free
-ommunity broadband are not actively pursued. (Need regulatory
-measures to give control to the owner of 5G enabled equipment,
-e.g. keys, triple-blind, etc..)
+firewalls as agents. Alternatives, such as mesh networks and free
+community broadband, are not actively pursued. (Need regulatory
+measures to give control to the owner of 5G-enabled equipment,
+e.g. keys, triple-blind, etc.)
 
 -   Our children join corporate America with blind respect for authority
 and platforms. The SSI infrastructure need for diverse
 holders/subjects is seen as a risk.
 
 -   Private authority does not have the ability to deter bad behavior
-the same way that government can but government is weak compared
+the same way that government can, but government is weak compared
 to private sector.
 
 The Health Care Example
@@ -318,8 +318,8 @@ The Health Care Example
 
 Healthcare (the industry) is large and more about personal data than
 most markets. Health care (the value transaction) is prone to
-decentralization because the principals, patients and licensed
-practitioners, are able to transact independent of any institution and
+decentralization because the principals, patients, and licensed
+practitioners are able to transact independent of any institution and
 in some cases independent of any particular jurisdiction. This kind of
 decentralization is reminiscent of public blockchains.
 
