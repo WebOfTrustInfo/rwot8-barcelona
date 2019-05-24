@@ -6,7 +6,7 @@ These are the documents in process at RWOT8.
 | ------------- | ------------- | ------- |
 | [CRUD and multi-device for IPID](ipid-crud.md) | André Cruz | 4/29
 | [Crypto Jurisdiction](http://bit.ly/cryptojurisdiction) | Toni |
-| [DID Key Management in the Browser](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-key-management-browser.md) | Alberto | 4/29 | 
+| [DID Key Management in the Browser](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-key-management-browser.md) | Alberto | 8/5 | 
 | [DID Spec Work](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/did-spec-refinement.pdf) | Manu | DONE
 | [The Digital Citizen](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/digital-citizen.md) | Chris C. | 3/31 | 
 | [Driving Adoption Based on Basic Human Needs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/driving-adoption-with-basic-human-needs.md) | Sam | 5/6
