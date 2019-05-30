@@ -23,7 +23,7 @@ These are the documents in process at RWOT8.
 | Social Key Recovery #1: [Shamir Secret Sharing Best Practices](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/shamir-secret-sharing-best-practices.md) | Christopher A. | 5/13
 | Social Key Recovery #1a: New SSS Library | Daan & Mark | 5/13
 | Social Key Recovery #2: [Evaluating Social Schemes for Recovering Control of an Identifier](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/Evaluating-social-recovery.md) | Peg | 6/3
-| [Sociolegal frameworks for the phygital age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/sociolegal-frameworks.txt) | Elizabeth | 5/20
+| [Sociolegal frameworks for the phygital age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/sociolegal-frameworks.txt) | Elizabeth | DROPPED
 | [Understanding DIDs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/understanding-dids-in-greater-depth.md) | Drummond | 4/29
 | [Use Cases and Research Directions for self-sovereign publication and journalism](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/journalism-use-cases.md) | Juan C. | 6/17
 | [Using OpenID Connect Self-Issued to Achieve DID Auth](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-oidc.md) | Dmitri Z |
