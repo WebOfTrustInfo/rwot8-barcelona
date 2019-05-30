@@ -37,7 +37,7 @@ These are the documents currently in process from RWOT8.
 | Social Key Recovery #1a: New SSS Library | Daan & Mark |
 | Social Key Recovery #2: [Evaluating Social Schemes for Recovering Control of an Identifier](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/Evaluating-social-recovery.md) | Peg |
 | <strike>Terminology</strike> | <strike>Reiks</strike> |
-| [Sociolegal frameworks for the phygital age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/sociolegal-frameworks.txt) | Elizabeth |
+| [Sociolegal frameworks for the phygital age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/sociolegal-frameworks.txt) | Elizabeth | DROPPEd
 | [Understanding DIDs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/understanding-dids-in-greater-depth.md) | Drummond |
 | [Use Cases and Research Directions for self-sovereign publication and journalism](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/journalism-use-cases.md) | Juan C. |
 | [Using OpenID Connect Self-Issued to Achieve DID Auth](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-oidc.md) | Dmitri Z |
