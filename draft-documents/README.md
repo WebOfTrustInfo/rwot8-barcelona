@@ -28,4 +28,4 @@ These are the documents in process at RWOT8.
 | [Use Cases and Research Directions for self-sovereign publication and journalism](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/journalism-use-cases.md) | Juan C. | 6/17
 | [Using OpenID Connect Self-Issued to Achieve DID Auth](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-oidc.md) | Dmitri Z |
 | [Using OpenID Connect Self-Issued to achieve Verifiable Credentials Presentation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-vc-exchange.md) | Dmitri Z |
-| [Verifiable Credential Museum/Playground](vc-museum-playground.md) | Ryan | 5/15
+| [Verifiable Credential Museum/Playground](vc-museum-playground.md) | Ryan | 6/17
