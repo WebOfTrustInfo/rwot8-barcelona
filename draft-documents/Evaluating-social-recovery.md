@@ -8,7 +8,7 @@ As systems where people are required to manage their own keys become more popula
 
 We focus on social recovery of control of an identifier. There are several techniques to re-assert control over identifiers including key recovery and issuance of a new key. In many situations it is preferrable to establish a new key than recover the old one. 
 
-We propose a rubrik for evaluating such schemes, and provide some possible schemes to consider.
+We propose a rubrik for evaluating such schemes, and give a brief overview of possible schemes to consider.
 
 ## Table of Contents
 
@@ -17,6 +17,7 @@ We propose a rubrik for evaluating such schemes, and provide some possible schem
 3. Evaluation Rubric
 4. Overview of Schemes to Consider
 5. Conclusion
+6. Appendix - The rubric without annotation
 
 ## Introduction
 
@@ -102,6 +103,7 @@ The assumption of threshold-based schemes is generally that peers can be trusted
 The procedure of the recovery process should be considered carefully, as this is where operations take place which present a great threat if compromised, such as the reconstruction of a private key. Therefore one should consider factors such as where computation takes place, does any information remain in memory, where are the results, such as private keys, stored afterwards. In some cases it is appropriate to use Trusted Execution Environments (TEEs).
 
 **9 Is anonymity of the trusted peers maintained?**
+
 This can be divided into two subcategories:
 
  - **Anonymity from outsiders**
@@ -146,22 +148,15 @@ QR codes can be used to store data on paper or transfer to an air-gapped (offlin
 
 The limitation of this technique is the existence on a single point of failure, and that it relies on the good practices and resources of the user alone. For example, it is not well suited to users who are travelling. It also does not address the inheritance case.
 
-### Capability Recovery
-
-> (TBW One use to enable a change (for instance a single UTXO), requirements reliability, custody, fiduciary responsiblity)
-
-One particular thing is that Capabilility recover can better help in case of key compromise.
-Many capabilities each potentially different agents.
-
 ### Secret sharing schemes
 
-Threshold based secret sharing schemes, originally proposed by Shamir and Blakley, can be used to recover lost keys by generating a set of shares which are distributed to trusted peers. Shares are points on a polynomial where coefficients are random except for the lowest which is the secret. 
+Threshold based secret sharing schemes, originally proposed by Shamir and Blakley, can be used to recover lost keys by generating a set of shares from a given secret which are distributed to trusted peers. Shares are points on a polynomial where coefficients are random except for the lowest which is the secret. The order of polynomial used determines the threshold number of peers required for recovery.
 
 Feldman, Pederson and Berry proposed methods of introducing verification of shares. This mitigates the problem of not being able to identify which share has been maliciously or accidentally modified.
 
-For encryption keys these schemes are very useful, as the integrity of the original key is critical for decrypting existing material.  But for signing keys, when a key has been compromised we are often more interested in establishing a new key than recovering the old one. 
+For encryption keys these schemes are very useful, as the integrity of the original key is critical for decrypting existing material.  But for signing keys, when a key has been compromised we are often more interested in establishing a new key than recovering the old one. This is a major limitation, and means that such schemes are only useful for identifier recovery in the relatively rare scenario where we can be sure the key is lost but not compromised.
 
-Secret sharing could be used for identifier or account recovery as follows:
+In this case, secret sharing could be used for identifier or account recovery as follows:
 
 - The identifier holder, Alice, initially creates a signed message announcing that a root public key `R_pub` is the ultimate controller of Alice's identifier.
 
@@ -182,17 +177,17 @@ Issues:
  - Alice must trust her friends to protect the secrecy and integrity of her key shares, which they have no stake in.
    - If Alice's friends have public encryption keys she can encrypt the shares for her friends and store the encrypted shares in a location that is trusted for availability
 
-
-
 #### Threshold signature schemes / Group signatures
 
-Group signatures, originally described by David Chaum in 1991, allow a group member to make a signature which proves they are a group member but does not reveal who they are. Threshold-based group signatures require consensus of a specified quorum of group members, and as such have application in social recovery.
+Group signatures, originally described by David Chaum in 1991, allow a group member to make a signature on behalf of a group, which proves they are a group member but does not reveal who they are. 
+
+Threshold-based group signatures require consensus of a specified quorum of group members, and as such have application in social recovery.
 
 ##### Boney-Lynn-Shacham
 
-The Boneh–Lynn–Shacham signature scheme, which uses Weil pairings on an elliptic curve, has some desireable properties for group signatures.
+The Boneh–Lynn–Shacham signature scheme, which uses Weil pairings on an elliptic curve, have some desirable properties by allowing public key and signature aggregation.
 
-Using BLS group signatures it is possible to have a signed message from *m* of *n* members of a group, with an identical signature and public key regardless of which group members signed.
+Using BLS group signatures it is possible to have a signed message from *m* of *n* members of a group, with an identical aggregate signature and public key regardless of which group members signed. 
 
 This has implications for privacy, as verification is possible without needing to know which group members signed, or even the public keys of any individual group members. 
 
@@ -202,15 +197,15 @@ Threshold signatures are also possible with the MuSig signature scheme, which is
 
 MuSig signatures are provably unmalleable, meaning that given a message and a signature, it is not possible to produce another signature which is valid for that message with the same keypair.
 
-##### Application for social recovery
+##### Application of Threshold Signatures for Social Recovery
 
 Threshold signatures could be used for identifier or account recovery as follows:
 
 - The identifier holder, Alice, initially publishes a signed message announcing the aggregated public key of the group who are empowered to make assertions on her behalf.
 
-- In the event of key loss or compromise, Alice generates a new keypair, send her group members a signed, timestamped message containing her new public key, and contacts them out of band to confirm it was her. 
+- In the event of key loss or compromise, Alice generates a new keypair, sends her group members a signed, timestamped message containing her new public key, and contacts them out of band to confirm it was her. 
 
-- n of m group members sign the message and their signatures are aggregated to produce and publish a single, signed message with Alice's new public key, which also serves to revoke the old one. 
+- *n* of *m* group members each sign the message and their signatures are aggregated to produce and publish a single, signed message asserting Alice's new public key, which also serves to revoke the old one. 
 
 - Any client software which seeks to validate messages from Alice must resolve her current public key by looking for messages published by her trusted group. 
 
@@ -218,11 +213,11 @@ Threshold signatures could be used for identifier or account recovery as follows
 
 - If group members change, the new group's aggregate public key announcement must be signed by both Alice and the old group.
 
-A major advantage of this scheme is that anonymity of group members is maintained. Nobody but Alice can see which group members created the signature or who the group members are. Which makes it difficult for them to be targeted by someone who wanted to impersonate Alice.
+A major advantage of this scheme is that it addresses the case that a key has been compromised.  Furthermore, anonymity of group members is maintained. Nobody but Alice can see which group members created the signature or who the group members are. Which makes it difficult for them to be targeted by someone who wanted to impersonate Alice.
 
 A major disadvantage is that unlike secret sharing schemes like Shamirs, this recovery mechanism requires changes to the system using it. It cannot be used for existing systems which have not implemented this mechanism.
 
-#### Social Identifier Post-Recovery in Offline/Distributed Systems
+#### Social Identifiers Post-Recovery in Distributed Systems
 
 Since identifiers are recovered by messages signed by a trusted group, in order for the network to learn about changes to an identifier it is important the these recovery messages are propagated.
 
@@ -230,30 +225,7 @@ In centralized systems this is trivial since the centralized authority is truste
 
 In decentralized linear consensus systems (e.g. proof of stake blockchains) the propagation of messages can be tied to the consensus mechanism. For example, Alice knows Bob saw her identifier update method as long as Bob has seen data consensus from after Alice published her update. Alice can then assume Bob has seen her update as long as Bob would notice something wrong if the consensus system stalled/did not make progress.
 
-In distributed systems, establishing a model for consensus is more difficult. However, one model that can be used is fork-consistency. With fork-consistency Alice can assert that Bob has seen her update `U` as long as Bob has seen any update Alice has made since `U`. In these systems the ability to see fresh/accurate data is gated by the amount of information in the system. For example, in bitcoin Alice's protection against Bob seeing a forked blockchain is that if Bob has any interaction with a peer using the correct blockchain he will realize he should look for more information before using Alice's identifier.
-
-#### ZK Key Ceremonies
-
-> (TBW: Instead of a hardware generation of a keys, it may possible to have a personal version of the Z-Cash ceremony where your peers create via MPC a key for you (or for all the peers), along with a shared proof that the key (or keys) were properly created. It may also be possible later for a threshold of those same peers to create a new key for you later, and using the old proof provide a new proof that the new key is created by the same people that created the old key.)
-
-### Rubric Evaluations (WIP)
-
-Classic Shamir Usage:
- - Peers are asked to store User's recovery data
- - Peers are required to protect User's recovery data (and report issues if the recovery data is leaked)
- - User doesn't need to do anything during stasis
- - Relies on the channels peers use to send the recovery data to the user being private. Relies on the user's device being private
- -  Requires redoing the setup phase (reissuing recovery data to all peers)
- -  They are allowed to withhold or send incorrect recovery data
- -  Yes, the user device
- -  Yes, assuming that the channels peers use for sending recovery data are anonymous and protected from traffic analysis
-
-Multi Signature Schemes:
-
-- Peers not required to store information beyond what they already have
-- Peers required to protect their keys (and report issues if their keys are compromised)
-- User doesn't need to do anything during stasis
-- Requires redoing the setup phase (no peer interaction required)
+In distributed systems, establishing a model for consensus is more difficult. However, one model that can be used is fork-consistency. With fork-consistency, Alice can assert that Bob has seen her update `U` as long as Bob has seen any update Alice has made since `U`. In these systems the ability to see fresh/accurate data is gated by the amount of information in the system. For example, with Bitcoin, Alice's protection against Bob seeing a forked blockchain is that if Bob has any interaction with a peer using the correct blockchain he will realize he should look for more information before using Alice's identifier.
 
 ### Conclusion
 
@@ -278,8 +250,7 @@ Lastly, since asserting an identifier often involves cryptographic signing, we w
 - [Gregory Maxwell, Andrew Poelstra1, Yannick Seurin, and Pieter Wuille - Simple Schnorr Multi-Signatures with Applications to Bitcoin](https://eprint.iacr.org/2018/068.pdf)
 - [Boneh, Drijvers and Neven, 'BLS Multi-Signatures With Public-Key Aggregation' 2018](https://crypto.stanford.edu/~dabo/pubs/papers/BLSmultisig.html)
 - [Permanent Revocation Systems - Brownstein, Gilboa,Dolev](https://www.cs.bgu.ac.il/~frankel/TechnicalReports/2017/17-02.pdf)
-
-TODO: Look for and include existing references on the network and social issues we've raised above. 
+- [Chaum, David; van Heyst, Eugene (1991). 'Group signatures' Advances in Cryptology — EUROCRYPT '91. Lecture Notes in Computer Science. 547. pp. 257–265.](https://link.springer.com/chapter/10.1007%2F3-540-46416-6_22)
 
 ## Appendix - The rubrik questions 
 
