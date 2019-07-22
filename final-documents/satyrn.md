@@ -114,7 +114,8 @@ A few already under development:
 
 ### BTCR hackathon
 Our next big focus is developing some curriculum, especially for BTCR, starting at the 2019 BTCR Hackathon 
-https://weboftrustinfo.github.io/btcr-hackathon-2019/ and likely continuing into the next the 
+https://weboftrustinfo.github.io/btcr-hackathon-2019/ in August and likely continuing into the next the Rebooting the Web
+of Trust http://rwot9.eventbrite.com in September.
 
 ## Our starting point.
 The following notes are from our initial draft, with a few comments interjected. We started out with a 
