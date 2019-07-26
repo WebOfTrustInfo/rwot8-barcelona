@@ -4,9 +4,9 @@ Sean Gilligan, Peg, Adin Schmahmann, Andrew Hughes, Christopher Allen
 
 ### Abstract
 
-As systems where people are required to manage their own keys become more popular, social recovery or reissuance of keys increases in importance. Such systems are inherently empowering to users but safegaurding keys is a hard problem.
+As systems where people are required to manage their own cryptographic keys become more popular, social recovery or reissuance of keys increases in importance. Such systems are inherently empowering to users but safeguarding keys is a hard problem.
 
-We focus on social recovery of control of an identifier. There are several techniques to re-assert control over identifiers including key recovery and issuance of a new key. In many situations it is preferrable to establish a new key than recover the old one. 
+We focus on the social recovery of control of an identifier. There are several techniques to re-assert control over identifiers including key recovery and issuance of a new key. In many situations it is preferrable to establish a new key than recover the old one. 
 
 We propose a rubrik for evaluating such schemes, and give a brief overview of possible schemes to consider.
 
@@ -17,16 +17,15 @@ We propose a rubrik for evaluating such schemes, and give a brief overview of po
 3. Evaluation Rubric
 4. Overview of Schemes to Consider
 5. Conclusion
-6. Appendix - The rubric without annotation
+6. Appendix: The Rubric without Annotation
 
 ## Introduction
 
-With traditional multi-user systems, such as web-based services where users authenticate with a username and password, there is typically an authority who may revoke, re-issue or modify identifiers when problems arise. In recent years, the limitations of this model have become more apparent, but there are also problems with giving individual users ultimate control of their identifiers. 
+With traditional multi-user systems, such as web-based services where users authenticate with a username and password, there is typically an authority who may revoke, re-issue, or modify identifiers when problems arise. In recent years, the limitations of this model have become more apparent, but there are also problems with giving individual users ultimate control of their identifiers. 
 
-Several proposals have been made for 'social recovery', generally involving consensus of a quorum of trusted peers chosen by the user themself. These offer a promising compromise but there are a multitude of social, technical and contextual factors which should be considered before adopting such a scheme. 
+Several proposals have been made for 'social recovery', generally involving consensus of a quorum of trusted peers chosen by the user themself. These offer a promising compromise but there are a multitude of social, technical, and contextual factors which should be considered before adopting such a scheme. 
 
 We address this problem by defining a rubrik to help determine the suitability of different social recovery schemes in a particular context.
-
 
 ## Definition of terms used in this paper
 
@@ -36,28 +35,28 @@ We address this problem by defining a rubrik to help determine the suitability o
  - **Adversaries**: Potential attackers who may want to hinder recovery, gain private data by eavesdropping, or impersonate the user or peers. This could involve both technical vulnerabilities and social engineering techniques.
 
 #### Lifecycle of Indentifiers
- - **Setup**: The user does any preparation work required to use the recovery scheme in the future
- - **Stasis**: The time between the user's setup phase and the recovery phase
- - **Recovery**: The recovery method is used to assert control over their identifier
+ - **Setup**: The user does any preparation work required to use the recovery scheme in the future.
+ - **Stasis**: The time between the user's setup phase and the recovery phase.
+ - **Recovery**: The recovery method is used to assert control over their identifier.
 
 #### Identfier Recovery Scenarios
   * **Lost secret:** Control of the identifier has been lost, but it has not been compromised.  For example, device has fallen in the sea.
   * **Compromised secret:**  For example, device is stolen.
-  * **Inheritance:** After death or incapacitation - we want to enable control of the identifier to our hiers.
+  * **Inheritance:** After death or incapacitation we want to enable control of the identifier to our heirs.
 
 ## A Rubrik for Evaluating Recovery Schemes
 
-#### Actor Experience
+### Actor Experience
 
 **1 Must peers know their involvement before the setup phase?**
 
 Is it possible for a peer to be a potential assistant in recovery without their knowledge? This has advantages in terms of security, as if a peer does not even know they could play a role in recovery it makes social engineering from an adversary considerably more difficult. However, it is more prone to error, as there is no possibility to gain confirmation from the peer that the setup phase was successful. There are also consent issues. 
 
-Furthermore, we should consider whether there any additional preperation required on the part of the user or peers, such as contacting them 'out of band' and asking them to install specific software.
+Furthermore, we should consider whether there any additional preparation required on the part of the user or peers, such as contacting them 'out of band' and asking them to install specific software.
 
 **2 Is it neccessary to gain consent from trusted peers?**
 
-This might not seem like a big issue, since it concerns the potential loss of data for the user themselves, not the peers. But research from running role-playing workshops as well as from actual experience, shows users are often uncomfortable about the idea of 'holding responsibility' of providing assistance in recovery.
+This might not seem like a big issue, since it concerns the potential loss of data for the user themselves, not the peers. But research from running role-playing workshops, as well as from actual experience, shows users are often uncomfortable about the idea of 'holding responsibility' of providing assistance in recovery.
 
 This reluctance is considerably reduced if the potential peer is fully understands that they are not completely depended upon for recovery, for example in the case of threshold-based schemes, where there is a tolerance to unavailablilty of some peers. However, since these concepts are not widely understood, gaining consent can involve additional work on the part of the user, to make sure peers propery understand their roles.
 
@@ -68,29 +67,29 @@ For example, do they need to keep a device online, or check a particular service
 **3.1 If significant involvement is required, does the scheme have any mitigation efforts?**
 These could include:
 - **External incentives** (friendship, business, family)
-    If the peer is a friend or family member, they may be willing to make an effort to be available to assist in recovery. If they are a colleage they may have a duty provide mutual support for team members .
+    If the peer is a friend or family member, they may be willing to make an effort to be available to assist in recovery. If they are a colleage they may have a duty provide mutual support for team members.
 - Utilising a peer's **existing incentives** 
-    If the scheme relies on a particular device, or a private key which also serves some other purpose (such as securing funds or an account for some other service) the peer will already have a personal incentive to safeguard that device or key
+    If the scheme relies on a particular device or a private key which also serves some other purpose (such as securing funds or an account for some other service) the peer will already have a personal incentive to safeguard that device or key
 - **Explicit rewards** 
-A scheme could have some formal incentive system, either by gamification (for example, the user must act a peer for somebody else in exchange) or by a financial incentive such as cryptocurrency.
+A scheme could have some formal incentive system, either by gamification (for example, the user must act as a peer for somebody else in exchange) or by a financial incentive such as cryptocurrency.
 
 **4 What involvement is required from the user during stasis?**
 
 This might include keeping a device online or checking for notifications from peers.
 
 **5 How does the scheme deal with a loss of confidence in one of the peers?**
-Relationships change over time an trust is not static. If a peer is a colleage, they may leave the organisation. If a peer is a friend, the relationship might go bad, or the peer's personal circumstances may change. 
 
-Furthermore a peer's personal device or key maybe compromised by an adversary.
+Relationships change over time and trust is not static. If a peer is a colleague, they may leave the organisation. If a peer is a friend, the relationship might go bad, or the peer's personal circumstances may change. 
+
+Furthermore a peer's personal device or key might be compromised by an adversary.
 
 A good scheme should have a method of revoking trust from a specific peer.
 
-
-#### Threat Model
+### Threat Model
 
 **6 Can the scheme work in a distributed architecture?** 
 
-Distributed architectures, or peer to peer networks have advantages for security schemes brought by the absence of a single point of failure, such as better resilience to surveillance, censorship or takedown by an authority or the server owner, and a tolerance to particular connections being poor.
+Distributed architectures or peer to peer networks have advantages for security schemes brought by the absence of a single point of failure, such as better resilience to surveillance, censorship, or takedown by an authority or the server owner, and a tolerance to particular connections being poor.
 
 However these systems also have less desirable properties which should be considered when choosing a scheme, for example high latency and partitioned networks where there is not connectivity between all nodes. Without a centralized 'single source of truth' it is impossible to know a given node has the most up-to-date information, which means there must be a strategy for resolving conflicts. 
 
@@ -100,7 +99,7 @@ The assumption of threshold-based schemes is generally that peers can be trusted
 
 **8 Is there a single point of compromise during recovery?**
 
-The procedure of the recovery process should be considered carefully, as this is where operations take place which present a great threat if compromised, such as the reconstruction of a private key. Therefore one should consider factors such as where computation takes place, does any information remain in memory, where are the results, such as private keys, stored afterwards. In some cases it is appropriate to use Trusted Execution Environments (TEEs).
+The procedure of the recovery process should be considered carefully, as this is where operations take place that present a great threat if compromised, such as the reconstruction of a private key. Therefore one should consider factors such as where computation takes place, whether any information remain in memory, and where the results such as private keys are stored afterwards. In some cases it is appropriate to use Trusted Execution Environments (TEEs).
 
 **9 Is anonymity of the trusted peers maintained?**
 
@@ -114,13 +113,13 @@ If an adversary can determine who the peers are, they are in a better position t
 
 For added security, it may be desirable that the peers themselves do not know who each other are.  This makes it difficult for them to maliciously collude against the user, but it also makes recovery more difficult in the inheritance case.
 
-For lost or compromised indentifiers, the user can conctact the peers (provided they can remember who they were). But in the inhertance case, where the user is incapacitated or dead, things are made complicated if the peers do not know who each other are.
+For lost or compromised indentifiers, the user can contact the peers (provided they can remember who they were). But in the inhertance case, where the user is incapacitated or dead, things are made complicated if the peers do not know who each other are.
 
-One solution to this is a 'proof-of-custody' scheme. Suppose the peers all hold a common piece of data, some kind of unique identifier for the key they are protecting. In the case that a peer learns that something bad has happened to the user, they can 'broadcast' the hash of this piece of data. By broadcast we mean publish it publicly somewhere where other users of this scheme know to look. The other peers each respond **privately** with the actual piece of data, proving that they are also part of the recovery group, and they can then go with the recovery process.
+One solution to this is a 'proof-of-custody' scheme. Suppose the peers all hold a common piece of data, some kind of unique identifier for the key they are protecting. In the case that a peer learns that something bad has happened to the user, they can 'broadcast' the hash of this piece of data. By broadcast we mean publish it publicly somewhere where other users of this scheme know to look. The other peers each respond **privately** with the actual piece of data, proving that they are also part of the recovery group, and they can then proceed with the recovery process.
 
 **10 What security assumptions does the scheme rely on?**
 
-This is an important part of threat modelling. We should be able to identify the hard problems an adversary faces, such as the strength of a paricular cryptographic algorithm.
+This is an important part of threat modeling. We should be able to identify the hard problems an adversary faces, such as the strength of a paricular cryptographic algorithm.
 
 #### External factors
 
@@ -134,25 +133,25 @@ In the case that each peer's own identity is subsequently secured by a further s
 
 **12 Does the scheme address the 'network growth problem'?**
 
-User can't rely on their key until they can rely on their peers and their peers rely on their keys. It is desirable that each peer does 'due diligence' and ensures that their own identity is secured. Does the scheme provide a way of being able to prove this?  Or at least encourage this behaviour? This requires 'mutual dependence' within the social graph, otherwise we would need an infinite number of peers to enforce this strictly. 
+User can't rely on their key until they can rely on their peers and their peers can rely on their keys. It is desirable that each peer does 'due diligence' and ensures that their own identity is secured. Does the scheme provide a way of being able to prove this?  Or at least encourage this behaviour? This requires 'mutual dependence' within the social graph, otherwise we would need an infinite number of peers to enforce this strictly. 
 
-## Overview of schemes to consider
+## Overview of Schemes to Consider
 
 ### Master Secret Recovery
 
-Multiple keys or passwords can be generated deterministically from a single master key, which is generally stored in a seperate location, which could be offline, on paper or even memorized. 
+Multiple keys or passwords can be generated deterministically from a single master key, which is generally stored in a seperate location, which could be offline, on paper, or even memorized. 
 
-While this is not a social scheme, it is worth noting this technique's application in indentifier recovery. A derived sub-key can be used to secure the indentifier or account. When it is lost or compromised, the master key is used to generate a new sub-key. Cryptographic techniques allow a potentially infinite number of sub-keys to be generated, so as long as the master key remains secure, this process can be carried out many times. 
+While this is not a social scheme, it is worth noting this technique's application in indentifier recovery. A derived sub-key can be used to secure the indentifier or account. When it is lost or compromised, the master key is used to generate a new sub-key. Cryptographic techniques allow a potentially infinite number of sub-keys to be generated, so as long as the master key remains secure this process can be carried out many times. 
 
-QR codes can be used to store data on paper or transfer to an air-gapped (offline) device. Furthermore, the key can be stored as a mnemonic phrase of consisting of dictionary words, which are easier for humans to read, write or remember. Mnemonic phrased can also be engraved into hard metals such as titanium in order to survive fire.
+QR codes can be used to store data on paper or transfer to an air-gapped (offline) device. Furthermore, the key can be stored as a mnemonic phrase consisting of dictionary words, which are easier for humans to read, write, or remember. Mnemonic phrased can also be engraved into hard metals such as titanium in order to survive fire.
 
-The limitation of this technique is the existence on a single point of failure, and that it relies on the good practices and resources of the user alone. For example, it is not well suited to users who are travelling. It also does not address the inheritance case.
+The limitations of this technique are the existence of a single point of failure and that it relies on the good practices and resources of the user alone. For example, it is not well suited to users who are travelling. It also does not address the inheritance case.
 
-### Secret sharing schemes
+### Secret Sharing Schemes
 
-Threshold based secret sharing schemes, originally proposed by Shamir and Blakley, can be used to recover lost keys by generating a set of shares from a given secret which are distributed to trusted peers. Shares are points on a polynomial where coefficients are random except for the lowest which is the secret. The order of polynomial used determines the threshold number of peers required for recovery.
+Threshold based secret sharing schemes, originally proposed by Shamir and Blakley, can be used to recover lost keys by generating a set of shares from a given secret which are then distributed to trusted peers. Shares are points on a polynomial where coefficients are random except for the lowest, which is the secret. The order of polynomial used determines the threshold number of peers required for recovery.
 
-Feldman, Pederson and Berry proposed methods of introducing verification of shares. This mitigates the problem of not being able to identify which share has been maliciously or accidentally modified.
+Feldman, Pederson, and Berry proposed methods of introducing verification of shares. This mitigates the problem of not being able to identify which share has been maliciously or accidentally modified.
 
 For encryption keys these schemes are very useful, as the integrity of the original key is critical for decrypting existing material.  But for signing keys, when a key has been compromised we are often more interested in establishing a new key than recovering the old one. This is a major limitation, and means that such schemes are only useful for identifier recovery in the relatively rare scenario where we can be sure the key is lost but not compromised.
 
@@ -177,7 +176,7 @@ Issues:
  - Alice must trust her friends to protect the secrecy and integrity of her key shares, which they have no stake in.
    - If Alice's friends have public encryption keys she can encrypt the shares for her friends and store the encrypted shares in a location that is trusted for availability
 
-#### Threshold signature schemes / Group signatures
+#### Threshold Signature Schemes / Group Signatures
 
 Group signatures, originally described by David Chaum in 1991, allow a group member to make a signature on behalf of a group, which proves they are a group member but does not reveal who they are. 
 
@@ -205,7 +204,7 @@ Threshold signatures could be used for identifier or account recovery as follows
 
 - In the event of key loss or compromise, Alice generates a new keypair, sends her group members a signed, timestamped message containing her new public key, and contacts them out of band to confirm it was her. 
 
-- *n* of *m* group members each sign the message and their signatures are aggregated to produce and publish a single, signed message asserting Alice's new public key, which also serves to revoke the old one. 
+- *m* of *n* group members each sign the message and their signatures are aggregated to produce and publish a single, signed message asserting Alice's new public key, which also serves to revoke the old one. 
 
 - Any client software which seeks to validate messages from Alice must resolve her current public key by looking for messages published by her trusted group. 
 
@@ -215,7 +214,7 @@ Threshold signatures could be used for identifier or account recovery as follows
 
 A major advantage of this scheme is that it addresses the case that a key has been compromised.  Furthermore, anonymity of group members is maintained. Nobody but Alice can see which group members created the signature or who the group members are. Which makes it difficult for them to be targeted by someone who wanted to impersonate Alice.
 
-A major disadvantage is that unlike secret sharing schemes like Shamirs, this recovery mechanism requires changes to the system using it. It cannot be used for existing systems which have not implemented this mechanism.
+A major disadvantage is that unlike secret sharing schemes like Shamirs, this recovery mechanism requires changes to the system using it. It cannot be used for existing systems that have not implemented this mechanism.
 
 #### Social Identifiers Post-Recovery in Distributed Systems
 
@@ -229,7 +228,7 @@ In distributed systems, establishing a model for consensus is more difficult. Ho
 
 ### Conclusion
 
-Social recovery schemes have some very promising features but there are many social and technical factors which must be taken into accound in order to use them appropriately. Due to the combination of cryptographic techniques and the behaviour of multiple human actors, the simulation and threat modelling of these schemes is particularly difficult.
+Social recovery schemes have some very promising features but there are many social and technical factors that must be taken into account in order to use them appropriately. Due to the combination of cryptographic techniques and the behaviour of multiple human actors, the simulation and threat modelling of these schemes is particularly difficult.
 
 While we cannot solve this, we hope that this rubrik draws attention to some factors which might otherwise have been overlooked and encourages further work in this area. 
 
