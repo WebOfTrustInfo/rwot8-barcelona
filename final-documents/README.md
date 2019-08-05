@@ -7,6 +7,15 @@ _This is a listing for the RWOT8 papers to date. [Several more](https://github.c
 
 > The Decentralized Identifier (DID) specification describes a new type of URL that is globally unique, highly available, and cryptographically verifiable and which has no central authority. The DID spec document describes the expected ecosystem, data model, and syntaxes for DIDs. In December 2018, the W3C held a Strong Authentication and Identity Workshop that determined that a reasonable next step would be to create a W3C Working Group to standardize the DID specification. As a result, the W3C Credentials Community Group, which has been incubating the specification, will eventually need to hand the specification over to the newly formed W3C DID Working Group. In preparation for this hand off, a group at Rebooting the Web of Trust triaged issues related to the DID specification, refined existing proposals related to the specification, and gathered new features and requirements from the community. The result of this work is outlined in this document.
 
+## [*Evaluating Social Schemes for Recovering Control of an Identifier*](https://nbviewer.jupyter.org/github/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/evaluating-social-recovery.pdf) [(Text)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/evaluating-social-recovery.md)
+#### Sean Gilligan, Peg, Adin Schmahmann, Andrew Hughes, Christopher Allen
+
+> As systems where people are required to manage their own cryptographic keys become more popular, social recovery or reissuance of keys increases in importance. Such systems are inherently empowering to users but safeguarding keys is a hard problem.
+
+> We focus on the social recovery of control of an identifier. There are several techniques to re-assert control over identifiers including key recovery and issuance of a new key. In many situations it is preferrable to establish a new key than recover the old one.
+
+> We propose a rubrik for evaluating such schemes, and give a brief overview of possible schemes to consider.
+
 ## [*How SSI Will Survive Capitalism*](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/how-ssi-will-survive-capitalism.pdf) [(Text)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/how-ssi-will-survive-capitalism.md)
 #### Adrian Gropper, Michael Shea, Martin Riedel
 
