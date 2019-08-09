@@ -1,12 +1,8 @@
 # Driving Adoption with Focus on Basic Human Needs: Safety and Security
 
-#### How safety and security credentials are ideal building blocks for the
-adoption of larger SSI-based systems of proof and authorization. 
+#### How safety and security credentials are ideal building blocks for the adoption of larger SSI-based systems of proof and authorization. 
 
-#### Presented by [*Sam Mathews Chase*](mailto:%20samantha@venn.agency),
-[*Joni McKervey*](mailto:%20joni@venn.agency), [*Carsten
-Stöcker*](mailto:carsten.stoecker@spherity.com), and [*Daniel C.
-Burnett*](mailto:daniel.burnett@consensys.net)
+#### Presented by [*Sam Mathews Chase*](mailto:%20samantha@venn.agency), [*Joni McKervey*](mailto:%20joni@venn.agency), [*Carsten Stöcker*](mailto:carsten.stoecker@spherity.com), and [*Daniel C. Burnett*](mailto:daniel.burnett@consensys.net)
 
 #### Submitted to the 8th Rebooting the Web of Trust Technical Workshop
 
@@ -210,7 +206,7 @@ improved job site safety and wellbeing. Employee’s private information
 is protected, and employers do not take on the liability and costs of
 collecting personal data.
 
-*Use Case: Journalist Accreditation for Security Sensitive Events*
+## Use Case: Journalist Accreditation for Security Sensitive Events
 
 ### The Problem
 
