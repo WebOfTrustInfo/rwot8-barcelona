@@ -22,7 +22,7 @@ These are the documents in process at RWOT8.
 | [Satyrn](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/satyrn.md) | Joe | 7/8
 | Social Key Recovery #1: [Shamir Secret Sharing Best Practices](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/shamir-secret-sharing-best-practices.md) | Christopher A. | 8/5
 | Social Key Recovery #1a: New SSS Library | Daan & Mark | CODE SUBMITTED
-| Social Key Recovery #2: [Evaluating Social Schemes for Recovering Control of an Identifier](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/Evaluating-social-recovery.md) | Peg | 6/3
+| Social Key Recovery #2: [Evaluating Social Schemes for Recovering Control of an Identifier](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/evaluating-social-recovery.pdf) | Peg | DONE
 | [Sociolegal frameworks for the phygital age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/sociolegal-frameworks.txt) | Elizabeth | DROPPED
 | [Understanding DIDs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/understanding-dids-in-greater-depth.md) | Drummond | RWOT9
 | [Use Cases and Research Directions for self-sovereign publication and journalism](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/journalism-use-cases.md) | Juan C. | BOOK
