@@ -9,7 +9,7 @@ These are the documents in process at RWOT8.
 | [DID Key Management in the Browser](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-key-management-browser.md) | Alberto | 8/5 | 
 | [DID Spec Work](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/did-spec-refinement.pdf) | Manu | DONE
 | [The Digital Citizen](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/digital-citizen.md) | Chris C. | 3/31 | 
-| [Driving Adoption Based on Basic Human Needs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/driving-adoption-with-basic-human-needs.md) | Sam | SOON!
+| [Driving Adoption Based on Basic Human Needs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/driving-adoption-with-basic-human-needs.md) | Sam | EDITED
 | [Enabling a Web of Trust with Self-Signed and Self-Issued Credentials](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/self-signed-credentials.md) | Nader | 5/20
 | [Establishing the Identity of the Issuer by the Verifier in Verifiable Credentials](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/establishing_the-identity_of_the_issuer_by_the_verifier_in_verifiable_credentials.md) | Matt | 7/15
 | [How SSI Will Survive Capitalism](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/how-ssi-will-survive-capitalism.pdf) | Adrian G. | DONE |
