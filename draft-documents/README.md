@@ -4,7 +4,7 @@ These are the documents in process at RWOT8.
 
 | Paper | Lead | Status |
 | ------------- | ------------- | ------- |
-| [CRUD and multi-device for IPID](ipid-crud.md) | André Cruz | 4/29
+| [CRUD and multi-device for IPID](ipid-crud.md) | André Cruz | DROP
 | [Crypto Jurisdiction](http://bit.ly/cryptojurisdiction) | Toni |
 | [DID Key Management in the Browser](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-key-management-browser.md) | Alberto | 8/5 | 
 | [DID Spec Work](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/did-spec-refinement.pdf) | Manu | DONE
@@ -23,7 +23,7 @@ These are the documents in process at RWOT8.
 | Social Key Recovery #1: [Shamir Secret Sharing Best Practices](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/shamir-secret-sharing-best-practices.md) | Christopher A. | 8/5
 | Social Key Recovery #1a: New SSS Library | Daan & Mark | CODE SUBMITTED
 | Social Key Recovery #2: [Evaluating Social Schemes for Recovering Control of an Identifier](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/evaluating-social-recovery.pdf) | Peg | DONE
-| [Sociolegal frameworks for the phygital age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/sociolegal-frameworks.txt) | Elizabeth | DROPPED
+| [Sociolegal frameworks for the phygital age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/sociolegal-frameworks.txt) | Elizabeth | DROP
 | [Understanding DIDs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/understanding-dids-in-greater-depth.md) | Drummond | RWOT9
 | [Use Cases and Research Directions for self-sovereign publication and journalism](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/journalism-use-cases.md) | Juan C. | BOOK
 | [Using OpenID Connect Self-Issued to Achieve DID Auth](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-oidc.md) | Dmitri Z |
