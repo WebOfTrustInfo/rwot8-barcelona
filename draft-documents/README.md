@@ -8,7 +8,7 @@ These are the documents in process at RWOT8.
 | [Crypto Jurisdiction](http://bit.ly/cryptojurisdiction) | Toni |
 | [DID Key Management in the Browser](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-key-management-browser.md) | Alberto | 8/5 | 
 | [DID Spec Work](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/did-spec-refinement.pdf) | Manu | DONE
-| [The Digital Citizen](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/digital-citizen.md) | Chris C. | 3/31 | 
+| [The Digital Citizen](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/digital-citizen.md) | Chris C. | SOON! | 
 | [Driving Adoption Based on Basic Human Needs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/driving-adoption-with-basic-human-needs.md) | Sam | EDITED
 | [Enabling a Web of Trust with Self-Signed and Self-Issued Credentials](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/self-signed-credentials.md) | Nader | 5/20
 | [Establishing the Identity of the Issuer by the Verifier in Verifiable Credentials](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/establishing_the-identity_of_the_issuer_by_the_verifier_in_verifiable_credentials.md) | Matt | 7/15
@@ -26,6 +26,6 @@ These are the documents in process at RWOT8.
 | [Sociolegal frameworks for the phygital age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/sociolegal-frameworks.txt) | Elizabeth | DROP
 | [Understanding DIDs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/understanding-dids-in-greater-depth.md) | Drummond | RWOT9
 | [Use Cases and Research Directions for self-sovereign publication and journalism](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/journalism-use-cases.md) | Juan C. | BOOK
-| [Using OpenID Connect Self-Issued to Achieve DID Auth](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-oidc.md) | Dmitri Z |
+| [Using OpenID Connect Self-Issued to Achieve DID Auth](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-oidc.md) | Dmitri Z | SOON!
 | [Using OpenID Connect Self-Issued to achieve Verifiable Credentials Presentation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-vc-exchange.md) | Dmitri Z |
 | [Verifiable Credential Museum/Playground](vc-museum-playground.md) | Ryan | 6/17
