@@ -11,9 +11,9 @@
 * Dmitri Zagidulin
 
 ### Abstract
-Proving control of a DID requires proving ownership of a private key corresponding to a public key for the DID. Of course, this could be done with a new DID-specific protocol. However, there already exist standard protocols for proving ownership of a public/private key pair.
+Proving control of a DID requires proving ownership of a private key corresponding to a public key for the DID. Of course, this could be done with a new DID-specific protocol. However, standard protocols for proving ownership of a public/private key pair already exist.
 
-This paper describes how to reuse the Self-Issued OpenID Connect (SIOP) specification and related protocol messages to prove control of a DID. It describes both why and how to do this.  Related topics, such as release of claims are also touched upon.
+This paper describes how to reuse the Self-Issued OpenID Connect (SIOP) specification and related protocol messages to prove control of a DID. It describes both why and how to do this.  Related topics, such as release of claims, are also touched upon.
 
 ### Terminology
 The following terminology is used in this paper:
@@ -27,7 +27,7 @@ The following terminology is used in this paper:
 
 OpenID Connect is a widely used JSON/REST-based identity protocol. [Section 7](https://openid.net/specs/openid-connect-core-1_0.html#SelfIssued) of the [OpenID Connect Core](https://openid.net/specs/openid-connect-core-1_0.html) specification defines how to authenticate using an identity that you control yourself, which is represented by a public key. The authentication protocol messages prove that you are in possession of the private key corresponding to the public key.  
 
-We believe that using the SIOP functionality to prove ownership of a DID has multiple advantages.  It reuses existing functionality, possibly accelerating adoption relative to approaches utilizing new custom protocols.
+We believe that using the SIOP functionality to prove ownership of a DID has multiple advantages. It reuses existing functionality, possibly accelerating adoption relative to approaches utilizing new custom protocols.
 
 ### Use Cases
 
@@ -50,9 +50,9 @@ The following are Non-Goals for this paper:
 
 This paper is guided by the following set of motivations and design decisions:
 
-* Whenever possible, reuse of existing specs.
+* Reuse existing specs whenever possible.
 * Remain compatible with existing specs that are reused.
-* Layer DID Auth functionality such that it can be added incrementally without breaking existing uses of the self-issued functionality
+* Layer DID Auth functionality such that it can be added incrementally without breaking existing uses of the self-issued functionality.
 
 ### How to Prove Control of a DID
 
@@ -137,7 +137,7 @@ When using this flow the client must validate the response as follows:
 
 1. Verify that the response is a valid [SIOP Response](https://openid.net/specs/openid-connect-core-1_0.html#SelfIssuedResponse), and perform the required [Self-Issued ID Token Validation steps](https://openid.net/specs/openid-connect-core-1_0.html#SelfIssuedValidation).
 2. Verify that the ID Token returned contains the additional attribute `did` and that it is a valid DID format. (Conforms to the ABNF rules of the DID spec). Note: If the ID Token does not contain a `did` attribute, it may still be a valid SIOP ID Token, but it is not a valid DID Auth response.
-3. Perform a [DID Resolution](https://w3c-ccg.github.io/did-resolution/) operation (the specifics vary by individual DID method, but typically involves using a resolver to retrieve the DID document specified by the `did` claim in the ID Token).
+3. Perform a [DID Resolution](https://w3c-ccg.github.io/did-resolution/) operation. (The specifics vary by individual DID method, but typically involves using a resolver to retrieve the DID document specified by the `did` claim in the ID Token.)
 4. (Optional, DID method specific) Check that the DID Document is not expired or revoked.
 5. Verify that the self-issued key used to sign the response (specified in the `sub_jwk` claim) is present in the `authentication` attribute of the DID Document and is not expired or revoked. The key specified in the DID Document can be in various formats and they must be converted to a common format to compare. This conversion is out of scope of this document.
 6. Verify that the algorithm used to sign the ID Token (specified in the ID Token header `alg` claim) matches the algorithm of the corresponding key in the DID Document. Note that the `alg` attribute and the DID Document key may be represented using different serialization formats, and will have to be converted to a common format before doing a comparison. This conversion is out of scope of this document.
@@ -168,7 +168,7 @@ Example of an OpenID Connect Provider in the `service` endpoint section of a DID
 
 The SIOP Provider Discovery process uses a [static configuration document](https://openid.net/specs/openid-connect-core-1_0.html#SelfIssuedDiscovery).
 
-Although this static configuration spec only mentions the RS256 crypto algorithm, implementers should keep in mind that other algorithms, such as Ed25519 and ES256K, are more commonly used in the SSI community, and may be used in the SIOP DID Auth flow.
+Although this static configuration spec only mentions the RS256 crypto algorithm, implementers should keep in mind that other algorithms, such as Ed25519 and ES256K, are more commonly used in the SSI community and may be used in the SIOP DID Auth flow.
 
 #### Providing Client Meta-Data
 
@@ -182,9 +182,9 @@ Certain use cases require that the RP (client app) provides the OP (identity pro
 
 The presentation of claims is already supported by OpenID Connect spec, and can include any claims pertinent to a use case.
 
-As specified in OpenID Connect Core, [aggregated and distributed claims](https://openid.net/specs/openid-connect-core-1_0.html#AggregatedDistributedClaims) can be used in responses, including in Self-Issued ID Tokens. For instance, National eID claims, such as claims from EIDAS claim providers could be represented in that way.
+As specified in OpenID Connect Core, [aggregated and distributed claims](https://openid.net/specs/openid-connect-core-1_0.html#AggregatedDistributedClaims) can be used in responses, including in Self-Issued ID Tokens. For instance, National eID claims, such as claims from EIDAS claim providers, could be represented in that way.
 
-If relevant to the use case, some claims can use [JWT claim definitions](https://w3c.github.io/vc-data-model/#json-web-token) from W3C Verifiable Credentials spec. Note that OpenID Connect does not define validation rules for claims issued by third parties, as they are in general, specific to the use case.
+If relevant to the use case, some claims can use [JWT claim definitions](https://w3c.github.io/vc-data-model/#json-web-token) from W3C Verifiable Credentials spec. Note that OpenID Connect does not define validation rules for claims issued by third parties, as they are, in general, specific to the use case.
 
 #### Signed Request Objects
 
@@ -204,13 +204,13 @@ To be explored and specified further:
 
 * Use case where the Self-Issued flow is being initiated from a Desktop browser (or other environment that does not have a protocol handler installed). Current deployed or proposed solutions:
     - This is currently being solved by methods like uPort via a combination of QR code which contains a JWT request that includes the response callback of the RP.
-    - Potentially could be solved by an agreed-upon site hosted by the community, “Log in with SSI”, that would redirect desktop user to a page that shows the QR code.
+    - This potentially could be solved by an agreed-upon site hosted by the community, “Log in with SSI”, that would redirect desktop user to a page that shows the QR code.
 
 ### Bibliography / Previous Papers and Proposals
 * [OIDC Profile for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/oidc-profile-for-ssi.md)  by Oliver Terbu, Andres Junge
-* [Proof of Key Ownership with OpenID Connect Self-Issued Identities](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Proof_of_Key_Ownership_with_OpenID_Connect_Self-Issued_Identities.md)
-* https://github.com/WebOfTrustInfo/rwot6-santabarbara/blob/master/final-documents/did-auth.md , [RWOT6]
-* https://iiw.idcommons.net/Open_ID_v._FIDO_v._SSI
+* [Proof of Key Ownership with OpenID Connect Self-Issued Identities](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/Proof_of_Key_Ownership_with_OpenID_Connect_Self-Issued_Identities.md) by Michael B. Jones
+* [Introduction to DID Auth](https://github.com/WebOfTrustInfo/rwot6-santabarbara/blob/master/final-documents/did-auth.md) by Markus Sabadello, Kyle Den Hartog, Christian Lundkvist, Cedric Franz, Alberto Elias, Andrew Hughes, John Jordan, Dmitri Zagidulin
+* [Open ID v. FIDO v. SSI](https://iiw.idcommons.net/Open_ID_v._FIDO_v._SSI)
 
 #### Related Specs and References
 
