@@ -7,48 +7,37 @@ was to generate five technical white papers and/or proposals on topics
 decided by the group that would have the greatest impact on the
 future.
 
-Visit http://rwot8.eventbrite.com for more information and to purchase tickets.
+## Final Papers
 
-[Event details for attendees (schedule, hotels, transportation) (pdf 14MB)](https://nbviewer.jupyter.org/github/WebOfTrustInfo/website/blob/gh-pages/welcome-pack/rwot8-barcelona-welcome-pack.pdf)
+## [*RWoT8 DID Specification Refinement*](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/did-spec-refinement.pdf) [(Text)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/did-spec-refinement.md)
+#### Dan Burnett, Ken Ebert, Amy Guy, Drummond Reed, Manu Sporny
 
-## Draft Documents
+> The Decentralized Identifier (DID) specification describes a new type of URL that is globally unique, highly available, and cryptographically verifiable and which has no central authority. The DID spec document describes the expected ecosystem, data model, and syntaxes for DIDs. In December 2018, the W3C held a Strong Authentication and Identity Workshop that determined that a reasonable next step would be to create a W3C Working Group to standardize the DID specification. As a result, the W3C Credentials Community Group, which has been incubating the specification, will eventually need to hand the specification over to the newly formed W3C DID Working Group. In preparation for this hand off, a group at Rebooting the Web of Trust triaged issues related to the DID specification, refined existing proposals related to the specification, and gathered new features and requirements from the community. The result of this work is outlined in this document.
 
-These are the documents currently in process from RWOT8.
+## [*Evaluating Social Schemes for Recovering Control of an Identifier*](https://nbviewer.jupyter.org/github/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/evaluating-social-recovery.pdf) [(Text)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/evaluating-social-recovery.md)
+#### Sean Gilligan, Peg, Adin Schmahmann, Andrew Hughes, Christopher Allen
 
-| Paper | Lead |
-| ------------- | ------------- |
-| [CRUD and multi-device for IPID](ipid-crud.md) | André Cruz | [Draft](ipid-crud.md) |
-| [Crypto Jurisdiction](http://bit.ly/cryptojurisdiction) | Toni |
-| [DID Key Management in the Browser](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-key-management-browser.md) | Alberto |
-| [DID Spec Work](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-spec-refinement.md) | Manu |
-| [The Digital Citizen](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/digital-citizen.md) | Chris C. |
-| [Driving Adoption Based on Basic Human Needs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/driving-adoption-with-basic-human-needs.md) | Sam |
-| [Enabling a Web of Trust with Self-Signed and Self-Issued Credentials](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/self-signed-credentials.md) | Nader |
-| [Establishing the Identity of the Issuer by the Verifier in Verifiable Credentials](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/establishing_the-identity_of_the_issuer_by_the_verifier_in_verifiable_credentials.md) | Matt |
-| [How SSI Will Survive Capitalism](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/how-ssi-will-survive-capitalism.md) | Adrian G. |
-| [Human-Meaningful Names for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/naming-survey.md) | Boyma |
-| [Identity Containers](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/ContainerId.md) | Alex P. |
-| [JORAM Illustrations](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/Joram_Illustrated.md) | Katie |
-| [JORAM 2](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/joram.2.0.0.md) | Joe |
-| [LibP2P for DID Auth](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/libp2p_did_auth.md) | jonnycrunch |
-| [Peer DID Method Spec Report](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/peer-DID-method-spec-report.md) | Brent |
-| [Satyrn](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/satyrn.md) | Joe |
-| Social Key Recovery #1: [Shamir Secret Sharing Best Practices](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/shamir-secret-sharing-best-practices.md) | Christopher A. |
-| Social Key Recovery #1a: New SSS Library | Daan & Mark |
-| Social Key Recovery #2: [Evaluating Social Schemes for Recovering Control of an Identifier](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/Evaluating-social-recovery.md) | Peg |
-| <strike>Terminology</strike> | <strike>Reiks</strike> |
-| [Sociolegal frameworks for the phygital age](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/sociolegal-frameworks.txt) | Elizabeth | DROPPEd
-| [Understanding DIDs](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/understanding-dids-in-greater-depth.md) | Drummond |
-| [Use Cases and Research Directions for self-sovereign publication and journalism](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/journalism-use-cases.md) | Juan C. |
-| [Using OpenID Connect Self-Issued to Achieve DID Auth](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-oidc.md) | Dmitri Z |
-| [Using OpenID Connect Self-Issued to achieve Verifiable Credentials Presentation](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/did-auth-vc-exchange.md) | Dmitri Z |
-| [Verifiable Credential Museum/Playground](vc-museum-playground.md) | Ryan | [Draft](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/vc-museum-playground.md) |
+> As systems where people are required to manage their own cryptographic keys become more popular, social recovery or reissuance of keys increases in importance. Such systems are inherently empowering to users but safeguarding keys is a hard problem.
 
+> We focus on the social recovery of control of an identifier. There are several techniques to re-assert control over identifiers including key recovery and issuance of a new key. In many situations it is preferrable to establish a new key than recover the old one.
 
-## Topics & Advance Readings
+> We propose a rubrik for evaluating such schemes, and give a brief overview of possible schemes to consider.
 
-Please see [Topics & Advance Readings](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/README.md) for a list of readings prepared in advance of the conference.
+## [*How SSI Will Survive Capitalism*](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/how-ssi-will-survive-capitalism.pdf) [(Text)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/how-ssi-will-survive-capitalism.md)
+#### Adrian Gropper, Michael Shea, Martin Riedel
 
+> The Self-Sovereign Identity (SSI) community has described several groundbreaking properties that arise from the adoption of its principles. Governance, as in business and financing structure, is arguably the most challenging of these properties, captured succinctly by Shoshana Zuboff as: "Who decides? Who decides who decides?" However, even though the technology has matured greatly over recent years, bootstrapping an SSI product within the existing capitalistic market environment is complicated and has not been achieved at scale within any functional domain.
+
+> A RWOT6 paper explored the challenges to a sustainable commons. In this paper, we apply the SWOT framework (Strengths, Weaknesses, Opportunities, and Threats) to identify potential paths to adoption. For example, what are the general implications of introducing a credential holder into existing issuer/verifier relationships? Our analysis leads to cooperative (in the legal sense) governance with focus on the holder (the wallet) as the key innovation, since issuers and verifiers already exist. The healthcare industry is used as an example.
+
+## [*Peer DID Method Specification Report*](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/peer-DID-method-spec-report.pdf) [(Text)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/peer-DID-method-spec-report.md)
+#### Brent Zundel, Timo Welde, Mike Varley, Marton Csernai
+
+> This paper consists of objectives, use cases and observations around a "peer" DID method, based off a draft specification submitted to RWOT8. The following abstract is from that draft specification, [located here](https://dhh1128.github.io/peer-did-method-spec/index.html).
+
+> "This DID method spec conforms to the requirements in the DID specification currently published by the W3C Credentials Community Group. For more information about DIDs and DID method specifications, please see the DID Primer and DID Spec.
+
+> "This document defines a 'peer' DID Method that can be used independent of any source of truth external to the relationship in which it is used. The method is cheap, fast, scalable, and secure. It is suitable for most private relationships between people, organizations, and IoT things. DIDs associated with this method are also promotable to a more public context. That is, blockchains with different DID methods can graft some or all peer DIDs into their namespace(s) with no risk of accidental collision, and no loss of meaning. Peer DID will have a recognizable and consistent identity in all of them."
 
 ## Complete Rebooting the Web of Trust Listing
 
