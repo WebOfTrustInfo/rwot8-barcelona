@@ -16,28 +16,28 @@ We set out to create a JavaScript native intepretation of Jupyter https://jupyte
 
 From Joe Andrieu:
 
-First, Jupyter is awesome. I first learned about it in Jimmy Song's Programming Bitcoin course, 
-which uses Jupyter to great effect with his open-source curriculum at https://github.com/jimmysong/pb-exercises
-
-However, as I went through the class, I had significant technical issues with installing 
-and setting up Jupyter *and* I could see how awesome this would be as a framework for general 
-programming education for folks using JavaScript. Yes, there are some tools, like 
-JSFiddle https://jsfiddle.net/ that let you interactively play with JavaScript content, 
-but nothing that combined the static parts of curriculum, like examples, illustrations, and explanations,
-with interactive parts where you could actually try some code out. It's true that Python 
-is a beauty for working with large numbers like those found in cryptography (and hence 
-cryptocurrency), while JavaScript requires extra work. BUT! There are still more
-JavaScript programmers than Python, and I could only see opportunity in making it easier
-for the average web developer (full stack as well as front-end types) to learn about
-bitcoin, cryptocurrencies, and the underlying cryptographic primitives.
-
-I first set out to create such a tool with a fellow alumnus of Jimmy's course, but that didn't produce fruit.
-
-I tried again at a BTCR hackathon, where I fell in love with Visual Studio's interactive sandbox, 
-but couldn't push through the monolith that is VS Code to figure out how to use that sandbox mode
-as a generic tool for files other than the single .md provided by Microsoft. However, that experience
-established what became the foundation for Satyrn.js, namely using markdown for curriculum
-with a simple addition of an interactive editor and code execution for JavaScript code blocks.
+> First, Jupyter is awesome. I first learned about it in Jimmy Song's Programming Bitcoin course, 
+> which uses Jupyter to great effect with his open-source curriculum at https://github.com/jimmysong/pb-exercises
+>
+> However, as I went through the class, I had significant technical issues with installing 
+> and setting up Jupyter *and* I could see how awesome this would be as a framework for general 
+> programming education for folks using JavaScript. Yes, there are some tools, like 
+> JSFiddle https://jsfiddle.net/ that let you interactively play with JavaScript content, 
+> but nothing that combined the static parts of curriculum, like examples, illustrations, and explanations,
+> with interactive parts where you could actually try some code out. It's true that Python 
+> is a beauty for working with large numbers like those found in cryptography (and hence 
+> cryptocurrency), while JavaScript requires extra work. BUT! There are still more
+> JavaScript programmers than Python, and I could only see opportunity in making it easier
+> for the average web developer (full stack as well as front-end types) to learn about
+> bitcoin, cryptocurrencies, and the underlying cryptographic primitives.
+> 
+> I first set out to create such a tool with a fellow alumnus of Jimmy's course, but that didn't produce fruit.
+> 
+> I tried again at a BTCR hackathon, where I fell in love with Visual Studio's interactive sandbox, 
+> but couldn't push through the monolith that is VS Code to figure out how to use that sandbox mode
+> as a generic tool for files other than the single .md provided by Microsoft. However, that experience
+> established what became the foundation for Satyrn.js, namely using markdown for curriculum
+> with a simple addition of an interactive editor and code execution for JavaScript code blocks.
 
 The idea was to keep the file format of markdown--which is popular and well known to developers using
 github--with a simple custom rendering of JavaScript code blocks to add the interactivity we wanted.
