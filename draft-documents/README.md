@@ -16,7 +16,7 @@ These are the documents in process at RWOT8.
 | [Human-Meaningful Names for SSI](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/naming-survey.md) | Boyma | DROP
 | [Identity Containers](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/ContainerId.md) | Alex P. | 6/24
 | [JORAM Illustrations](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/Joram_Illustrated.md) | Katie |
-| [JORAM 2](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/joram.2.0.0.md) | Joe | NEAR
+| [JORAM 2](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/joram.2.0.0.md) | Joe | DROP
 | [LibP2P for DID Auth](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/libp2p_did_auth.md) | jonnycrunch | 6/3
 | [Peer DID Method Spec Report](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/peer-DID-method-spec-report.pdf) | Brent | DONE
 | [Satyrn](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/satyrn.md) | Joe | IN-REVIEW
