@@ -39,17 +39,17 @@ From Joe Andrieu:
 > established what became the foundation for Satyrn.js, namely using markdown for curriculum
 > with a simple addition of an interactive editor and code execution for JavaScript code blocks.
 
-The idea was to keep the file format of markdown--which is popular and well known to developers using
+The idea was to combine the file format of markdown--which is popular and well known to developers using
 github--with a simple custom rendering of JavaScript code blocks to add the interactivity we wanted.
 
 Since there exist common tools for all of these components, this turned out to be just about
-the perfect scope of work for the three day workshop in Barcelona. We use electron to create a 
+the perfect scope of work for the three-day workshop in Barcelona. We used Electron to create a 
 JavaScript native app, showdown.js to convert from markdown to html, and the Ace editor for, well, 
 editing. Combined with the built-in support for node.js in Electron, we had a proof of concept that got the basics right
 using standard markdown and standard JavaScript.
 
 Of course, there were gaps and a few bugs. And there still are (see the section on next steps for 
-a discussion), however, the basics work. It's cross-platform and open source and should work 
+a discussion); however, the basics work. It's cross-platform and open source and should work 
 on every platform you can run node.js on. We haven't tried it as a mobile app (definitely out of scope), 
 but it works on Linux, MacOs, and Windows.
 
@@ -59,7 +59,7 @@ Now we can start developing JavaScript curriculum in markdown and see how best t
 
 ### New repo
 We published the initial version at https://github.com/WebOfTrustInfo/satyrn and will leave that 
-for posterity, along with this write up of our work (in the RWOT8 final papers directory). 
+for posterity, along with this write-up of our work (in the RWOT8 final papers directory). 
 
 We are currently transitioning to a new repo at https://github.com/satyrnjs/satyrn so the Rebooting 
 the Web of Trust work can continue focused on the workshops while Satyrn moves on to a more 
@@ -70,19 +70,19 @@ Always worth investigating and resolving.
 
 ### Secure JavaScript
 The biggest problem with the current app is that it has a bit of an existential quandary between being
-an editor and a browser. As a an editor--like MS Word--it is document centric. However, like a browser,
-we expect it to be able to navigate across a variety of "chapters" in a set of curriculum, so that any 
-given markdown file presents just a component of a larger body of education. It's also designed to work
+an editor and a browser. As a an editor--like MS Word--it is documentcentric. However, like a browser,
+it needs to be able to navigate across a variety of "chapters" in a set of curriculum, so that any 
+given markdown file presents just one component of a larger body of education. It's also designed to work
 with existing node modules, so that the curriculum can @require a node-module that is, in theory, distributed
-with the markdown files. This is sort of the point: Satyrn is a tool that you can learn to use any 
+with the markdown files. This is sort of the point: Satyrn is a tool where you can learn to use any 
 node.js module. (In fact, it's much better for that than it is for browser-side frameworks, like React 
 or Angular, which really want an HTML DOM, which we do not support.) Finally, the use of node.js gives 
-interactive content full access to the node.js api, including the ability to read and delete files, 
+interactive content full access to the node.js API, including the ability to read and delete files, 
 even run arbitrary executables.
 
 In other words, we are making it easy for people to download untrusted content, then run it with higher
-privileges than they might be used to for JavaScript (the browser bends over backwards to keep js in 
-a valid sandbox).
+privileges than they might be used to for JavaScript. (The browser bends over backwards to keep js in 
+a valid sandbox.)
 
 We'd like to fix that. We are looking at a couple of options and we like Secure EcmaScript from 
 the folks at Agoric, but there are a bunch of feature-related decisions we need to figure out, which 
@@ -90,12 +90,12 @@ should be based on a clear understanding of the use cases we want to support. Th
 the next major version.
 
 At the same time, this is a tool for developers. Yes, perhaps for developers who are learning--and as such
-maybe not so aware of the security implications, but we respect that both educators and students may 
-want and/or need to run code that by most measures is a security risk--opening files and connecting over 
-the network are standards operations with node.js and which, deservedly are often restricted in other contexts. 
+maybe not so aware of the security implications--but we respect that both educators and students may 
+want and/or need to run code that by most measures is a security risk; opening files and connecting over 
+the network are standards operations with node.js  which, deservedly, are often restricted in other contexts. 
 We are working to provide better security without breaking the fundamental flexibility of the platform.
 
-In the meantime, we respect our users to be adults and make informed decisions about running code from 
+In the meantime, we respect our users as adults who can make informed decisions about running code from 
 unknown sources. As a general rule, don't. If you can't trust the source of a Satyrn tutorial, 
 don't run it. If you don't understand the security implication of a particular feature, don't run it.
 
@@ -109,13 +109,12 @@ to add.
 
 A few already under development:
 * Support for LaTex for math formulas.
-* Using a forked process with IPC rather than running node.js interactively--this will give us better control over display output withour requiring parsing.
+* Using a forked process with IPC rather than running node.js interactively; this will give us better control over display output withour requiring parsing.
 * Tying long term processes to their code block for output management, so users can stand up things like servers in one block, then query them in another, with separate console.log outputs.
 
 ### BTCR hackathon
-Our next big focus is developing some curriculum, especially for BTCR, starting at the 2019 BTCR Hackathon 
-https://weboftrustinfo.github.io/btcr-hackathon-2019/ in August and likely continuing into the next the Rebooting the Web
-of Trust http://rwot9.eventbrite.com in September.
+Our next big focus is developing some curriculum, especially for BTCR, starting at the [2019 BTCR Hackathon](https://weboftrustinfo.github.io/btcr-hackathon-2019/) in August and likely continuing into the next [Rebooting the Web
+of Trust event](http://rwot9.eventbrite.com) in September.
 
 ## Our starting point.
 The following notes are from our initial draft, with a few comments interjected. We started out with a 
@@ -132,8 +131,8 @@ round out the app and publish a Minimal Viable Product.
 * JavaScript execution context
 * Standalone executable app
 * Vanilla JavaScript
-* Creators and users may install additional node modules which will be installed in the file’s directory, under node_modules (as typical with node.js apps). Installation is outside the app, however, such modules may be require()'d within a file.
-Node modules that conflict with modules  already in use by Satyrn, must be avoided. 
+* Creators and users may install additional node modules, which will be installed in the file’s directory under node_modules (as typical with node.js apps). Installation is outside the app. However, such modules may be require()'d within a file.
+Node modules that conflict with modules already in use by Satyrn must be avoided. 
 
 ### Nice to have features
 * Teacher mode
@@ -148,7 +147,7 @@ Node modules that conflict with modules  already in use by Satyrn, must be avoid
 * Minimal external dependencies
 
 **NOTE**: The only real shift from this list is the acceptance of "Teacher mode" in the sense of allowing
-users to edit the markdown. Initially Joe didn't want this--the driver was the student not the teacher--but it
+users to edit the markdown. Initially, Joe didn't want this--the driver was the student not the teacher--but it
 immediately became apparent that *we* wanted to use an editor during development, and that since we had already
 committed to integrating the ACE editor, it was an easy lift.
 
