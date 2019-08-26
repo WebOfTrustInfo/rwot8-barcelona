@@ -12,7 +12,7 @@ Will Abramson will.abramson@napier.ac.uk
 Ganesh Annan gannan@digitalbazaar.com 
 
 ## Introduction
-We set out to create a JavaScript native intepretation of Jupyter https://jupyter.org/, a notebook for both static narrative and interactive code.
+We set out to create a JavaScript native interpretation of Jupyter https://jupyter.org/, a notebook for both static narrative and interactive code.
 
 From Joe Andrieu:
 
@@ -43,10 +43,8 @@ The idea was to keep the file format of markdown--which is popular and well know
 github--with a simple custom rendering of JavaScript code blocks to add the interactivity we wanted.
 
 Since there exist common tools for all of these components, this turned out to be just about
-the perfect scope of work for the three day workshop in Barcelona. We use electron to create a 
-JavaScript native app, showdown.js to convert from markdown to html, and the Ace editor for, well, 
-editing. Combined with the built-in support for node.js in Electron, we had a proof of concept that got the basics right
-using standard markdown and standard JavaScript.
+the perfect scope of work for the three day workshop in Barcelona. We use [electron](https://electronjs.org/) to create a 
+JavaScript native app, [showdown.js](https://github.com/showdownjs/showdown) to convert from markdown to html, and the [Ace editor](https://ace.c9.io/) for, well, editing. Combined with the built-in support for node.js in Electron, we had a proof of concept that got the basics right using standard markdown and standard JavaScript.
 
 Of course, there were gaps and a few bugs. And there still are (see the section on next steps for 
 a discussion), however, the basics work. It's cross-platform and open source and should work 
@@ -95,7 +93,7 @@ want and/or need to run code that by most measures is a security risk--opening f
 the network are standards operations with node.js and which, deservedly are often restricted in other contexts. 
 We are working to provide better security without breaking the fundamental flexibility of the platform.
 
-In the meantime, we respect our users to be adults and make informed decisions about running code from 
+In the meantime, we expect our users to be adults and make informed decisions about running code from 
 unknown sources. As a general rule, don't. If you can't trust the source of a Satyrn tutorial, 
 don't run it. If you don't understand the security implication of a particular feature, don't run it.
 
@@ -157,8 +155,7 @@ between the interactively edited JavaScript and the initial markdown. "Easy lift
 for smart developers and project managers everywhere. What seams "easy" often has hidden complexity 
 and support costs.
 
-So, we don't have the most awesome markdown editor out there, but at least if you're developing curriculum, you can use the tool directly to 
-edit without requiring yet another app for editing markdown.
+So, we don't have the most awesome markdown editor out there, but at least if you're developing curriculum, you can use the tool directly to edit without requiring yet another app for editing markdown.
 
 ### Electron Resources
 https://github.com/sindresorhus/awesome-electron
