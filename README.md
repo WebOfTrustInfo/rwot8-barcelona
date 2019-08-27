@@ -39,6 +39,11 @@ future.
 
 > "This document defines a 'peer' DID Method that can be used independent of any source of truth external to the relationship in which it is used. The method is cheap, fast, scalable, and secure. It is suitable for most private relationships between people, organizations, and IoT things. DIDs associated with this method are also promotable to a more public context. That is, blockchains with different DID methods can graft some or all peer DIDs into their namespace(s) with no risk of accidental collision, and no loss of meaning. Peer DID will have a recognizable and consistent identity in all of them."
 
+## [Satyrn: A Markdown-based JavaScript Sandbox](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/satyrn.pdf) [(Text)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/satyrn.md)
+#### Joe Andrieu,Eric Welton, Will Abramson, Ganesh Annan
+
+> We set out to create a JavaScript native interpretation of Jupyter https://jupyter.org/, a notebook for both static narrative and interactive code.
+
 ## Complete Rebooting the Web of Trust Listing
 
 A different repository is available for each of the Rebooting the Web of Trust design workshops:
