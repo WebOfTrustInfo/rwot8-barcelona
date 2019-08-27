@@ -19,7 +19,7 @@ These are the documents in process at RWOT8.
 | [JORAM 2](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/joram.2.0.0.md) | Joe | DROP
 | [LibP2P for DID Auth](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/libp2p_did_auth.md) | jonnycrunch | 6/3
 | [Peer DID Method Spec Report](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/peer-DID-method-spec-report.pdf) | Brent | [DONE](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/peer-DID-method-spec-report.pdf)
-| [Satyrn](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/satyrn.md) | Joe | IN-REVIEW
+| [Satyrn](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/satyrn.md) | Joe | [DONE](https://nbviewer.jupyter.org/github/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/satyrn.pdf)
 | Social Key Recovery #1: [Shamir Secret Sharing Best Practices](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/draft-documents/shamir-secret-sharing-best-practices.md) | Christopher A. | 8/5
 | Social Key Recovery #1a: New SSS Library | Daan & Mark | CODE SUBMITTED
 | Social Key Recovery #2: [Evaluating Social Schemes for Recovering Control of an Identifier](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/evaluating-social-recovery.pdf) | Peg | [DONE](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/evaluating-social-recovery.pdf)
