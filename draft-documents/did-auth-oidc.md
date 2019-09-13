@@ -18,10 +18,10 @@ This paper describes how to reuse the Self-Issued OpenID Connect (SIOP) specific
 ### Terminology
 The following terminology is used in this paper:
 
-* SIOP - Self-Issued OpenID Connect Provider (represents both the Issuer and the Holder in the SSI model)
-* OP - OpenID Connect Identity Provider
-* RP - Relying Party (the Verifier in the SSI model)
-* DID - [Decentralized Identifier](https://w3c-ccg.github.io/did-spec/)
+* OP - OpenID Connect Identity Provider. An entity that issues authentication-related assertions (such as ID Tokens).
+* SIOP - Self-Issued OpenID Connect Provider. A personal, self-hosted Identity Provider that issue self-signed assertions.
+* RP - Relying Party, an application or service that relies on the Identity Provider's assertions.
+* DID - [Decentralized Identifier](https://w3c-ccg.github.io/did-spec/).
 
 ### Background and Motivations
 
@@ -100,7 +100,7 @@ An example of a JWT payload of a [Request Object](https://openid.net/specs/openi
 
 #### Authorization Response
 
-The format for the SIOP DID Auth response is almost identical to the one described in the [SIOP Response](https://openid.net/specs/openid-connect-core-1_0.html#SelfIssuedResponse) spec, with the following additional considerations:
+The format for the SIOP DID Auth response is almost identical to the one described in the [SIOP Response](https://openid.net/specs/openid-connect-core-1_0.html#SelfIssuedResponse) definition, with the following additional considerations:
 
 1. The ID Token will have an additional `did` claim, which will contain the DID of the subject.
 2. Note that the `sub` claim is a `base64url` encoding of the [JWK Thumbprint](https://tools.ietf.org/html/draft-jones-jose-jwk-thumbprint-01), as required by OpenID Connect Core Section 7.
@@ -135,7 +135,7 @@ _Note:_ This section is specifically for the DID Auth use case, and is implement
 
 When using this flow the client must validate the response as follows:
 
-1. Verify that the response is a valid [SIOP Response](https://openid.net/specs/openid-connect-core-1_0.html#SelfIssuedResponse), and perform the required [Self-Issued ID Token Validation steps](https://openid.net/specs/openid-connect-core-1_0.html#SelfIssuedValidation).
+1. Verify that the response is a valid [SIOP Response](https://openid.net/specs/openid-connect-core-1_0.html#SelfIssuedResponse) definition, and perform the required [Self-Issued ID Token Validation steps](https://openid.net/specs/openid-connect-core-1_0.html#SelfIssuedValidation).
 2. Verify that the ID Token returned contains the additional attribute `did` and that it is a valid DID format. (Conforms to the ABNF rules of the DID spec). Note: If the ID Token does not contain a `did` attribute, it may still be a valid SIOP ID Token, but it is not a valid DID Auth response.
 3. Perform a [DID Resolution](https://w3c-ccg.github.io/did-resolution/) operation. (The specifics vary by individual DID method, but typically involves using a resolver to retrieve the DID document specified by the `did` claim in the ID Token.)
 4. (Optional, DID method specific) Check that the DID Document is not expired or revoked.
@@ -154,7 +154,7 @@ Example of an OpenID Connect Provider in the `service` endpoint section of a DID
 ```
 {
   …
-  “service”: [
+  "service": [
     {
        "id": "did:example:123456789abcdefghi#openid",
        "type": "OpenIdConnectVersion1.0Service",
@@ -215,7 +215,7 @@ To be explored and specified further:
 #### Related Specs and References
 
 * https://openid.net/specs/openid-connect-core-1_0.html, [OIDC]
-* https://www.youtube.com/watch?v=tTeN_SxQ_OI , [NS18]
-* https://nat.sakimura.org/2018/12/11/todo-list-for-self-issued-op/ , [NS18]
+* https://www.youtube.com/watch?v=tTeN_SxQ_OI , [NSvideo18]
+* https://nat.sakimura.org/2018/12/11/todo-list-for-self-issued-op/ , [NSblog18]
 * https://iiw.idcommons.net/OIDC_DID-Auth_Profile , [II18]
 * https://w3c.github.io/vc-data-model/#json-web-token , [W3C]
