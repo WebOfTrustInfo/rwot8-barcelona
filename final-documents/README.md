@@ -36,3 +36,14 @@ _This is a listing for the RWOT8 papers to date. [Several more](https://github.c
 #### Joe Andrieu,Eric Welton, Will Abramson, Ganesh Annan
 
 > We set out to create a JavaScript native interpretation of Jupyter https://jupyter.org/, a notebook for both static narrative and interactive code.
+
+## [Using OpenID Connect Self-Issued to achieve DID Auth](https://nbviewer.jupyter.org/github/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/did-auth-oidc.pdf) [(Text)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/did-auth-oidc.md)
+#### Ivan Basart, Egido Casati, Michael B. Jones, Andrés Junge, David Stark, Oliver Terbu, and Dmitri Zagidulin
+
+> Proving control of a DID requires proving ownership of a private key corresponding to a public key for the DID.
+Of course, this could be done with a new DID-specifc protocol. However, standard protocols for proving
+ownership of a public/private key pair already exist.
+
+> This paper describes how to reuse the Self-Issued OpenID Connect (SIOP) specifcation and related protocol
+messages to prove control of a DID. It describes both why and how to do this. Related topics, such as release of
+claims, are also touched upon.
