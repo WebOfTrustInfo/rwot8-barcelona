@@ -79,7 +79,7 @@ many use cases (including some of ours) do not require that.
 As a technology intended to benefit humanity rather than just being
 “another way to create a commercial identity”, adoption of verifiable
 credentials will depend on utility beyond pure commercial drivers.
-Safety and security are matters that transcend politics and preferencesL systems of critical infrastructure, safety, and security impact
+Safety and security are matters that transcend politics and preferences systems of critical infrastructure, safety, and security impact
 governments, organizations, and individuals in different ways, but with
 equal necessity. Technology-driven complexity and growth are changing
 the world around us, and we can all agree that legacy systems of safety
