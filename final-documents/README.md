@@ -7,6 +7,11 @@ _This is a listing for the RWOT8 papers to date. [Several more](https://github.c
 
 > The Decentralized Identifier (DID) specification describes a new type of URL that is globally unique, highly available, and cryptographically verifiable and which has no central authority. The DID spec document describes the expected ecosystem, data model, and syntaxes for DIDs. In December 2018, the W3C held a Strong Authentication and Identity Workshop that determined that a reasonable next step would be to create a W3C Working Group to standardize the DID specification. As a result, the W3C Credentials Community Group, which has been incubating the specification, will eventually need to hand the specification over to the newly formed W3C DID Working Group. In preparation for this hand off, a group at Rebooting the Web of Trust triaged issues related to the DID specification, refined existing proposals related to the specification, and gathered new features and requirements from the community. The result of this work is outlined in this document.
 
+## [*Driving Adoption with Focus on Basic Human Needs: Safety and Security*](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/driving-adoption-needs.pdf) [(Text)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/driving-adoption-needs.md)
+#### Sam Mathews Chase, Joni McKervey, Carsten Stöcker, and Daniel C. Burnett
+
+> This paper investigates two primary forces that have the potential to drive adoption of decentralised technology by both individuals and enterprises: safety and security. Among the most basic human needs, safety and security are fundamental to the functioning of society, and without them collective existence would fall into chaos. By protecting the sovereignty of each individual and ensuring access to secured shared resources, governments maintain a state in which its citizens may thrive.
+
 ## [*Evaluating Social Schemes for Recovering Control of an Identifier*](https://nbviewer.jupyter.org/github/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/evaluating-social-recovery.pdf) [(Text)](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/final-documents/evaluating-social-recovery.md)
 #### Sean Gilligan, Peg, Adin Schmahmann, Andrew Hughes, Christopher Allen
 
